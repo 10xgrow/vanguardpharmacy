@@ -11797,23 +11797,23 @@ only screen and (min-resolution:144dpi) {
     .vendor-landing .vendor-instagram-recent-feed~.banner-placeholder {
         float: left
     }
-    .vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor {
+    .vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor {
         margin-left: 20px;
         margin-top: 20px;
         width: 240px;
         height: auto
     }
-    .vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor:nth-of-type(2n+1) {
+    .vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor:nth-of-type(2n+1) {
         margin-left: 20px
     }
-    .vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-banner {
+    .vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-banner {
         width: 100%;
         height: 171px
     }
-    .vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-banner img {
+    .vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-banner img {
         width: 100%
     }
-    .vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor a {
+    .vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor a {
         display: block
     }
     .vendor-landing.everyday-health.baby-vendor .vendor-wrap .vendors {
@@ -15224,15 +15224,15 @@ only screen and (min-resolution:144dpi) {
         float: left;
         margin: 0 0 0 24px
     }
-    .vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor {
+    .vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor {
         margin-left: 20px;
         margin-top: 20px;
         height: auto
     }
-    .vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor:nth-of-type(2n+1) {
+    .vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor:nth-of-type(2n+1) {
         margin-left: 20px
     }
-    .vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor:nth-of-type(3n+1) {
+    .vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor:nth-of-type(3n+1) {
         margin-left: 0
     }
     .vendor-landing.everyday-health.baby-vendor .baby-vendor-heading {

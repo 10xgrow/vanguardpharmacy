@@ -1043,7 +1043,7 @@ only screen and (min-resolution:144dpi) {
         font-size: 16px;
         line-height: 1;
         font-weight: 700;
-        color: #29a5de;
+        color: #147b74;
         text-decoration: none
     }
     .page-header .header-desktop-container .mobile-nav-container-parent .mobile-nav-container .header-nav-level-0 .nav-menu .header-nav-toggle-button {
@@ -1114,7 +1114,7 @@ only screen and (min-resolution:144dpi) {
         position: relative;
         display: inline-block;
         background-color: #ffffff;
-        color: #29a5de;
+        color: #147b74;
         transition: background-color .2s;
         height: auto;
         border-radius: 6px;
@@ -1134,7 +1134,7 @@ only screen and (min-resolution:144dpi) {
     .page-header .header-desktop-container .mobile-nav-container-parent .button-container .btn:focus {
         background-color: #e5f5f4;
         text-decoration: none;
-        color: #29a5de
+        color: #147b74
     }
     .page-header .header-desktop-container .mobile-nav-container-parent .button-container .btn:disabled {
         opacity: 1;
@@ -1438,7 +1438,7 @@ only screen and (min-resolution:144dpi) {
 
 .province-selector-wrapper .pagebuilder-accordion-content a {
     font-weight: 700;
-    color: #29a5de;
+    color: #147b74;
     background-color: transparent;
     border: none;
     vertical-align: baseline;
@@ -1453,7 +1453,7 @@ only screen and (min-resolution:144dpi) {
 
 .province-selector-wrapper .pagebuilder-accordion-content a:hover,
 .province-selector-wrapper .pagebuilder-accordion-content a:focus {
-    color: #29a5de;
+    color: #147b74;
     text-decoration: underline;
     background-color: transparent
 }
@@ -1751,13 +1751,13 @@ only screen and (min-resolution:144dpi) {
 }
 
 .sms-success .success-cta .success-copy h2 {
-    color: #29a5de;
+    color: #147b74;
     margin-bottom: 15px;
     margin-top: 0
 }
 
 .sms-success .success-cta .success-copy p {
-    color: #29a5de;
+    color: #147b74;
     font-size: 18px
 }
 
@@ -1771,7 +1771,7 @@ only screen and (min-resolution:144dpi) {
 .sms-success .success-cta .success-copy button:focus,
 .sms-success .success-cta .success-copy button:active {
     text-decoration: none;
-    background-color: #3c4de2;
+    background-color: #006b6b;
     color: #ffffff
 }
 
@@ -1892,19 +1892,19 @@ only screen and (min-resolution:144dpi) {
 
 .sms-page p.label-disclaimer {
     font-size: 12px;
-    color: #29a5de;
+    color: #147b74;
     font-style: italic
 }
 
 .sms-page h1,
 .sms-page h2,
 .sms-page label {
-    color: #29a5de
+    color: #147b74
 }
 
 .sms-page .expand-copy {
     font-weight: 700;
-    color: #29a5de;
+    color: #147b74;
     background-color: transparent;
     border: none;
     vertical-align: baseline;
@@ -1921,7 +1921,7 @@ only screen and (min-resolution:144dpi) {
 
 .sms-page .expand-copy:hover,
 .sms-page .expand-copy:focus {
-    color: #29a5de;
+    color: #147b74;
     text-decoration: underline;
     background-color: transparent
 }
@@ -2206,7 +2206,7 @@ only screen and (min-resolution:144dpi) {
 .sms-page .sms-row-1 form button:focus,
 .sms-page .sms-row-1 form button:active {
     text-decoration: none;
-    background-color: #3c4de2;
+    background-color: #006b6b;
     color: #ffffff
 }
 
@@ -2221,7 +2221,7 @@ only screen and (min-resolution:144dpi) {
 }
 
 .sms-page .sms-row-1 form .consent-box .disclaimer a {
-    color: #29a5de
+    color: #147b74
 }
 
 .sms-page .sms-row-2 {
@@ -2264,7 +2264,7 @@ only screen and (min-resolution:144dpi) {
 }
 
 .sms-page .sms-bewell-copy p {
-    color: #29a5de
+    color: #147b74
 }
 
 .sms-page .tooltip {
@@ -2283,7 +2283,7 @@ only screen and (min-resolution:144dpi) {
     width: 220px;
     padding: 10px;
     color: #ffffff;
-    background-color: #29a5de;
+    background-color: #147b74;
     border-radius: 9px;
     margin-left: -40px;
     top: -520px;
@@ -2320,7 +2320,7 @@ only screen and (min-resolution:144dpi) {
     content: '';
     position: absolute;
     margin-left: -34px;
-    border-top: 10px solid #29a5de;
+    border-top: 10px solid #147b74;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     top: 100%;
@@ -2333,7 +2333,7 @@ only screen and (min-resolution:144dpi) {
         top: 25%;
         left: 100px;
         margin-left: -120px;
-        border-right: 10px solid #29a5de;
+        border-right: 10px solid #147b74;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent
     }
@@ -2885,7 +2885,7 @@ only screen and (min-resolution:144dpi) {
     height: 100%;
     transition: fill .2s ease;
     transform: rotateZ(180deg);
-    background: #29a5de;
+    background: #147b74;
     border-radius: 50%
 }
 
@@ -2939,7 +2939,7 @@ only screen and (min-resolution:144dpi) {
     display: none;
     align-items: center;
     gap: 8px;
-    background-color: #29a5de;
+    background-color: #147b74;
     border-radius: 8px;
     white-space: nowrap;
     z-index: 1000
@@ -2961,9 +2961,9 @@ only screen and (min-resolution:144dpi) {
     left: 197px;
     width: 12px;
     height: 12px;
-    background-color: #29a5de;
-    border-left: 1px solid #29a5de;
-    border-top: 1px solid #29a5de;
+    background-color: #147b74;
+    border-left: 1px solid #147b74;
+    border-top: 1px solid #147b74;
     transform: rotate(45deg)
 }
 
@@ -2977,7 +2977,7 @@ only screen and (min-resolution:144dpi) {
 
 .travel-clinic-product-slider .disclaimer-badge,
 .beauty-articles-slider .disclaimer-badge {
-    background-color: #29a5de;
+    background-color: #147b74;
     color: white;
     padding: 10px 15px;
     border-radius: 20px;
@@ -3006,14 +3006,14 @@ only screen and (min-resolution:144dpi) {
 
 .travel-clinic-product-slider .slick-slide .heading,
 .beauty-articles-slider .slick-slide .heading {
-    color: #29a5de;
+    color: #147B74;
     font-size: 28px;
     font-weight: 400
 }
 
 .travel-clinic-product-slider .slick-slide .description,
 .beauty-articles-slider .slick-slide .description {
-    color: #29a5de;
+    color: #147B74;
     margin-top: 30px
 }
 
@@ -3023,7 +3023,7 @@ only screen and (min-resolution:144dpi) {
     bottom: -25px;
     width: 60px;
     height: 60px;
-    border: 1px solid #9ad0e9;
+    border: 1px solid #ADE3E1;
     z-index: 1;
     transition: background-color .3s ease, border-color .3s ease;
     background-color: white;
@@ -3065,8 +3065,8 @@ only screen and (min-resolution:144dpi) {
 .beauty-articles-slider .slick-prev:hover,
 .travel-clinic-product-slider .slick-next:hover,
 .beauty-articles-slider .slick-next:hover {
-    background-color: #29a5de;
-    border-color: #29a5de
+    background-color: #147B74;
+    border-color: #147B74
 }
 
 .travel-clinic-product-slider .slick-prev:hover::after,
@@ -3084,18 +3084,18 @@ only screen and (min-resolution:144dpi) {
 
 .travel-clinic-product-slider .slick-dots .slick-active button,
 .beauty-articles-slider .slick-dots .slick-active button {
-    background-color: #29a5de
+    background-color: #147B74
 }
 
 .travel-clinic-product-slider .slick-dots .slick-active button:hover,
 .beauty-articles-slider .slick-dots .slick-active button:hover {
-    background-color: #29a5de
+    background-color: #147B74
 }
 
 .travel-clinic-product-slider .slick-dots button:hover,
 .beauty-articles-slider .slick-dots button:hover {
-    background-color: #29a5de;
-    border-color: #29a5de
+    background-color: #147B74;
+    border-color: #147B74
 }
 
 .travel-clinic-product-slider.product-slider .sh-slider-wrapper .slick-arrow {
@@ -3848,7 +3848,7 @@ only screen and (min-resolution:144dpi) {
 
 #success-message a,
 #error-message a {
-    color: #29a5de
+    color: #147b74
 }
 
 #success-message a.button-dark,
@@ -3857,7 +3857,7 @@ only screen and (min-resolution:144dpi) {
     font-weight: 600;
     color: #ffffff;
     font-size: 14px;
-    background-color: #29a5de
+    background-color: #147b74
 }
 
 #success-message h4,
@@ -6401,7 +6401,7 @@ only screen and (min-resolution:144dpi) {
     #landing-page-wrap .landing-list li a {
         text-decoration: none;
         font-weight: 700;
-        color: #3c4de2
+        color: #006b6b
     }
     #landing-page-wrap .landing-list:nth-of-type(1) {
         padding-top: 12px
@@ -6437,7 +6437,7 @@ only screen and (min-resolution:144dpi) {
         font-size: .7em
     }
     .cms-page-view .resources-title {
-        color: #29a5de;
+        color: #147b74;
         margin-top: 0;
         margin-bottom: 15px;
         font-size: 16px;
@@ -6772,7 +6772,7 @@ only screen and (min-resolution:144dpi) {
         background-color: #ffffff
     }
     .cms-everyday-health .social-wrap .social-share ul li a::before {
-        color: #29a5de
+        color: #147b74
     }
     .cms-everyday-health .pagebuilder-card {
         padding: 20px
@@ -6945,7 +6945,7 @@ only screen and (min-resolution:144dpi) {
         float: left;
         width: 163px;
         height: 57px;
-        color: #29a5de;
+        color: #147b74;
         font-size: 16px;
         text-indent: 0;
         font-weight: 700;
@@ -6959,7 +6959,7 @@ only screen and (min-resolution:144dpi) {
     }
     .main-slider .slick-dots li a:hover {
         color: #ffffff;
-        background-color: #29a5de
+        background-color: #147b74
     }
     .one-walk-content-page {
         margin-top: 40px
@@ -6980,7 +6980,7 @@ only screen and (min-resolution:144dpi) {
     }
     .one-walk-content-block-accent::before {
         left: -40px;
-        border-left: 770px solid #29a5de;
+        border-left: 770px solid #147b74;
         border-top: 60px solid transparent;
         padding-bottom: 0
     }
@@ -7117,7 +7117,7 @@ only screen and (min-resolution:144dpi) {
         background-size: 200%
     }
     .ottawa-store-list .ottawa-store-info .btn:hover {
-        background-color: #3c4de2
+        background-color: #006b6b
     }
     .ottawa-store-list .ottawa-store-info .btn:hover::before {
         background-position: -36px 0
@@ -8390,7 +8390,7 @@ only screen and (min-resolution:144dpi) {
         position: relative;
         display: inline-block;
         background-color: #ffffff;
-        color: #29a5de;
+        color: #147b74;
         font-weight: 700;
         transition: background-color .2s;
         height: auto;
@@ -8407,7 +8407,7 @@ only screen and (min-resolution:144dpi) {
     .page-footer .top .btn:focus {
         background-color: #e5f5f4;
         text-decoration: none;
-        color: #29a5de
+        color: #147b74
     }
     .page-footer .top .btn:disabled {
         opacity: 1;
@@ -9261,7 +9261,7 @@ only screen and (min-resolution:144dpi) {
         margin: 8px 0 0 0
     }
     .contact-form-wrap .left-float .refill-options .heading {
-        color: #29a5de;
+        color: #147b74;
         width: 240px;
         line-height: 22px
     }
@@ -9407,7 +9407,7 @@ only screen and (min-resolution:144dpi) {
         margin: 0 auto 24px
     }
     .coupon-wrap h1 {
-        color: #29a5de
+        color: #147b74
     }
     .flyer-deals .deals {
         float: left;
@@ -9776,7 +9776,7 @@ only screen and (min-resolution:144dpi) {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-        color: #29a5de;
+        color: #147b74;
         text-align: left;
         margin: 8px 0 0
     }
@@ -9971,7 +9971,7 @@ only screen and (min-resolution:144dpi) {
     }
     .pharmacy-clinics-content .pharmacy-medium-heading {
         margin-top: 0;
-        color: #29a5de;
+        color: #147b74;
         font-size: 24px;
         font-weight: 600
     }
@@ -10577,7 +10577,7 @@ only screen and (min-resolution:144dpi) {
         left: 10px;
         font-size: 20px;
         padding: 7px 9px;
-        color: #29a5de;
+        color: #147b74;
         background-color: #ffffff;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -10954,7 +10954,7 @@ only screen and (min-resolution:144dpi) {
     }
     .storelocator-filters .filter-tabs .filter-list-accordion li.is-active .item.title {
         background-color: #ffffff;
-        border-top: 2px solid #3c4de2;
+        border-top: 2px solid #006b6b;
         border-left: 1px solid #eaeaea;
         border-right: 1px solid #eaeaea
     }
@@ -11117,7 +11117,7 @@ only screen and (min-resolution:144dpi) {
         min-height: 40px;
         width: auto;
         padding: 8px 21px;
-        color: #29a5de
+        color: #147b74
     }
     .storelocator-index-index .submit-btn.preferred-store:hover,
     .storelocator-store-index .submit-btn.preferred-store:hover,
@@ -11133,7 +11133,7 @@ only screen and (min-resolution:144dpi) {
     .vendor-store-locator .submit-btn.preferred-store:focus {
         background-color: #e5f5f4;
         text-decoration: none;
-        color: #29a5de
+        color: #147b74
     }
     .storelocator-index-index .submit-btn.preferred-store:disabled,
     .storelocator-store-index .submit-btn.preferred-store:disabled,
@@ -11151,7 +11151,7 @@ only screen and (min-resolution:144dpi) {
     .rexallhealthsolutions-results-index .submit-btn.preferred-store:hover,
     .rexallhealthsolutions-store-index .submit-btn.preferred-store:hover,
     .vendor-store-locator .submit-btn.preferred-store:hover {
-        background-color: #9ad0e9
+        background-color: #ade3e1
     }
     .storelocator-index-index .submit-btn.preferred-store.my-store,
     .storelocator-store-index .submit-btn.preferred-store.my-store,
@@ -11159,7 +11159,7 @@ only screen and (min-resolution:144dpi) {
     .rexallhealthsolutions-results-index .submit-btn.preferred-store.my-store,
     .rexallhealthsolutions-store-index .submit-btn.preferred-store.my-store,
     .vendor-store-locator .submit-btn.preferred-store.my-store {
-        background-color: #9ad0e9
+        background-color: #ade3e1
     }
     .storelocator-index-index .submit-btn.preferred-store.my-store:hover,
     .storelocator-store-index .submit-btn.preferred-store.my-store:hover,
@@ -11168,7 +11168,7 @@ only screen and (min-resolution:144dpi) {
     .rexallhealthsolutions-store-index .submit-btn.preferred-store.my-store:hover,
     .vendor-store-locator .submit-btn.preferred-store.my-store:hover {
         background-color: #ffffff;
-        color: #29a5de
+        color: #147b74
     }
     .storelocator-index-index .submit-btn.current-location-btn,
     .storelocator-store-index .submit-btn.current-location-btn,
@@ -11179,7 +11179,7 @@ only screen and (min-resolution:144dpi) {
         background-color: #ffffff;
         width: auto;
         padding: 8px 21px;
-        color: #29a5de
+        color: #147b74
     }
     .storelocator-index-index .submit-btn.current-location-btn:hover,
     .storelocator-store-index .submit-btn.current-location-btn:hover,
@@ -11187,7 +11187,7 @@ only screen and (min-resolution:144dpi) {
     .rexallhealthsolutions-results-index .submit-btn.current-location-btn:hover,
     .rexallhealthsolutions-store-index .submit-btn.current-location-btn:hover,
     .vendor-store-locator .submit-btn.current-location-btn:hover {
-        background-color: #9ad0e9
+        background-color: #ade3e1
     }
     .storelocator-index-index .submit-btn.current-location-btn:focus,
     .storelocator-store-index .submit-btn.current-location-btn:focus,
@@ -11195,7 +11195,7 @@ only screen and (min-resolution:144dpi) {
     .rexallhealthsolutions-results-index .submit-btn.current-location-btn:focus,
     .rexallhealthsolutions-store-index .submit-btn.current-location-btn:focus,
     .vendor-store-locator .submit-btn.current-location-btn:focus {
-        background-color: #9ad0e9
+        background-color: #ade3e1
     }
     .storelocator-index-index .submit-btn.current-location-btn.my-store,
     .storelocator-store-index .submit-btn.current-location-btn.my-store,
@@ -11203,7 +11203,7 @@ only screen and (min-resolution:144dpi) {
     .rexallhealthsolutions-results-index .submit-btn.current-location-btn.my-store,
     .rexallhealthsolutions-store-index .submit-btn.current-location-btn.my-store,
     .vendor-store-locator .submit-btn.current-location-btn.my-store {
-        background-color: #9ad0e9;
+        background-color: #ade3e1;
         color: #005a5a
     }
     .storelocator-index-index .submit-btn.current-location-btn.my-store:hover,
@@ -11213,7 +11213,7 @@ only screen and (min-resolution:144dpi) {
     .rexallhealthsolutions-store-index .submit-btn.current-location-btn.my-store:hover,
     .vendor-store-locator .submit-btn.current-location-btn.my-store:hover {
         background-color: #ffffff;
-        color: #29a5de
+        color: #147b74
     }
     .search-textbox-container-outer .search-textbox-container {
         display: flex
@@ -11451,7 +11451,7 @@ only screen and (min-resolution:144dpi) {
     .search-result .store-services-accessible-accordion .store-services-accessible-accordion-item .store-services-accessible-accordion-heading-desktop {
         display: block;
         font-size: 13px;
-        color: #29a5de;
+        color: #147b74;
         border: 0;
         margin: 0
     }
@@ -11556,7 +11556,7 @@ only screen and (min-resolution:144dpi) {
         top: 40px;
         left: 40px;
         width: 250px;
-        color: #29a5de;
+        color: #147b74;
         font-size: 38px;
         text-align: left;
         font-weight: 600
@@ -11660,7 +11660,7 @@ only screen and (min-resolution:144dpi) {
     }
     .fancybox-wrap #mr-lightbox h1 {
         font-size: 24px;
-        color: #29a5de;
+        color: #147b74;
         margin-bottom: 0
     }
     .fancybox-wrap #mr-lightbox p {
@@ -11876,7 +11876,7 @@ only screen and (min-resolution:144dpi) {
         background-color: #ffffff
     }
     .vendor-landing.everyday-health .social-wrap .social-share ul li a::before {
-        color: #29a5de
+        color: #147b74
     }
     .vendor-product-list {
         margin: 0 0 20px 0
@@ -12079,7 +12079,7 @@ only screen and (min-resolution:144dpi) {
     }
     .breadcrumb-wrap .breadcrumbs ul a:hover,
     .breadcrumb-wrap .breadcrumbs ul a:focus {
-        color: #3c4de2;
+        color: #006b6b;
         text-decoration: none
     }
     .breadcrumb-wrap .social-box {
@@ -12162,7 +12162,7 @@ only screen and (min-resolution:144dpi) {
         text-decoration: none
     }
     .page-header .right p a:hover {
-        color: #3c4de2
+        color: #006b6b
     }
     .page-header .right .myrexall {
         position: static;
@@ -12182,7 +12182,7 @@ only screen and (min-resolution:144dpi) {
         text-decoration: none
     }
     .page-header .right .myrexall a:hover {
-        color: #3c4de2;
+        color: #006b6b;
         text-decoration: underline
     }
     .page-header .right .search {
@@ -12346,7 +12346,7 @@ only screen and (min-resolution:144dpi) {
         position: relative;
         display: inline-block;
         background-color: #ffffff;
-        color: #29a5de;
+        color: #147b74;
         transition: background-color .2s;
         height: auto;
         border-radius: 6px;
@@ -12365,7 +12365,7 @@ only screen and (min-resolution:144dpi) {
     .page-header .right .btn:focus {
         background-color: #e5f5f4;
         text-decoration: none;
-        color: #29a5de
+        color: #147b74
     }
     .page-header .right .btn:disabled {
         opacity: 1;
@@ -12487,7 +12487,7 @@ only screen and (min-resolution:144dpi) {
     .page-header .nav .header-nav>li>.header-btn-container>a,
     .page-header .nav .header-nav>li>a {
         display: inline-block;
-        color: #29a5de;
+        color: #147b74;
         font-size: 16px;
         font-weight: 700;
         white-space: nowrap;
@@ -12732,7 +12732,7 @@ only screen and (min-resolution:144dpi) {
     .btn:hover {
         color: #ffffff;
         text-decoration: none;
-        background-color: #3c4de2
+        background-color: #006b6b
     }
     button.purple:hover,
     .btn.purple:hover {
@@ -12913,17 +12913,17 @@ only screen and (min-resolution:144dpi) {
     }
     .widget.quick-find .alphabet-box .tabs div:hover {
         color: #ffffff;
-        background-color: #3c4de2
+        background-color: #006b6b
     }
     .widget.quick-find .alphabet-box .tabs div.active:hover {
         color: #ffffff;
-        background-color: #29a5de
+        background-color: #147b74
     }
     .widget.quick-find .alphabet-box .letters ul li:hover {
         background-color: #e5f5f4
     }
     .widget.quick-find .alphabet-box .letters ul li:hover a {
-        color: #3c4de2
+        color: #006b6b
     }
     .widget.quick-find-mobile {
         display: none
@@ -12982,7 +12982,7 @@ only screen and (min-resolution:144dpi) {
         display: block
     }
     .side-links li a:hover {
-        color: #3c4de2
+        color: #006b6b
     }
     .pharmacy-contact-popup .input-container {
         width: 33.33333333%
@@ -13107,10 +13107,10 @@ only screen and (min-resolution:144dpi) {
         display: block
     }
     .article-wrap .alphabet-sort .alphabet-list li a:hover {
-        color: #3c4de2
+        color: #006b6b
     }
     .article-wrap #mediresource-note p a:hover {
-        color: #3c4de2
+        color: #006b6b
     }
     .article-wrap .article-medical .factsheet a:hover {
         text-decoration: underline
@@ -13505,7 +13505,7 @@ only screen and (min-resolution:144dpi) {
         margin-top: 30px
     }
     .one-walk-content-block-accent::before {
-        border-left: 1010px solid #29a5de
+        border-left: 1010px solid #147b74
     }
     .one-walk-cta-content {
         display: -webkit-box;
@@ -13870,14 +13870,14 @@ only screen and (min-resolution:144dpi) {
         max-width: 100%
     }
     .blood-pressure-hero-content {
-        border-right: 1px solid #3c4de2;
+        border-right: 1px solid #006b6b;
         max-width: 400px
     }
     .comparison-guide-footer {
         display: flex
     }
     .comparison-guide-footer .comparison-guide-footer-description {
-        border-right: 1px solid #3c4de2
+        border-right: 1px solid #006b6b
     }
     .blood-pressure-hero-img {
         margin-top: 0
@@ -14471,7 +14471,7 @@ only screen and (min-resolution:144dpi) {
         margin: 5px 0 0 0
     }
     .contact-form-wrap .left-float .refill-options a+a.more {
-        color: #29a5de;
+        color: #147b74;
         clear: both;
         margin: 5px 0 0 0
     }
@@ -14583,7 +14583,7 @@ only screen and (min-resolution:144dpi) {
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
         display: inline-block;
-        color: #3c4de2;
+        color: #006b6b;
         padding-right: 7px;
         font-weight: 600;
         line-height: 1;
@@ -14845,7 +14845,7 @@ only screen and (min-resolution:144dpi) {
         margin-bottom: 0
     }
     .ppn-title-accordion {
-        background: #3c4de2;
+        background: #006b6b;
         border-radius: 12px
     }
     .ppn-title-accordion .pharmacy-accordion-title {

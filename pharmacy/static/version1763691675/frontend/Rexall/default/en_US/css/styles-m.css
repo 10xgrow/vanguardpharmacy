@@ -50914,37 +50914,37 @@ hr {
     font-size: 16px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main div[data-content-type="row"] .hero-banner {
+#html-body.cms-page-view.cms-everyday-health .page-main div[data-content-type="row"] .hero-banner {
     margin: 10px 0 50px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-background .pagebuilder-mobile-hidden {
+#html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-background .pagebuilder-mobile-hidden {
     display: none
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-background .pagebuilder-mobile-only {
+#html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-background .pagebuilder-mobile-only {
     display: block
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-background .pagebuilder-mobile-hidden {
+    #html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-background .pagebuilder-mobile-hidden {
         display: none
     }
-    #html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-background .pagebuilder-mobile-only {
+    #html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-background .pagebuilder-mobile-only {
         display: block !important
     }
 }
 
 @media screen and (min-width:1020px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-background .pagebuilder-mobile-hidden {
+    #html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-background .pagebuilder-mobile-hidden {
         display: block
     }
-    #html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-background .pagebuilder-mobile-only {
+    #html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-background .pagebuilder-mobile-only {
         display: none !important
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-content {
+#html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-content {
     top: 50%;
     transform: translateY(-50%);
     margin-left: 20px;
@@ -50952,18 +50952,18 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-content {
+    #html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-content {
         margin-left: 50px
     }
 }
 
 @media screen and (min-width:1020px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-content {
+    #html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-content {
         margin-left: 65px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-content h3 {
+#html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-content h3 {
     font-size: 18px;
     font-weight: 600;
     line-height: 1.1;
@@ -50971,189 +50971,189 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-content h3 {
+    #html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-content h3 {
         font-size: 32px;
         width: 310px
     }
 }
 
 @media screen and (min-width:1020px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .cms-overlay-content h3 {
+    #html-body.cms-page-view.cms-everyday-health .page-main .cms-overlay-content h3 {
         width: 400px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main h1 {
+#html-body.cms-page-view.cms-everyday-health .page-main h1 {
     font-size: 28px;
     line-height: 1.1
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main h1 {
+    #html-body.cms-page-view.cms-everyday-health .page-main h1 {
         font-size: 60px;
         width: 350px
     }
 }
 
 @media screen and (min-width:1020px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main h1 {
+    #html-body.cms-page-view.cms-everyday-health .page-main h1 {
         font-size: 50px;
         width: 500px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main h2 {
+#html-body.cms-page-view.cms-everyday-health .page-main h2 {
     font-size: 26px;
     font-weight: 600
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main h2 {
+    #html-body.cms-page-view.cms-everyday-health .page-main h2 {
         font-size: 28px
     }
 }
 
 @media screen and (min-width:1020px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main h2 {
+    #html-body.cms-page-view.cms-everyday-health .page-main h2 {
         font-size: 30px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main p {
+#html-body.cms-page-view.cms-everyday-health .page-main p {
     font-size: 16px;
     margin-bottom: 20px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main ul {
+#html-body.cms-page-view.cms-everyday-health .page-main ul {
     padding-left: 15px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services-heading-image {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services-heading-image {
     padding: 0 10px
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services-heading-image {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services-heading-image {
         padding: 0 50px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services-heading-image .pagebuilder-column-group {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services-heading-image .pagebuilder-column-group {
     flex-direction: row;
     padding: 0 30px;
     column-gap: 10px
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services-heading-image .pagebuilder-column-group {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services-heading-image .pagebuilder-column-group {
         padding: 0
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services-heading-image .pagebuilder-column-group .pagebuilder-column {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services-heading-image .pagebuilder-column-group .pagebuilder-column {
     flex-basis: auto;
     width: 47%
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services-heading-image .pagebuilder-column-group .pagebuilder-column {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services-heading-image .pagebuilder-column-group .pagebuilder-column {
         width: 100%
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services {
     padding: 60px 20px 30px;
     margin-top: -60px;
     border-radius: 8px
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services {
         margin-top: -100px;
         padding: 100px 50px 40px
     }
 }
 
 @media screen and (min-width:1020px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services {
         margin-top: -120px;
         padding: 120px 80px 50px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services h2 {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services h2 {
     margin-bottom: 30px;
     font-size: 24px;
     line-height: 1.1;
     font-weight: 700
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services p {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services p {
     font-size: 16px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services img {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services img {
     width: 22px;
     height: 22px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .pagebuilder-column-line {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .pagebuilder-column-line {
     row-gap: 0
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .pagebuilder-column-line {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .pagebuilder-column-line {
         row-gap: 20px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .pagebuilder-column {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .pagebuilder-column {
     flex-basis: auto
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .pagebuilder-column:nth-child(odd) {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .pagebuilder-column:nth-child(odd) {
     width: 10%
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .pagebuilder-column:nth-child(odd) {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .pagebuilder-column:nth-child(odd) {
         width: 6.25%
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .pagebuilder-column:nth-child(even) {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .pagebuilder-column:nth-child(even) {
     width: 80%
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .pagebuilder-column:nth-child(even) {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .pagebuilder-column:nth-child(even) {
         width: 43.75%
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .hhc-services-additional {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .hhc-services-additional {
     margin-top: 20px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .hhc-services-additional p,
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .hhc-services-additional a {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .hhc-services-additional p,
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .hhc-services-additional a {
     font-size: 18px;
     font-weight: 600;
     color: #5199ab
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .hhc-services-additional p,
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .hhc-services-additional a {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .hhc-services-additional p,
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .hhc-services-additional a {
         font-size: 26px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-services .hhc-services-additional a {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-services .hhc-services-additional a {
     text-decoration: underline
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-heading h2 {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-heading h2 {
     margin: 0;
     padding: 10px 20px;
     font-size: 24px;
@@ -51161,104 +51161,104 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-heading h2 {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-heading h2 {
         padding: 20px;
         font-size: 30px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list {
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list {
     justify-content: flex-start
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info {
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info {
     margin: 0 0 20px
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info {
+    #html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info {
         margin: 0 10px 20px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info h3,
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info h4 {
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info h3,
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info h4 {
     word-break: normal
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info h3 {
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info h3 {
     font-size: 18px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info h4,
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info h5 {
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info h4,
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info h5 {
     font-weight: 700
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info h4 {
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info h4 {
     font-size: 16px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .csv-store-list .csv-store-info h5 {
+#html-body.cms-page-view.cms-everyday-health .page-main .csv-store-list .csv-store-info h5 {
     font-size: 14px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .appointment-light {
+#html-body.cms-page-view.cms-everyday-health .page-main .appointment-light {
     display: none
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .store-info-light {
+#html-body.cms-page-view.cms-everyday-health .page-main .store-info-light {
     margin-top: 20px;
     width: 100%
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-regions {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-regions {
     width: 100%;
     margin: 0 auto 30px
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-regions {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-regions {
         width: 550px
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-regions img {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-regions img {
     margin: auto
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-tips-articles .pagebuilder-column-group {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-tips-articles .pagebuilder-column-group {
     flex-wrap: wrap
 }
 
 @media screen and (min-width:1020px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-tips-articles .pagebuilder-column-group {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-tips-articles .pagebuilder-column-group {
         flex-wrap: nowrap
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .hhc-tips-articles .pagebuilder-column-group .pagebuilder-column {
+#html-body.cms-page-view.cms-everyday-health .page-main .hhc-tips-articles .pagebuilder-column-group .pagebuilder-column {
     width: 100%
 }
 
 @media screen and (min-width:768px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-tips-articles .pagebuilder-column-group .pagebuilder-column {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-tips-articles .pagebuilder-column-group .pagebuilder-column {
         width: 48%
     }
 }
 
 @media screen and (min-width:1020px) {
-    #html-body.cms-page-view.cms-home-health-care .page-main .hhc-tips-articles .pagebuilder-column-group .pagebuilder-column {
+    #html-body.cms-page-view.cms-everyday-health .page-main .hhc-tips-articles .pagebuilder-column-group .pagebuilder-column {
         width: 33.3333%
     }
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .cms-article-item {
+#html-body.cms-page-view.cms-everyday-health .page-main .cms-article-item {
     width: 100%;
     max-width: none
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .cms-article-item .cms-article-item-content-container .cms-article-item-content-container-title {
+#html-body.cms-page-view.cms-everyday-health .page-main .cms-article-item .cms-article-item-content-container .cms-article-item-content-container-title {
     font-size: 20px;
     line-height: 25px;
     text-align: center;
@@ -51266,11 +51266,11 @@ hr {
     margin-bottom: 7px
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .cms-article-item .cms-article-item-content-container .cms-article-item-content {
+#html-body.cms-page-view.cms-everyday-health .page-main .cms-article-item .cms-article-item-content-container .cms-article-item-content {
     text-align: center
 }
 
-#html-body.cms-page-view.cms-home-health-care .page-main .cms-article-item .cms-article-item-content-container .cms-article-item-pseudo-link {
+#html-body.cms-page-view.cms-everyday-health .page-main .cms-article-item .cms-article-item-content-container .cms-article-item-pseudo-link {
     font-size: 14px;
     width: auto
 }
@@ -107124,18 +107124,18 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
     margin-top: 40px
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .healthcare-vendor-heading {
+.vendor-landing.everyday-health.everyday-health-vendor .healthcare-vendor-heading {
     text-align: center
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-landing-vendor-list-container {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-landing-vendor-list-container {
     padding-bottom: 50px;
     margin-bottom: 50px;
     margin-top: 50px;
     border-bottom: 1px solid #f5f5f5
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .heading {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .heading {
     background-color: transparent;
     height: auto;
     width: auto;
@@ -107150,14 +107150,14 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
     text-align: center
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendors {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendors {
     border: 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -107170,45 +107170,45 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
     border-radius: 0 0 12px 12px
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor:hover,
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor:focus {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor:hover,
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor:focus {
     background-color: #ffffff;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1)
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor:last-child {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor:last-child {
     margin-right: 0
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-banner {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-banner {
     margin-bottom: 20px;
     width: 100%;
     height: 165px
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-banner img {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-banner img {
     width: 100%
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-banner img:hover,
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-banner img:focus {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-banner img:hover,
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-banner img:focus {
     opacity: 1
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-logo {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-logo {
     height: 45px
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-logo img {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-logo img {
     max-height: 100%
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-logo img:hover,
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor .vendor-logo img:focus {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-logo img:hover,
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor .vendor-logo img:focus {
     opacity: 1
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor p {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor p {
     font-size: 20px;
     line-height: 24px;
     color: #333333;
@@ -107216,7 +107216,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
     margin-bottom: 20px
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor a {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor a {
     padding: 9px 0;
     background-color: #5199ab;
     color: #ffffff;
@@ -107231,12 +107231,12 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
     display: block
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor a:hover,
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor a:focus {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor a:hover,
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor a:focus {
     background-color: #3c4de2
 }
 
-.vendor-landing.everyday-health.home-health-care-vendor .vendor-wrap .vendor a.focus-visible:focus::after {
+.vendor-landing.everyday-health.everyday-health-vendor .vendor-wrap .vendor a.focus-visible:focus::after {
     display: none
 }
 

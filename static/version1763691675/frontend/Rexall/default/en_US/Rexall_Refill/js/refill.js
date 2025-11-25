@@ -10,7 +10,7 @@ require(
         'mage/validation',
         'jquery.inputmask'
     ],
-    function($, accessibilityUtils, moment, $t, _) {
+    function ($, accessibilityUtils, moment, $t, _) {
         'use strict';
 
         // Allow polyfill to fail loading without breaking entire script on browsers which don't need it
@@ -36,7 +36,7 @@ require(
         prescriptionElement.on('input', sliceMaxLengthFOrNumber);
         DOBElement.on('input', sliceMaxLengthFOrNumber);
 
-        $(document).on('keydown', function(event) {
+        $(document).on('keydown', function (event) {
             if (event.key === "Enter") {
                 const target = $(event.target);
 
@@ -49,7 +49,7 @@ require(
             }
         });
 
-        $(document).on('click', '#continueToStepTwo', function(event) {
+        $(document).on('click', '#continueToStepTwo', function (event) {
             event.preventDefault();
 
             prescription1 = $.trim(prescriptionElement.val());
@@ -77,7 +77,7 @@ require(
             }
         }
 
-        $(document).on('change', '#nearby-stores', function(event) {
+        $(document).on('change', '#nearby-stores', function (event) {
             var storeId = $.trim($('#nearby-stores').val());
             var label = $.trim($('#nearby-stores option:selected').text());
 
@@ -88,7 +88,7 @@ require(
             }
         });
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             function toggleSearchOption() {
                 const selectedOption = $('.search-method-select input[type="radio"]:checked').val();
 
@@ -103,12 +103,12 @@ require(
 
             toggleSearchOption();
 
-            $('.search-method-select input[type="radio"]').change(function() {
+            $('.search-method-select input[type="radio"]').change(function () {
                 toggleSearchOption();
             });
         });
 
-        $(document).on('click', '#geocodeGo', function(event) {
+        $(document).on('click', '#geocodeGo', function (event) {
             event.preventDefault();
 
             if ($(this).parent().find('input').valid()) {
@@ -116,13 +116,13 @@ require(
             }
         });
 
-        $(document).on('click', '#phonelookupGo', function(event) {
+        $(document).on('click', '#phonelookupGo', function (event) {
             event.preventDefault();
 
             executePhoneSearch();
         });
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             sendStepImpression(1);
         });
 
@@ -201,7 +201,7 @@ require(
                     'componentRestrictions': {
                         country: 'CA'
                     }
-                }, function(results, status) {
+                }, function (results, status) {
                     if (status == google.maps.GeocoderStatus.OK) {
                         var position = results[0].geometry.location;
                         populateStores(position.lat(), position.lng());
@@ -221,15 +221,15 @@ require(
             };
 
             $.ajax({
-                url: getBaseURL() + 'rest/V1/storelocator/storelist',
+                url: getBaseURL() + 'rest/V1/contact-us/storelist',
                 type: 'post',
                 data: JSON.stringify(data),
                 contentType: 'application/json',
                 dataType: 'json',
-                error: function(data) {
+                error: function (data) {
                     show_error($t('error occurred while fetching data. Please refresh and try again.'));
                 },
-                success: function(data) {
+                success: function (data) {
                     var $dropdownContainer = $('#nearby-stores');
                     $dropdownContainer.empty();
 
@@ -257,15 +257,15 @@ require(
             };
 
             $.ajax({
-                url: getBaseURL() + 'rest/V1/storelocator/storeget',
+                url: getBaseURL() + 'rest/V1/contact-us/storeget',
                 type: 'post',
                 data: JSON.stringify(store),
                 contentType: 'application/json',
                 dataType: 'json',
-                error: function(data) {
+                error: function (data) {
                     show_error($t('We were not able to set this store as your default store. Please try again.'));
                 },
-                success: function(data) {
+                success: function (data) {
                     var response = JSON.parse(data);
                     if (response.Success === 1) {
                         currentStore = response.Store[0];
@@ -300,15 +300,15 @@ require(
                 ci_csrf_token: cct
             };
             $.ajax({
-                url: getBaseURL() + 'rest/V1/storelocator/storeget',
+                url: getBaseURL() + 'rest/V1/contact-us/storeget',
                 type: 'post',
                 data: JSON.stringify(data),
                 contentType: 'application/json',
                 dataType: 'json',
-                error: function() {
+                error: function () {
                     show_error($t('error occurred while fetching data. Please refresh and try again.'));
                 },
-                success: function(data) {
+                success: function (data) {
                     var response = JSON.parse(data);
                     if (response.Success === 1) {
                         var $dropdownContainer = $('#nearby-stores');
@@ -325,7 +325,7 @@ require(
             });
         }
 
-        $('#submitRefill').click(function(e) {
+        $('#submitRefill').click(function (e) {
             e.preventDefault();
 
             if (!refillForm.valid()) {
@@ -350,7 +350,7 @@ require(
                         'ci_csrf_token': cct
                     },
                     dataType: 'json',
-                    success: function(data) {
+                    success: function (data) {
                         var compiled = '';
                         var contentContainer = $('#refill-content');
                         contentContainer.empty();
@@ -407,7 +407,7 @@ require(
         var form = $('.refill-form'),
             origForm = form.serialize();
 
-        $(window).on('beforeunload', function() {
+        $(window).on('beforeunload', function () {
             var submitted = dataLayer.filter(x => x.event === 'formSubmission').length;
 
             if (form.serialize() !== origForm) {

@@ -8,18 +8,18 @@ define([
     'moment',
     'mage/translate',
     'underscore'
-], function(Component, customerData, $, storage, ko, urlBuilder, moment, $t, _) {
+], function (Component, customerData, $, storage, ko, urlBuilder, moment, $t, _) {
     'use strict';
 
     return Component.extend({
         position: ko.observable({}),
         isGeolocated: ko.observable(true),
-        initialize: function() {
+        initialize: function () {
             this._super();
 
             this.preferredStores = customerData.get('preferredStores');
 
-            this.preferredStore = ko.computed(function() {
+            this.preferredStore = ko.computed(function () {
                 if (!this.preferredStores || !this.preferredStores()[0]) {
                     return {};
                 }
@@ -27,7 +27,7 @@ define([
                 return this.preferredStores()[0];
             }, this);
 
-            this.preferredStores.subscribe(function(stores) {
+            this.preferredStores.subscribe(function (stores) {
                 if (!$('.eflyer-index-index').length) {
                     if (stores[0] && stores[0].region_name !== this.province) {
                         window.location.reload();
@@ -53,11 +53,11 @@ define([
 
             if (this.preferredStore().StoreNumber && this.preferredStore().updated_at !== moment().utc().format('YYYYMMDD')) {
                 storage
-                    .post(urlBuilder.createUrl('/storelocator/select/:storeNumber', {
+                    .post(urlBuilder.createUrl('/contact-us/select/:storeNumber', {
                         storeNumber: this.preferredStore().StoreNumber
                     }))
                     .done(
-                        function(stores) {
+                        function (stores) {
                             if (stores) {
                                 stores = JSON.parse(stores);
                                 customerData.set('preferredStores', stores);
@@ -66,15 +66,15 @@ define([
                     );
             }
         },
-        selectByLatLng: function(lat, lng) {
+        selectByLatLng: function (lat, lng) {
             return storage.post(
-                urlBuilder.createUrl('/storelocator/select', {}),
+                urlBuilder.createUrl('/contact-us/select', {}),
                 JSON.stringify({
                     'latitude': lat,
                     'longitude': lng
                 })
             ).done(
-                function(stores) {
+                function (stores) {
                     if (stores) {
                         if (typeof stores === 'string') {
                             stores = JSON.parse(stores);
@@ -84,10 +84,10 @@ define([
                 }
             );
         },
-        getLocation: function() {
+        getLocation: function () {
             if ('geolocation' in navigator) {
                 navigator.geolocation.getCurrentPosition(
-                    function(position) {
+                    function (position) {
                         this.position(position);
                         if (this.preferredStores().length == 1) {
                             this.selectByLatLng(position.coords.latitude, position.coords.longitude);
@@ -97,7 +97,7 @@ define([
                             this.selectByLatLng(position.coords.latitude, position.coords.longitude);
                         }
                     }.bind(this),
-                    function(error) {
+                    function (error) {
                         $('.location-block-button ').css('display', 'block');
                         $('.loader').css('display', 'none');
                         this.isGeolocated(false);
@@ -111,17 +111,17 @@ define([
                 this.isGeolocated(false);
             }
         },
-        getNearbyStores: function() {
+        getNearbyStores: function () {
             if (!this.preferredStores || typeof this.preferredStores() !== typeof []) {
                 return [];
             }
 
             return this.preferredStores().filter(store => store.StoreNumber != this.preferredStore().StoreNumber).slice(0, 3);
         },
-        getStoreHolidays: function(store) {
+        getStoreHolidays: function (store) {
             var result = [];
 
-            $.each(store.Exceptions || [], function(i, holiday) {
+            $.each(store.Exceptions || [], function (i, holiday) {
                 if (holiday.Activity == 'FS' || holiday.Activity == 'Rx') {
                     holiday.dateFormatted = moment(holiday.Date, 'YYYY-MM-DD').format('MMMM Do');
                     holiday.hoursFormatted = holiday.TimeClose ? (holiday.TimeOpen + ' - ' + holiday.TimeClose) : $t('Closed');
@@ -134,7 +134,7 @@ define([
 
             return result;
         },
-        isHolidaysEqual: function(storeHolidayArray, pharmacyHolidayArray) {
+        isHolidaysEqual: function (storeHolidayArray, pharmacyHolidayArray) {
             if (storeHolidayArray.length !== pharmacyHolidayArray.length) {
                 return false;
             }
@@ -152,11 +152,11 @@ define([
 
                 return pharmacyHolidayArray.some(
                     pharmacyHoliday =>
-                    _.isEqual(storeHolidayData, simplifyData(pharmacyHoliday))
+                        _.isEqual(storeHolidayData, simplifyData(pharmacyHoliday))
                 );
             });
         },
-        getTodayStoreHours: function(store) {
+        getTodayStoreHours: function (store) {
             var now = new Date(),
                 momentNow = moment(),
                 dayText = '',
@@ -166,7 +166,7 @@ define([
             holidays = this.getStoreHolidays(store);
 
             if (holidays) {
-                $.each(holidays, function(i, holiday) {
+                $.each(holidays, function (i, holiday) {
                     if (holiday.Activity !== 'Rx' && holiday.Date === momentNow.format('YYYY-MM-DD')) {
                         todayHoliday = [holiday.TimeOpen, holiday.TimeClose];
                     }
@@ -203,7 +203,7 @@ define([
 
             return [store.StoreHours[dayText + 'Open'], store.StoreHours[dayText + 'Close']];
         },
-        isStoreOpen: function(store) {
+        isStoreOpen: function (store) {
             var hours = this.getTodayStoreHours(store);
 
             if (hours[1] === '') {
@@ -216,7 +216,7 @@ define([
 
             return now.isBetween(open, close);
         },
-        getStoreHours: function(store, hoursToGet) {
+        getStoreHours: function (store, hoursToGet) {
             var storeHours,
                 result;
 
@@ -252,7 +252,7 @@ define([
 
             var sortedWeekHours = [{}];
 
-            $.each(storeHoursData, function(i, day) {
+            $.each(storeHoursData, function (i, day) {
                 switch (day.label) {
                     case 'Monday':
                         sortedWeekHours[0] = day;
@@ -324,10 +324,10 @@ define([
 
             return result;
         },
-        getConsolidatedHours: function(store) {
+        getConsolidatedHours: function (store) {
             return store.ConsolidatedStoreHours === store.ConsolidatedRxHours;
         },
-        getDistanceToStore: function(store) {
+        getDistanceToStore: function (store) {
             if (!this.position().coords) {
                 return null;
             }
@@ -341,7 +341,7 @@ define([
 
             return (2 * Math.asin(Math.sqrt(Math.pow(Math.sin(dlat / 2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(dlon / 2), 2))) * 6371).toFixed(1);
         },
-        getStoreName: function(store) {
+        getStoreName: function (store) {
             $('.loader').css('display', 'none');
             $('.pin-icon-container').css('display', 'block');
 

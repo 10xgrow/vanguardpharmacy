@@ -565,7 +565,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                         <form class="search" action="search/" method="get" role="search" aria-haspopup="listbox">
                             <div class="container">
                                 <label id="header-search-label" for="header-search-input" class="screenreader-only">
-                                    Search rexall.ca </label>
+                                    search vanguardpharmacy.ca </label>
                                 <input type="search" role="combobox" autocomplete="off" name="q" class="js-focus-target"
                                     aria-describedby="autocomplete-assistive-hint" aria-expanded="false"
                                     aria-autocomplete="list" aria-controls="header-search631971031"
@@ -1030,7 +1030,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             <form class="search" action="search/" method="get" role="search" aria-haspopup="listbox">
                                 <div class="container">
                                     <label id="header-search-label" for="mobile-search-input" class="screenreader-only">
-                                        Search rexall.ca </label>
+                                        search vanguardpharmacy.ca </label>
                                     <input type="search" role="combobox" autocomplete="off" name="q"
                                         class="js-focus-target" aria-describedby="autocomplete-assistive-hint"
                                         aria-expanded="false" aria-autocomplete="list"
@@ -3972,7 +3972,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="IPRU5Y7"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/7234" target=""
+                                                        href="/contact-us/store/7234" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4000,7 +4000,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="SQQKMM0"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/7232" target=""
+                                                        href="/contact-us/store/7232" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4029,7 +4029,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="JCDR2II"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/7230" target=""
+                                                        href="/contact-us/store/7230" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4068,7 +4068,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="LAXDEBQ"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/7285" target=""
+                                                        href="/contact-us/store/7285" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4097,7 +4097,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="Q3OXRRH"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/7513" target="_blank"
+                                                        href="/contact-us/store/7513" target="_blank"
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4146,7 +4146,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="EWBGE11"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/1370/" target=""
+                                                        href="/contact-us/store/1370/" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4175,7 +4175,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="QM4NM20"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/8223" target=""
+                                                        href="/contact-us/store/8223" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4204,7 +4204,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="AUNF9DD"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/204" target=""
+                                                        href="/contact-us/store/204" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4244,7 +4244,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="R23BNES"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/1149" target=""
+                                                        href="/contact-us/store/1149" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -4293,7 +4293,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="O3NS34T"><a
                                                         class="action pagebuilder-button-secondary medium"
-                                                        href="/storelocator/store/7116" target=""
+                                                        href="/contact-us/store/7116" target=""
                                                         data-link-type="default"
                                                         data-button-type="pagebuilder-button-secondary"
                                                         data-button-size="medium" data-element="link"
@@ -5298,7 +5298,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             href="https://shop.rexall.ca/store/rexall/storefront?utm_source=rexall&utm_medium=web_landing_page&utm_campaign=footer&utm_content=shop_now"
                             target="_blank">Shop Now
                             <span class="screenreader-only"> (opens in a new window)</span>
-                            <a class="btn large store-locator" href="/storelocator/">Find a Store</a>
+                            <a class="btn large store-locator" href="/contact-us/">Find a Store</a>
                             <a class="btn large flyer" href="/eflyer/">View eFlyer</a>
                     </div>
                     <div class="social-link-container">

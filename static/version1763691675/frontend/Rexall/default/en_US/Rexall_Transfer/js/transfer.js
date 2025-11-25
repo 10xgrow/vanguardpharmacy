@@ -8,18 +8,18 @@ require(
         'mage/validation',
         'jquery.inputmask'
     ],
-    function($, $t, accessibilityUtils) {
+    function ($, $t, accessibilityUtils) {
         var cct = $.cookie('ci_csrf_token');
         var pharmacy = '';
         var storeId = '';
 
-        $('#nearby-stores').on('change', function(e) {
+        $('#nearby-stores').on('change', function (e) {
             e.preventDefault();
             showSelectedStore($('#nearby-stores option:selected'));
             pharmacy = $('#nearby-stores').val();
         });
 
-        $('#changeStore').on('click', function(e) {
+        $('#changeStore').on('click', function (e) {
             e.preventDefault();
             pharmacy = '';
             $('#nearby-stores').val('');
@@ -33,7 +33,7 @@ require(
             accessibilityUtils.forceElementFocus($('#nearby-stores'));
         }
 
-        $('#pharmacy_name').on('change', function(e) {
+        $('#pharmacy_name').on('change', function (e) {
             e.preventDefault();
             var $this = $(this);
             var $other = $('#pharmacy_other');
@@ -53,7 +53,7 @@ require(
             accessibilityUtils.forceElementFocus($('#selectedStore'));
         }
 
-        $(document).on('click', '.js-storeSearchBtn', function(event) {
+        $(document).on('click', '.js-storeSearchBtn', function (event) {
             event.preventDefault();
             formatPhoneNumber('#searchPharmacyPhoneNumber');
 
@@ -99,7 +99,7 @@ require(
                     'componentRestrictions': {
                         country: 'CA'
                     }
-                }, function(results, status) {
+                }, function (results, status) {
                     if (status == google.maps.GeocoderStatus.OK) {
                         var position = results[0].geometry.location;
                         populateStores(position.lat(), position.lng());
@@ -123,15 +123,15 @@ require(
                     ci_csrf_token: cct
                 };
                 $.ajax({
-                    url: getBaseURL() + 'rest/V1/storelocator/storeget',
+                    url: getBaseURL() + 'rest/V1/contact-us/storeget',
                     type: 'post',
                     data: JSON.stringify(data),
                     contentType: 'application/json',
                     dataType: 'json',
-                    error: function() {
+                    error: function () {
                         show_error($t('error occurred while fetching data. Please refresh and try again.'));
                     },
-                    success: function(data) {
+                    success: function (data) {
                         var response = JSON.parse(data);
                         if (response.Success === 1) {
                             var $dropdownContainer = $('#nearby-stores');
@@ -140,11 +140,11 @@ require(
                             $dropdownContainer.prepend(placeholder);
                             var store = response.Store[0];
 
-                            store.StoreServiceObjects = _.map(store.StoreServices, function(service) {
+                            store.StoreServiceObjects = _.map(store.StoreServices, function (service) {
                                 return extractServiceObject(service);
                             });
 
-                            store.Exclude = $.grep(store.StoreServiceObjects, function(element) {
+                            store.Exclude = $.grep(store.StoreServiceObjects, function (element) {
                                 return element.name === 'No Pharmacy';
                             }).length;
 
@@ -172,15 +172,15 @@ require(
             };
 
             $.ajax({
-                url: getBaseURL() + 'rest/V1/storelocator/storelist',
+                url: getBaseURL() + 'rest/V1/contact-us/storelist',
                 type: 'post',
                 data: JSON.stringify(data),
                 contentType: 'application/json',
                 dataType: 'json',
-                error: function(data) {
+                error: function (data) {
                     show_error($t('error occurred while fetching data. Please refresh and try again.'));
                 },
-                success: function(data) {
+                success: function (data) {
                     var $dropdownContainer = $('#nearby-stores');
                     var placeholder = '<option value="">Choose from List</option>';
                     $dropdownContainer.empty();
@@ -191,11 +191,11 @@ require(
                         for (var i = 0; i < response.Store.length; i++) {
                             var store = response.Store[i];
 
-                            store.StoreServiceObjects = _.map(store.StoreServices, function(service) {
+                            store.StoreServiceObjects = _.map(store.StoreServices, function (service) {
                                 return extractServiceObject(service);
                             });
 
-                            store.Exclude = $.grep(store.StoreServiceObjects, function(element) {
+                            store.Exclude = $.grep(store.StoreServiceObjects, function (element) {
                                 return element.name === 'No Pharmacy';
                             }).length;
 
@@ -213,7 +213,7 @@ require(
             });
         }
 
-        $(document).on('click', '#submitTransferBtn', function(event) {
+        $(document).on('click', '#submitTransferBtn', function (event) {
             var $submitTransferBtn = $('#submitTransferBtn');
             $submitTransferBtn.prop('disabled', true);
 
@@ -314,16 +314,16 @@ require(
                 refillOnly: 0
             };
 
-            $submitTransferBtn.one('gRecaptchaComplete', function() {
+            $submitTransferBtn.one('gRecaptchaComplete', function () {
                 var recaptchaResponse = typeof grecaptcha !== 'undefined' ? grecaptcha.getResponse() : '';
 
                 $.ajax({
-                    url: getBaseURL() + 'rest/V1/storelocator/storeget',
+                    url: getBaseURL() + 'rest/V1/contact-us/storeget',
                     type: 'post',
                     data: JSON.stringify(store),
                     contentType: 'application/json',
                     dataType: 'json',
-                    success: function(storeData) {
+                    success: function (storeData) {
                         var response = JSON.parse(storeData);
 
                         if (response.Success === 1) {
@@ -336,7 +336,7 @@ require(
                                 dataType: 'json',
                                 timeout: 8000,
                                 async: false,
-                                success: function(data) {
+                                success: function (data) {
                                     if (data.status === 1) {
                                         window.dataLayer = window.dataLayer || [];
                                         window.dataLayer.push({
@@ -353,8 +353,8 @@ require(
                                         show_lightbox_nobrand(data.message, $t('Please try again'));
                                     }
                                 },
-                                complete: function() {
-                                    setTimeout(function() {
+                                complete: function () {
+                                    setTimeout(function () {
                                         $submitTransferBtn.prop('disabled', false);
                                         $submitTransferBtn.next().remove();
                                     }, 1000);
@@ -379,7 +379,7 @@ require(
         var form = $('#transferForm'),
             origForm = form.serialize();
 
-        $(window).on('beforeunload', function() {
+        $(window).on('beforeunload', function () {
             var submitted = dataLayer.filter(x => x.event === 'formSubmission').length;
 
             if (form.serialize() !== origForm) {
@@ -393,7 +393,7 @@ require(
             }
         });
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             dataLayer.push({
                 'event': 'stepImpression',
                 'formId': 'transferForm_step1',

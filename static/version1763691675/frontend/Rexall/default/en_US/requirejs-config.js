@@ -1,5 +1,5 @@
-(function(require) {
-    (function() {
+(function (require) {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -15,7 +15,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -102,7 +102,7 @@
             }
         };
 
-        require(['jquery'], function($) {
+        require(['jquery'], function ($) {
             'use strict';
 
             $.noConflict();
@@ -110,7 +110,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -181,7 +181,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -206,7 +206,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -222,7 +222,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -239,7 +239,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -259,7 +259,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -287,7 +287,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -304,7 +304,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -323,7 +323,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -347,7 +347,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -373,7 +373,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -401,7 +401,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -425,7 +425,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -442,7 +442,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -458,7 +458,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -497,7 +497,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -511,7 +511,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -527,7 +527,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -543,7 +543,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -560,7 +560,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -577,7 +577,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -600,7 +600,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -618,7 +618,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -641,7 +641,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -668,7 +668,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -689,7 +689,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -706,7 +706,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -723,7 +723,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -740,7 +740,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -757,7 +757,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -774,7 +774,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -791,7 +791,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -807,7 +807,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -823,7 +823,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -844,7 +844,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -860,7 +860,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -877,7 +877,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -893,7 +893,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright 2023 Adobe
          * All Rights Reserved.
@@ -908,7 +908,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -937,7 +937,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -955,7 +955,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -979,7 +979,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1002,7 +1002,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1024,7 +1024,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1046,7 +1046,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1065,7 +1065,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1081,7 +1081,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1103,7 +1103,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1122,7 +1122,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1140,7 +1140,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             map: {
                 '*': {
@@ -1151,7 +1151,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             paths: {
                 slick: 'Rexall_Design/js/slick.min',
@@ -1192,7 +1192,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             paths: {
                 'accessible-accordion': 'Rexall_Cms/js/accessible-accordion',
@@ -1223,7 +1223,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             paths: {
                 eflyer: 'Rexall_Flyer/js/eflyer'
@@ -1232,7 +1232,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             'paths': {
                 'vendorProductList': 'Rexall_Vendor/js/vendorProductList'
@@ -1241,13 +1241,13 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             map: {
                 '*': {
                     richmarker: 'Rexall_Storelocator/js/richmarker-compiled',
-                    storelocator: 'Rexall_Storelocator/js/storelocator',
-                    'storelocator-listing': 'Rexall_Storelocator/js/storelocator-listing',
+                    storelocator: 'Rexall_Storelocator/js/contact-us',
+                    'storelocator-listing': 'Rexall_Storelocator/js/contact-us-listing',
                     storedetail: 'Rexall_Storelocator/js/store',
                     servicelocator: 'Rexall_Storelocator/js/servicelocator'
                 }
@@ -1256,7 +1256,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             paths: {
                 loyaltyRewards: 'Rexall_LoyaltyRewards/js/loyaltyRewards'
@@ -1265,7 +1265,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             map: {
                 '*': {
@@ -1277,7 +1277,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             paths: {
                 subscribe: 'Rexall_Newsletter/js/subscribe'
@@ -1293,7 +1293,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             'paths': {
                 'pharmacy_accordion': 'Rexall_Pharmacy/js/accordion'
@@ -1302,7 +1302,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             'config': {
                 'mixins': {
@@ -1315,7 +1315,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         /**
          * Copyright © Magento, Inc. All rights reserved.
          * See COPYING.txt for license details.
@@ -1329,7 +1329,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             map: {
                 '*': {
@@ -1358,7 +1358,7 @@
 
         require.config(config);
     })();
-    (function() {
+    (function () {
         var config = {
             map: {
                 '*': {

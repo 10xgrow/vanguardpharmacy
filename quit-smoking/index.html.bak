@@ -1824,7 +1824,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             </ul>
                                         </div>
                                         <div class="smoking-cessation-calculator-cta">
-                                            <p class="smoking-cessation-calculator-cta-text">Speak with your Rexall
+                                            <p class="smoking-cessation-calculator-cta-text">Speak with yourVanguard
                                                 Pharmacist to help you start your quitting journey today!</p>
                                             <a class="button smoking-cessation-calculator-cta-button"
                                                 href="/contact-us/" onclick="gtag_report_store_button();">
@@ -2211,7 +2211,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -2225,7 +2225,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

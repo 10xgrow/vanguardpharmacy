@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Products for Digestive Health | Rexall" />
+    <meta name="title" content="Products for Digestive Health |Vanguard" />
     <meta name="description"
-        content="Shop top-rated Digestive Health  products at Rexall. Find products from leading Digestive Health  brands to enhance your Digestive Health  routine &amp; target Digestive Health concerns." />
+        content="Shop top-rated Digestive Health  products atVanguard. Find products from leading Digestive Health  brands to enhance your Digestive Health  routine &amp; target Digestive Health concerns." />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Products for Digestive Health | Rexall</title>
+    <title>Products for Digestive Health |Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -1831,7 +1831,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -1845,7 +1845,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

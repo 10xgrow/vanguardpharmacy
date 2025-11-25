@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Natural Health Products | Rexall" />
+    <meta name="title" content="Natural Health Products |Vanguard" />
     <meta name="description"
         content="As Canada&#039;s trusted pharmacy, Vanguard provides detailed articles and factsheets about many natural health products." />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Natural Health Products | Rexall</title>
+    <title>Natural Health Products |Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -1387,11 +1387,11 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     </ul>
                                 </div>
                                 <div class="section-category-landing">
-                                    <p>Welcome to the Rexall&trade; Pharmacy Natural Health Products Library, powered by
+                                    <p>Welcome to theVanguard&trade; Pharmacy Natural Health Products Library, powered by
                                         MediResource&trade;. This detailed information resource is designed to support
                                         your health and wellness by helping you learn about and
                                         better understand more about herbs and natural health products. For additional
-                                        health information, please talk to your Rexall&trade; Pharmacist.</p>
+                                        health information, please talk to yourVanguard&trade; Pharmacist.</p>
                                     <p><strong>Each Natural Health Product Library factsheet contains information
                                             about:</strong></p>
                                     <ul type="disc">
@@ -1588,7 +1588,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -1602,7 +1602,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

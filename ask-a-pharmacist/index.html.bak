@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Ask a Pharmacist Online or by Phone | Rexall" />
+    <meta name="title" content="Ask a Pharmacist Online or by Phone |Vanguard" />
     <meta name="description"
-        content="Have questions about an existing prescription or need help with a minor illness? Chat with Rexall&#039;s virtual pharmacists online or by phone and get advice today!" />
+        content="Have questions about an existing prescription or need help with a minor illness? Chat withVanguard&#039;s virtual pharmacists online or by phone and get advice today!" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Ask a Pharmacist Online or by Phone | Rexall</title>
+    <title>Ask a Pharmacist Online or by Phone |Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -1897,7 +1897,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <h1 data-content-type="heading" data-appearance="default" id=""
                                             data-element="main">Virtual Pharmacist Consultations</h1>
                                         <div data-content-type="text" data-appearance="default" data-element="main">
-                                            <p><span style="font-size: 20px;">Book a virtual appointment with a Rexall
+                                            <p><span style="font-size: 20px;">Book a virtual appointment with aVanguard
                                                     Pharmacist for a health consultation.</span></p>
                                         </div>
                                     </div>
@@ -1913,7 +1913,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                         <h2 data-content-type="heading" data-appearance="default" id="" data-element="main"
                             data-pb-style="QC1VP6P">For a dose of care, talk to a Vanguard Virtual Pharmacist</h2>
                         <div data-content-type="text" data-appearance="default" data-element="main">
-                            <p style="line-height: 28px;"><span style="font-size: 16px;">At Rexall, we make healthcare
+                            <p style="line-height: 28px;"><span style="font-size: 16px;">AtVanguard, we make healthcare
                                     easy and convenient for you. We offer virtual Pharmacist consultations, allowing you
                                     to get care from the comfort of your own home. With our online Pharmacist services,
                                     you can receive a professional assessment of your condition, get advice on how to
@@ -1949,7 +1949,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                     relief for minor illnesses such as pink eye, nasal allergies,
                                                     eczema, heartburn, and acne, among others. Talk to a Pharmacist
                                                     online or on the phone to discuss your symptoms and possible
-                                                    treatment options. Book a virtual appointment* with a Rexall
+                                                    treatment options. Book a virtual appointment* with aVanguard
                                                     Pharmacist to get assessed and receive a prescription for minor
                                                     illnesses.</span></p>
                                         </div>
@@ -2440,7 +2440,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the
                                 Vanguard Pharmacy Group Ltd.
                             </p>
@@ -2455,7 +2455,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

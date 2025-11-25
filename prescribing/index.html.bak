@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Prescribing Pharmacists for Minor Ailments | Rexall" />
+    <meta name="title" content="Prescribing Pharmacists for Minor Ailments |Vanguard" />
     <meta name="description"
         content="Pharmacists are able to prescribe certain medications for 21 different medical conditions known as &#039;minor illnesses&#039;. Get your &#039;Dose of Care&#039; from Vanguard today." />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Prescribing Pharmacists for Minor Ailments | Rexall</title>
+    <title>Prescribing Pharmacists for Minor Ailments |Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -5694,7 +5694,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             data-video-lazy-load="true" data-video-fallback-src="" data-geotarget="74"
                             data-geomethod="1" data-element="inner" data-pb-style="CKBAGMD">
                             <h1 class="utility-heading-h2" data-content-type="heading" data-appearance="default" id=""
-                                data-element="main" data-pb-style="VO5VE8U">Get Your Prescription From a Rexall
+                                data-element="main" data-pb-style="VO5VE8U">Get Your Prescription From aVanguard
                                 Pharmacist</h1>
                             <div data-content-type="text" data-appearance="default" data-element="main"
                                 data-pb-style="OTHJ6YR">
@@ -6660,7 +6660,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     data-content-type="northern-accordion-item" data-appearance="default"
                                     data-element="main"><button type="button"
                                         class="accessible-accordion-title pagebuilder-accordion-title js-accessible-accordion-title"
-                                        data-element="title">Do I need an appointment to see my Rexall
+                                        data-element="title">Do I need an appointment to see myVanguard
                                         Pharmacist?</button>
                                     <div
                                         class="accessible-accordion-content pagebuilder-accordion-content js-accessible-accordion-content">
@@ -6948,7 +6948,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the
                                 Vanguard Pharmacy Group Ltd.
                             </p>
@@ -6963,7 +6963,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

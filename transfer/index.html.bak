@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Transfer Prescription to Another Pharmacy | Rexall" />
+    <meta name="title" content="Transfer Prescription to Another Pharmacy |Vanguard" />
     <meta name="description"
         content="It&#039;s never been easier to transfer your existing prescription to a Vanguard pharmacy; Learn how today!" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Transfer Prescription to Another Pharmacy | Rexall</title>
+    <title>Transfer Prescription to Another Pharmacy |Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -1349,7 +1349,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div class="vendor-article-wrap">
                                                 <div class="vendor-article-content online-services-content">
                                                     <h3 class="vendor-article-title uppercase">In-Person:</h3>
-                                                    <p class="vendor-article-desc">Visit or call your local Rexall
+                                                    <p class="vendor-article-desc">Visit or call your localVanguard
                                                         Pharmacy.</p>
                                                     <a href="/contact-us/"
                                                         class="transfer-btn">Find a Store</a>
@@ -1656,14 +1656,14 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <fieldset class="mr-fieldset">
                                                 <legend>
                                                     Please provide us with drug name or prescription number for each of
-                                                    the prescriptions you would <br>like to transfer to Rexall.
+                                                    the prescriptions you would <br>like to transfer toVanguard.
                                                 </legend>
                                                 <span class="mr-checkbox">
                                                     <input type="radio" id="transferAllYes"
                                                         name="transfer_all_prescriptions" value="yes"
                                                         checked="checked" />
                                                     <label for="transferAllYes" class="transfer-option-label">Yes,
-                                                        please transfer all of my prescriptions to Rexall</label><br>
+                                                        please transfer all of my prescriptions toVanguard</label><br>
                                                 </span>
 
                                                 <span class="mr-checkbox">
@@ -1866,7 +1866,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                     href="/privacy-policy/"
                                                     class="privacy-policy-link" target="_blank">privacy-policy</a>.</p>
 
-                                            <p>By submitting this form you are giving consent for a Rexall
+                                            <p>By submitting this form you are giving consent for aVanguard
                                                 representative to contact the transferring pharmacy indicated to
                                                 complete your prescription transfer request. Prescription transfers
                                                 occur digitally
@@ -2138,7 +2138,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -2152,7 +2152,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Book an Online Appointment with a Virtual Doctor | Rexall" />
+    <meta name="title" content="Book an Online Appointment with a Virtual Doctor |Vanguard" />
     <meta name="description"
         content="Need to see a doctor? For a dose of care, book your appointment or consultation online either by phone or video call offered by Vanguard today!" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Book an Online Appointment with a Virtual Doctor | Rexall</title>
+    <title>Book an Online Appointment with a Virtual Doctor |Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -1805,7 +1805,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <h1 data-content-type="heading" data-appearance="default" id=""
                                             data-element="main">Online Doctors</h1>
                                         <div data-content-type="text" data-appearance="default" data-element="main">
-                                            <p><span style="font-size: 20px;">Book a virtual appointment with a Rexall
+                                            <p><span style="font-size: 20px;">Book a virtual appointment with aVanguard
                                                     health partner and consult a doctor online.</span></p>
                                         </div>
                                     </div>
@@ -1819,7 +1819,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                         data-video-lazy-load="true" data-video-fallback-src="" data-element="main"
                         data-pb-style="C9JTUYX">
                         <h2 data-content-type="heading" data-appearance="default" id="" data-element="main"
-                            data-pb-style="AXU63YX">Connect with Canadian Online Doctors through Rexall</h2>
+                            data-pb-style="AXU63YX">Connect with Canadian Online Doctors throughVanguard</h2>
                         <div data-content-type="text" data-appearance="default" data-element="main">
                             <p style="line-height: 28px;"><span style="font-size: 16px;">Vanguard offers you access to
                                     convenient, quality healthcare with readily accessible licensed Canadian online
@@ -1890,7 +1890,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                         waiting room! Connect with a licensed doctor or specialist
                                                         within minutes. Our virtual doctors can help you with diagnosis,
                                                         assessment, treatment, and prescription, direct to your door or
-                                                        Rexall
+                                                       Vanguard
                                                         Pharmacy. 7 days a week.&nbsp;&nbsp;<b>Free with a valid health
                                                             card in ON and MB.</b></div><span
                                                         class="cms-article-item-pseudo-link"
@@ -2066,7 +2066,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <p><span style="font-size: 14px;">Taking care of our mental health is more
                                                     important than ever. Knowing where you stand on your mental health
                                                     is the best way forward. That&rsquo;s why Life Support, in
-                                                    partnership with Rexall, is helping millions of Canadians access the
+                                                    partnership withVanguard, is helping millions of Canadians access the
                                                     innovative Mental Health Check.</span></p>
                                         </div>
                                         <div data-content-type="buttons" data-appearance="inline"
@@ -2318,7 +2318,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -2332,7 +2332,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

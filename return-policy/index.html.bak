@@ -1316,7 +1316,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     refund or an equivalent replacement within <b>30 days of the original purchase
                                         date</b> with the accompaniment of the original sales receipt.</p>
 
-                                <p>To make a return, please bring your original sales receipt to your nearest Rexall.
+                                <p>To make a return, please bring your original sales receipt to your nearestVanguard.
                                     Refunds or replacements will be issued for the amount shown on the receipt, using
                                     the same payment method. If the original payment method
                                     isn’t available, a Vanguard Gift Card will be issued for the lowest advertised price.
@@ -1333,7 +1333,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     date.</p>
 
                                 <p>We proudly offer a 100% satisfaction guarantee on the following brands, with an
-                                    original sales receipt: Rexall, Be Better, Kit, Nosh & Co, Savvy Home, Option+, and
+                                    original sales receipt:Vanguard, Be Better, Kit, Nosh & Co, Savvy Home, Option+, and
                                     Rose & Robin.</p>
 
                                 <p>If Be Well points were earned on the original purchase, they will be deducted from
@@ -1537,7 +1537,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -1551,7 +1551,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

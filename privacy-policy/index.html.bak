@@ -1357,7 +1357,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     to read the Website Privacy notices of all websites, portals, and applications that
                                     you visit to understand their Website Privacy practices.</p>
                                 <p>Throughout this Website Privacy Notice, we use the term &ldquo;personal
-                                    information&rdquo;, which is any information accessed, collected, or used by Rexall
+                                    information&rdquo;, which is any information accessed, collected, or used byVanguard
                                     that identifies an individual, or can reasonably be used to identify
                                     an individual, directly or indirectly. &ldquo;Personal information&rdquo; is
                                     equivalent to similar terms used in different regulations, such as &ldquo;personally
@@ -1381,7 +1381,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         prescriptions and prescription refills</li>
                                     <li>Some user behavioral information such as the products that you choose to
                                         purchase and your preferences</li>
-                                    <li>If you choose to apply for a position at Rexall, we will collect the information
+                                    <li>If you choose to apply for a position atVanguard, we will collect the information
                                         contained in your resume and cover letter as well as any information you decide
                                         to share with us as part of the application process</li>
                                     <li>Information about you that you share or make visible on the Internet. We may
@@ -1416,10 +1416,10 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     <li>Your contact information, so we can notify you if there are any changes to the
                                         terms of use; and</li>
                                     <li>The name of the patient or customer for which the credit card can be used, their
-                                        date of birth and the location of their local Rexall&trade; pharmacy.</li>
+                                        date of birth and the location of their localVanguard&trade; pharmacy.</li>
                                 </ol>
                                 <p>The stored credit card credentials are only used by Vanguard at your request, as agreed
-                                    to by you and your local Rexall&trade; pharmacy. We do this using a technology
+                                    to by you and your localVanguard&trade; pharmacy. We do this using a technology
                                     called "payment tokenization". That's just a fancy way
                                     of saying we don't actually store your credit card number. Instead, when you
                                     complete a purchase, we use your credit card number to obtain a secret token - a
@@ -1506,7 +1506,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 <p>These methodologies are used for the following purposes:</p>
                                 <ul>
                                     <li>Quick and easy online prescription refills</li>
-                                    <li>Online prescription transfers to Rexall</li>
+                                    <li>Online prescription transfers toVanguard</li>
                                     <li>View weekly flyer</li>
                                     <li>Find a Vanguard Drugstore</li>
                                     <li>Store locator</li>
@@ -1604,7 +1604,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         content to/from our partners while preserving the look and feel of our website.
                                         If you choose to interact or share personal information via
                                         these frames, please be aware you are providing personal information to these
-                                        third parties and not directly to Rexall, and your personal information is
+                                        third parties and not directly toVanguard, and your personal information is
                                         subject to the Website Privacy practices of these third parties.</li>
                                     <li>Our site may offer a public area for users to share posts, comments, blogs, or
                                         testimonials. You should be aware any personal information you provide in these
@@ -1625,7 +1625,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     <li>Enforce applicable Terms of Service, including investigation of potential
                                         violations</li>
                                     <li>Detect, prevent, or otherwise address fraud, security, or technical issues</li>
-                                    <li>Protect against harm to the rights, property or safety of our users, Rexall, or
+                                    <li>Protect against harm to the rights, property or safety of our users,Vanguard, or
                                         the public as required or permitted by law</li>
                                     <li>Engage in a merger, acquisition, reorganization, or sale of all or a portion of
                                         Vanguard assets.</li>
@@ -1651,7 +1651,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             <div data-content-type="text" data-appearance="default" data-element="main">
                                 <p>You can contact us directly any time at the address listed in the Contact Information
                                     section below to update your personal information or make another type of request
-                                    regarding the information you know or believe Rexall
+                                    regarding the information you know or believeVanguard
                                     holds about you. Here are some rights that you may have according to where you are
                                     located:</p>
                                 <ul>
@@ -2038,7 +2038,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -2052,7 +2052,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

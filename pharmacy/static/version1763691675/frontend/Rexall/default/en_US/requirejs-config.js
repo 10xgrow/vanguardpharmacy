@@ -1155,7 +1155,7 @@
         var config = {
             paths: {
                 slick: 'Rexall_Design/js/slick.min',
-                rexallutil: 'Rexall_Design/js/util',
+                Vanguardutil: 'Rexall_Design/js/util',
                 fancybox: 'Rexall_Design/js/jquery.fancybox.pack',
                 breakpoints: 'Rexall_Design/js/breakpoints',
                 menuToggle: 'Rexall_Design/js/menu-toggle',
@@ -1180,7 +1180,7 @@
                 select2: {
                     deps: ['jquery']
                 },
-                rexallutil: {
+                Vanguardutil: {
                     deps: ['fancybox']
                 },
                 ga: {

@@ -1368,7 +1368,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 <p>In 2005, the government of Ontario passed the Accessibility for Ontarians with
                                     Disabilities Act (“AODA”). It is the goal of the Ontario government to make the
                                     province accessible by 2025. The Integrated Accessibility Standards
-                                    Regulations (“IASR”) under the AODA requires that effective January 1, 2014, Rexall
+                                    Regulations (“IASR”) under the AODA requires that effective January 1, 2014,Vanguard
                                     Pharmacy Group Ltd (“RPG”) establish, implement, maintain and document a multi-year
                                     accessibility plan which outlines RPG’s strategy
                                     to prevent and remove barriers for persons with disabilities and to meet its
@@ -1943,7 +1943,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -1957,7 +1957,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Pharmacy Vaccinations &amp; Immunizations | Rexall" />
+    <meta name="title" content="Pharmacy Vaccinations &amp; Immunizations |Vanguard" />
     <meta name="description"
         content="Listed vaccines are now available in all provinces. For a dose of care, speak with your Vanguard Pharmacist and book your immunizations today!" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Pharmacy Vaccinations &amp; Immunizations | Rexall</title>
+    <title>Pharmacy Vaccinations &amp; Immunizations |Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -3808,7 +3808,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 range of vaccines including the flu, Hepatitis A and B and COVID-19
                                                 vaccines, to support your overall health and wellness. Vaccine
                                                 availability
-                                                and administration may vary based on province. Speak with your Rexall
+                                                and administration may vary based on province. Speak with yourVanguard
                                                 Pharmacist to determine which vaccines may be right for you.</p>
                                         </div>
                                         <div data-content-type="buttons" data-appearance="inline"
@@ -4914,7 +4914,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         </div>
                                         <div data-content-type="text" data-appearance="default" data-element="main">
                                             <p style="text-align: center;"><span style="font-size: 12px;">*Some vaccines
-                                                    require a prescription to be administered. Speak with your Rexall
+                                                    require a prescription to be administered. Speak with yourVanguard
                                                     pharmacist and we will work with your physician to get prescriptions
                                                     as required.&nbsp;</span></p>
                                         </div>
@@ -5412,7 +5412,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the
                                 Vanguard Pharmacy Group Ltd.
                             </p>
@@ -5427,7 +5427,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

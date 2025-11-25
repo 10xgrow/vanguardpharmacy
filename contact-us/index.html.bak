@@ -1333,7 +1333,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         or credit card information when submitting through the Contact Us form.</p>
                                     <p class="small">If you have questions related to medical conditions, we encourage
                                         you to speak directly with your physician or a pharmacist at your nearest
-                                        Rexall.</p>
+                                       Vanguard.</p>
                                     <h2>Vanguard Support Centre</h2>
                                     <p>Vanguard Pharmacy Group Ltd<br>2300 Meadowvale Blvd<br>Mississauga, ON L5N
                                         5P9<br><br><b>General Inquiries:</b> <a
@@ -1540,7 +1540,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -1554,7 +1554,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

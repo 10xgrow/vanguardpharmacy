@@ -12,7 +12,7 @@
     <meta charset="utf-8" />
     <meta name="title" content="Allergy Remedies - Your Medicine Cabinet | vanguardpharmacy.ca" />
     <meta name="description"
-        content="Let Rexall’s knowledgeable Pharmacy Team guide you to allergy medications and solutions that could help provide relief." />
+        content="LetVanguard’s knowledgeable Pharmacy Team guide you to allergy medications and solutions that could help provide relief." />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
@@ -2185,7 +2185,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -2199,7 +2199,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

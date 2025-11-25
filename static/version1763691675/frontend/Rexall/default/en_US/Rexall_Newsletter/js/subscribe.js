@@ -102,7 +102,7 @@ define(
                     if (isFluForm) {
                         // Flu form: OptIn is mandatory
                         if (data.OptIn == 0) {
-                            show_error('Please confirm that you would like to receive communications about the flu shot from Rexall.', 'There was a problem with your submission...');
+                            show_error('Please confirm that you would like to receive communications about the flu shot fromVanguard.', 'There was a problem with your submission...');
                         } else if (data.EmailAddress === '') {
                             show_error('Enter an Email and try again.', 'There was a problem with your submission...');
                         } else {

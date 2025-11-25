@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Diabetes Resources, Tools &amp; Pharmacy Support | Rexall" />
+    <meta name="title" content="Diabetes Resources, Tools &amp; Pharmacy Support |Vanguard" />
     <meta name="description"
         content="Get diabetes resources, tool and support tailored to your lifestyle. Let your Vanguard Pharmacist help you manage your diabetes; Find out how we can help!" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Diabetes Resources, Tools &amp; Pharmacy Support | Rexall</title>
+    <title>Diabetes Resources, Tools &amp; Pharmacy Support |Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -2366,7 +2366,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <div data-content-type="text" data-appearance="default" data-element="main"
                                             data-pb-style="J4WSCSN">
                                             <p>From A1C* testing, medication reviews and a robust selection of products,
-                                                to advice and support tailored to your lifestyle &ndash; let your Rexall
+                                                to advice and support tailored to your lifestyle &ndash; let yourVanguard
                                                 Pharmacist help you manage your diabetes.</p>
                                         </div>
                                         <div data-content-type="buttons" data-appearance="inline"
@@ -2737,7 +2737,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <div data-content-type="text" data-appearance="default" data-element="main">
                                             <p>Your Vanguard Pharmacist can help simplify caregiving for a loved one with
                                                 helpful tools and services including medication management through the
-                                                Be Well&reg; app and direct to door prescription delivery through Rexall
+                                                Be Well&reg; app and direct to door prescription delivery throughVanguard
                                                 Direct.</p>
                                         </div>
                                         <div data-content-type="buttons" data-appearance="inline"
@@ -3808,7 +3808,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the
                                 Vanguard Pharmacy Group Ltd.
                             </p>
@@ -3823,7 +3823,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

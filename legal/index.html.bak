@@ -1318,7 +1318,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     href="/privacy-policy/">privacy notice</a>. Please read these
                                 terms of use carefully.</p>
                             <p><span class="uppercase">Last Update</span>: May 1, 2020</p>
-                            <p>The Terms of Use set out below govern your use of the website maintained by Rexall
+                            <p>The Terms of Use set out below govern your use of the website maintained byVanguard
                                 Pharmacy Group Ltd, affiliates of which are operators of retail pharmacies in Canada.
                                 These Terms of Use cover the vanguardpharmacy.ca website (the “Site”)
                                 and any other websites and applications that may be developed in the future.</p>
@@ -1341,7 +1341,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 has a Unique Access Code (UAC). You agree to be responsible
                                 for maintaining the confidentiality of UAC and any other account identifiers which you
                                 choose or are assigned to you as a result of any registration with the Site or
-                                PharmaSmart. Further, you will promptly notify Rexall
+                                PharmaSmart. Further, you will promptly notifyVanguard
                                 Pharmacy Group Ltd (using the contact information at the end of these Terms of Use) of
                                 any unauthorized use of your UAC.</p>
                             <p>If you choose to share your UAC or other account identifiers with your caregiver or other
@@ -1367,8 +1367,8 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 provided by you in connection with your registration for
                                 and your use of the Site and Application in order to administer, maintain and improve
                                 their functioning. Your personal information will be disclosed to Vanguard and to agents
-                                and/or third-party service providers of Rexall
-                                Pharmacy Group Ltd, Vanguard Pharmacies ULC, Vanguard Pharmacies (SASK) Ltd and Rexall
+                                and/or third-party service providers ofVanguard
+                                Pharmacy Group Ltd, Vanguard Pharmacies ULC, Vanguard Pharmacies (SASK) Ltd andVanguard
                                 Pharmacies (BC) Ltd, that are responsible for the administration and maintenance of the
                                 Site and Application. If you register for the BP
                                 Tracker Program, your personal information will also be collected and used by
@@ -1376,7 +1376,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 Statement. <span class="uppercase">Vanguard will not be responsible for the accuracy,
                                     maintenance or use of any information you provide, nor be responsible or liable,
                                     directly or indirectly, in any way for any loss or damage of any kind incurred as a
-                                    result of, or in connection with, your provision of any information to rexall
+                                    result of, or in connection with, your provision of any information toVanguard
                                     through the use of the site or application.</span></p>
 
                             <h2 class="uppercase">Use of site and application</h2>
@@ -1430,7 +1430,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 construed as conferring upon you any license or right in the Content.</p>
                             <p>Names, trademarks, trade names, trade dress, logos and products of Vanguard are protected
                                 by trademark laws and may not be used for advertising or publicity purposes, or to
-                                indicate any affiliation with or endorsement by Rexall,
+                                indicate any affiliation with or endorsement byVanguard,
                                 except with the express written permission of Vanguard Pharmacy Group Ltd. Other product,
                                 service and company names mentioned on the Site or the Application are for
                                 identification purposes only and may be trademarks of their
@@ -1527,7 +1527,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             <p>The section titles are for convenience only and have no legal or contractual effect.</p>
                             <p>If you have any questions about these Terms of Use, please contact Vanguard Pharmacy Group
                                 Ltd at Toll-free: 1-877-378-4100 or
-                                <a href="/contact-us/">contact us</a>. You can also contact Rexall
+                                <a href="/contact-us/">contact us</a>. You can also contactVanguard
                                 Pharmacy Group Ltd by mail at:
                             </p>
                             <p>
@@ -1725,7 +1725,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -1739,7 +1739,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

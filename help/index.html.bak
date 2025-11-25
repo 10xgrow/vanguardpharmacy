@@ -1321,7 +1321,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     request using the form on the
                                     <a href="/contact-us/">Contact Us</a> page.
                                 </p>
-                                <p><b>Who can I contact to give feedback about a particular Rexall® pharmacy?</b><br>
+                                <p><b>Who can I contact to give feedback about a particularVanguard® pharmacy?</b><br>
                                     The best person to give feedback to is the store’s Manager. You can contact the
                                     store manager by: </p>
                                 <ul class="green_dot">
@@ -1337,25 +1337,25 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     on-line feedback form to submit Web site suggestions or to report any technical
                                     issues with the site.
                                 </p>
-                                <p><b>Where can I find corporate information about the Rexall®? </b><br> Visit the <a
+                                <p><b>Where can I find corporate information about theVanguard®? </b><br> Visit the <a
                                         href="/company/">Company</a> section of this site to learn
-                                    more about Rexall®. </p>
+                                    more aboutVanguard®. </p>
                                 <p>
-                                    <b>Where can I find information about Rexall®'s private label products?</b><br>
+                                    <b>Where can I find information aboutVanguard®'s private label products?</b><br>
                                     Visit the <a href="/loveourbrands">Rexall® Products</a> section
-                                    of this site for more information about Rexall® private
-                                    label products or speak to a staff member at any Rexall® location.
+                                    of this site for more information aboutVanguard® private
+                                    label products or speak to a staff member at anyVanguard® location.
                                 </p>
                                 <p>
                                     <b>I am a member of the news media. How do I contact the media relations department
                                         at Vanguard Pharmacy Group Ltd?</b><br> Please contact us at <a
                                         href="mailto:media@vanguardpharmacy.ca">media@vanguardpharmacy.ca</a>.
                                 </p>
-                                <p><b>Where is my nearest Rexall® location?</b><br> Visit our
-                                    <a href="/contact-us/">Store Locator</a> to find a Rexall®
+                                <p><b>Where is my nearestVanguard® location?</b><br> Visit our
+                                    <a href="/contact-us/">Store Locator</a> to find aVanguard®
                                     location near you, complete with street address, phone number, and a convenient map.
                                 </p>
-                                <p><b>How do I learn about employment within Rexall® and apply for a job? </b><br> Visit
+                                <p><b>How do I learn about employment withinVanguard® and apply for a job? </b><br> Visit
                                     our
                                     <a href="https://careers.vanguardpharmacy.ca/" target="_blank">Careers</a> section to apply
                                     for open positions or to learn more about working at our stores and company.
@@ -1364,9 +1364,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     We are pleased to offer this easy to use service for you. </p>
                                 <p>
                                     <b>Is this web site for Guardian and I.D.A. stores too?</b><br> No, this web site is
-                                    dedicated to corporate Rexall® stores. Some Guardian and I.D.A. stores may have a
-                                    Rexall® sign on their store front because they sell
-                                    Rexall® products. They are not affiliated or owned and operated by Vanguard and
+                                    dedicated to corporateVanguard® stores. Some Guardian and I.D.A. stores may have a
+                                   Vanguard® sign on their store front because they sell
+                                   Vanguard® products. They are not affiliated or owned and operated by Vanguard and
                                     therefore the promotions on this site are not applicable to Guardian or I.D.A.
                                     stores.
                                 </p>
@@ -1562,7 +1562,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -1576,7 +1576,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

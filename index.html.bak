@@ -1772,7 +1772,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                                                             style="color: #343434; font-size: 18px;">Refill
                                                                                             &amp; Transfer Your
                                                                                             Prescriptions At
-                                                                                            Rexall</span></h2>
+                                                                                           Vanguard</span></h2>
                                                                                     <p><span style="color: #5199ab;"><a
                                                                                                 style="color: #5199ab;"
                                                                                                 tabindex="0"
@@ -2539,25 +2539,25 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <div class="mobile-banner">
                                             <a href="https://careers.vanguardpharmacy.ca/">
                                                 <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/careers/career-mobile-banner.png?t=1763691731"
-                                                    alt="Ready to elevate your career with Rexall? Bring your all, unleash your potential, and let's make an impact on our community together. Join our team today. Click to Apply Now.">
+                                                    alt="Ready to elevate your career withVanguard? Bring your all, unleash your potential, and let's make an impact on our community together. Join our team today. Click to Apply Now.">
                                             </a>
                                         </div>
                                         <div class="tablet-banner">
                                             <a href="https://careers.vanguardpharmacy.ca/">
                                                 <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/careers/career-tablet-banner.png?t=1763691731"
-                                                    alt="Ready to elevate your career with Rexall? Bring your all, unleash your potential, and let's make an impact on our community together. Join our team today. Click to Apply Now.">
+                                                    alt="Ready to elevate your career withVanguard? Bring your all, unleash your potential, and let's make an impact on our community together. Join our team today. Click to Apply Now.">
                                             </a>
                                         </div>
                                         <div class="desktop-banner">
                                             <a href="https://careers.vanguardpharmacy.ca/">
                                                 <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/careers/career-desktop-banner.png?t=1763691731"
-                                                    alt="Ready to elevate your career with Rexall? Bring your all, unleash your potential, and let's make an impact on our community together. Join our team today. Click to Apply Now.">
+                                                    alt="Ready to elevate your career withVanguard? Bring your all, unleash your potential, and let's make an impact on our community together. Join our team today. Click to Apply Now.">
                                             </a>
                                         </div>
                                         <div class="desktopxl-banner">
                                             <a href="https://careers.vanguardpharmacy.ca/">
                                                 <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/careers/career-desktopxl-banner.png?t=1763691731"
-                                                    alt="Ready to elevate your career with Rexall? Bring your all, unleash your potential, and let's make an impact on our community together. Join our team today. Click to Apply Now.">
+                                                    alt="Ready to elevate your career withVanguard? Bring your all, unleash your potential, and let's make an impact on our community together. Join our team today. Click to Apply Now.">
                                             </a>
                                         </div>
                                     </div>
@@ -2575,7 +2575,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 <div class="widget block block-static-block">
                                     <div class="section homepage-newsletter-subscription">
                                         <div class="subscription-heading-wrapper">
-                                            <h2>Get the latest updates and health info, promotions and more from Rexall.
+                                            <h2>Get the latest updates and health info, promotions and more fromVanguard.
                                             </h2>
                                         </div>
                                         <div>
@@ -2638,10 +2638,10 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <fieldset class="checkout-disclaimer">
                                                     <div class="checkbox-wrap checkbox">
                                                         <input id="OptIn" name="OptIn" type="checkbox" value="1"
-                                                            title="Yes, I would like to receive the Rexall&reg; eNewsletter for information on weekly deals, promotions, valuable health information and articles from Rexall."
+                                                            title="Yes, I would like to receive theVanguard&reg; eNewsletter for information on weekly deals, promotions, valuable health information and articles fromVanguard."
                                                             required data-errors-message-box="#opt-in-error">
                                                         <label for="OptIn" class="opt-in-label">
-                                                            <span>Yes, I would like to receive the Rexall&reg;
+                                                            <span>Yes, I would like to receive theVanguard&reg;
                                                                 eNewsletter for information on weekly deals, promotions,
                                                                 valuable health info and articles.</span>
                                                         </label>
@@ -2843,7 +2843,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the
                                 Vanguard Pharmacy Group Ltd.
                             </p>
@@ -2858,7 +2858,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

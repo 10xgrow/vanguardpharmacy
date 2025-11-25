@@ -10,13 +10,13 @@
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Vitamins, Minerals, and Natural Products| Rexall" />
+    <meta name="title" content="Vitamins, Minerals, and Natural Products|Vanguard" />
     <meta name="description"
         content="No matter your age, your body needs vitamins and minerals to ensure all your vital functions. You will most likely meet your daily requirements by eating a healthy diet, but sometimes, a little boost doesn’t hurt - and your pharmacist can guide you in choosing the right product for you." />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Vitamins, Minerals, and Natural Products| Rexall</title>
+    <title>Vitamins, Minerals, and Natural Products|Vanguard</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -3874,7 +3874,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src=""
                             data-geotarget="" data-geomethod="0" data-element="inner" data-pb-style="R4JGFUR">
                             <h2 data-content-type="heading" data-appearance="default" id="" data-element="main"
-                                data-pb-style="A8M5RJD">Shop Vitamins and Supplements at Rexall</h2>
+                                data-pb-style="A8M5RJD">Shop Vitamins and Supplements atVanguard</h2>
                             <div class="pagebuilder-column-group" data-background-images="{}"
                                 data-content-type="column-group" data-appearance="default" data-grid-size="12"
                                 data-element="main" data-pb-style="BY68W5K">
@@ -4881,7 +4881,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -4895,7 +4895,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

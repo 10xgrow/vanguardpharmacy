@@ -293,7 +293,7 @@ function show_deactivate_lightbox(message, title, acceptCallback, rejectCallback
 function show_airmiles_lightbox() {
     var content = '<div id="mr-lightbox" style="width: 460px; background-color: #e7f4f3;">' +
         '<h1>Aeroplan Collectors</h1>' +
-        '<p>As of October 31st, Aeroplan members will <b>no longer</b> be able to accumulate miles at Rexall.</p>' +
+        '<p>As of October 31st, Aeroplan members will <b>no longer</b> be able to accumulate miles atVanguard.</p>' +
         '<table cellspacing="0" cellpadding="0" style="border: none;"><tr><td><img src="' + getBaseURL() + 'public/img/airmiles_transition.png" alt="New Airmiles Card" style="margin-right: 12px;"></td>' +
         '<td style="vertical-align: top;"><b style="color: #0076bd;">START COLLECTING AIR MILES<sup>&reg;</sup><br />reward miles as of October 31<sup>st</sup></b><div style="height: 6px;"></div><a href="' + getBaseURL() + 'special-offers/aeroplan-card" style="color: #0076bd; font-size: 14px; text-decoration: none;" target="_blank">Learn More <span style="font-size: 9px">&#9654;</span></a></td></tr></table>' +
         '<p><b>Please update your Loyalty Rewards Number with your AIR MILES Collector Number in your MyVanguard Account.</p></b>' +
@@ -332,7 +332,7 @@ function show_airmiles_lightbox() {
 function show_subscription_lightbox() {
     var content = '<div id="mr-lightbox" style="padding: 15px; width: 540px; background: #e7f4f3 url(' + getBaseURL() + 'public/img/newsletter-subscribe-lightbox-airmiles.png) 342px 15px no-repeat;">' +
         '<h1 style="font-size: 28px; color: #00ada7; margin: 0; line-height: 30px;">Subscribe to the<br />Vanguard Newsletter today!</h1>' +
-        '<p style="font-size: 16px; line-height: 21px; color: #00ada7; margin: 10px 0 30px;">Don\'t miss the latest news, articles, promotions<br/>and savings from Rexall™</p>' +
+        '<p style="font-size: 16px; line-height: 21px; color: #00ada7; margin: 10px 0 30px;">Don\'t miss the latest news, articles, promotions<br/>and savings fromVanguard™</p>' +
         '<a href="#" id="subscriptionContinueButton" class="teal-button">Subscribe Now</a>' +
         '<p style="font-size: 13px; line-height: 18px; color: #00ada7; margin: 55px 0 0;">You may unsubscribe at any time.<br />' +
         'View our <a href="' + getBaseURL() + 'privacy-policy" style="font-weight: 700; text-decoration: none; color: #00ada7;">Privacy Policy</a> and <a href="' + getBaseURL() + 'contact-us" style="font-weight: 700; text-decoration: none; color: #00ada7;">Contact Details</a></p>' +

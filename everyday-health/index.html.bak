@@ -1799,12 +1799,12 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         wellness, Vanguard has all the products you need to meet your health goals. If
                                         you&rsquo;re unsure what you need, you can <strong><span
                                                 style="color: #147b74;"><a style="color: #147b74;" tabindex="0"
-                                                    href="/contact-us">visit your nearest Rexall
+                                                    href="/contact-us">visit your nearestVanguard
                                                     Pharmacy</a></span></strong>
                                         to speak with a Vanguard Pharmacist today. We have a wealth of information on each
                                         of our solutions to help you discover the type of medication you need to find
                                         relief for your symptoms and condition. Feel better with
-                                        Rexall.</span>
+                                       Vanguard.</span>
                                 </p>
                             </div>
                             <div data-content-type="buttons" data-appearance="inline" data-same-width="false"
@@ -2056,10 +2056,10 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             Health&nbsp;Care</span></strong></p>
                                 <p id="ON0U44Y" style="text-align: left;"><span id="X8V10XD"
                                         style="font-size: 16px;">Having the right healthcare products includes having
-                                        the right tools and support at home. Rexall's Home Health Care offers solutions
+                                        the right tools and support at home.Vanguard's Home Health Care offers solutions
                                         to improve your home safety and comfort, including but not limited to, bath
                                         safety, bracing and supports, lift chairs, mobility aids, rehab supplies, and
-                                        more. Learn more about Rexall&rsquo;s Home Health Care Solutions.</span></p>
+                                        more. Learn more aboutVanguard&rsquo;s Home Health Care Solutions.</span></p>
                             </div>
                             <div data-content-type="text" data-appearance="default" data-element="main"
                                 data-pb-style="QPWF45Q">
@@ -2375,7 +2375,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member of
                                 the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
@@ -2389,7 +2389,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved.Vanguard&reg; is a member ofVanguard
                             Pharmacy Group Ltd.
                         </p>
                     </div>

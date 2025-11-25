@@ -1365,7 +1365,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
 
                     </div>
                     <a class="pharmacy-conversation-banner-link"
-                        href="/pharmacy/myrexallpharmacist/">
+                        href="/">
                         <div class="pharmacy-conversation-banner">
                             <div class="pharmacy-conversation-banner-icon-wrapper">
                                 <img class="pharmacy-conversation-banner-icon"

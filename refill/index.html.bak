@@ -119,15 +119,15 @@ Place this snippet between the <head> and </head> tags on every page of your sit
         }
 
         function getRefillPopupHeading() {
-            return "Manage your medications with Be Well.";
+            return "Manage your medications with Vanguard.";
         }
 
         function getRefillPopupContent() {
-            return "With Be Well, you can easily refill prescriptions, get notified when your prescriptions are ready for pick up, access your personal health & medication history, and more!";
+            return "With Vanguard, you can easily refill prescriptions, get notified when your prescriptions are ready for pick up, access your personal health & medication history, and more!";
         }
 
         function getRefillPopupButton1Text() {
-            return "Join Be Well Today";
+            return "Join Vanguard Today";
         }
 
         function getRefillPopupButton1Link() {
@@ -135,7 +135,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
         }
 
         function getRefillPopupButton2Text() {
-            return "Link Be Well to Your Pharmacy";
+            return "Link Vanguard to Your Pharmacy";
         }
 
         function getRefillPopupButton2Link() {
@@ -1029,7 +1029,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div class="logo-wrapper">
                                                     <a href="https://www.letsbewell.ca/" target="_blank">
                                                         <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/icons/logo-bewell-heart.svg?t=1763691732"
-                                                            alt="Be Well" class="be-well-logo">
+                                                            alt="Vanguard" class="be-well-logo">
                                                     </a>
                                                 </div>
 
@@ -1348,10 +1348,10 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             <div class="bottom-section">
                                 <p>Easily refill your prescriptions online.</p>
                                 <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/icons/logo-bewell-heart.svg?t=1763691732"
-                                    alt="Be Well" class="be-well-logo">
+                                    alt="Vanguard" class="be-well-logo">
                                 <p>You can also refill and manage your prescriptions on <a
                                         href="https://app.letsbewell.ca/sign-up?utm_source=rexall&amp;utm_medium=web&amp;utm_campaign=refill&amp;utm_content=sign_up"
-                                        target="_blank">Be Well<sup>&reg;</sup><img
+                                        target="_blank">Vanguard<sup>&reg;</sup><img
                                             src="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;icons&#x2F;new-window-green.svg&#x3F;t&#x3D;1763691732"
                                             alt="" class="external-window-icon"></a></p>
                             </div>
@@ -1371,10 +1371,10 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 <p class="hero-subtitle">Easily refill your prescriptions online.</p>
                                 <div class="bewell-hero-section">
                                     <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/icons/logo-bewell-heart.svg?t=1763691732"
-                                        alt="Be Well" class="be-well-logo">
+                                        alt="Vanguard" class="be-well-logo">
                                     <p>You can also refill and manage your prescriptions on <a
                                             href="https://app.letsbewell.ca/sign-up?utm_source=rexall&amp;utm_medium=web&amp;utm_campaign=refill&amp;utm_content=sign_up"
-                                            target="_blank">Be Well<sup>&reg;</sup><img
+                                            target="_blank">Vanguard<sup>&reg;</sup><img
                                                 src="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;icons&#x2F;new-window-green.svg&#x3F;t&#x3D;1763691732"
                                                 alt="" class="external-window-icon"></a></p>
                                 </div>
@@ -1886,19 +1886,19 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                         <ul class="footer-accessible-accordion"
                             data-mage-init='{"accessible-responsive-accordion": {"accordionOptions": {"multiExpand": true}}}'>
                             <li class="footer-accessible-accordion-item js-accessible-accordion-item first-item">
-                                <h2 class="footer-nav-title"><span class="footer-nav-title-link">Be Well&reg;</span>
+                                <h2 class="footer-nav-title"><span class="footer-nav-title-link">Vanguard&reg;</span>
                                 </h2>
                                 <button class="footer-accessible-accordion-title js-accessible-accordion-title"
-                                    type="button">Be Well&reg;</button>
+                                    type="button">Vanguard&reg;</button>
                                 <div
                                     class="footer-accessible-accordion-content footer-accessible-accordion-content-double-list js-accessible-accordion-content">
                                     <ul class="footer-accessible-accordion-content-list-one">
                                         <li><a href="https://www.letsbewell.ca/" target="_blank" class="footer-btn">Log
-                                                In / Sign Up to Be Well&reg;</a></li>
+                                                In / Sign Up to Vanguard&reg;</a></li>
                                         <li><a href="https://www.letsbewell.ca/health/caregivers" class="footer-btn"
                                                 target="_blank">Caregivers</a></li>
                                         <li><a href="https://www.letsbewell.ca/rbc" class="footer-btn"
-                                                target="_blank">Be Well&reg; + RBC Linked Program</a></li>
+                                                target="_blank">Vanguard&reg; + RBC Linked Program</a></li>
                                     </ul>
                                 </div>
                                 <div class="footer-nav-title-container">

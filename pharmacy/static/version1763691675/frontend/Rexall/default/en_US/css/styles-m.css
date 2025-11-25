@@ -2989,7 +2989,7 @@ sup {
 .content-header-title {
     border-radius: 12px;
     padding: 30px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     min-height: 160px
 }
 
@@ -7454,7 +7454,7 @@ input[type="submit"] {
 
 .select-box-container select:hover,
 .select-box-container select:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -7560,7 +7560,7 @@ input[type="submit"] {
     position: absolute;
     z-index: 10;
     padding: 10px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     right: 0;
     width: 200px;
     border: 1px solid #cbcbcb;
@@ -8177,7 +8177,7 @@ button.dark:active,
     position: relative;
     width: 100%;
     font-weight: 700;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding: 9px 0;
     margin: 40px auto 0 auto;
     box-sizing: border-box
@@ -8440,7 +8440,7 @@ button.dark:active,
 
 .lightbox-refill-popup .popup-buttons a:hover,
 .lightbox-refill-popup .popup-buttons a:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -8460,7 +8460,7 @@ button.dark:active,
 
 .lightbox-refill-popup .popup-buttons a:nth-of-type(2):hover {
     color: #ffffff;
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 .lightbox-refill-popup .bewell-line {
@@ -8856,7 +8856,7 @@ body.modal-is-active {
     position: relative;
     margin: 0;
     border-radius: 12px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding: 23px 20px 20px
 }
 
@@ -9050,7 +9050,7 @@ body.modal-is-active {
     display: block;
     float: right;
     padding: 16px 0 10px;
-    background: #e5f5f4;
+    background: #e6f2ff;
     background-size: 48px auto;
     text-align: center;
     width: 49.5%
@@ -9093,7 +9093,7 @@ body.modal-is-active {
     display: block;
     float: right;
     padding: 16px 0 10px;
-    background: #e5f5f4;
+    background: #e6f2ff;
     background-size: 48px auto;
     width: 49.5%;
     padding: 10px 0 5px;
@@ -9146,7 +9146,7 @@ body.modal-is-active {
     width: 100%;
     padding: 20px;
     margin: 0 0 15px 0;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     box-sizing: border-box
 }
 
@@ -9215,7 +9215,7 @@ body.modal-is-active {
     border-radius: 8px;
     padding: 10px;
     margin: 24px 0 0 0;
-    background: #e5f5f4
+    background: #e6f2ff
 }
 
 .widget.quick-find h2 {
@@ -9331,7 +9331,7 @@ body.modal-is-active {
     float: none;
     padding: 19px 15px 23px 15px;
     margin: 0 0 15px 0;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .widget.quick-find-mobile:before,
@@ -9405,7 +9405,7 @@ body.modal-is-active {
 }
 
 .home-widgets .pharmacy-sidebar-block {
-    background: #e5f5f4;
+    background: #e6f2ff;
     flex: auto
 }
 
@@ -9431,7 +9431,7 @@ body.modal-is-active {
     -ms-border-radius: 12px;
     border-radius: 12px;
     padding: 25px 18px 70px 18px;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .subscribe-find-store:before,
@@ -9506,7 +9506,7 @@ body.modal-is-active {
 
 .subscribe-find-store .input-container input:hover,
 .subscribe-find-store .input-container input:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -9603,7 +9603,7 @@ body.modal-is-active {
 
 .subscribe-find-store .store-locator.store-locator:hover,
 .subscribe-find-store .store-locator.store-locator:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -9976,7 +9976,7 @@ body.modal-is-active {
 
 .service-block .service-button-external:hover,
 .service-block .service-button-external:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -10033,7 +10033,7 @@ body.modal-is-active {
 
 .service-block.home-services-block .service-button:hover,
 .service-block.home-services-block .service-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -10072,7 +10072,7 @@ body.modal-is-active {
 
 .service-block.home-services-block .service-button.service-button-external-link:hover,
 .service-block.home-services-block .service-button.service-button-external-link:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -19410,7 +19410,7 @@ a.glossary span.inner {
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     z-index: 100
 }
 
@@ -19483,7 +19483,7 @@ a.glossary span.inner {
 
 .page-header .mobile-search-container-inner .search input:hover,
 .page-header .mobile-search-container-inner .search input:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -19807,7 +19807,7 @@ a.glossary span.inner {
 .page-header .mobile-nav-container .menu .menu-inner .header-nav>li.has-menu .nav-menu .header-mobile-accordion-title:hover,
 .page-header .mobile-nav-container .menu .menu-inner .button-container>li.has-menu .nav-menu .header-mobile-accordion-title:focus,
 .page-header .mobile-nav-container .menu .menu-inner .header-nav>li.has-menu .nav-menu .header-mobile-accordion-title:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: underline;
     color: #3c4de2
 }
@@ -19862,7 +19862,7 @@ a.glossary span.inner {
 .page-header .mobile-nav-container .menu .menu-inner .header-nav>li.has-menu .nav-menu .nav-menu-section-title a:hover,
 .page-header .mobile-nav-container .menu .menu-inner .button-container>li.has-menu .nav-menu .nav-menu-section-title a:focus,
 .page-header .mobile-nav-container .menu .menu-inner .header-nav>li.has-menu .nav-menu .nav-menu-section-title a:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: underline;
     color: #3c4de2
 }
@@ -20040,7 +20040,7 @@ a.glossary span.inner {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     color: #5199ab;
     font-size: 14px;
     text-align: left;
@@ -20150,7 +20150,7 @@ a.glossary span.inner {
 
 .page-header .mobile-nav-container .menu .button-container .btn:hover,
 .page-header .mobile-nav-container .menu .button-container .btn:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -20163,7 +20163,7 @@ a.glossary span.inner {
 
 .page-header .mobile-nav-container .menu .button-container .btn:hover,
 .page-header .mobile-nav-container .menu .button-container .btn:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: underline;
     color: #3c4de2
 }
@@ -20197,7 +20197,7 @@ a.glossary span.inner {
 
 .page-header .mobile-nav-container .menu .button-container .btn.shop-now:hover,
 .page-header .mobile-nav-container .menu .button-container .btn.shop-now:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -20291,7 +20291,7 @@ a.glossary span.inner {
     font-size: 11px;
     text-align: center;
     line-height: 26px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     margin: 0
 }
 
@@ -20321,7 +20321,7 @@ a.glossary span.inner {
     border-radius: 12px;
     padding: 90px 0;
     text-align: center;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .section.no-route h1 {
@@ -20572,7 +20572,7 @@ table.camel-color tr td:first-child {
 
     .page-header .header-desktop-container .mobile-nav-container-parent .button-container .btn:hover,
     .page-header .header-desktop-container .mobile-nav-container-parent .button-container .btn:focus {
-        background-color: #e5f5f4;
+        background-color: #e6f2ff;
         text-decoration: none;
         color: #5199ab
     }
@@ -20787,7 +20787,7 @@ table.camel-color tr td:first-child {
 
 .article-wrap .content-header-title .search-textbox-container-mod input[type="text"]:hover,
 .article-wrap .content-header-title .search-textbox-container-mod input[type="text"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -20947,7 +20947,7 @@ table.camel-color tr td:first-child {
 .article-wrap .alphabet-sort {
     border-radius: 12px;
     padding: 15px 20px;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .article-wrap .alphabet-sort .dark-thick-header {
@@ -20988,7 +20988,7 @@ table.camel-color tr td:first-child {
     border-radius: 12px;
     padding: 15px 20px;
     margin: 15px 0 8px 0;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .article-wrap .section-category-landing .category-header .dark-thick-header {
@@ -21071,7 +21071,7 @@ table.camel-color tr td:first-child {
     margin: 20px auto 0;
     width: 190px;
     padding: 15px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
@@ -21185,7 +21185,7 @@ table.camel-color tr td:first-child {
     padding: 15px;
     margin: 0 0 15px 0;
     box-sizing: border-box;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .article-section #featured-article a {
@@ -21223,7 +21223,7 @@ table.camel-color tr td:first-child {
     padding: 15px;
     margin: 0 0 15px 0;
     box-sizing: border-box;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .article-section .article-list .article a {
@@ -21501,7 +21501,7 @@ table.camel-color tr td:first-child {
 #article-footer .social-box {
     display: flex;
     float: none;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding: 10px;
     border-radius: 8px
 }
@@ -21740,7 +21740,7 @@ table.camel-color tr td:first-child {
 }
 
 .home-main-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -21770,7 +21770,7 @@ table.camel-color tr td:first-child {
 }
 
 .home-main-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -21911,7 +21911,7 @@ table.camel-color tr td:first-child {
         font-size: 16px;
         padding: 10px 20px;
         color: #5199ab;
-        background-color: #e5f5f4;
+        background-color: #e6f2ff;
         width: 100%;
         height: 100%;
         min-height: 70px
@@ -22010,11 +22010,11 @@ table.camel-color tr td:first-child {
 }
 
 .home-main-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .home-main-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -22231,7 +22231,7 @@ table.camel-color tr td:first-child {
 .covid-callout {
     border-radius: 12px;
     color: #5199ab;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding: 15px;
     text-align: left;
     display: flex;
@@ -22296,7 +22296,7 @@ table.camel-color tr td:first-child {
 
 .covid-callout .callout-links .covid-callout-button:hover,
 .covid-callout .callout-links .covid-callout-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -22344,7 +22344,7 @@ table.camel-color tr td:first-child {
     margin-bottom: 16px;
     border: none;
     height: 1px;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .top-banner-cms .widget.refill-options h2,
@@ -22571,7 +22571,7 @@ table.camel-color tr td:first-child {
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     border-radius: 12px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding-bottom: 10px
 }
 
@@ -24534,7 +24534,7 @@ hr {
 }
 
 .cms-everyday-health .vendor-landing-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -24564,7 +24564,7 @@ hr {
 }
 
 .cms-everyday-health .vendor-landing-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -24710,11 +24710,11 @@ hr {
 }
 
 .cms-everyday-health .vendor-landing-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-everyday-health .vendor-landing-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -25446,7 +25446,7 @@ hr {
 
 .carp-button:hover,
 .carp-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -26741,7 +26741,7 @@ hr {
 }
 
 .loyalty-form .sponsor-sec {
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .loyalty-form .sponsor-sec .loyalty-con p {
@@ -26767,13 +26767,13 @@ hr {
 }
 
 .loyalty-form .sponsor-modal {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     box-shadow: none;
     -webkit-box-shadow: none
 }
 
 .loyalty-form .sponsor-modal-con {
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .loyalty-clear .button-dark {
@@ -27064,7 +27064,7 @@ hr {
 
 .covid19-landing-page .covid-faq-section .covid19-faq-button a:hover,
 .covid19-landing-page .covid-faq-section .covid19-faq-button a:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -27520,7 +27520,7 @@ hr {
 
 .covid-banner-grid .covid19-card-button:hover,
 .covid-banner-grid .covid19-card-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -27607,7 +27607,7 @@ hr {
 
 .covid-banner-grid .covid19-card-button-external:hover,
 .covid-banner-grid .covid19-card-button-external:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -27641,7 +27641,7 @@ hr {
 .covid19-subscribe {
     padding: 30px;
     border-radius: 20px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-align: center
 }
 
@@ -27743,7 +27743,7 @@ hr {
 
 .covid19-subscribe-button a:hover,
 .covid19-subscribe-button a:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -28030,7 +28030,7 @@ hr {
 
 .covid19-secondary-nav-wrap .covid-nav-btn:hover,
 .covid19-secondary-nav-wrap .covid-nav-btn:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -28195,7 +28195,7 @@ hr {
 }
 
 .covid-vaccine-page .appointment-notice {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 20px;
     clear: both;
     margin-bottom: 25px
@@ -28337,7 +28337,7 @@ hr {
     padding: 30px;
     border-radius: 20px;
     margin-bottom: 70px;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .covid-vaccine-page .covid19-info-link .covid-info-link-title {
@@ -28390,7 +28390,7 @@ hr {
 
 .covid-vaccine-page .covid19-info-link .covid19-info-link-button a:hover,
 .covid-vaccine-page .covid19-info-link .covid19-info-link-button a:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -28577,7 +28577,7 @@ hr {
 
 .waitlist-action .appointment-light:hover,
 .waitlist-action .appointment-light:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -28641,7 +28641,7 @@ hr {
 
 .waitlist-action .btn-flu-find-store:hover,
 .waitlist-action .btn-flu-find-store:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -28757,7 +28757,7 @@ hr {
     flex-direction: column;
     padding: 30px;
     border-radius: 12px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     margin: 40px 0 35px 0
 }
 
@@ -28818,7 +28818,7 @@ hr {
 
 .covid-19-testing-page .covid-19-testing-coming-soon .coming-soon-button:hover,
 .covid-19-testing-page .covid-19-testing-coming-soon .coming-soon-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -29100,7 +29100,7 @@ hr {
 
 .covid-19-testing-page .covid-19-column-container .column-item-button:hover,
 .covid-19-testing-page .covid-19-column-container .column-item-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -29144,7 +29144,7 @@ hr {
 
 .covid-19-testing-page .covid-19-column-container .column-item-button-external:hover,
 .covid-19-testing-page .covid-19-column-container .column-item-button-external:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -29231,7 +29231,7 @@ hr {
 
 .covid-19-testing-page .action-wrapper .column-item-button-external:hover,
 .covid-19-testing-page .action-wrapper .column-item-button-external:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -29267,7 +29267,7 @@ hr {
 }
 
 .covid-19-testing-page .take-home-test-instructions {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 10px;
     padding: 40px;
     font-size: 16px;
@@ -29331,7 +29331,7 @@ hr {
 
 .covid-19-testing-page .register-now-action-external:hover,
 .covid-19-testing-page .register-now-action-external:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -29406,7 +29406,7 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines a {
-    color: #005A5A
+    color: #003d7a
 }
 
 .cms-page-view.cms-covid-19-vaccines .cta-buttons {
@@ -29447,7 +29447,7 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .cta-buttons .btn-primary {
-    background: #005A5A;
+    background: #003d7a;
     color: white
 }
 
@@ -29458,8 +29458,8 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .cta-buttons .btn-secondary {
-    background: #E5F5F4;
-    color: #005A5A;
+    background: #e6f2ff;
+    color: #003d7a;
     border: 1px solid #9ad0e9
 }
 
@@ -29469,7 +29469,7 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .arrow-icon {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 1.6rem;
     font-weight: 600;
     text-decoration: none;
@@ -29510,7 +29510,7 @@ hr {
     display: inline-block;
     vertical-align: text-top;
     transform: rotate(180deg);
-    border: 2px solid #005A5A;
+    border: 2px solid #003d7a;
     border-radius: 50%
 }
 
@@ -29606,7 +29606,7 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .hero .hero-banner .title-container .title h1 {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 3.2rem;
     font-weight: 400;
     text-align: center;
@@ -29696,7 +29696,7 @@ hr {
 .cms-page-view.cms-covid-19-vaccines .flu-knowledge-section .content-cards {
     display: flex;
     flex-direction: column;
-    background-color: #E5F5F4;
+    background-color: #e6f2ff;
     padding: 40px 31px
 }
 
@@ -29764,7 +29764,7 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .flu-knowledge-section .card-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.8rem;
     font-weight: 400;
     line-height: 1.3;
@@ -29848,7 +29848,7 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .why-choose-section .section-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.8rem;
     font-weight: 400;
     line-height: 1.3;
@@ -29907,7 +29907,7 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .why-choose-section .feature-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.4rem;
     font-weight: 400;
     line-height: 1.3;
@@ -30007,7 +30007,7 @@ hr {
     font-weight: 400;
     margin-bottom: 32px;
     line-height: 1.3;
-    color: #005A5A
+    color: #003d7a
 }
 
 @media screen and (min-width:768px) {
@@ -30060,12 +30060,12 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .vaccines-section .vaccine-name {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 20px;
     padding-bottom: 12px;
-    border-bottom: 2px solid #005A5A;
+    border-bottom: 2px solid #003d7a;
     text-align: left
 }
 
@@ -30215,7 +30215,7 @@ hr {
 
 .cms-page-view.cms-covid-19-vaccines .tab-section .tabs-block-header .item.title h3 {
     font-size: 20px;
-    color: #005A5A;
+    color: #003d7a;
     margin: 8px 0;
     font-weight: 500;
     text-align: center
@@ -30277,7 +30277,7 @@ hr {
 }
 
 .cms-page-view.cms-covid-19-vaccines .tab-section .product.data.items .tab-content-text a {
-    color: #005A5A;
+    color: #003d7a;
     text-decoration: underline;
     word-break: break-word
 }
@@ -30295,7 +30295,7 @@ hr {
 .cms-page-view.cms-covid-19-vaccines .tab-section .product.data.items .item.title:not(.active)>.btn-primary {
     background-color: #fff;
     border: 1px solid #9ad0e9;
-    color: #005A5A
+    color: #003d7a
 }
 
 .cms-page-view.cms-covid-19-vaccines .faq {
@@ -30706,7 +30706,7 @@ hr {
 
 #html-body.cms-bewell.cms-page-view .hero-list-item-link:hover,
 #html-body.cms-bewell.cms-page-view .hero-list-item-link:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -30873,7 +30873,7 @@ hr {
 }
 
 #html-body.cms-bewell.cms-page-view .bewell-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -30903,7 +30903,7 @@ hr {
 }
 
 #html-body.cms-bewell.cms-page-view .bewell-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -31049,11 +31049,11 @@ hr {
 }
 
 #html-body.cms-bewell.cms-page-view .bewell-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 #html-body.cms-bewell.cms-page-view .bewell-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -31388,7 +31388,7 @@ hr {
 
 .new-window-white:hover,
 .new-window-white:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -31446,7 +31446,7 @@ hr {
 
 .new-window-green:hover,
 .new-window-green:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -32634,7 +32634,7 @@ hr {
 .page-main .section.online-services-page .vendor-article .three-column-banners.vendor-article-content .cart.table-wrapper .actions-toolbar>.action.external:focus,
 .page-main .section.online-services-page .vendor-article .three-column-banners.vendor-article-content .action-gift.external:hover,
 .page-main .section.online-services-page .vendor-article .three-column-banners.vendor-article-content .action-gift.external:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -33097,7 +33097,7 @@ hr {
 
 .page-main .section.online-services-page .health-services-banner-container .button.external:hover,
 .page-main .section.online-services-page .health-services-banner-container .button.external:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -34184,7 +34184,7 @@ hr {
 .smoking-cessation-content .new-window-white:hover,
 .cms-quit-smoking .new-window-white:focus,
 .smoking-cessation-content .new-window-white:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -34677,7 +34677,7 @@ hr {
 
 .vendor-article-list .vendor-article .vendor-article-content .card-button:hover,
 .vendor-article-list .vendor-article .vendor-article-content .card-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -34866,7 +34866,7 @@ hr {
 .vitamin-page-content .vendor-article-list .vendor-article .vendor-article-content .new-window-white:hover,
 .smoking-cessation-content .vendor-article-list .vendor-article .vendor-article-content .new-window-white:focus,
 .vitamin-page-content .vendor-article-list .vendor-article .vendor-article-content .new-window-white:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -35697,7 +35697,7 @@ hr {
     margin-top: 10px;
     margin-bottom: 0;
     font-weight: 400;
-    color: #005a5a
+    color: #003d7a
 }
 
 .cms-company .idn-badges-section .badge-wrapper p {
@@ -35725,7 +35725,7 @@ hr {
 
 .cms-company .company-exec-wrapper .company-exec-box {
     flex: 0 0 165px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     width: 165px;
     border-radius: 12px;
     overflow: hidden;
@@ -35766,7 +35766,7 @@ hr {
 .email-subscribe-success-content .foundation-contact-form {
     border-radius: 12px;
     padding: 30px;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .email-subscribe-success-content .form-success {
@@ -36322,7 +36322,7 @@ hr {
 
 .ubereatsrx-page .uber-eats-banner-grid .uber-eats-card-button:hover,
 .ubereatsrx-page .uber-eats-banner-grid .uber-eats-card-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -36362,7 +36362,7 @@ hr {
 
 .ubereatsrx-page .uber-eats-banner-grid .uber-eats-card-button.download-button:hover,
 .ubereatsrx-page .uber-eats-banner-grid .uber-eats-card-button.download-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -36450,7 +36450,7 @@ hr {
 
 .ubereatsrx-page .faq-button:hover,
 .ubereatsrx-page .faq-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -36538,7 +36538,7 @@ hr {
 }
 
 .rexall-health-solutions-page .rs-header {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 12px;
     margin-bottom: 24px
 }
@@ -36979,7 +36979,7 @@ hr {
 }
 
 .take-home-test-page .take-home-test-instructions {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 10px;
     padding: 40px;
     font-size: 16px;
@@ -37307,17 +37307,17 @@ hr {
 .cms-home .home-main-slider .slick-pause-play-button:focus,
 .cms-home .home-main-slider .slick-pause-play-button:hover {
     background-color: transparent;
-    color: #005a5a
+    color: #003d7a
 }
 
 .cms-home .home-main-slider .slick-pause-play-button:focus .play-icon:before,
 .cms-home .home-main-slider .slick-pause-play-button:hover .play-icon:before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23005a5a' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23003d7a' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-home .home-main-slider .slick-pause-play-button.state-paused:focus .play-icon:before,
 .cms-home .home-main-slider .slick-pause-play-button.state-paused:hover .play-icon:before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23005a5a' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23003d7a' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-home .home-main-slider .slick-pause-play-button .play-icon:before {
@@ -37399,7 +37399,7 @@ hr {
 .cms-home .home-main-slider .slick-dots li.slick-active button,
 .cms-home .home-main-slider .slick-dots li.slick-active .cart.table-wrapper .actions-toolbar>.action,
 .cms-home .home-main-slider .slick-dots li.slick-active .action-gift {
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 @media screen and (min-width: 768px) {
@@ -37643,7 +37643,7 @@ hr {
 }
 
 .cms-home .hp-instacart-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -37673,7 +37673,7 @@ hr {
 }
 
 .cms-home .hp-instacart-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -37819,11 +37819,11 @@ hr {
 }
 
 .cms-home .hp-instacart-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-home .hp-instacart-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -38727,7 +38727,7 @@ hr {
 .cms-home .bewell-app-buttons a.btn {
     text-align: left;
     padding: 11px 21px 13px;
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 .cms-home .block-static-block [data-content-type="row"] {
@@ -38917,7 +38917,7 @@ hr {
 .cms-home .homepage-subscription-form input[type="number"]:focus,
 .cms-home .homepage-subscription-form input[type="datetime"]:focus,
 .cms-home .homepage-subscription-form input[type="email"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -39195,7 +39195,7 @@ hr {
 
 .cms-home .homepage-subscription-form textarea:hover,
 .cms-home .homepage-subscription-form textarea:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -39337,7 +39337,7 @@ hr {
 
 .cms-home .homepage-subscription-form select:hover,
 .cms-home .homepage-subscription-form select:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -39558,7 +39558,7 @@ hr {
 .cms-home .homepage-subscription-form .cart.table-wrapper .actions-toolbar>.action:focus,
 .cms-home .homepage-subscription-form .action-gift:hover,
 .cms-home .homepage-subscription-form .action-gift:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -39860,7 +39860,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-align: center;
     margin-bottom: 30px;
     height: auto;
@@ -39983,7 +39983,7 @@ hr {
 
 .caregivers-page .caregivers-hero-additional .content .hero-phone-button:hover,
 .caregivers-page .caregivers-hero-additional .content .hero-phone-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -40280,7 +40280,7 @@ hr {
 }
 
 .caregivers-page .mobileapp .mobileapp-heading {
-    color: #005a5a;
+    color: #003d7a;
     font-size: 23px;
     margin-bottom: 0
 }
@@ -40444,7 +40444,7 @@ hr {
 }
 
 .caregivers-page .caregiver-faq .faq-title {
-    color: #005a5a;
+    color: #003d7a;
     font-weight: 400
 }
 
@@ -40689,7 +40689,7 @@ hr {
 }
 
 .cms-page-view .pagebuilder-column .faq-title {
-    color: #005a5a;
+    color: #003d7a;
     font-weight: 400
 }
 
@@ -41183,7 +41183,7 @@ hr {
 .remedycabinet-cold-products .button:focus,
 .remedycabinet-allergy-quiz .button:focus,
 .remedycabinet-allergy-products .button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -41226,7 +41226,7 @@ hr {
 .remedycabinet-cold-products .button.back-button::before,
 .remedycabinet-allergy-quiz .button.back-button::before,
 .remedycabinet-allergy-products .button.back-button::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23005a5a' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23003d7a' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -41283,7 +41283,7 @@ hr {
     border-radius: 0 100px 100px 0;
     margin-right: 20px;
     color: #ffffff;
-    background-color: #005a5a;
+    background-color: #003d7a;
     font-weight: 700;
     font-size: 22px;
     transform: translateX(-24px)
@@ -41482,7 +41482,7 @@ hr {
 
 .quiz-results .product-list .slick-arrow:focus,
 .quiz-results .product-list .slick-arrow:hover {
-    background-color: #005a5a;
+    background-color: #003d7a;
     border: none
 }
 
@@ -41535,12 +41535,12 @@ hr {
 
 .quiz-results .product-list .product:hover .shop-now,
 .quiz-results .product-list .product:active .shop-now {
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 .quiz-results .product-list .product:hover .learn-more,
 .quiz-results .product-list .product:active .learn-more {
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .quiz-results .product-list .product .product-title-container {
@@ -41553,7 +41553,7 @@ hr {
     font-weight: 700;
     top: 14px;
     left: -2px;
-    background-color: #005a5a;
+    background-color: #003d7a;
     color: #ffffff;
     border-radius: 0 100px 100px 0;
     padding: 5px 8px 5px 6px
@@ -41651,8 +41651,8 @@ hr {
 }
 
 .quiz-results .product-list .btn.learn-more {
-    background-color: #e5f5f4;
-    color: #005a5a
+    background-color: #e6f2ff;
+    color: #003d7a
 }
 
 .quiz-results .product-list .btn.learn-more::after {
@@ -41660,8 +41660,8 @@ hr {
 }
 
 .quiz-results .product-list .btn.learn-more:hover {
-    background-color: #e5f5f4;
-    color: #005a5a;
+    background-color: #e6f2ff;
+    color: #003d7a;
     cursor: pointer
 }
 
@@ -41862,7 +41862,7 @@ hr {
 .remedycabinet-cold-products .vendor-article-list .vendor-article .vendor-article-content span:focus,
 .remedycabinet-allergy-quiz .vendor-article-list .vendor-article .vendor-article-content span:focus,
 .remedycabinet-allergy-products .vendor-article-list .vendor-article .vendor-article-content span:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -42466,7 +42466,7 @@ hr {
 
 .flu-landing .flu-adspots-button:hover,
 .flu-landing .flu-adspots-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -42897,7 +42897,7 @@ hr {
 .eye-care-page .vendor-article-list .vendor-article .vendor-article-content .card-button:focus,
 .remedy-cabinet-pages .vendor-article-list .vendor-article .vendor-article-content .card-button:focus,
 .cms-remedycabinet-cold .vendor-article-list .vendor-article .vendor-article-content .card-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -43221,7 +43221,7 @@ hr {
 .eye-care-page .rc-nina-button:focus,
 .remedy-cabinet-pages .rc-nina-button:focus,
 .cms-remedycabinet-cold .rc-nina-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -44830,7 +44830,7 @@ hr {
 }
 
 .probiotics-page .remedy-cabinet-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -44860,7 +44860,7 @@ hr {
 }
 
 .probiotics-page .remedy-cabinet-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -45006,11 +45006,11 @@ hr {
 }
 
 .probiotics-page .remedy-cabinet-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .probiotics-page .remedy-cabinet-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -45123,7 +45123,7 @@ hr {
 
 .probiotics-page .your-remedy-cabinet a:hover,
 .probiotics-page .your-remedy-cabinet a:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -45216,7 +45216,7 @@ hr {
 
 .probiotics-page .vendor-article-list .vendor-article span:hover,
 .probiotics-page .vendor-article-list .vendor-article span:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -45826,7 +45826,7 @@ hr {
 
 .nasal-swab-testing-page .covid-19-column-container .column-item-button-external:hover,
 .nasal-swab-testing-page .covid-19-column-container .column-item-button-external:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -46889,7 +46889,7 @@ hr {
 
 .eye-care-page .vendor-article-list .vendor-article span:hover,
 .eye-care-page .vendor-article-list .vendor-article span:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -47216,7 +47216,7 @@ hr {
     position: relative;
     padding: 23px 20px 20px;
     margin: 25px 0;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between
@@ -47228,7 +47228,7 @@ hr {
     margin: 0;
     padding-bottom: 10px;
     font-weight: bold;
-    color: #005a5a
+    color: #003d7a
 }
 
 .covid-province-accordion-section .third-dose-calculator fieldset {
@@ -47377,7 +47377,7 @@ hr {
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner input[type="number"]:focus,
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner input[type="datetime"]:focus,
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner input[type="email"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -47655,7 +47655,7 @@ hr {
 
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner textarea:hover,
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner textarea:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -47797,7 +47797,7 @@ hr {
 
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner select:hover,
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner select:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -48018,7 +48018,7 @@ hr {
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner .cart.table-wrapper .actions-toolbar>.action:focus,
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner .action-gift:hover,
 .covid-province-accordion-section .third-dose-calculator .third-dose-form-inner .action-gift:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -48308,7 +48308,7 @@ hr {
 
 .remedy-cabinet-pages.migraine-page .vendor-article-list .vendor-article .vendor-article-content .new-window-white:hover,
 .remedy-cabinet-pages.migraine-page .vendor-article-list .vendor-article .vendor-article-content .new-window-white:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -48415,7 +48415,7 @@ hr {
     width: auto;
     margin: 20px auto 60px;
     padding: 35px;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 12px
 }
 
@@ -48490,7 +48490,7 @@ hr {
 
 .remedy-cabinet-pages.migraine-page .migraine-booking-wrapper .rc-migraine-button:hover,
 .remedy-cabinet-pages.migraine-page .migraine-booking-wrapper .rc-migraine-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -48697,7 +48697,7 @@ hr {
 }
 
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -48727,7 +48727,7 @@ hr {
 }
 
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -48873,11 +48873,11 @@ hr {
 }
 
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -48915,7 +48915,7 @@ hr {
 
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-arrow:hover,
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-arrow:focus {
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-arrow::before {
@@ -48999,7 +48999,7 @@ hr {
 
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-arrow:focus,
 .remedy-cabinet-pages.migraine-page .migraine-care-showcase .migraine-care-list .slick-arrow:hover {
-    background-color: #005a5a;
+    background-color: #003d7a;
     border: none
 }
 
@@ -50145,7 +50145,7 @@ hr {
 }
 
 .remedy-cabinet-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -50175,7 +50175,7 @@ hr {
 }
 
 .remedy-cabinet-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -50321,11 +50321,11 @@ hr {
 }
 
 .remedy-cabinet-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .remedy-cabinet-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -50395,7 +50395,7 @@ hr {
 }
 
 .remedycabinet-index-index.page-layout-1column .page-main .cms-article-item:hover .cms-article-item-pseudo-link {
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 .remedycabinet-index-index.page-layout-1column .page-main .remedycabinet-articles .cms-article-item {
@@ -50533,7 +50533,7 @@ hr {
 
 .remedycabinet-index-index.page-layout-1column .page-main .your-remedy-cabinet a:hover,
 .remedycabinet-index-index.page-layout-1column .page-main .your-remedy-cabinet a:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -50626,7 +50626,7 @@ hr {
 
 .remedycabinet-index-index.page-layout-1column .page-main .vendor-article-list .vendor-article span:hover,
 .remedycabinet-index-index.page-layout-1column .page-main .vendor-article-list .vendor-article span:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -51030,7 +51030,7 @@ hr {
 
 .transfer-index-index .transfer-wrap .vendor-article-list .vendor-article .vendor-article-content .transfer-btn:hover,
 .transfer-index-index .transfer-wrap .vendor-article-list .vendor-article .vendor-article-content .transfer-btn:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -51070,7 +51070,7 @@ hr {
 
 .transfer-index-index .transfer-wrap .vendor-article-list .vendor-article .vendor-article-content .new-window-white:hover,
 .transfer-index-index .transfer-wrap .vendor-article-list .vendor-article .vendor-article-content .new-window-white:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -51568,7 +51568,7 @@ hr {
 
 .prescription-delivery .csv-store-list .csv-store-info .store-info-light:hover,
 .prescription-delivery .csv-store-list .csv-store-info .store-info-light:focus {
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 @media screen and (min-width:768px) {
@@ -51913,7 +51913,7 @@ hr {
 }
 
 .cms-diabetes-resources .diabetes-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -51943,7 +51943,7 @@ hr {
 }
 
 .cms-diabetes-resources .diabetes-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -52089,11 +52089,11 @@ hr {
 }
 
 .cms-diabetes-resources .diabetes-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-diabetes-resources .diabetes-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -52423,7 +52423,7 @@ hr {
 .bmi-calculator .bmi-calculator-form input[type="number"]:focus,
 .bmi-calculator .bmi-calculator-form input[type="datetime"]:focus,
 .bmi-calculator .bmi-calculator-form input[type="email"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -52701,7 +52701,7 @@ hr {
 
 .bmi-calculator .bmi-calculator-form textarea:hover,
 .bmi-calculator .bmi-calculator-form textarea:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -52843,7 +52843,7 @@ hr {
 
 .bmi-calculator .bmi-calculator-form select:hover,
 .bmi-calculator .bmi-calculator-form select:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -53064,7 +53064,7 @@ hr {
 .bmi-calculator .bmi-calculator-form .cart.table-wrapper .actions-toolbar>.action:focus,
 .bmi-calculator .bmi-calculator-form .action-gift:hover,
 .bmi-calculator .bmi-calculator-form .action-gift:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -53144,7 +53144,7 @@ hr {
 
 .bmi-calculator .bmi-calculator-actions-container .bmi-calculator-cta .button:hover,
 .bmi-calculator .bmi-calculator-actions-container .bmi-calculator-cta .button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -53958,7 +53958,7 @@ hr {
 }
 
 .cms-diabetes-resources-freestyle-libre-2 .abbott-testimonials-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -53988,7 +53988,7 @@ hr {
 }
 
 .cms-diabetes-resources-freestyle-libre-2 .abbott-testimonials-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -54134,11 +54134,11 @@ hr {
 }
 
 .cms-diabetes-resources-freestyle-libre-2 .abbott-testimonials-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-diabetes-resources-freestyle-libre-2 .abbott-testimonials-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -54310,7 +54310,7 @@ hr {
 }
 
 .cms-diabetes-resources-freestyle-libre-2 .abbott-diabetes-tip-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -54340,7 +54340,7 @@ hr {
 }
 
 .cms-diabetes-resources-freestyle-libre-2 .abbott-diabetes-tip-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -54486,11 +54486,11 @@ hr {
 }
 
 .cms-diabetes-resources-freestyle-libre-2 .abbott-diabetes-tip-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-diabetes-resources-freestyle-libre-2 .abbott-diabetes-tip-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -54837,7 +54837,7 @@ hr {
 
 .cms-respiratory div[data-content-type="buttons"] .pagebuilder-button-primary.extra-large:hover,
 .cms-respiratory div[data-content-type="buttons"] .pagebuilder-button-primary.extra-large:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -54874,7 +54874,7 @@ hr {
 
     .cms-respiratory div[data-content-type="buttons"] .pagebuilder-button-primary.extra-large:hover,
     .cms-respiratory div[data-content-type="buttons"] .pagebuilder-button-primary.extra-large:focus {
-        background-color: #005a5a;
+        background-color: #003d7a;
         text-decoration: none;
         color: #ffffff
     }
@@ -54965,7 +54965,7 @@ hr {
 .rbc-wrapper {
     padding: 90px 60px;
     margin-bottom: 24px;
-    background: #e5f5f4;
+    background: #e6f2ff;
     text-align: center;
     border-radius: 12px
 }
@@ -54989,7 +54989,7 @@ hr {
 .careers-wrapper {
     padding: 90px 60px;
     margin-bottom: 24px;
-    background: #e5f5f4;
+    background: #e6f2ff;
     text-align: center;
     border-radius: 12px
 }
@@ -55103,12 +55103,12 @@ hr {
 
 .page-footer .top .btn {
     margin-bottom: 20px;
-    color: #005a5a !important
+    color: #003d7a !important
 }
 
 .page-footer .top .btn:focus {
     background-color: #9ad0e9 !important;
-    color: #005a5a !important
+    color: #003d7a !important
 }
 
 .page-footer .top .social-link-container {
@@ -55561,7 +55561,7 @@ hr {
 }
 
 .mobile-province-selector .accessible-accordion li.accessible-accordion-item {
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .mobile-province-selector .accessible-accordion li.accessible-accordion-item .pagebuilder-accordion-title[aria-expanded='true'] {
@@ -56024,7 +56024,7 @@ hr {
 
 #html-body.cms-pharmacy-promotions .promotion-banners-wrapper .promotion-banner .promotion-banner-inner-wrapper .promotion-banner-text-wrapper .promotion-banner-terms-button {
     display: block;
-    color: #005a5a;
+    color: #003d7a;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold
@@ -56075,7 +56075,7 @@ hr {
 
 #html-body.cms-pharmacy-promotions .js-promotion-modal .promotion-modal-button:hover,
 #html-body.cms-pharmacy-promotions .js-promotion-modal .promotion-modal-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -56414,7 +56414,7 @@ hr {
 .cms-ppn-members .ppn-nav,
 .cms-ppn-sponsor .ppn-nav,
 .ppn-contact-index .ppn-nav {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding-top: 20px;
     margin-top: 155px;
     border-radius: unset
@@ -56603,7 +56603,7 @@ hr {
 .ppn-contact-index .ppn-nav .ppn-nav-content {
     position: absolute;
     left: 0;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     z-index: 1;
     padding: 0
 }
@@ -61072,7 +61072,7 @@ hr {
 .cms-ppn-members .ppn-main-content .ppn-slider-section .ppn-slider .slick-prev::before,
 .cms-ppn-sponsor .ppn-main-content .ppn-slider-section .ppn-slider .slick-prev::before,
 .ppn-contact-index .ppn-main-content .ppn-slider-section .ppn-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -61130,7 +61130,7 @@ hr {
 .cms-ppn-members .ppn-main-content .ppn-slider-section .ppn-slider .slick-next::before,
 .cms-ppn-sponsor .ppn-main-content .ppn-slider-section .ppn-slider .slick-next::before,
 .ppn-contact-index .ppn-main-content .ppn-slider-section .ppn-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -61479,7 +61479,7 @@ hr {
 .cms-ppn-members .ppn-main-content .ppn-slider-section .ppn-slider .slick-pause-play-button.state-paused .play-icon::before,
 .cms-ppn-sponsor .ppn-main-content .ppn-slider-section .ppn-slider .slick-pause-play-button.state-paused .play-icon::before,
 .ppn-contact-index .ppn-main-content .ppn-slider-section .ppn-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-page-view.cms-ppn-landing .ppn-main-content .ppn-slider-section .ppn-slider .slick-pause-play-button .play-icon::before,
@@ -61490,7 +61490,7 @@ hr {
 .cms-ppn-members .ppn-main-content .ppn-slider-section .ppn-slider .slick-pause-play-button .play-icon::before,
 .cms-ppn-sponsor .ppn-main-content .ppn-slider-section .ppn-slider .slick-pause-play-button .play-icon::before,
 .ppn-contact-index .ppn-main-content .ppn-slider-section .ppn-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -62357,7 +62357,7 @@ hr {
 
 .ppn-main-content .partner-section .ppn-slider-item .partner-button:hover,
 .ppn-main-content .partner-section .ppn-slider-item .partner-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -63043,7 +63043,7 @@ hr {
 }
 
 .digestive-health-subtopic-page .hp-instacart-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -63073,7 +63073,7 @@ hr {
 }
 
 .digestive-health-subtopic-page .hp-instacart-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -63219,11 +63219,11 @@ hr {
 }
 
 .digestive-health-subtopic-page .hp-instacart-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .digestive-health-subtopic-page .hp-instacart-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -64534,7 +64534,7 @@ hr {
 }
 
 .digestive-health-page .hp-instacart-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -64564,7 +64564,7 @@ hr {
 }
 
 .digestive-health-page .hp-instacart-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -64710,11 +64710,11 @@ hr {
 }
 
 .digestive-health-page .hp-instacart-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .digestive-health-page .hp-instacart-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -66219,7 +66219,7 @@ hr {
 }
 
 .hp-instacart-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -66249,7 +66249,7 @@ hr {
 }
 
 .hp-instacart-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -66395,11 +66395,11 @@ hr {
 }
 
 .hp-instacart-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .hp-instacart-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -67624,7 +67624,7 @@ hr {
 }
 
 .skin-health-subtopic-page .product-slider .hp-instacart-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -67654,7 +67654,7 @@ hr {
 }
 
 .skin-health-subtopic-page .product-slider .hp-instacart-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -67800,11 +67800,11 @@ hr {
 }
 
 .skin-health-subtopic-page .product-slider .hp-instacart-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .skin-health-subtopic-page .product-slider .hp-instacart-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -69806,7 +69806,7 @@ hr {
 }
 
 .sms-success .success-cta {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -70136,7 +70136,7 @@ hr {
 
 .sms-page .sms-row-1 form input[type="text"]:hover,
 .sms-page .sms-row-1 form input[type="text"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -70347,7 +70347,7 @@ hr {
 }
 
 .sms-page .sms-cta {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding: 30px;
     border-radius: 16px;
     margin-bottom: 20px
@@ -70516,7 +70516,7 @@ hr {
 .newcomers-landing-wrapper h2,
 .newcomers-landing-wrapper h3,
 .newcomers-landing-wrapper h4 {
-    color: #005a5a !important;
+    color: #003d7a !important;
     font-family: 'Alright Sans LP Bay'
 }
 
@@ -70692,7 +70692,7 @@ hr {
 
 .newcomers-landing-wrapper .nc-hero-section .heading p {
     font-size: 24px;
-    color: #005a5a;
+    color: #003d7a;
     margin: 0
 }
 
@@ -70897,7 +70897,7 @@ hr {
 
 .newcomers-landing-wrapper .nc-5050-section .wrapper .text .content-box a {
     text-decoration: underline;
-    color: #005A5A;
+    color: #003d7a;
     position: relative
 }
 
@@ -71138,7 +71138,7 @@ hr {
 .newcomers-landing-wrapper .nc-subscribe-section .wrapper .subscribe-form form .action-gift {
     font-size: 16px;
     padding: 10px;
-    background-color: #005a5a;
+    background-color: #003d7a;
     flex-shrink: 0;
     white-space: nowrap
 }
@@ -71179,7 +71179,7 @@ hr {
 .newcomers-landing-wrapper .nc-subscribe-section .wrapper .subscribe-form form .cart.table-wrapper .actions-toolbar>.action:focus,
 .newcomers-landing-wrapper .nc-subscribe-section .wrapper .subscribe-form form .action-gift:hover,
 .newcomers-landing-wrapper .nc-subscribe-section .wrapper .subscribe-form form .action-gift:focus {
-    color: #005a5a;
+    color: #003d7a;
     background-color: #EDF4F4
 }
 
@@ -71188,7 +71188,7 @@ hr {
 }
 
 .newcomers-landing-wrapper .nc-subscribe-section .wrapper .subscribe-form form .disclaimer a {
-    color: #005a5a;
+    color: #003d7a;
     font-weight: 600
 }
 
@@ -71470,7 +71470,7 @@ hr {
 .newcomers-landing-wrapper .nc-subtopics-section .wrapper .subtopic-cards .card .link a {
     font-size: 16px;
     font-weight: 600;
-    color: #005a5a;
+    color: #003d7a;
     display: flex;
     align-items: center
 }
@@ -71592,7 +71592,7 @@ hr {
 .newcomers-landing-wrapper .nc-articles-section .wrapper .article .text a {
     font-size: 16px;
     font-weight: 600;
-    color: #005a5a;
+    color: #003d7a;
     display: flex;
     align-items: center
 }
@@ -71808,7 +71808,7 @@ hr {
 
 .newcomers-landing-wrapper .nc-closing-section .wrapper p {
     max-width: 960px;
-    color: #005A5A
+    color: #003d7a
 }
 
 @media screen and (min-width:768px) {
@@ -71833,7 +71833,7 @@ hr {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background-color: #005a5a;
+    background-color: #003d7a;
     padding: 10px 20px;
     text-align: center;
     border-radius: 6px
@@ -71855,7 +71855,7 @@ hr {
 .newcomers-landing-wrapper .nc-closing-section .wrapper a:hover,
 .newcomers-landing-wrapper .nc-closing-section .wrapper a:focus {
     text-decoration: none;
-    color: #005a5a;
+    color: #003d7a;
     background-color: #EDF4F4
 }
 
@@ -71865,7 +71865,7 @@ hr {
     right: 40px;
     z-index: 1000;
     padding: 10px;
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 .newcomers-landing-wrapper .nc-sticky-subscribe a {
@@ -71904,7 +71904,7 @@ hr {
 [data-content-type='row'] .h2-title[data-content-type='heading'] {
     font-family: 'Alright Sans LP Bay', sans-serif;
     font-weight: 500;
-    color: #005a5a;
+    color: #003d7a;
     font-size: 24px;
     letter-spacing: -0.24px;
     line-height: 1.3
@@ -72058,7 +72058,7 @@ hr {
 .carousel-section-block .slick-dots .cart.table-wrapper .actions-toolbar>.action:focus,
 .carousel-section-block .slick-dots .action-gift:hover,
 .carousel-section-block .slick-dots .action-gift:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     color: #ffffff
 }
 
@@ -72099,7 +72099,7 @@ hr {
 .carousel-section-item-title {
     font-family: 'Alright Sans LP Bay', sans-serif;
     font-weight: 400;
-    color: #005a5a;
+    color: #003d7a;
     font-size: 24px;
     margin-bottom: 16px;
     line-height: 1.3
@@ -72124,10 +72124,10 @@ hr {
 .carousel-section-item-link {
     font-family: 'Alright Sans LP Bay', sans-serif;
     font-weight: 500;
-    color: #005a5a;
+    color: #003d7a;
     font-size: 16px;
     padding-top: 16px;
-    border-top: 1px solid #005a5a;
+    border-top: 1px solid #003d7a;
     display: flex;
     width: 100%;
     line-height: 2
@@ -72224,7 +72224,7 @@ hr {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    background: #005A5A;
+    background: #003d7a;
     border: none;
     border-radius: 8px;
     cursor: pointer
@@ -72432,7 +72432,7 @@ hr {
 .lightbox-newcomers-popup.step-1 .newsletter-popup.step-2-popup .newsletter-left #no-thanks {
     border: none;
     background: none;
-    color: #005A5A;
+    color: #003d7a;
     text-decoration: underline;
     padding: 20px 0;
     font-size: 14px
@@ -72496,7 +72496,7 @@ hr {
     line-height: 120%;
     letter-spacing: -1%;
     text-align: center;
-    color: #005A5A;
+    color: #003d7a;
     margin-bottom: 30px
 }
 
@@ -72555,7 +72555,7 @@ hr {
 
 .lightbox-newcomers-popup .newsletter-popup .newsletter-left form input[type='email']:hover,
 .lightbox-newcomers-popup .newsletter-popup .newsletter-left form input[type='email']:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -72632,7 +72632,7 @@ hr {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
-    background: #005A5A;
+    background: #003d7a;
     border: none;
     border-radius: 8px;
     cursor: pointer
@@ -72646,7 +72646,7 @@ hr {
 }
 
 .lightbox-newcomers-popup .newsletter-popup .newsletter-left .disclaimer a {
-    color: #005A5A;
+    color: #003d7a;
     text-decoration: underline
 }
 
@@ -74586,7 +74586,7 @@ hr {
 }
 
 .oral-health-page .background .oh-copy {
-    color: #005a5a !important;
+    color: #003d7a !important;
     max-width: 820px;
     z-index: 1
 }
@@ -74728,7 +74728,7 @@ hr {
 }
 
 .oral-health-page .carousel.no-slider .content-wrapper .heading {
-    color: #005a5a;
+    color: #003d7a;
     text-align: center;
     padding: 0 20px;
     font-weight: 700;
@@ -75099,7 +75099,7 @@ hr {
 
 .oral-health-page .oh-resources .resources-section p {
     font-size: 20px;
-    color: #005a5a;
+    color: #003d7a;
     font-weight: 400
 }
 
@@ -75941,7 +75941,7 @@ hr {
 }
 
 .cms-oralhealthhygiene-comingsoon .background .oh-copy {
-    color: #005a5a !important;
+    color: #003d7a !important;
     max-width: 820px;
     z-index: 1
 }
@@ -76465,7 +76465,7 @@ hr {
 .cms-oral-health-hygiene-mouthwash-oral-rinse .oh-subtopic-carousel .slick-prev::before,
 .cms-oral-health-hygiene-teeth-whitening .oh-subtopic-carousel .slick-prev::before,
 .cms-oral-health-hygiene-dental-floss .oh-subtopic-carousel .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -76511,7 +76511,7 @@ hr {
 .cms-oral-health-hygiene-mouthwash-oral-rinse .oh-subtopic-carousel .slick-next::before,
 .cms-oral-health-hygiene-teeth-whitening .oh-subtopic-carousel .slick-next::before,
 .cms-oral-health-hygiene-dental-floss .oh-subtopic-carousel .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -76773,7 +76773,7 @@ hr {
 .cms-oral-health-hygiene-mouthwash-oral-rinse .oh-subtopic-carousel .slick-pause-play-button.state-paused .play-icon::before,
 .cms-oral-health-hygiene-teeth-whitening .oh-subtopic-carousel .slick-pause-play-button.state-paused .play-icon::before,
 .cms-oral-health-hygiene-dental-floss .oh-subtopic-carousel .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .cms-oral-health-hygiene-manual-electric-toothbrushes .oh-subtopic-carousel .slick-pause-play-button .play-icon::before,
@@ -76781,7 +76781,7 @@ hr {
 .cms-oral-health-hygiene-mouthwash-oral-rinse .oh-subtopic-carousel .slick-pause-play-button .play-icon::before,
 .cms-oral-health-hygiene-teeth-whitening .oh-subtopic-carousel .slick-pause-play-button .play-icon::before,
 .cms-oral-health-hygiene-dental-floss .oh-subtopic-carousel .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -76831,7 +76831,7 @@ hr {
 .cms-oral-health-hygiene-mouthwash-oral-rinse .oh-subtopic-carousel .slick-arrow:focus,
 .cms-oral-health-hygiene-teeth-whitening .oh-subtopic-carousel .slick-arrow:focus,
 .cms-oral-health-hygiene-dental-floss .oh-subtopic-carousel .slick-arrow:focus {
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 .cms-oral-health-hygiene-manual-electric-toothbrushes .oh-subtopic-carousel .slick-arrow::before,
@@ -77123,7 +77123,7 @@ hr {
 .cms-oral-health-hygiene-mouthwash-oral-rinse .oh-subtopic-carousel .slick-dots .action-gift:focus,
 .cms-oral-health-hygiene-teeth-whitening .oh-subtopic-carousel .slick-dots .action-gift:focus,
 .cms-oral-health-hygiene-dental-floss .oh-subtopic-carousel .slick-dots .action-gift:focus {
-    background-color: #005a5a !important;
+    background-color: #003d7a !important;
     color: #ffffff !important
 }
 
@@ -77142,7 +77142,7 @@ hr {
 .cms-oral-health-hygiene-mouthwash-oral-rinse .oh-subtopic-carousel .slick-dots .slick-active .action-gift,
 .cms-oral-health-hygiene-teeth-whitening .oh-subtopic-carousel .slick-dots .slick-active .action-gift,
 .cms-oral-health-hygiene-dental-floss .oh-subtopic-carousel .slick-dots .slick-active .action-gift {
-    background-color: #005a5a !important
+    background-color: #003d7a !important
 }
 
 .cms-oral-health-hygiene-manual-electric-toothbrushes .oh-subtopic-carousel .slick-dots ::-webkit-scrollbar,
@@ -79495,7 +79495,7 @@ hr {
 .cms-travel-clinic-travel-medication-list-otc .btn:focus,
 .cms-travel-clinic-travel-medication-list-prescriptions .btn:focus,
 .cms-travel-clinic-travel-medication-list-essentials .btn:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -79546,7 +79546,7 @@ hr {
 .cms-travel-clinic-travel-medication-list-otc .btn.btn-white:focus,
 .cms-travel-clinic-travel-medication-list-prescriptions .btn.btn-white:focus,
 .cms-travel-clinic-travel-medication-list-essentials .btn.btn-white:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -80011,7 +80011,7 @@ hr {
 .cms-travel-clinic-travel-medication-list-otc .travel-page .travel-essentials .information .information-block .text-container .text-actions:hover,
 .cms-travel-clinic-travel-medication-list-prescriptions .travel-page .travel-essentials .information .information-block .text-container .text-actions:hover,
 .cms-travel-clinic-travel-medication-list-essentials .travel-page .travel-essentials .information .information-block .text-container .text-actions:hover {
-    color: #005a5a
+    color: #003d7a
 }
 
 .cms-travel-clinic-consultations .travel-page .travel-essentials .information .information-block .text-container .text-actions:hover::after,
@@ -80991,7 +80991,7 @@ hr {
 
 .travel-clinic-product-slider,
 .beauty-articles-slider {
-    background-color: #E5F5F4
+    background-color: #e6f2ff
 }
 
 .travel-clinic-product-slider .heading-wrapper,
@@ -81012,7 +81012,7 @@ hr {
     vertical-align: middle;
     margin-left: 8px;
     border-radius: 50%;
-    border: 1px solid #005a5a
+    border: 1px solid #003d7a
 }
 
 .travel-clinic-product-slider .disclaimer-trigger svg,
@@ -82081,7 +82081,7 @@ hr {
 }
 
 .beauty-products-categories.beauty-page .beauty-articles-nc.nc-articles-section.nc-articles-section-full .wrapper .article .text .learn-more-text:hover {
-    color: #005a5a
+    color: #003d7a
 }
 
 .beauty-products-categories.beauty-page .beauty-articles-nc.nc-articles-section.nc-articles-section-full .wrapper .article .text .learn-more-text:hover::after {
@@ -82143,7 +82143,7 @@ hr {
 }
 
 .beauty-products-categories a.link-icon:hover {
-    color: #005a5a
+    color: #003d7a
 }
 
 .beauty-products-categories a.link-icon:hover::after {
@@ -82444,7 +82444,7 @@ hr {
 
 .cms-travel-clinic .btn:hover,
 .cms-travel-clinic .btn:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -82483,7 +82483,7 @@ hr {
 
 .cms-travel-clinic .btn.btn-white:hover,
 .cms-travel-clinic .btn.btn-white:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -83018,7 +83018,7 @@ hr {
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
-    color: #005a5a;
+    color: #003d7a;
     text-decoration: none
 }
 
@@ -83378,7 +83378,7 @@ hr {
 
 .on-the-go-section .section-container .text-container .cta .action:hover,
 .on-the-go-section .section-container .text-container .cta .action:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -83416,7 +83416,7 @@ hr {
 
 .on-the-go-section .section-container .text-container .cta .alt-action:hover,
 .on-the-go-section .section-container .text-container .cta .alt-action:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -83520,7 +83520,7 @@ hr {
 
 .cms-travel-clinic-vaccines-guide .btn:hover,
 .cms-travel-clinic-vaccines-guide .btn:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -83559,7 +83559,7 @@ hr {
 
 .cms-travel-clinic-vaccines-guide .btn.btn-white:hover,
 .cms-travel-clinic-vaccines-guide .btn.btn-white:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -83817,7 +83817,7 @@ hr {
 
 .cms-travel-clinic-vaccines-guide .travel-page .travel-needs .section-container .text-container .cta .action:hover,
 .cms-travel-clinic-vaccines-guide .travel-page .travel-needs .section-container .text-container .cta .action:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -83855,7 +83855,7 @@ hr {
 
 .cms-travel-clinic-vaccines-guide .travel-page .travel-needs .section-container .text-container .cta .alt-action:hover,
 .cms-travel-clinic-vaccines-guide .travel-page .travel-needs .section-container .text-container .cta .alt-action:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -84350,7 +84350,7 @@ hr {
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
-    color: #005a5a;
+    color: #003d7a;
     text-decoration: none
 }
 
@@ -84614,7 +84614,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots #maincontent .homepage-newsletter-subscription-wrapper .section.homepage-newsletter-subscription .homepage-subscription-form.subscribe-form .subscription-form-content .small-text .link-small {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 14px;
     line-height: normal;
     letter-spacing: -0.2px;
@@ -84707,7 +84707,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .hero .hero-banner .title-container .title h1 {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 3.2rem;
     font-weight: 400;
     text-align: center;
@@ -84900,7 +84900,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .background-section .content-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.6rem;
     font-weight: 400;
     margin-bottom: 16px
@@ -84927,7 +84927,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .background-section .cta-button {
-    background: #005A5A;
+    background: #003d7a;
     color: white;
     border: none;
     padding: 14px 28px;
@@ -84988,7 +84988,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .section-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.8rem;
     font-weight: 400;
     line-height: 1.3;
@@ -85046,7 +85046,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .feature-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.4rem;
     font-weight: 400;
     line-height: 1.3;
@@ -85111,7 +85111,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .btn-primary {
-    background: #005A5A;
+    background: #003d7a;
     color: white
 }
 
@@ -85122,8 +85122,8 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .btn-secondary {
-    background: #E5F5F4;
-    color: #005A5A;
+    background: #e6f2ff;
+    color: #003d7a;
     border: 1px solid #9ad0e9
 }
 
@@ -85305,7 +85305,7 @@ hr {
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .flu-knowledge-section .content-cards {
     display: flex;
     flex-direction: column;
-    background-color: #E5F5F4;
+    background-color: #e6f2ff;
     padding: 100px 0 50px 0;
     border-top-right-radius: 40px;
     margin-top: -100px
@@ -85384,7 +85384,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .flu-knowledge-section .card-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.8rem;
     font-weight: 400;
     line-height: 1.3;
@@ -85413,7 +85413,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .flu-knowledge-section .learn-more-btn {
-    background: #005A5A;
+    background: #003d7a;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -85485,7 +85485,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .flu-info-section .section-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.8rem;
     font-weight: 400;
     line-height: 1.3;
@@ -85549,7 +85549,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .flu-info-section .btn-primary {
-    background: #005A5A;
+    background: #003d7a;
     color: white
 }
 
@@ -85561,7 +85561,7 @@ hr {
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .flu-info-section .btn-secondary {
     background: #d1fae5;
-    color: #005A5A;
+    color: #003d7a;
     border: 1px solid #86efac
 }
 
@@ -85627,7 +85627,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .flu-info-section .card-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.8rem;
     font-weight: 400;
     line-height: 1.3;
@@ -85656,7 +85656,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .flu-info-section .card-link {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 1.6rem;
     font-weight: 600;
     text-decoration: none;
@@ -85692,7 +85692,7 @@ hr {
     display: inline-block;
     vertical-align: text-top;
     transform: rotate(180deg);
-    border: 2px solid #005A5A;
+    border: 2px solid #003d7a;
     border-radius: 50%
 }
 
@@ -85839,7 +85839,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .info-5050-section .info-5050-description a {
-    color: #005a5a
+    color: #003d7a
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .faq {
@@ -86091,7 +86091,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .services-section .translation-title {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2.8rem;
     font-weight: 400;
     margin-bottom: 16px
@@ -86121,7 +86121,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .services-section .learn-more-btn {
-    background: #005A5A;
+    background: #003d7a;
     color: white;
     border: none;
     padding: 14px 28px;
@@ -86164,7 +86164,7 @@ hr {
     font-weight: 400;
     margin-bottom: 32px;
     line-height: 1.3;
-    color: #005A5A
+    color: #003d7a
 }
 
 @media screen and (min-width:768px) {
@@ -86217,12 +86217,12 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .services-section .vaccine-name {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 20px;
     padding-bottom: 12px;
-    border-bottom: 2px solid #005A5A;
+    border-bottom: 2px solid #003d7a;
     text-align: left
 }
 
@@ -86234,7 +86234,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .services-section .book-appointment-link {
-    color: #005A5A;
+    color: #003d7a;
     font-size: 1.6rem;
     font-weight: 600;
     text-decoration: none;
@@ -86269,7 +86269,7 @@ hr {
     display: inline-block;
     vertical-align: text-top;
     transform: rotate(180deg);
-    border: 2px solid #005A5A;
+    border: 2px solid #003d7a;
     border-radius: 50%
 }
 
@@ -86306,7 +86306,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .product-slider {
-    background-color: #005A5A;
+    background-color: #003d7a;
     padding: 8% 20px 25% 20px
 }
 
@@ -86500,7 +86500,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .product-slider .hp-instacart-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -86530,7 +86530,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .product-slider .hp-instacart-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -86676,11 +86676,11 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .product-slider .hp-instacart-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .product-slider .hp-instacart-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -87083,7 +87083,7 @@ hr {
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form input[type="number"]:focus,
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form input[type="datetime"]:focus,
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form input[type="email"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -87361,7 +87361,7 @@ hr {
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form textarea:hover,
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form textarea:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -87503,7 +87503,7 @@ hr {
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form select:hover,
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form select:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -87724,7 +87724,7 @@ hr {
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form .cart.table-wrapper .actions-toolbar>.action:focus,
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form .action-gift:hover,
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form .action-gift:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -87768,7 +87768,7 @@ hr {
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form fieldset .button-dark {
     font-size: 16px;
     line-height: 16px;
-    background-color: #005A5A;
+    background-color: #003d7a;
     font-weight: 400;
     padding: 21px;
     margin-top: 0
@@ -87934,7 +87934,7 @@ hr {
 }
 
 #html-body.cms-pharmacy-flu-shots .page-wrapper #maincontent .homepage-newsletter-subscription-wrapper .homepage-subscription-form fieldset.checkout-disclaimer p .link-small {
-    color: #005A5A;
+    color: #003d7a;
     font-weight: 400;
     text-decoration: underline
 }
@@ -88020,7 +88020,7 @@ hr {
 
 .contact-form-wrap .instacart-contact-button:hover,
 .contact-form-wrap .instacart-contact-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -88077,7 +88077,7 @@ hr {
 
 .contact-form-wrap .carenetwork-contact-button:hover,
 .contact-form-wrap .carenetwork-contact-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -88225,7 +88225,7 @@ hr {
 .contact-form-wrap form input[type="number"]:focus,
 .contact-form-wrap form input[type="datetime"]:focus,
 .contact-form-wrap form input[type="email"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -88503,7 +88503,7 @@ hr {
 
 .contact-form-wrap form textarea:hover,
 .contact-form-wrap form textarea:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -88645,7 +88645,7 @@ hr {
 
 .contact-form-wrap form select:hover,
 .contact-form-wrap form select:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -88866,7 +88866,7 @@ hr {
 .contact-form-wrap form .cart.table-wrapper .actions-toolbar>.action:focus,
 .contact-form-wrap form .action-gift:hover,
 .contact-form-wrap form .action-gift:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -88980,7 +88980,7 @@ hr {
 }
 
 .contact-form-wrap .bubble {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 12px;
     position: relative;
     box-sizing: border-box;
@@ -89030,7 +89030,7 @@ hr {
 
 .contact-form-wrap .bubble .btn.store-locator:hover,
 .contact-form-wrap .bubble .btn.store-locator:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -90344,7 +90344,7 @@ html.fancy-modal-open {
 
 .eflyer-container .eflyer-toolbar .pick-store:hover,
 .eflyer-container .eflyer-toolbar .pick-store:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -90477,7 +90477,7 @@ html.fancy-modal-open {
 
 .eflyer-container .eflyer-form .eflyer-form-input:hover,
 .eflyer-container .eflyer-form .eflyer-form-input:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -90582,7 +90582,7 @@ html.fancy-modal-open {
 
 .eflyer-container .eflyer-form .eflyer-button:hover,
 .eflyer-container .eflyer-form .eflyer-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -90747,7 +90747,7 @@ html.fancy-modal-open {
 
 .eflyer-container .eflyer-store-list li .pref-store:hover,
 .eflyer-container .eflyer-store-list li .pref-store:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -90766,7 +90766,7 @@ html.fancy-modal-open {
 }
 
 .eflyer-container .eflyer-store-list li .pref-store.set-store {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     color: #5199ab
 }
 
@@ -91101,7 +91101,7 @@ html.fancy-modal-open {
 
 .gdpr-popup-button:hover,
 .gdpr-popup-accept:hover {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     color: #5199ab
 }
 
@@ -91249,7 +91249,7 @@ html.fancy-modal-open {
 .unsubscribe-success {
     padding: 30px;
     margin: 24px 0;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 12px
 }
 
@@ -91470,7 +91470,7 @@ html.fancy-modal-open {
 
 .unsubscribe-form .subscriptions-container .reason.other .reason-other:hover,
 .unsubscribe-form .subscriptions-container .reason.other .reason-other:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -91592,7 +91592,7 @@ html.fancy-modal-open {
     line-height: 20px;
     padding: 0 8px 7px 28px;
     margin: 0;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     box-sizing: border-box;
     border: 0
 }
@@ -91746,7 +91746,7 @@ html.fancy-modal-open {
 .newsletter-form .design-refresh-newsletter-form input[type="number"]:focus,
 .newsletter-form .design-refresh-newsletter-form input[type="datetime"]:focus,
 .newsletter-form .design-refresh-newsletter-form input[type="email"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -92024,7 +92024,7 @@ html.fancy-modal-open {
 
 .newsletter-form .design-refresh-newsletter-form textarea:hover,
 .newsletter-form .design-refresh-newsletter-form textarea:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -92166,7 +92166,7 @@ html.fancy-modal-open {
 
 .newsletter-form .design-refresh-newsletter-form select:hover,
 .newsletter-form .design-refresh-newsletter-form select:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -92387,7 +92387,7 @@ html.fancy-modal-open {
 .newsletter-form .design-refresh-newsletter-form .cart.table-wrapper .actions-toolbar>.action:focus,
 .newsletter-form .design-refresh-newsletter-form .action-gift:hover,
 .newsletter-form .design-refresh-newsletter-form .action-gift:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -92539,7 +92539,7 @@ html.fancy-modal-open {
     position: relative;
     text-align: center;
     padding: 60px 40px;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .newsletter-success h1 {
@@ -92560,7 +92560,7 @@ html.fancy-modal-open {
     border-radius: 12px;
     position: relative;
     padding: 30px;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .newsletter-confirmation .inner {
@@ -92585,7 +92585,7 @@ html.fancy-modal-open {
     border-radius: 12px;
     position: relative;
     padding: 30px;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .newsletter-confirmation-success .inner {
@@ -92616,7 +92616,7 @@ html.fancy-modal-open {
 .subscribe-banner-container .accessible-hero-banner-container {
     display: flex;
     flex-direction: column;
-    background: #e5f5f4;
+    background: #e6f2ff;
     border-radius: 20px 20px 0 0;
     overflow: hidden
 }
@@ -92731,7 +92731,7 @@ html.fancy-modal-open {
 }
 
 #press-left ul li {
-    border-bottom: 1px solid #e5f5f4;
+    border-bottom: 1px solid #e6f2ff;
     padding-bottom: 5px;
     margin-bottom: 5px
 }
@@ -92809,7 +92809,7 @@ html.fancy-modal-open {
 
 .press-release-search-container .search-textbox-container-mod input:hover,
 .press-release-search-container .search-textbox-container-mod input:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -92911,7 +92911,7 @@ html.fancy-modal-open {
 
 .press-release-search-container .submit-btn:hover,
 .press-release-search-container .submit-btn:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -92928,7 +92928,7 @@ html.fancy-modal-open {
 
 .press-release {
     padding-top: 24px;
-    border-top: 1px solid #e5f5f4;
+    border-top: 1px solid #e6f2ff;
     margin-bottom: 24px
 }
 
@@ -92976,7 +92976,7 @@ html.fancy-modal-open {
 .press-search-results {
     font-size: 18px;
     padding: 12px 0;
-    border-top: 1px solid #e5f5f4
+    border-top: 1px solid #e6f2ff
 }
 
 #press-go-back {
@@ -93008,7 +93008,7 @@ html.fancy-modal-open {
 
 .pharmacy-accordion-title {
     border-radius: 12px;
-    background: #e5f5f4;
+    background: #e6f2ff;
     padding: 15px 40px 15px 20px;
     border: 0;
     font-size: 13px;
@@ -93576,7 +93576,7 @@ html.fancy-modal-open {
 }
 
 .pharmacy-slider .slick-prev::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -93606,7 +93606,7 @@ html.fancy-modal-open {
 }
 
 .pharmacy-slider .slick-next::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%23147b74' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='9' height='14' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.3 12.6l-.8.7L.7 6.8 7.5.3l.8.8-6 5.7z' fill='%234d7ac7' fill-rule='nonzero'/%3E%3C/svg%3E%0A");
     transform: rotate(180deg);
     background-size: contain;
     background-position: center center;
@@ -93752,11 +93752,11 @@ html.fancy-modal-open {
 }
 
 .pharmacy-slider .slick-pause-play-button.state-paused .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath id='a' d='M6 5v21l17-10.5z'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .pharmacy-slider .slick-pause-play-button .play-icon::before {
-    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23147b74' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='21' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M23 5v21h-5.246V5H23zM11.246 5v21H6V5h5.246z' id='a'/%3E%3C/defs%3E%3Cuse fill='%234d7ac7' xlink:href='%23a' transform='translate(-6 -5)' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -94492,7 +94492,7 @@ html.fancy-modal-open {
 }
 
 .odb-pay-Vanguard {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     color: #5199ab
 }
 
@@ -95252,7 +95252,7 @@ h1.heading-p-pharmacy.heading-p-pharmacy {
 table.pharmacy-table {
     border-radius: 12px;
     border: none;
-    background: #e5f5f4;
+    background: #e6f2ff;
     overflow: hidden;
     margin-bottom: 30px
 }
@@ -95968,7 +95968,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .cms-rexall-reminders .rexall-reminders-button:hover,
 .cms-rexall-reminders .rexall-reminders-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -95980,7 +95980,7 @@ table.pharmacy-table tbody tr td:first-child {
 }
 
 .ppn-title-accordion .pharmacy-accordion-item {
-    background: #e5f5f4;
+    background: #e6f2ff;
     border-radius: 12px
 }
 
@@ -96235,7 +96235,7 @@ table.pharmacy-table tbody tr td:first-child {
 .ppn-page-content .ppn-contact input[type="number"]:focus,
 .ppn-page-content .ppn-contact input[type="datetime"]:focus,
 .ppn-page-content .ppn-contact input[type="email"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -96513,7 +96513,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .ppn-page-content .ppn-contact textarea:hover,
 .ppn-page-content .ppn-contact textarea:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -96655,7 +96655,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .ppn-page-content .ppn-contact select:hover,
 .ppn-page-content .ppn-contact select:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -96876,7 +96876,7 @@ table.pharmacy-table tbody tr td:first-child {
 .ppn-page-content .ppn-contact .cart.table-wrapper .actions-toolbar>.action:focus,
 .ppn-page-content .ppn-contact .action-gift:hover,
 .ppn-page-content .ppn-contact .action-gift:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -97655,7 +97655,7 @@ table.pharmacy-table tbody tr td:first-child {
     border: 2px solid #cbcbcb;
     padding: 10px 15px;
     overflow: auto;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 12px
 }
 
@@ -98718,13 +98718,13 @@ table.pharmacy-table tbody tr td:first-child {
 
 .myrexall-container.refill .tp-main-link:hover:after,
 .myrexall-container.refill .tp-main-linkfocus:after {
-    background-color: #005a5a
+    background-color: #003d7a
 }
 
 .myrexall-container.refill .tp-main-link .bewell-copy {
     display: block;
     margin-bottom: 3px;
-    color: #005a5a
+    color: #003d7a
 }
 
 .myrexall-container.refill .tp-main-link p {
@@ -98798,7 +98798,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .myrexall-container.refill .search-textbox-container input:hover,
 .myrexall-container.refill .search-textbox-container input:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -98908,7 +98908,7 @@ table.pharmacy-table tbody tr td:first-child {
 }
 
 .myrexall-container.refill .section.step {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding: 25px 20px;
     border-radius: 12px
 }
@@ -99909,7 +99909,7 @@ table.pharmacy-table tbody tr td:first-child {
 }
 
 .autocomplete-dropdown::-webkit-scrollbar-track {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-radius: 100px;
     background-clip: padding-box;
     border: 8px solid #ffffff
@@ -100698,7 +100698,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .cms-services .book-button:hover,
 .cms-services .book-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -100783,7 +100783,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .csv-store-list .btn.appointment-light:hover,
 .csv-store-list .btn.appointment-light:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -100865,7 +100865,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .csv-store-list .btn.store-info-light:hover,
 .csv-store-list .btn.store-info-light:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -100935,7 +100935,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .page-header .page-header-promo {
     background-color: #9ad0e9;
-    color: #005a5a;
+    color: #003d7a;
     padding: 10px;
     position: relative;
     z-index: 156
@@ -101258,7 +101258,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .header-location a:hover,
 .header-location a:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -101502,7 +101502,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .header-location .dropdown-store .nearby-stores .all-stores:hover,
 .header-location .dropdown-store .nearby-stores .all-stores:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -101933,7 +101933,7 @@ table.pharmacy-table tbody tr td:first-child {
 .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-container.mobile.search-results-tab .desktop-tab-container,
 .storelocator-results-brand #search-results-wrapper .search-results-container.mobile.search-results-tab .desktop-tab-container {
     display: flex;
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .storelocator-results-index #search-results-wrapper .search-results-container.mobile.search-results-tab .desktop-tab-container .title.active,
@@ -102008,7 +102008,7 @@ table.pharmacy-table tbody tr td:first-child {
     padding: 13px 21px;
     min-height: 40px;
     padding-left: 3em;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     color: #5199ab;
     margin: 0 0 5px;
     font-weight: 600
@@ -102022,7 +102022,7 @@ table.pharmacy-table tbody tr td:first-child {
 .storelocator-index-index #search-results-wrapper .search-results-container .btn.preferred-store-light:focus,
 .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-container .btn.preferred-store-light:focus,
 .storelocator-results-brand #search-results-wrapper .search-results-container .btn.preferred-store-light:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -102143,7 +102143,7 @@ table.pharmacy-table tbody tr td:first-child {
 .storelocator-index-index #search-results-wrapper .search-results-container .btn.directions-light:focus,
 .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-container .btn.directions-light:focus,
 .storelocator-results-brand #search-results-wrapper .search-results-container .btn.directions-light:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -102395,7 +102395,7 @@ table.pharmacy-table tbody tr td:first-child {
     .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-tab .desktop-tab-container,
     .storelocator-results-brand #search-results-wrapper .search-results-tab .desktop-tab-container {
         display: flex;
-        background-color: #e5f5f4
+        background-color: #e6f2ff
     }
 }
 
@@ -102412,14 +102412,14 @@ table.pharmacy-table tbody tr td:first-child {
 .storelocator-results-brand #search-results-wrapper .search-results-tab .desktop-tab-container .item.active .switch {
     background-color: #ffffff;
     font-weight: 700;
-    color: #005a5a
+    color: #003d7a
 }
 
 .storelocator-results-index #search-results-wrapper .search-results-tab .desktop-tab-container .item .switch,
 .storelocator-index-index #search-results-wrapper .search-results-tab .desktop-tab-container .item .switch,
 .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-tab .desktop-tab-container .item .switch,
 .storelocator-results-brand #search-results-wrapper .search-results-tab .desktop-tab-container .item .switch {
-    color: #005a5a;
+    color: #003d7a;
     display: block;
     font-weight: 600;
     text-align: center;
@@ -102445,14 +102445,14 @@ table.pharmacy-table tbody tr td:first-child {
 .storelocator-results-brand #search-results-wrapper .search-results-tab>.title.active .switch {
     background-color: #ffffff;
     font-weight: 700;
-    color: #005a5a
+    color: #003d7a
 }
 
 .storelocator-results-index #search-results-wrapper .search-results-tab>.title .switch,
 .storelocator-index-index #search-results-wrapper .search-results-tab>.title .switch,
 .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-tab>.title .switch,
 .storelocator-results-brand #search-results-wrapper .search-results-tab>.title .switch {
-    color: #005a5a;
+    color: #003d7a;
     display: block;
     font-weight: 600;
     text-align: center;
@@ -102486,7 +102486,7 @@ table.pharmacy-table tbody tr td:first-child {
 .storelocator-index-index #search-results-wrapper .search-results-tab>.title .switch,
 .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-tab>.title .switch,
 .storelocator-results-brand #search-results-wrapper .search-results-tab>.title .switch {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-bottom: 1px solid #c9e9e7
 }
 
@@ -103184,7 +103184,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-container .btn.directions-light:hover,
 .storelocator-results-vendor-inspired-beauty #search-results-wrapper .search-results-container .btn.directions-light:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -103381,7 +103381,7 @@ table.pharmacy-table tbody tr td:first-child {
 
 .storelocator-filters .apply-filter-button:hover,
 .storelocator-filters .apply-filter-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -103402,7 +103402,7 @@ table.pharmacy-table tbody tr td:first-child {
     cursor: pointer;
     border: 1px solid #eaeaea;
     color: #3c4de2;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     font-size: 16px;
     font-weight: 600;
     padding: 12px 15px;
@@ -104410,7 +104410,7 @@ table.pharmacy-table tbody tr td:first-child {
 }
 
 .store-details .store-buttons .btn.storelocator-details-buttons.set-as-my-store {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border: none
 }
 
@@ -104699,7 +104699,7 @@ body.storelocator-directions-index,
 body.rexallhealthsolutions-directions-index {
     padding: 0;
     margin: 0;
-    background: #e5f5f4
+    background: #e6f2ff
 }
 
 body.storelocator-directions-index::-webkit-scrollbar,
@@ -104749,7 +104749,7 @@ body.rexallhealthsolutions-directions-index #lightbox-map .map-inner {
 body.storelocator-directions-index #lightbox-wrapper,
 body.rexallhealthsolutions-directions-index #lightbox-wrapper {
     width: 100%;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     height: 100%;
     padding: 10px 0;
     color: #6e6e6e
@@ -105245,7 +105245,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .search-textbox-container-outer .search-textbox-container input[type="text"]:hover,
 .search-textbox-container-outer .search-textbox-container input[type="text"]:focus {
-    border-color: #005a5a;
+    border-color: #003d7a;
     box-shadow: none
 }
 
@@ -105351,7 +105351,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .submit-btn:hover,
 .submit-btn:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -105388,7 +105388,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .submit-btn.preferred-store:hover,
 .submit-btn.preferred-store:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -105437,7 +105437,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .submit-btn.current-location-btn:hover,
 .submit-btn.current-location-btn:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -105738,7 +105738,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 #pagination,
 #paginationMobile {
     text-align: left;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding: 15px;
     margin-top: 12px;
     -webkit-border-radius: 6px;
@@ -105856,7 +105856,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
     -moz-border-radius: 12px 12px 0 0;
     -ms-border-radius: 12px 12px 0 0;
     border-radius: 12px 12px 0 0;
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     padding: 24px 24px 0;
     margin-bottom: 0;
     overflow: hidden
@@ -106119,7 +106119,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .search-result .btn.refill-button:hover,
 .search-result .btn.refill-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -106177,7 +106177,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .search-result .btn.store-flyer:hover,
 .search-result .btn.store-flyer:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -106234,7 +106234,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .search-result .btn.store-info-light:hover,
 .search-result .btn.store-info-light:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -106272,7 +106272,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .search-result .btn.directions-light:hover,
 .search-result .btn.directions-light:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -107104,7 +107104,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
     color: #ffffff;
     font-size: 28px;
     font-weight: 700;
-    background-color: #005a5a;
+    background-color: #003d7a;
     border-radius: 50%;
     padding: 15px;
     margin-right: 12px;
@@ -107281,7 +107281,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 
 .mr-light-teal-button:hover,
 .mr-light-teal-button:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -108435,11 +108435,11 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 .everyday-health .vendor-info-container .desktop-tab-container .item.active .switch {
     background-color: #ffffff;
     font-weight: 700;
-    color: #005a5a
+    color: #003d7a
 }
 
 .everyday-health .vendor-info-container .desktop-tab-container .item .switch {
-    color: #005a5a;
+    color: #003d7a;
     display: block;
     font-weight: 600;
     text-align: center;
@@ -108456,11 +108456,11 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 .everyday-health .vendor-info-container>.title.active .switch {
     background-color: #ffffff;
     font-weight: 700;
-    color: #005a5a
+    color: #003d7a
 }
 
 .everyday-health .vendor-info-container>.title .switch {
-    color: #005a5a;
+    color: #003d7a;
     display: block;
     font-weight: 600;
     text-align: center;
@@ -108559,7 +108559,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 @media screen and (min-width: 768px) {
     .scheme-rexall-blue .vendor-info-container .desktop-tab-container {
         display: flex;
-        background-color: #e5f5f4
+        background-color: #e6f2ff
     }
 }
 
@@ -108570,11 +108570,11 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 .scheme-rexall-blue .vendor-info-container .desktop-tab-container .item.active .switch {
     background-color: #ffffff;
     font-weight: 700;
-    color: #005a5a
+    color: #003d7a
 }
 
 .scheme-rexall-blue .vendor-info-container .desktop-tab-container .item .switch {
-    color: #005a5a;
+    color: #003d7a;
     display: block;
     font-weight: 600;
     text-align: center;
@@ -108591,11 +108591,11 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 .scheme-rexall-blue .vendor-info-container>.title.active .switch {
     background-color: #ffffff;
     font-weight: 700;
-    color: #005a5a
+    color: #003d7a
 }
 
 .scheme-rexall-blue .vendor-info-container>.title .switch {
-    color: #005a5a;
+    color: #003d7a;
     display: block;
     font-weight: 600;
     text-align: center;
@@ -108616,7 +108616,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
 }
 
 .scheme-rexall-blue .vendor-info-container>.title .switch {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     border-bottom: 1px solid #c9e9e7
 }
 
@@ -109347,7 +109347,7 @@ img .pagebuilder-mobile-hidden {
 
 .cms-article-item div.cms-article-item-content-container .cms-article-item-pseudo-link:hover,
 .cms-article-item div.cms-article-item-content-container .cms-article-item-pseudo-link:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -109609,7 +109609,7 @@ img .pagebuilder-mobile-hidden {
 
 .cms-home .pagebuilder-card.brand-color,
 .cms-page-view .pagebuilder-card.brand-color {
-    background-color: #e5f5f4
+    background-color: #e6f2ff
 }
 
 .pagebuilder-icon-item {
@@ -110046,7 +110046,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .pagebuilder-button-primary.micro:focus,
 .cms-page-view .pagebuilder-button-primary.micro:focus,
 .cms-home .pagebuilder-button-primary.micro:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -110091,7 +110091,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .pagebuilder-button-primary.small:focus,
 .cms-page-view .pagebuilder-button-primary.small:focus,
 .cms-home .pagebuilder-button-primary.small:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -110136,7 +110136,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .pagebuilder-button-primary.medium:focus,
 .cms-page-view .pagebuilder-button-primary.medium:focus,
 .cms-home .pagebuilder-button-primary.medium:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -110183,7 +110183,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .pagebuilder-button-primary.large:focus,
 .cms-page-view .pagebuilder-button-primary.large:focus,
 .cms-home .pagebuilder-button-primary.large:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -110236,7 +110236,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .pagebuilder-button-primary.extra-large:focus,
 .cms-page-view .pagebuilder-button-primary.extra-large:focus,
 .cms-home .pagebuilder-button-primary.extra-large:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -110324,7 +110324,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .action-gift.pagebuilder-button-primary:focus,
 .cms-page-view .action-gift.pagebuilder-button-primary:focus,
 .cms-home .action-gift.pagebuilder-button-primary:focus {
-    background-color: #005a5a;
+    background-color: #003d7a;
     text-decoration: none;
     color: #ffffff
 }
@@ -110421,7 +110421,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .action-gift.pagebuilder-button-secondary:focus,
 .cms-page-view .action-gift.pagebuilder-button-secondary:focus,
 .cms-home .action-gift.pagebuilder-button-secondary:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -110518,7 +110518,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .action-gift.pagebuilder-button-secondary.micro:focus,
 .cms-page-view .action-gift.pagebuilder-button-secondary.micro:focus,
 .cms-home .action-gift.pagebuilder-button-secondary.micro:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -110600,7 +110600,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .action-gift.pagebuilder-button-secondary.small:focus,
 .cms-page-view .action-gift.pagebuilder-button-secondary.small:focus,
 .cms-home .action-gift.pagebuilder-button-secondary.small:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -110682,7 +110682,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .action-gift.pagebuilder-button-secondary.medium:focus,
 .cms-page-view .action-gift.pagebuilder-button-secondary.medium:focus,
 .cms-home .action-gift.pagebuilder-button-secondary.medium:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -110764,7 +110764,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .action-gift.pagebuilder-button-secondary.large:focus,
 .cms-page-view .action-gift.pagebuilder-button-secondary.large:focus,
 .cms-home .action-gift.pagebuilder-button-secondary.large:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -110844,7 +110844,7 @@ img .pagebuilder-mobile-hidden {
 .remedycabinet-index-index .action-gift.pagebuilder-button-secondary.extra-large:focus,
 .cms-page-view .action-gift.pagebuilder-button-secondary.extra-large:focus,
 .cms-home .action-gift.pagebuilder-button-secondary.extra-large:focus {
-    background-color: #e5f5f4;
+    background-color: #e6f2ff;
     text-decoration: none;
     color: #5199ab
 }
@@ -113564,7 +113564,7 @@ img .pagebuilder-mobile-hidden {
     .vendor-product-details .share-link-container .social-box a {
         color: #5199ab;
         font-size: 23px;
-        background-color: #e5f5f4;
+        background-color: #e6f2ff;
         min-width: 25px;
         display: inline-block;
         text-align: center;

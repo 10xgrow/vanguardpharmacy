@@ -1004,7 +1004,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div class="logo-wrapper">
                                                     <a href="https://www.letsbewell.ca/" target="_blank">
                                                         <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/icons/logo-bewell-heart.svg?t=1763691732"
-                                                            alt="Be Well" class="be-well-logo">
+                                                            alt="Vanguard" class="be-well-logo">
                                                     </a>
                                                 </div>
 
@@ -2736,7 +2736,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <div data-content-type="text" data-appearance="default" data-element="main">
                                             <p>Your Vanguard Pharmacist can help simplify caregiving for a loved one with
                                                 helpful tools and services including medication management through the
-                                                Be Well&reg; app and direct to door prescription delivery throughVanguard
+                                                Vanguard&reg; app and direct to door prescription delivery throughVanguard
                                                 Direct.</p>
                                         </div>
                                         <div data-content-type="buttons" data-appearance="inline"
@@ -2749,7 +2749,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="small" data-element="link"
                                                     data-pb-style="A148SS1"><span data-button-screenreader-text=""
-                                                        data-element="link_text">Download the Be Well app</span><span
+                                                        data-element="link_text">Download the Vanguard app</span><span
                                                         class="external-window-icon"></span><span
                                                         class="screenreader-only">(opens in a new window)</span></a>
                                             </div>
@@ -3718,19 +3718,19 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                         <ul class="footer-accessible-accordion"
                             data-mage-init='{"accessible-responsive-accordion": {"accordionOptions": {"multiExpand": true}}}'>
                             <li class="footer-accessible-accordion-item js-accessible-accordion-item first-item">
-                                <h2 class="footer-nav-title"><span class="footer-nav-title-link">Be Well&reg;</span>
+                                <h2 class="footer-nav-title"><span class="footer-nav-title-link">Vanguard&reg;</span>
                                 </h2>
                                 <button class="footer-accessible-accordion-title js-accessible-accordion-title"
-                                    type="button">Be Well&reg;</button>
+                                    type="button">Vanguard&reg;</button>
                                 <div
                                     class="footer-accessible-accordion-content footer-accessible-accordion-content-double-list js-accessible-accordion-content">
                                     <ul class="footer-accessible-accordion-content-list-one">
                                         <li><a href="https://www.letsbewell.ca/" target="_blank" class="footer-btn">Log
-                                                In / Sign Up to Be Well&reg;</a></li>
+                                                In / Sign Up to Vanguard&reg;</a></li>
                                         <li><a href="https://www.letsbewell.ca/health/caregivers" class="footer-btn"
                                                 target="_blank">Caregivers</a></li>
                                         <li><a href="https://www.letsbewell.ca/rbc" class="footer-btn"
-                                                target="_blank">Be Well&reg; + RBC Linked Program</a></li>
+                                                target="_blank">Vanguard&reg; + RBC Linked Program</a></li>
                                     </ul>
                                 </div>
                                 <div class="footer-nav-title-container">

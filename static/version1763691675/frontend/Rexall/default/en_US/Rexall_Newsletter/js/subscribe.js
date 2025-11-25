@@ -8,11 +8,11 @@ define(
         'rexallutil',
         'fancybox'
     ],
-    function($, $t, storage, urlBuilder) {
+    function ($, $t, storage, urlBuilder) {
         'use strict';
 
-        return function(config, element) {
-            $(element).on('click', function(e) {
+        return function (config, element) {
+            $(element).on('click', function (e) {
                 e.preventDefault();
                 var form = $('.subscribe-form');
 
@@ -57,12 +57,12 @@ define(
                 if ($('#PrimaryDrugstoreRexall').is(':checked')) {
                     data.PrimaryDrugstore = 'Rexall';
                 } else if ($('#PrimaryDrugstoreRexallPharmaPlus').is(':checked')) {
-                    data.PrimaryDrugstore = 'Rexall Pharma Plus';
+                    data.PrimaryDrugstore = 'Vanguard Pharma Plus';
                 } else if ($('#other').val()) {
                     data.PrimaryDrugstore = $.trim($('#other').val());
                 }
 
-                $('input:checkbox[name=PreferredInformation]:checked').each(function() {
+                $('input:checkbox[name=PreferredInformation]:checked').each(function () {
                     PreferredInformationArray.push($.trim($(this).val()));
                 });
 
@@ -89,7 +89,7 @@ define(
                 }
 
                 additionalSubscriptions = $('#AdditionalSubscriptions').val() || '';
-                additionalSubscriptions = $.map(additionalSubscriptions.split(','), function(item) {
+                additionalSubscriptions = $.map(additionalSubscriptions.split(','), function (item) {
                     return item.length ? [
                         [item]
                     ] : null;
@@ -111,7 +111,7 @@ define(
                     } else {
                         // Standard form: check if OptIn has 'required' class
                         if (data.OptIn == 0 && $('#OptIn').hasClass('required')) {
-                            show_error('Select the checkbox to confirm that you would like to receive the Rexall Newsletter.', 'There was a problem with your submission...');
+                            show_error('Select the checkbox to confirm that you would like to receive the Vanguard Newsletter.', 'There was a problem with your submission...');
                         } else if (data.EmailAddress === '') {
                             show_error('Enter an Email and try again.', 'There was a problem with your submission...');
                         } else {
@@ -124,7 +124,7 @@ define(
                     if (config.salesforce_url) {
                         data.form_key = $('input[name=form_key]').val();
 
-                        $.post(config.salesforce_url, data, function(response) {
+                        $.post(config.salesforce_url, data, function (response) {
                             if (response.error_message) {
                                 show_error(response.error_message, 'There was a problem with your submission...');
                             } else if (response.success) {
@@ -135,19 +135,19 @@ define(
                                 });
                                 window.location.href = config.success_url;
                             } else {
-                                show_error($t('There was an error subscribing to the Rexall Newsletter.'));
+                                show_error($t('There was an error subscribing to the Vanguard Newsletter.'));
                             }
                         });
                     } else {
                         storage.post(urlBuilder.createUrl('/newsletter/subscribe', {}), JSON.stringify(data))
                             .done(
-                                function(response) {
+                                function (response) {
                                     var Response = JSON.parse(response);
 
                                     if (Response.Status == 1) {
                                         window.location.href = config.success_url;
                                     } else if (Response.Status == 2) {
-                                        show_error($t('You have already subscribed to the Rexall Newsletter.'));
+                                        show_error($t('You have already subscribed to the Vanguard Newsletter.'));
                                     } else {
                                         show_error(Response.Message);
                                     }

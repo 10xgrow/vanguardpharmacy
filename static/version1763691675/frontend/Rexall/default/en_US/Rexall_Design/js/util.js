@@ -58,7 +58,7 @@ function isInt(str) {
 
 function show_popup() {
     if (getRefillPopupEnabled()) {
-        require(['jquery', 'accessible-modal-builder', 'mage/cookies'], function($, modalBuilder) {
+        require(['jquery', 'accessible-modal-builder', 'mage/cookies'], function ($, modalBuilder) {
 
             if (!$.cookie('refill-popup') && getRefillPopupCookie()) {
                 $.cookie('refill-popup', 'true', {
@@ -87,11 +87,11 @@ function show_popup() {
 
 function show_newcomers_popup() {
     if (getNewcomersPopupEnabled()) {
-        require(['jquery', 'accessible-modal-builder'], function($, modalBuilder) {
+        require(['jquery', 'accessible-modal-builder'], function ($, modalBuilder) {
             $.ajax({
                 url: getBaseURL() + 'rexall_cms/newcomers/popup',
                 method: 'GET',
-                success: function(response) {
+                success: function (response) {
                     modalBuilder.build({
                         content: response,
                         show: true,
@@ -105,7 +105,7 @@ function show_newcomers_popup() {
 }
 
 function show_error(message, title) {
-    require(['accessible-modal-builder'], function(modalBuilder) {
+    require(['accessible-modal-builder'], function (modalBuilder) {
         modalBuilder.build({
             content: '<div class="lightbox-error"><h2>' + (title || 'Something went wrong...') + '</h2><p>' + message + '</p></div>',
             show: true,
@@ -125,7 +125,7 @@ function show_message(message) {
 
 function show_lightbox(message, title, callback) {
     var content = '<div id="mr-lightbox">' +
-        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyRexall Logo">' +
+        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyVanguard Logo">' +
         (title ? '<h1>' + title + '</h1>' : '') +
         '<p>' + message + '</p>' +
         '<a href="#" onclick="jQuery.fancybox.close(); return false;" class="mr-light-teal-button-link">Continue</a>' +
@@ -147,7 +147,7 @@ function show_lightbox(message, title, callback) {
 
 function show_medicationrecord_lightbox(message, title, callback) {
     var content = '<div id="mr-lightbox">' +
-        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyRexall Logo">' +
+        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyVanguard Logo">' +
         (title ? '<h1>' + title + '</h1>' : '') +
         '<p>' + message + '</p>' +
         '<a href="#" onclick="jQuery.fancybox.close(); return false;" class="mr-light-teal-button-link">View Medication Record Now</a>' +
@@ -169,7 +169,7 @@ function show_medicationrecord_lightbox(message, title, callback) {
 
 function show_code_related_lightbox(message, title, callback) {
     var content = '<div id="mr-lightbox">' +
-        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyRexall Logo">' +
+        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyVanguard Logo">' +
         (title ? '<h1>' + title + '</h1>' : '') +
         message +
         '</div>';
@@ -189,7 +189,7 @@ function show_code_related_lightbox(message, title, callback) {
 }
 
 function show_lightbox_transfer_success(message, title) {
-    require(['accessible-modal-builder'], function(modalBuilder) {
+    require(['accessible-modal-builder'], function (modalBuilder) {
         modalBuilder.build({
             content: '<div class="lightbox-error search-error">' +
                 (title ? '<h2>' + title + '</h2>' : '') +
@@ -203,7 +203,7 @@ function show_lightbox_transfer_success(message, title) {
 }
 
 function show_lightbox_nobrand(message, title, callback) {
-    require(['accessible-modal-builder'], function(modalBuilder) {
+    require(['accessible-modal-builder'], function (modalBuilder) {
         modalBuilder.build({
             content: '<div class="lightbox-error search-error">' +
                 (title ? '<h2>' + title + '</h2>' : '') +
@@ -217,23 +217,23 @@ function show_lightbox_nobrand(message, title, callback) {
 }
 
 function show_terms_lightbox(message, acceptCallback, rejectCallback) {
-    var title = '<h1>Terms of Use</h1><h2 style=\'font-size: 18px; margin-top: 0;\'>Rexall Pharma Plus Websites and Mobile Applications</h2>';
+    var title = '<h1>Terms of Use</h1><h2 style=\'font-size: 18px; margin-top: 0;\'>Vanguard Pharma Plus Websites and Mobile Applications</h2>';
 
     var content = '<div id="mr-lightbox">' +
-        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyRexall Logo">' +
+        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyVanguard Logo">' +
         title +
         '<p>' + message + '</p>' +
         '<a href="#" style="margin-right:24px" id="acceptButton" class="mr-light-teal-button-link">Accept</a>' +
         '<a href="#" id="rejectButton" class="mr-light-teal-button-link">Reject</a>' +
         '</div>';
 
-    jQuery('#acceptButton').on('click', function(e) {
+    jQuery('#acceptButton').on('click', function (e) {
         e.preventDefault();
         acceptCallback();
         jQuery.fancybox.close();
     });
 
-    jQuery('#rejectButton').on('click', function(e) {
+    jQuery('#rejectButton').on('click', function (e) {
         e.preventDefault();
         rejectCallback();
         jQuery.fancybox.close();
@@ -246,7 +246,7 @@ function show_terms_lightbox(message, acceptCallback, rejectCallback) {
         autoSize: false
     };
 
-    options.afterClose = function() {
+    options.afterClose = function () {
         jQuery('#acceptButton').off('click');
         jQuery('#rejectButton').off('click');
     };
@@ -256,20 +256,20 @@ function show_terms_lightbox(message, acceptCallback, rejectCallback) {
 
 function show_deactivate_lightbox(message, title, acceptCallback, rejectCallback) {
     var content = '<div id="mr-lightbox">' +
-        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyRexall Logo">' +
+        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyVanguard Logo">' +
         '<h1>' + title + '</h1>' +
         '<p>' + message + '</p>' +
         '<a href="#" id="acceptButton" class="mr-light-teal-button-link" style="margin-right:20px">Yes</a>' +
         '<a href="#" id="rejectButton" class="mr-light-teal-button-link">No</a>' +
         '</div>';
 
-    jQuery('#acceptButton').on('click', function(e) {
+    jQuery('#acceptButton').on('click', function (e) {
         e.preventDefault();
         acceptCallback();
         jQuery.fancybox.close();
     });
 
-    jQuery('#rejectButton').on('click', function(e) {
+    jQuery('#rejectButton').on('click', function (e) {
         e.preventDefault();
         rejectCallback();
         jQuery.fancybox.close();
@@ -282,7 +282,7 @@ function show_deactivate_lightbox(message, title, acceptCallback, rejectCallback
         autoSize: false
     };
 
-    options.afterClose = function() {
+    options.afterClose = function () {
         jQuery('#acceptButton').off('click');
         jQuery('#rejectButton').off('click');
     };
@@ -296,19 +296,19 @@ function show_airmiles_lightbox() {
         '<p>As of October 31st, Aeroplan members will <b>no longer</b> be able to accumulate miles at Rexall.</p>' +
         '<table cellspacing="0" cellpadding="0" style="border: none;"><tr><td><img src="' + getBaseURL() + 'public/img/airmiles_transition.png" alt="New Airmiles Card" style="margin-right: 12px;"></td>' +
         '<td style="vertical-align: top;"><b style="color: #0076bd;">START COLLECTING AIR MILES<sup>&reg;</sup><br />reward miles as of October 31<sup>st</sup></b><div style="height: 6px;"></div><a href="' + getBaseURL() + 'special-offers/aeroplan-card" style="color: #0076bd; font-size: 14px; text-decoration: none;" target="_blank">Learn More <span style="font-size: 9px">&#9654;</span></a></td></tr></table>' +
-        '<p><b>Please update your Loyalty Rewards Number with your AIR MILES Collector Number in your MyRexall Account.</p></b>' +
+        '<p><b>Please update your Loyalty Rewards Number with your AIR MILES Collector Number in your MyVanguard Account.</p></b>' +
         '<p>If you do not have an AIR MILES Collector Card and wish to participate in our loyalty program, you can sign up for one, <a href="https://www.airmiles.ca/" style="color: #00b4ae; text-decoration: none; font-weight: 700;" target="_blank">here</a>.</p>' +
-        '<p><b style="color: #00b4ae;">Note:</b> <em>Your Aeroplan Account number will be removed from your MyRexall account on October 31st.</em></p>' +
+        '<p><b style="color: #00b4ae;">Note:</b> <em>Your Aeroplan Account number will be removed from your MyVanguard account on October 31st.</em></p>' +
         '<a href="#" id="updateButton" class="mr-blue-button-link" style="margin-right: 12px">Update Loyalty Number</a>' +
         '<a href="#" id="cancelButton" class="mr-light-teal-button-link">Not Now</a>' +
         '</div>';
 
-    jQuery('#cancelButton').on('click', function(e) {
+    jQuery('#cancelButton').on('click', function (e) {
         e.preventDefault();
         jQuery.fancybox.close();
     });
 
-    jQuery('#updateButton').on('click', function(e) {
+    jQuery('#updateButton').on('click', function (e) {
         e.preventDefault();
         window.location.href = getBaseURL() + 'myrexall/profile#loyalty';
         jQuery.fancybox.close();
@@ -321,7 +321,7 @@ function show_airmiles_lightbox() {
         autoSize: false
     };
 
-    options.afterClose = function() {
+    options.afterClose = function () {
         jQuery('#cancelButton').off('click');
         jQuery('#updateButton').off('click');
     };
@@ -331,19 +331,19 @@ function show_airmiles_lightbox() {
 
 function show_subscription_lightbox() {
     var content = '<div id="mr-lightbox" style="padding: 15px; width: 540px; background: #e7f4f3 url(' + getBaseURL() + 'public/img/newsletter-subscribe-lightbox-airmiles.png) 342px 15px no-repeat;">' +
-        '<h1 style="font-size: 28px; color: #00ada7; margin: 0; line-height: 30px;">Subscribe to the<br />Rexall Newsletter today!</h1>' +
+        '<h1 style="font-size: 28px; color: #00ada7; margin: 0; line-height: 30px;">Subscribe to the<br />Vanguard Newsletter today!</h1>' +
         '<p style="font-size: 16px; line-height: 21px; color: #00ada7; margin: 10px 0 30px;">Don\'t miss the latest news, articles, promotions<br/>and savings from Rexall™</p>' +
         '<a href="#" id="subscriptionContinueButton" class="teal-button">Subscribe Now</a>' +
         '<p style="font-size: 13px; line-height: 18px; color: #00ada7; margin: 55px 0 0;">You may unsubscribe at any time.<br />' +
         'View our <a href="' + getBaseURL() + 'privacy-policy" style="font-weight: 700; text-decoration: none; color: #00ada7;">Privacy Policy</a> and <a href="' + getBaseURL() + 'contact-us" style="font-weight: 700; text-decoration: none; color: #00ada7;">Contact Details</a></p>' +
         '</div>';
 
-    jQuery('#subscriptionCancelButton').on('click', function(e) {
+    jQuery('#subscriptionCancelButton').on('click', function (e) {
         e.preventDefault();
         jQuery.fancybox.close();
     });
 
-    jQuery('#subscriptionContinueButton').on('click', function(e) {
+    jQuery('#subscriptionContinueButton').on('click', function (e) {
         e.preventDefault();
         window.location.href = getBaseURL() + 'subscribe';
         jQuery.fancybox.close();
@@ -356,7 +356,7 @@ function show_subscription_lightbox() {
         autoSize: false
     };
 
-    options.afterClose = function() {
+    options.afterClose = function () {
         jQuery('#subscriptionCancelButton').off('click');
         jQuery('#subscriptionContinueButton').off('click');
     };
@@ -366,20 +366,20 @@ function show_subscription_lightbox() {
 
 function show_registration_with_medrecord_lightbox(message, title, acceptCallback, rejectCallback) {
     var content = '<div id="mr-lightbox">' +
-        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyRexall Logo">' +
+        '<img src="' + getBaseURL() + 'public/myrexall/img/mr-logo-lightbox.png" alt="MyVanguard Logo">' +
         '<h1>' + title + '</h1>' +
         '<p>' + message + '</p>' +
         '<a href="#" style="margin-right:24px" id="acceptButton" class="mr-light-teal-button-link">Continue to Step 1</a>' +
         '<a href="#" id="rejectButton" class="mr-light-teal-button-link">Come Back Later</a>' +
         '</div>';
 
-    jQuery('#acceptButton').on('click', function(e) {
+    jQuery('#acceptButton').on('click', function (e) {
         e.preventDefault();
         acceptCallback();
         jQuery.fancybox.close();
     });
 
-    jQuery('#rejectButton').on('click', function(e) {
+    jQuery('#rejectButton').on('click', function (e) {
         e.preventDefault();
         rejectCallback();
         jQuery.fancybox.close();
@@ -392,7 +392,7 @@ function show_registration_with_medrecord_lightbox(message, title, acceptCallbac
         autoSize: false
     };
 
-    options.afterClose = function() {
+    options.afterClose = function () {
         jQuery('#acceptButton').off('click');
         jQuery('#rejectButton').off('click');
     };

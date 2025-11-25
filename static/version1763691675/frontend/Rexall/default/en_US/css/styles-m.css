@@ -9046,7 +9046,7 @@ body.modal-is-active {
     color: #ffffff
 }
 
-.widget.my-rexall {
+.widget.my-Vanguard {
     display: block;
     float: right;
     padding: 16px 0 10px;
@@ -9056,7 +9056,7 @@ body.modal-is-active {
     width: 49.5%
 }
 
-.widget.my-rexall .heading {
+.widget.my-Vanguard .heading {
     position: relative;
     width: auto;
     height: 42px;
@@ -9067,16 +9067,16 @@ body.modal-is-active {
     margin: 0
 }
 
-.widget.my-rexall .heading img {
+.widget.my-Vanguard .heading img {
     height: auto;
     max-height: 100%
 }
 
-.widget.my-rexall .heading .text {
+.widget.my-Vanguard .heading .text {
     display: none
 }
 
-.widget.my-rexall a {
+.widget.my-Vanguard a {
     display: block;
     float: right;
     height: 29px;
@@ -9085,7 +9085,7 @@ body.modal-is-active {
     margin: 3px 0 0 0
 }
 
-.widget.my-rexall a:hover {
+.widget.my-Vanguard a:hover {
     text-decoration: none
 }
 
@@ -19948,7 +19948,7 @@ a.glossary span.inner {
 }
 
 .page-header .mobile-nav-container .menu .menu-inner .button-container>li.has-menu .nav-menu>div.featured li.myrexall,
-.page-header .mobile-nav-container .menu .menu-inner .header-nav>li.has-menu .nav-menu>div.featured li.myrexall {
+.page-header .mobile-nav-container .menu .menu-inner .header-nav>li.has-menu .nav-menu>div.featured li.myVanguard {
     background: url('../images/icons/myrexall-mobile.png') 15px center no-repeat;
     background-size: 22px 22px
 }
@@ -20280,7 +20280,7 @@ a.glossary span.inner {
     display: none
 }
 
-.page-header .right .myrexall {
+.page-header .right .myVanguard {
     display: block;
     position: absolute;
     top: 0;
@@ -20295,12 +20295,12 @@ a.glossary span.inner {
     margin: 0
 }
 
-.page-header .right .myrexall a {
+.page-header .right .myVanguard a {
     color: #006b6b;
     font-weight: 600
 }
 
-.page-header .right .myrexall a:hover {
+.page-header .right .myVanguard a:hover {
     text-decoration: none
 }
 
@@ -26647,11 +26647,11 @@ hr {
     font-weight: 700
 }
 
-.private-brands .private-selections .private-selection-rexall {
+.private-brands .private-selections .private-selection-Vanguard {
     border: none
 }
 
-.private-brands .private-selections .private-selection-rexall .love-our-brands-heading {
+.private-brands .private-selections .private-selection-Vanguard .love-our-brands-heading {
     text-align: center
 }
 
@@ -56737,7 +56737,7 @@ hr {
     .cms-ppn-carriers .ppn-nav .ppn-nav-content ul li a.contact-why-rexall,
     .cms-ppn-members .ppn-nav .ppn-nav-content ul li a.contact-why-rexall,
     .cms-ppn-sponsor .ppn-nav .ppn-nav-content ul li a.contact-why-rexall,
-    .ppn-contact-index .ppn-nav .ppn-nav-content ul li a.contact-why-rexall {
+    .ppn-contact-index .ppn-nav .ppn-nav-content ul li a.contact-why-Vanguard {
         background-color: rgba(0, 0, 0, 0);
         color: #147b74
     }
@@ -80724,7 +80724,7 @@ hr {
     background-color: #147b74
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall {
+.why-contact-rexall-wrapper .why-contact-Vanguard {
     background: #147b74;
     margin: auto;
     display: flex;
@@ -80734,82 +80734,82 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall {
+    .why-contact-rexall-wrapper .why-contact-Vanguard {
         padding: 110px
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall h2,
-.why-contact-rexall-wrapper .why-contact-rexall h3,
-.why-contact-rexall-wrapper .why-contact-rexall span,
-.why-contact-rexall-wrapper .why-contact-rexall p {
+.why-contact-rexall-wrapper .why-contact-Vanguard h2,
+.why-contact-rexall-wrapper .why-contact-Vanguard h3,
+.why-contact-rexall-wrapper .why-contact-Vanguard span,
+.why-contact-rexall-wrapper .why-contact-Vanguard p {
     color: #ffffff !important
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall h2 {
+.why-contact-rexall-wrapper .why-contact-Vanguard h2 {
     margin-bottom: 20px
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall h3 {
+.why-contact-rexall-wrapper .why-contact-Vanguard h3 {
     font-size: 36px
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall span {
+.why-contact-rexall-wrapper .why-contact-Vanguard span {
     display: block;
     line-height: 35px;
     margin-bottom: 30px;
     font-weight: 300
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .btn {
+.why-contact-rexall-wrapper .why-contact-Vanguard .btn {
     margin: auto
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall .btn {
+    .why-contact-rexall-wrapper .why-contact-Vanguard .btn {
         margin: 0
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .title-container {
+.why-contact-rexall-wrapper .why-contact-Vanguard .title-container {
     text-align: left;
     margin-bottom: 40px
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall .title-container {
+    .why-contact-rexall-wrapper .why-contact-Vanguard .title-container {
         padding: 0 50px;
         margin-bottom: 0
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .title-container .advice-trip-desktop {
+.why-contact-rexall-wrapper .why-contact-Vanguard .title-container .advice-trip-desktop {
     display: none
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall .title-container .advice-trip-desktop {
+    .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .advice-trip-desktop {
         display: block;
         width: 100%;
         margin-top: 60px
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .title-container .advice-trip-desktop img {
+.why-contact-rexall-wrapper .why-contact-Vanguard .title-container .advice-trip-desktop img {
     border-radius: 20px
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .title-container a {
+.why-contact-rexall-wrapper .why-contact-Vanguard .title-container a {
     display: none
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall .title-container a {
+    .why-contact-rexall-wrapper .why-contact-Vanguard .title-container a {
         display: inline-block
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
     border: 1px dashed #ffffff;
     border-radius: 25px;
     padding: 30px;
@@ -80818,7 +80818,7 @@ hr {
     justify-content: space-evenly
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -80826,26 +80826,26 @@ hr {
     align-items: center
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip:nth-child(2) {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip:nth-child(2) {
     margin: 20px 0
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip {
+    .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip {
         flex-direction: row
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip img {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip img {
     height: 75px;
     padding: 10px
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container {
     padding-left: 8px
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container h3 {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container h3 {
     font-size: 24px;
     line-height: 38px;
     font-weight: 400;
@@ -80854,13 +80854,13 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container h3 {
+    .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container h3 {
         font-size: 36px;
         line-height: 38px
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container p {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
@@ -80868,51 +80868,51 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container p {
+    .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container p {
         font-size: 18px;
         line-height: 30px
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container .cta a {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container .cta a {
     font-weight: 400
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-actions-mobile {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-actions-mobile {
     width: 100%;
     margin-top: 30px;
     text-align: center
 }
 
 @media screen and (min-width:768px) {
-    .why-contact-rexall-wrapper .why-contact-rexall .advice-actions-mobile {
+    .why-contact-rexall-wrapper .why-contact-Vanguard .advice-actions-mobile {
         display: none
     }
 }
 
-.why-contact-rexall-wrapper .why-contact-rexall .advice-actions-mobile .advice-trip-mobile {
+.why-contact-rexall-wrapper .why-contact-Vanguard .advice-actions-mobile .advice-trip-mobile {
     border-radius: 25px;
     margin-top: 40px;
     display: none
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-consultations .why-contact-rexall-wrapper .why-contact-rexall {
+    .cms-travel-clinic-consultations .why-contact-rexall-wrapper .why-contact-Vanguard {
         flex-direction: row
     }
 }
 
 @media screen and (min-width:768px) {
 
-    .cms-travel-clinic-consultations .why-contact-rexall-wrapper .why-contact-rexall .title-container,
-    .cms-travel-clinic-consultations .why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+    .cms-travel-clinic-consultations .why-contact-rexall-wrapper .why-contact-Vanguard .title-container,
+    .cms-travel-clinic-consultations .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
         width: 50%
     }
 }
 
 .cms-travel-clinic-travel-medication-list-otc .why-contact-rexall-wrapper .why-contact-rexall,
 .cms-travel-clinic-travel-medication-list-prescriptions .why-contact-rexall-wrapper .why-contact-rexall,
-.cms-travel-clinic-travel-medication-list-essentials .why-contact-rexall-wrapper .why-contact-rexall {
+.cms-travel-clinic-travel-medication-list-essentials .why-contact-rexall-wrapper .why-contact-Vanguard {
     align-items: center
 }
 
@@ -80920,14 +80920,14 @@ hr {
 
     .cms-travel-clinic-travel-medication-list-otc .why-contact-rexall-wrapper .why-contact-rexall,
     .cms-travel-clinic-travel-medication-list-prescriptions .why-contact-rexall-wrapper .why-contact-rexall,
-    .cms-travel-clinic-travel-medication-list-essentials .why-contact-rexall-wrapper .why-contact-rexall {
+    .cms-travel-clinic-travel-medication-list-essentials .why-contact-rexall-wrapper .why-contact-Vanguard {
         padding: 110px
     }
 }
 
-.cms-travel-clinic-travel-medication-list-otc .why-contact-rexall-wrapper .why-contact-rexall .advice-container,
-.cms-travel-clinic-travel-medication-list-prescriptions .why-contact-rexall-wrapper .why-contact-rexall .advice-container,
-.cms-travel-clinic-travel-medication-list-essentials .why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+.cms-travel-clinic-travel-medication-list-otc .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container,
+.cms-travel-clinic-travel-medication-list-prescriptions .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container,
+.cms-travel-clinic-travel-medication-list-essentials .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly
@@ -80935,9 +80935,9 @@ hr {
 
 @media screen and (min-width:768px) {
 
-    .cms-travel-clinic-travel-medication-list-otc .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip,
-    .cms-travel-clinic-travel-medication-list-prescriptions .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip,
-    .cms-travel-clinic-travel-medication-list-essentials .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip {
+    .cms-travel-clinic-travel-medication-list-otc .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip,
+    .cms-travel-clinic-travel-medication-list-prescriptions .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip,
+    .cms-travel-clinic-travel-medication-list-essentials .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip {
         width: 45%
     }
 }
@@ -82687,7 +82687,7 @@ hr {
     background-color: #147b74
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard {
     background: #147b74;
     margin: auto;
     display: flex;
@@ -82697,20 +82697,20 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard {
         display: block;
         padding: 75px 30px
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall h2,
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall h3,
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall span,
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall p {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h2,
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h3,
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard span,
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard p {
     color: #ffffff
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall h2 {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h2 {
     margin-bottom: 20px;
     font-size: 28px;
     line-height: 40px;
@@ -82718,14 +82718,14 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall h2 {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h2 {
         font-size: 36px;
         line-height: 48px;
         font-weight: 400
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall span {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard span {
     display: block;
     line-height: 35px;
     margin-bottom: 30px;
@@ -82733,65 +82733,65 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall span {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard span {
         line-height: 35px
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .btn {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .btn {
     margin: auto
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .btn {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .btn {
         margin: 0
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container {
     text-align: center;
     margin-bottom: 40px;
     align-items: center
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container {
         text-align: left;
         padding: 0 50px
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .advice-trip-desktop {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .advice-trip-desktop {
     display: block;
     width: 100%
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .text-container span {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .text-container span {
     font-size: 20px;
     line-height: 30px;
     font-weight: 400
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .text-container span {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .text-container span {
         font-size: 24px;
         line-height: 37px;
         font-weight: 400
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container a {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container a {
     display: none
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container a {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container a {
         display: inline-block
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container,
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container,
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -82800,8 +82800,8 @@ hr {
 
 @media screen and (min-width:768px) {
 
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container,
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container,
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
         flex-direction: row;
         grid-gap: 40px
     }
@@ -82809,8 +82809,8 @@ hr {
 
 @media screen and (min-width:768px) {
 
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .tip-column,
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip-column {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .tip-column,
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip-column {
         display: flex;
         justify-content: space-evenly;
         grid-gap: 60px
@@ -82819,16 +82819,16 @@ hr {
 
 @media screen and (min-width:768px) {
 
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .title-text,
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .title-text,
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .title-image,
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .title-image {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .title-text,
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .title-text,
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .title-image,
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .title-image {
         width: 50%
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .title-image,
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .title-image {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .title-image,
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .title-image {
     position: relative;
     border-radius: 30px;
     overflow: hidden;
@@ -82840,37 +82840,37 @@ hr {
 
 @media screen and (min-width:768px) {
 
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .title-image,
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .title-image {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .title-image,
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .title-image {
         max-height: 370px;
         border-radius: 30px
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .title-image img,
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .title-image img {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .title-image img,
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .title-image img {
     object-fit: contain
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
     border: 1px dashed #ffffff;
     border-radius: 25px;
     padding: 30px
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
         flex-direction: column
     }
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip-container {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip-container {
         width: 50%
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -82878,42 +82878,42 @@ hr {
     align-items: center
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip:nth-child(2) {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip:nth-child(2) {
     margin: 20px 0
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip img {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip img {
     height: 75px;
     padding: 10px;
     align-self: flex-start
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container {
     padding-left: 8px;
     text-align: left
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container h3 {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container h3 {
     font-size: 24px;
     line-height: 38px;
     font-weight: 400
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container h3 {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container h3 {
         font-size: 28px;
         line-height: 38px
     }
 }
 
-.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container p {
+.cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container p {
+    .cms-travel-clinic .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container p {
         font-size: 18px;
         line-height: 30px
     }
@@ -83996,7 +83996,7 @@ hr {
     background-color: #147b74
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard {
     background: #147b74;
     margin: auto;
     display: flex;
@@ -84006,35 +84006,35 @@ hr {
 }
 
 @media screen and (min-width:1020px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard {
         flex-direction: row;
         padding: 110px
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall h2,
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall h3,
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall span,
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall p {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h2,
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h3,
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard span,
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard p {
     color: #ffffff;
     text-align: center
 }
 
 @media screen and (min-width:768px) {
 
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall h2,
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall h3,
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall span,
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall p {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h2,
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h3,
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard span,
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard p {
         text-align: left
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall h2 {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard h2 {
     margin-bottom: 20px
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall span {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard span {
     display: block;
     line-height: 35px;
     margin-bottom: 30px;
@@ -84042,71 +84042,71 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall span {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard span {
         line-height: 35px
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .btn {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .btn {
     margin: auto
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .btn {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .btn {
         margin: 0
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container {
     text-align: center;
     padding: 0 50px;
     margin-bottom: 40px
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container {
         padding: 0;
         margin-bottom: 0
     }
 }
 
 @media screen and (min-width:1020px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container {
         padding-right: 50px
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .advice-trip-desktop {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .advice-trip-desktop {
     display: none
 }
 
 @media screen and (min-width:1020px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container .advice-trip-desktop {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container .advice-trip-desktop {
         display: block;
         width: 100%;
         margin-top: 60px
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container a {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container a {
     display: none
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container a {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container a {
         display: inline-block
     }
 }
 
 @media screen and (min-width:1020px) {
 
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container,
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container,
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
         width: 50%
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container h2 {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container h2 {
     font-size: 28px;
     line-height: 40px;
     font-weight: 400;
@@ -84115,7 +84115,7 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container h2 {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container h2 {
         text-align: center;
         font-size: 36px;
         line-height: 48px;
@@ -84124,23 +84124,23 @@ hr {
 }
 
 @media screen and (min-width:1020px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container h2 {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container h2 {
         text-align: left
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container img {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container img {
     display: none
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .title-container img {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .title-container img {
         display: block;
         border-radius: 16px
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container {
     border: 1px dashed #ffffff;
     border-radius: 25px;
     padding: 30px;
@@ -84149,7 +84149,7 @@ hr {
     justify-content: space-evenly
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -84157,26 +84157,26 @@ hr {
     align-items: flex-start
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip:nth-child(2) {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip:nth-child(2) {
     margin: 20px 0
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip {
         flex-direction: row
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip img {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip img {
     height: 75px;
     padding: 10px
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container {
     padding-left: 8px
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container h3 {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container h3 {
     font-size: 24px;
     line-height: 38px;
     font-weight: 400;
@@ -84186,13 +84186,13 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container h3 {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container h3 {
         font-size: 36px;
         line-height: 38px
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container p {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
@@ -84201,13 +84201,13 @@ hr {
 }
 
 @media screen and (min-width:768px) {
-    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container p {
+    .cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container p {
         font-size: 18px;
         line-height: 30px
     }
 }
 
-.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-rexall .advice-container .tip .text-container .cta a {
+.cms-travel-clinic-vaccines-guide .travel-page .why-contact-rexall-wrapper .why-contact-Vanguard .advice-container .tip .text-container .cta a {
     font-weight: 400
 }
 
@@ -94482,21 +94482,21 @@ html.fancy-modal-open {
     text-align: center
 }
 
-.odb-pay-rexall h4,
+.odb-pay-Vanguard h4,
 .odb-pay-standard h4,
-.odb-pay-rexall .odb-pay-title,
+.odb-pay-Vanguard .odb-pay-title,
 .odb-pay-standard .odb-pay-title {
     margin: 0;
     font-size: 11px;
     font-weight: 400
 }
 
-.odb-pay-rexall {
+.odb-pay-Vanguard {
     background-color: #e5f5f4;
     color: #147b74
 }
 
-.odb-pay-rexall .odb-pay-price {
+.odb-pay-Vanguard .odb-pay-price {
     color: #e80c32
 }
 

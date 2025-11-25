@@ -4,11 +4,11 @@ define([
     'jquery',
     'mage/translate',
     'inputmask'
-], function($, $t) {
-    return function(options, form) {
+], function ($, $t) {
+    return function (options, form) {
         const tooltips = $('.tooltip');
 
-        tooltips.each(function(i, tooltip) {
+        tooltips.each(function (i, tooltip) {
             const tooltipText = $('.tooltip-text');
             const toggleTooltipVisibility = () => {
                 tooltipText.toggleClass('visible');
@@ -47,7 +47,7 @@ define([
         form = $(form);
         var origForm = form.serialize();
 
-        $(window).on('beforeunload', function() {
+        $(window).on('beforeunload', function () {
             var submitted = dataLayer.filter(x => x.event === "formSubmission").length;
 
             if (form.serialize() !== origForm) {
@@ -62,7 +62,7 @@ define([
         });
 
 
-        form.on('submit', function(e) {
+        form.on('submit', function (e) {
             e.preventDefault();
 
             var captchaValid = typeof grecaptcha !== 'undefined' ? grecaptcha.getResponse() : true;
@@ -73,7 +73,7 @@ define([
                     data: form.serialize(),
                     cache: false,
                     method: 'POST',
-                    success: function(data) {
+                    success: function (data) {
                         if (typeof data === typeof {} && data.success) {
                             form.trigger('reset');
                             dataLayer.push({
@@ -81,7 +81,7 @@ define([
                                 'formId': 'smokingCessationNewsletterForm',
                                 'formName': 'Smoking Cessation Newsletter Form'
                             });
-                            alert($t('You have successfully subscribed to the Rexall Smoking Cessation Newsletter.'));
+                            alert($t('You have successfully subscribed to the Vanguard Smoking Cessation Newsletter.'));
                         } else {
                             alert(data.error_message);
                         }

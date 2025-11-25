@@ -27,12 +27,12 @@ def propagate_search(root_dir):
                         # We use a simpler string replacement if the regex is too complex or fragile, 
                         # but let's try a robust replacement first.
                         # The pattern in the file is:
-                        # id="header-search-input" placeholder="Search&#x20;rexall.ca" data-mage-init='{...}'
+                        # id="header-search-input" placeholder="Search&#x20;vanguardpharmacy.ca" data-mage-init='{...}'
                         
                         # Let's try to just remove the specific data-mage-init block we know exists
                         mage_init_block = """ data-mage-init='{
                 "Rexall_Search/js/autocomplete": {
-                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.rexall.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
+                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.vanguardpharmacy.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
                     "destinationSelector": &quot;&#x23;header-search631971031&quot;                }
             }'"""
                         if mage_init_block in content:

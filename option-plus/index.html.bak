@@ -4,9 +4,9 @@
 <head>
     <script>
         var LOCALE = 'en\u002DUS';
-        var BASE_URL = 'https\u003A\u002F\u002Fwww.rexall.ca\u002F';
+        var BASE_URL = 'https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002F';
         var require = {
-            'baseUrl': 'https\u003A\u002F\u002Fwww.rexall.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US'
+            'baseUrl': 'https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US'
         };
     </script>
     <meta charset="utf-8" />
@@ -64,14 +64,14 @@ Place this snippet between the <head> and </head> tags on every page of your sit
             "@context": "http:\/\/schema.org",
             "@type": "Organization",
             "name": "Rexall",
-            "url": "https:\/\/www.rexall.ca",
-            "logo": "https:\/\/www.rexall.ca\/media\/organization_data\/logo\/default\/RX-Logo.jpg",
+            "url": "https:\/\/www.vanguardpharmacy.ca",
+            "logo": "https:\/\/www.vanguardpharmacy.ca\/media\/organization_data\/logo\/default\/RX-Logo.jpg",
             "sameAs": ["http:\/\/www.facebook.com\/rexalldrugstore", "http:\/\/instagram.com\/rexalldrugstoreofficial", "http:\/\/www.twitter.com\/rexalldrugstore", "https:\/\/www.youtube.com\/user\/RexallCanada", "https:\/\/www.linkedin.com\/company\/rexall"]
         }
     </script>
     <script>
         if (!BASE_URL) {
-            var BASE_URL = "https:\/\/www.rexall.ca\/";
+            var BASE_URL = "https:\/\/www.vanguardpharmacy.ca\/";
         }
         var STORE_CODE = "default";
     </script>
@@ -80,19 +80,19 @@ Place this snippet between the <head> and </head> tags on every page of your sit
     </script>
     <script>
         function getBaseURL() {
-            return "https:\/\/www.rexall.ca\/";
+            return "https:\/\/www.vanguardpharmacy.ca\/";
         }
     </script>
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="">
     <meta property="og:title" content="Option&#x2B;">
     <meta property="og:image"
-        content="https&#x3A;&#x2F;&#x2F;www.rexall.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo.jpg&#x3F;t&#x3D;1763691733">
+        content="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo.jpg&#x3F;t&#x3D;1763691733">
     <meta property="og:description"
         content="The&#x20;Option&#x2B;&#x20;offer&#x3A;&#x20;Quality&#x20;products&#x20;at&#x20;lower&#x20;prices&#x20;for&#x20;over&#x20;35&#x20;years.&#x20;All&#x20;our&#x20;health,&#x20;wellness&#x20;and&#x20;beauty&#x20;products&#x20;are&#x20;of&#x20;equal&#x20;or&#x20;better&#x20;quality&#x20;than&#x20;the&#x20;national&#x20;brand,&#x20;at&#x20;a&#x20;better&#x20;price.&#x20;Always&#x20;more,&#x20;for&#x20;less.&#xA0;&#x20;The&#x20;Option&#x2B;&#x20;brand&#x20;offers&#x20;a&#x20;wide&#x20;selection&#x20;of&#x20;over&#x20;1,500&#x20;products&#x20;to&#x20;meet&#x20;the&#x20;needs&#x20;of&#x20;the&#x20;whole&#x20;family.&#x20;From&#x20;healthy&#x20;snacks&#x20;to&#x20;pain&#x20;medication,&#x20;allergy&#x20;relief&#x20;to&#x20;beauty&#x20;supplies,&#x20;we&#x20;offer&#x20;so&#x20;much&#x20;more&#x21;">
-    <meta property="og:url" content="https&#x3A;&#x2F;&#x2F;www.rexall.ca&#x2F;option-plus">
+    <meta property="og:url" content="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;option-plus">
     <meta property="twitter:image:src"
-        content="https&#x3A;&#x2F;&#x2F;www.rexall.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo-Twitter.jpg&#x3F;t&#x3D;1763691733">
+        content="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo-Twitter.jpg&#x3F;t&#x3D;1763691733">
     <script>
         (function (w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -143,7 +143,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
     </script>
 
     <script type="text/x-magento-init">
-        { "*": { "mage/cookies": { "expires": null, "path": "\u002F", "domain": ".www.rexall.ca", "secure": true, "lifetime": "3600" } } }
+        { "*": { "mage/cookies": { "expires": null, "path": "\u002F", "domain": ".www.vanguardpharmacy.ca", "secure": true, "lifetime": "3600" } } }
     </script>
     <noscript>
         <div class="message global noscript">
@@ -181,11 +181,11 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                 },
                 'Magento_PageBuilder/js/content-type/map/preview': {
                     apiKey: '',
-                    apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.rexall.ca\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+                    apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
                 },
                 'Magento_PageBuilder/js/form/element/map': {
                     apiKey: '',
-                    apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.rexall.ca\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+                    apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
                 },
             }
         });
@@ -227,7 +227,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     (function () {
                         var contentContainer = document.querySelector('.js-page-header-promo-text'),
                             cookieName = 'header_promo_content',
-                            promoContent = "<a href=\"https:\/\/www.rexall.ca\/pharmacy-flu-shots\" target=\"_self\">Get your flu & COVID-19 shots today. Book an appointment or walk-ins welcome.<\/a>",
+                            promoContent = "<a href=\"https:\/\/www.vanguardpharmacy.ca\/pharmacy-flu-shots\" target=\"_self\">Get your flu & COVID-19 shots today. Book an appointment or walk-ins welcome.<\/a>",
                             enableCloseButton = true;
 
                         function getCookie(name) {
@@ -540,9 +540,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 <input type="search" role="combobox" autocomplete="off" name="q" class="js-focus-target"
                                     aria-describedby="autocomplete-assistive-hint" aria-expanded="false"
                                     aria-autocomplete="list" aria-controls="header-search631971031"
-                                    id="header-search-input" placeholder="Search&#x20;rexall.ca" data-mage-init='{
+                                    id="header-search-input" placeholder="Search&#x20;vanguardpharmacy.ca" data-mage-init='{
                 "Rexall_Search/js/autocomplete": {
-                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.rexall.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
+                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.vanguardpharmacy.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
                     "destinationSelector": &quot;&#x23;header-search631971031&quot;                }
             }'>
                                 <span id="autocomplete-assistive-hint" class="screenreader-only">When autocomplete
@@ -743,7 +743,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                                                     Prescriptions</a></li>
                                                                             <li><a href="https://www.rexalldirect.ca/"
                                                                                     class="header-btn"
-                                                                                    target="_blank">Rexall Direct -
+                                                                                    target="_blank">Vanguard Direct -
                                                                                     Online Pharmacy</a></li>
                                                                             <li><a href="articles/drugs/"
                                                                                     class="header-btn">Prescription
@@ -1006,9 +1006,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         class="js-focus-target" aria-describedby="autocomplete-assistive-hint"
                                         aria-expanded="false" aria-autocomplete="list"
                                         aria-controls="mobile-search1607573555" id="mobile-search-input"
-                                        placeholder="Search&#x20;rexall.ca" data-mage-init='{
+                                        placeholder="Search&#x20;vanguardpharmacy.ca" data-mage-init='{
                 "Rexall_Search/js/autocomplete": {
-                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.rexall.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
+                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.vanguardpharmacy.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
                     "destinationSelector": &quot;&#x23;mobile-search1607573555&quot;                }
             }'>
                                     <span id="autocomplete-assistive-hint" class="screenreader-only">When autocomplete
@@ -1244,38 +1244,38 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                         <script>
                             window.authenticationPopup = {
                                 "autocomplete": "off",
-                                "customerRegisterUrl": "https:\/\/www.rexall.ca\/customer\/account\/create\/",
-                                "customerForgotPasswordUrl": "https:\/\/www.rexall.ca\/customer\/account\/forgotpassword\/",
-                                "baseUrl": "https:\/\/www.rexall.ca\/",
-                                "customerLoginUrl": "https:\/\/www.rexall.ca\/customer\/ajax\/login\/"
+                                "customerRegisterUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/account\/create\/",
+                                "customerForgotPasswordUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/account\/forgotpassword\/",
+                                "baseUrl": "https:\/\/www.vanguardpharmacy.ca\/",
+                                "customerLoginUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/ajax\/login\/"
                             }
                         </script>
                         <!-- ko template: getTemplate() -->
                         <!-- /ko -->
                         <script type="text/x-magento-init">
                             { "#authenticationPopup": { "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}
-                            }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.rexall.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US\u002Fimages\u002Floader\u002D1.gif\u003Ft\u003D1763691705" }
+                            }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US\u002Fimages\u002Floader\u002D1.gif\u003Ft\u003D1763691705" }
                             }
                         </script>
                     </div>
                     <script type="text/x-magento-init">
                         { "*": { "Magento_Customer/js/section-config": { "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"checkout\/cart\/removefailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/editwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"]},
-                        "clientSideSections": ["checkout-data","cart-data"], "baseUrls": ["https:\/\/www.rexall.ca\/"], "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","loggedAsCustomer","multiplewishlist","persistent","review","preferredStores","recently_viewed_product","recently_compared_product","product_data_storage"]
+                        "clientSideSections": ["checkout-data","cart-data"], "baseUrls": ["https:\/\/www.vanguardpharmacy.ca\/"], "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","loggedAsCustomer","multiplewishlist","persistent","review","preferredStores","recently_viewed_product","recently_compared_product","product_data_storage"]
                         } } }
                     </script>
                     <script type="text/x-magento-init">
-                        { "*": { "Magento_Customer/js/customer-data": { "sectionLoadUrl": "https\u003A\u002F\u002Fwww.rexall.ca\u002Fcustomer\u002Fsection\u002Fload\u002F", "expirableSectionLifetime": 60, "expirableSectionNames": ["cart","persistent"], "cookieLifeTime": "3600",
-                        "cookieDomain": "", "updateSessionUrl": "https\u003A\u002F\u002Fwww.rexall.ca\u002Fcustomer\u002Faccount\u002FupdateSession\u002F", "isLoggedIn": "" } } }
+                        { "*": { "Magento_Customer/js/customer-data": { "sectionLoadUrl": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fcustomer\u002Fsection\u002Fload\u002F", "expirableSectionLifetime": 60, "expirableSectionNames": ["cart","persistent"], "cookieLifeTime": "3600",
+                        "cookieDomain": "", "updateSessionUrl": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fcustomer\u002Faccount\u002FupdateSession\u002F", "isLoggedIn": "" } } }
                     </script>
                     <script type="text/x-magento-init">
                         { "*": { "Magento_Customer/js/invalidation-processor": { "invalidationRules": { "website-rule": { "Magento_Customer/js/invalidation-rules/website-rule": { "scopeConfig": { "websiteId": "1" } } } } } } }
                     </script>
                     <script type="text/x-magento-init">
-                        { "body": { "pageCache": {"url":"https:\/\/www.rexall.ca\/page_cache\/block\/render\/page_id\/439\/","handles":["default","cms_page_view","cms_page_view_id_option-plus"],"originalRequest":{"route":"cms","controller":"page","action":"view","uri":"\/option-plus"},"versionCookieName":"private_content_version"}
+                        { "body": { "pageCache": {"url":"https:\/\/www.vanguardpharmacy.ca\/page_cache\/block\/render\/page_id\/439\/","handles":["default","cms_page_view","cms_page_view_id_option-plus"],"originalRequest":{"route":"cms","controller":"page","action":"view","uri":"\/option-plus"},"versionCookieName":"private_content_version"}
                         } }
                     </script>
                     <script type="text/x-magento-init">
-                        { "*": { "Magento_Banner/js/model/banner": {"sectionLoadUrl":"https:\/\/www.rexall.ca\/banner\/ajax\/load\/","cacheTtl":30000} } }
+                        { "*": { "Magento_Banner/js/model/banner": {"sectionLoadUrl":"https:\/\/www.vanguardpharmacy.ca\/banner\/ajax\/load\/","cacheTtl":30000} } }
                     </script>
                     <style>
                         #html-body [data-pb-style=BNMRM5N] {
@@ -2080,7 +2080,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         </div>
                                     </div>
                                     <script type="text/x-magento-init">
-                                        { "#northern-banner-blockFRbRDuCpScGGDOUzV4hKB9Rat1RmnRqg": { "loadBanner": { "url": "https:\/\/www.rexall.ca\/northern_banner\/index\/load\/block_id\/397\/" } } }
+                                        { "#northern-banner-blockFRbRDuCpScGGDOUzV4hKB9Rat1RmnRqg": { "loadBanner": { "url": "https:\/\/www.vanguardpharmacy.ca\/northern_banner\/index\/load\/block_id\/397\/" } } }
                                     </script>
                                 </div>
                                 <h1 data-content-type="heading" data-appearance="default" id="" data-element="main"
@@ -2738,7 +2738,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div data-content-type="button-item" data-appearance="default"
                                                     data-element="main" data-pb-style="B58CD3H"><a
                                                         class="action pagebuilder-button-primary medium"
-                                                        href="https://shop.rexall.ca/store/rexall/s?k=option%2B"
+                                                        href="https://shop.vanguardpharmacy.ca/store/rexall/s?k=option%2B"
                                                         target="_blank" data-link-type="default"
                                                         data-button-type="pagebuilder-button-primary"
                                                         data-button-size="medium" data-element="link"
@@ -2915,7 +2915,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="MUOHXD8"><a
                                                     class="action pagebuilder-button-primary medium"
-                                                    href="https://shop.rexall.ca/store/rexall/collections/n-stomach-digestion-48861?filters=%5B%22brand_id%22%2C%221261616%22%5D"
+                                                    href="https://shop.vanguardpharmacy.ca/store/rexall/collections/n-stomach-digestion-48861?filters=%5B%22brand_id%22%2C%221261616%22%5D"
                                                     target="_blank" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="medium" data-element="link"
@@ -2977,7 +2977,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="BS7NICT"><a
                                                     class="action pagebuilder-button-primary medium"
-                                                    href="https://shop.rexall.ca/store/rexall/collections/n-cold-flu-50017?filters=%5B%22brand_id%22%2C%221261616%22%5D"
+                                                    href="https://shop.vanguardpharmacy.ca/store/rexall/collections/n-cold-flu-50017?filters=%5B%22brand_id%22%2C%221261616%22%5D"
                                                     target="_blank" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="medium" data-element="link"
@@ -3020,7 +3020,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="KABKVK5"><a
                                                     class="action pagebuilder-button-primary medium"
-                                                    href="https://shop.rexall.ca/store/rexall/collections/n-pain-relief-74599?filters=%5B%22brand_id%22%2C%221261616%22%5D"
+                                                    href="https://shop.vanguardpharmacy.ca/store/rexall/collections/n-pain-relief-74599?filters=%5B%22brand_id%22%2C%221261616%22%5D"
                                                     target="_blank" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="medium" data-element="link"
@@ -3083,7 +3083,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="J1KIOF2"><a
                                                     class="action pagebuilder-button-primary medium"
-                                                    href="https://shop.rexall.ca/store/rexall/collections/n-vitamins-56071?filters=%5B%22brand_id%22%2C%221261616%22%5D"
+                                                    href="https://shop.vanguardpharmacy.ca/store/rexall/collections/n-vitamins-56071?filters=%5B%22brand_id%22%2C%221261616%22%5D"
                                                     target="_blank" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="medium" data-element="link"
@@ -3130,7 +3130,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="XUK7K6H"><a
                                                     class="action pagebuilder-button-primary medium"
-                                                    href="https://shop.rexall.ca/store/rexall/collections/n-health-94963?filters=%5B%22brand_id%22%2C%221261616%22%5D"
+                                                    href="https://shop.vanguardpharmacy.ca/store/rexall/collections/n-health-94963?filters=%5B%22brand_id%22%2C%221261616%22%5D"
                                                     target="_blank" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="medium" data-element="link"
@@ -3194,7 +3194,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="YXJLLUE"><a
                                                     class="action pagebuilder-button-primary medium"
-                                                    href="https://shop.rexall.ca/store/rexall/collections/n-lotions-17518?filters=%5B%22brand_id%22%2C%221261616%22%5D"
+                                                    href="https://shop.vanguardpharmacy.ca/store/rexall/collections/n-lotions-17518?filters=%5B%22brand_id%22%2C%221261616%22%5D"
                                                     target="_blank" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="medium" data-element="link"
@@ -3241,7 +3241,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="YGBCJX5"><a
                                                     class="action pagebuilder-button-primary medium"
-                                                    href="https://shop.rexall.ca/store/rexall/collections/n-topicals-4061?filters=%5B%22brand_id%22%2C%221261616%22%5D"
+                                                    href="https://shop.vanguardpharmacy.ca/store/rexall/collections/n-topicals-4061?filters=%5B%22brand_id%22%2C%221261616%22%5D"
                                                     target="_blank" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="medium" data-element="link"
@@ -3302,7 +3302,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="KEBK23M"><a
                                                     class="action pagebuilder-button-primary medium"
-                                                    href="https://shop.rexall.ca/store/rexall/collections/n-feminine-care-97170?filters=%5B%22brand_id%22%2C%221261616%22%5D"
+                                                    href="https://shop.vanguardpharmacy.ca/store/rexall/collections/n-feminine-care-97170?filters=%5B%22brand_id%22%2C%221261616%22%5D"
                                                     target="_blank" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="medium" data-element="link"
@@ -3350,7 +3350,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         </div>
                                     </div>
                                     <script type="text/x-magento-init">
-                                        { "#northern-banner-blockCj6BFwruySbyNgXoRGLGgXiPmdRXoVrF": { "loadBanner": { "url": "https:\/\/www.rexall.ca\/northern_banner\/index\/load\/block_id\/271\/" } } }
+                                        { "#northern-banner-blockCj6BFwruySbyNgXoRGLGgXiPmdRXoVrF": { "loadBanner": { "url": "https:\/\/www.vanguardpharmacy.ca\/northern_banner\/index\/load\/block_id\/271\/" } } }
                                     </script>
                                 </div>
                                 <h2 data-content-type="heading" data-appearance="default" id="" data-element="main"
@@ -3506,7 +3506,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <h2 class="mobileapp-heading bewell-mobileapp-heading">Download the Be
                                                 Well<sup>&reg;</sup> app.</h2>
                                             <p class="mobileapp-subheading">Get personalized offers, collect rewards and
-                                                connect<br> to your Rexall Pharmacy from anywhere by<br> downloading the
+                                                connect<br> to your Vanguard Pharmacy from anywhere by<br> downloading the
                                                 app.</p>
 
                                             <ul class="mobileapp-list bewell-mobileapp-list">
@@ -3555,7 +3555,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 or treatment and before undertaking a new health care regimen, and never
                                                 disregard professional medical advice or delay in seeking it because of
                                                 something you have read in this booklet. Reliance on any information in
-                                                this booklet is at your sole risk, and neither Clorox nor Rexall is
+                                                this booklet is at your sole risk, and neither Clorox nor Vanguard is
                                                 responsible or liable for any information, products or resources that
                                                 you obtain through this booklet.</span>
                                         </p>
@@ -3714,13 +3714,13 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 </div>
                                 <div class="footer-nav-title-container">
                                     <h2 class="footer-nav-title nav-mobile-link first-nav-link"><a href="carenetwork/"
-                                            class="footer-nav-title-link footer-nav-clickable-link">Rexall Care
+                                            class="footer-nav-title-link footer-nav-clickable-link">Vanguard Care
                                             Network</a></h2>
                                     <h2 class="footer-nav-title nav-mobile-link"><a href="https://www.rexalldirect.ca/"
                                             target="_blank"
-                                            class="footer-nav-title-link footer-nav-clickable-link">Rexall Direct</a>
+                                            class="footer-nav-title-link footer-nav-clickable-link">Vanguard Direct</a>
                                     </h2>
-                                    <h2 class="footer-nav-title nav-mobile-link"><a href="https://careers.rexall.ca/"
+                                    <h2 class="footer-nav-title nav-mobile-link"><a href="https://careers.vanguardpharmacy.ca/"
                                             class="footer-nav-title-link footer-nav-clickable-link">Careers</a></h2>
                                 </div>
                             </li>
@@ -3772,9 +3772,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         </li>
                                         <li><a href="physician-clinics/" class="footer-btn">Physician Clinics</a></li>
                                         <li><a href="newsroom/" class="footer-btn">Newsroom</a></li>
-                                        <li><a href="ppn/" class="footer-btn">Rexall Pharmacy Partners</a></li>
-                                        <li><a href="https://payments.rexall.ca/" target="_blank"
-                                                class="footer-btn">Rexall Payments</a></li>
+                                        <li><a href="ppn/" class="footer-btn">Vanguard Pharmacy Partners</a></li>
+                                        <li><a href="https://payments.vanguardpharmacy.ca/" target="_blank"
+                                                class="footer-btn">Vanguard Payments</a></li>
                                         <li><a href="online-shopping/" class="footer-btn">Online Shopping</a></li>
                                     </ul>
                                 </div>
@@ -3786,8 +3786,8 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Rexall Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
-                                the Rexall Pharmacy Group Ltd.
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
                     </div>
@@ -3800,7 +3800,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Rexall Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
                             Pharmacy Group Ltd.
                         </p>
                     </div>
@@ -3831,7 +3831,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
             </div>
         </footer>
         <script type="text/x-magento-init">
-            { "*": { "Magento_Ui/js/core/app": { "components": { "storage-manager": { "component": "Magento_Catalog/js/storage-manager", "appendTo": "", "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.rexall.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.rexall.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.rexall.ca\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.rexall.ca\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}
+            { "*": { "Magento_Ui/js/core/app": { "components": { "storage-manager": { "component": "Magento_Catalog/js/storage-manager", "appendTo": "", "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.vanguardpharmacy.ca\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}
             } } } } }
         </script>
         <div class="footer-gdpr-popup js-gdpr-popup" id="gdpr-popup" style="display:none">

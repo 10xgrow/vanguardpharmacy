@@ -4,19 +4,19 @@
 <head>
     <script>
         var LOCALE = 'en\u002DUS';
-        var BASE_URL = 'https\u003A\u002F\u002Fwww.rexall.ca\u002F';
+        var BASE_URL = 'https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002F';
         var require = {
-            'baseUrl': 'https\u003A\u002F\u002Fwww.rexall.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US'
+            'baseUrl': 'https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US'
         };
     </script>
     <meta charset="utf-8" />
-    <meta name="title" content="Rexall.ca | Terms of Use" />
+    <meta name="title" content="vanguardpharmacy.ca | Terms of Use" />
     <meta name="description"
-        content="Please read the terms of use carefully before using the rexall.ca website. By using the website, you signify your acceptance of these terms of use and agree to the terms of the Rexall Pharmacy Group online privacy notice." />
+        content="Please read the terms of use carefully before using the vanguardpharmacy.ca website. By using the website, you signify your acceptance of these terms of use and agree to the terms of the Vanguard Pharmacy Group online privacy notice." />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Rexall.ca | Terms of Use</title>
+    <title>vanguardpharmacy.ca | Terms of Use</title>
     <link rel="stylesheet" type="text/css" media="all"
         href="/static/version1763691675/frontend/Rexall/default/en_US/mage/calendar.css?t=1763691705" />
     <link rel="stylesheet" type="text/css" media="all"
@@ -64,14 +64,14 @@ Place this snippet between the <head> and </head> tags on every page of your sit
             "@context": "http:\/\/schema.org",
             "@type": "Organization",
             "name": "Rexall",
-            "url": "https:\/\/www.rexall.ca",
-            "logo": "https:\/\/www.rexall.ca\/media\/organization_data\/logo\/default\/RX-Logo.jpg",
+            "url": "https:\/\/www.vanguardpharmacy.ca",
+            "logo": "https:\/\/www.vanguardpharmacy.ca\/media\/organization_data\/logo\/default\/RX-Logo.jpg",
             "sameAs": ["http:\/\/www.facebook.com\/rexalldrugstore", "http:\/\/instagram.com\/rexalldrugstoreofficial", "http:\/\/www.twitter.com\/rexalldrugstore", "https:\/\/www.youtube.com\/user\/RexallCanada", "https:\/\/www.linkedin.com\/company\/rexall"]
         }
     </script>
     <script>
         if (!BASE_URL) {
-            var BASE_URL = "https:\/\/www.rexall.ca\/";
+            var BASE_URL = "https:\/\/www.vanguardpharmacy.ca\/";
         }
         var STORE_CODE = "default";
     </script>
@@ -80,19 +80,19 @@ Place this snippet between the <head> and </head> tags on every page of your sit
     </script>
     <script>
         function getBaseURL() {
-            return "https:\/\/www.rexall.ca\/";
+            return "https:\/\/www.vanguardpharmacy.ca\/";
         }
     </script>
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="">
-    <meta property="og:title" content="Rexall.ca&#x20;&#x7C;&#x20;Terms&#x20;of&#x20;Use">
+    <meta property="og:title" content="vanguardpharmacy.ca&#x20;&#x7C;&#x20;Terms&#x20;of&#x20;Use">
     <meta property="og:image"
-        content="https&#x3A;&#x2F;&#x2F;www.rexall.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo.jpg&#x3F;t&#x3D;1763691733">
+        content="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo.jpg&#x3F;t&#x3D;1763691733">
     <meta property="og:description"
-        content="Please&#x20;read&#x20;the&#x20;terms&#x20;of&#x20;use&#x20;carefully&#x20;before&#x20;using&#x20;the&#x20;rexall.ca&#x20;website.&#x20;By&#x20;using&#x20;the&#x20;website,&#x20;you&#x20;signify&#x20;your&#x20;acceptance&#x20;of&#x20;these&#x20;terms&#x20;of&#x20;use&#x20;and&#x20;agree&#x20;to&#x20;the&#x20;terms&#x20;of&#x20;the&#x20;Rexall&#x20;Pharmacy&#x20;Group&#x20;online&#x20;privacy&#x20;notice.">
-    <meta property="og:url" content="https&#x3A;&#x2F;&#x2F;www.rexall.ca&#x2F;legal">
+        content="Please&#x20;read&#x20;the&#x20;terms&#x20;of&#x20;use&#x20;carefully&#x20;before&#x20;using&#x20;the&#x20;vanguardpharmacy.ca&#x20;website.&#x20;By&#x20;using&#x20;the&#x20;website,&#x20;you&#x20;signify&#x20;your&#x20;acceptance&#x20;of&#x20;these&#x20;terms&#x20;of&#x20;use&#x20;and&#x20;agree&#x20;to&#x20;the&#x20;terms&#x20;of&#x20;the&#x20;Rexall&#x20;Pharmacy&#x20;Group&#x20;online&#x20;privacy&#x20;notice.">
+    <meta property="og:url" content="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;legal">
     <meta property="twitter:image:src"
-        content="https&#x3A;&#x2F;&#x2F;www.rexall.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo-Twitter.jpg&#x3F;t&#x3D;1763691733">
+        content="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;Rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo-Twitter.jpg&#x3F;t&#x3D;1763691733">
     <script>
         (function (w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -143,7 +143,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
     </script>
 
     <script type="text/x-magento-init">
-        { "*": { "mage/cookies": { "expires": null, "path": "\u002F", "domain": ".www.rexall.ca", "secure": true, "lifetime": "3600" } } }
+        { "*": { "mage/cookies": { "expires": null, "path": "\u002F", "domain": ".www.vanguardpharmacy.ca", "secure": true, "lifetime": "3600" } } }
     </script>
     <noscript>
         <div class="message global noscript">
@@ -181,11 +181,11 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                 },
                 'Magento_PageBuilder/js/content-type/map/preview': {
                     apiKey: '',
-                    apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.rexall.ca\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+                    apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
                 },
                 'Magento_PageBuilder/js/form/element/map': {
                     apiKey: '',
-                    apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.rexall.ca\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+                    apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
                 },
             }
         });
@@ -202,18 +202,18 @@ Place this snippet between the <head> and </head> tags on every page of your sit
     <script src="https://maps.googleapis.com/maps/api/js?v=3.48&key=AIzaSyAlfWT9H6D7EFZt-q9tKP7akKXRLIwe538"></script>
     <script>
         window.checkout = {
-            "shoppingCartUrl": "https:\/\/www.rexall.ca\/checkout\/cart\/",
-            "checkoutUrl": "https:\/\/www.rexall.ca\/checkout\/",
-            "updateItemQtyUrl": "https:\/\/www.rexall.ca\/checkout\/sidebar\/updateItemQty\/",
-            "removeItemUrl": "https:\/\/www.rexall.ca\/checkout\/sidebar\/removeItem\/",
+            "shoppingCartUrl": "https:\/\/www.vanguardpharmacy.ca\/checkout\/cart\/",
+            "checkoutUrl": "https:\/\/www.vanguardpharmacy.ca\/checkout\/",
+            "updateItemQtyUrl": "https:\/\/www.vanguardpharmacy.ca\/checkout\/sidebar\/updateItemQty\/",
+            "removeItemUrl": "https:\/\/www.vanguardpharmacy.ca\/checkout\/sidebar\/removeItem\/",
             "imageTemplate": "Magento_Catalog\/product\/image_with_borders",
-            "baseUrl": "https:\/\/www.rexall.ca\/",
+            "baseUrl": "https:\/\/www.vanguardpharmacy.ca\/",
             "minicartMaxItemsVisible": 5,
             "websiteId": "1",
             "maxItemsToDisplay": 10,
             "storeId": "1",
             "storeGroupId": "1",
-            "customerLoginUrl": "https:\/\/www.rexall.ca\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cucmV4YWxsLmNhL2xlZ2Fs\/",
+            "customerLoginUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cucmV4YWxsLmNhL2xlZ2Fs\/",
             "isRedirectRequired": false,
             "autocomplete": "off",
             "captcha": {
@@ -221,7 +221,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     "isCaseSensitive": false,
                     "imageHeight": 50,
                     "imageSrc": "",
-                    "refreshUrl": "https:\/\/www.rexall.ca\/captcha\/refresh\/",
+                    "refreshUrl": "https:\/\/www.vanguardpharmacy.ca\/captcha\/refresh\/",
                     "isRequired": false,
                     "timestamp": 1764032522
                 }
@@ -255,7 +255,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     (function () {
                         var contentContainer = document.querySelector('.js-page-header-promo-text'),
                             cookieName = 'header_promo_content',
-                            promoContent = "<a href=\"https:\/\/www.rexall.ca\/pharmacy-flu-shots\" target=\"_self\">Get your flu & COVID-19 shots today. Book an appointment or walk-ins welcome.<\/a>",
+                            promoContent = "<a href=\"https:\/\/www.vanguardpharmacy.ca\/pharmacy-flu-shots\" target=\"_self\">Get your flu & COVID-19 shots today. Book an appointment or walk-ins welcome.<\/a>",
                             enableCloseButton = true;
 
                         function getCookie(name) {
@@ -568,9 +568,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 <input type="search" role="combobox" autocomplete="off" name="q" class="js-focus-target"
                                     aria-describedby="autocomplete-assistive-hint" aria-expanded="false"
                                     aria-autocomplete="list" aria-controls="header-search631971031"
-                                    id="header-search-input" placeholder="Search&#x20;rexall.ca" data-mage-init='{
+                                    id="header-search-input" placeholder="Search&#x20;vanguardpharmacy.ca" data-mage-init='{
                 "Rexall_Search/js/autocomplete": {
-                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.rexall.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
+                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.vanguardpharmacy.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
                     "destinationSelector": &quot;&#x23;header-search631971031&quot;                }
             }'>
                                 <span id="autocomplete-assistive-hint" class="screenreader-only">When autocomplete
@@ -771,7 +771,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                                                     Prescriptions</a></li>
                                                                             <li><a href="https://www.rexalldirect.ca/"
                                                                                     class="header-btn"
-                                                                                    target="_blank">Rexall Direct -
+                                                                                    target="_blank">Vanguard Direct -
                                                                                     Online Pharmacy</a></li>
                                                                             <li><a href="articles/drugs/"
                                                                                     class="header-btn">Prescription
@@ -1034,9 +1034,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         class="js-focus-target" aria-describedby="autocomplete-assistive-hint"
                                         aria-expanded="false" aria-autocomplete="list"
                                         aria-controls="mobile-search1607573555" id="mobile-search-input"
-                                        placeholder="Search&#x20;rexall.ca" data-mage-init='{
+                                        placeholder="Search&#x20;vanguardpharmacy.ca" data-mage-init='{
                 "Rexall_Search/js/autocomplete": {
-                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.rexall.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
+                    "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.vanguardpharmacy.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
                     "destinationSelector": &quot;&#x23;mobile-search1607573555&quot;                }
             }'>
                                     <span id="autocomplete-assistive-hint" class="screenreader-only">When autocomplete
@@ -1272,71 +1272,71 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                         <script>
                             window.authenticationPopup = {
                                 "autocomplete": "off",
-                                "customerRegisterUrl": "https:\/\/www.rexall.ca\/customer\/account\/create\/",
-                                "customerForgotPasswordUrl": "https:\/\/www.rexall.ca\/customer\/account\/forgotpassword\/",
-                                "baseUrl": "https:\/\/www.rexall.ca\/",
-                                "customerLoginUrl": "https:\/\/www.rexall.ca\/customer\/ajax\/login\/"
+                                "customerRegisterUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/account\/create\/",
+                                "customerForgotPasswordUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/account\/forgotpassword\/",
+                                "baseUrl": "https:\/\/www.vanguardpharmacy.ca\/",
+                                "customerLoginUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/ajax\/login\/"
                             }
                         </script>
                         <!-- ko template: getTemplate() -->
                         <!-- /ko -->
                         <script type="text/x-magento-init">
                             { "#authenticationPopup": { "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}
-                            }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.rexall.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US\u002Fimages\u002Floader\u002D1.gif\u003Ft\u003D1763691705" }
+                            }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US\u002Fimages\u002Floader\u002D1.gif\u003Ft\u003D1763691705" }
                             }
                         </script>
                     </div>
                     <script type="text/x-magento-init">
                         { "*": { "Magento_Customer/js/section-config": { "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"checkout\/cart\/removefailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/editwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"]},
-                        "clientSideSections": ["checkout-data","cart-data"], "baseUrls": ["https:\/\/www.rexall.ca\/"], "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","loggedAsCustomer","multiplewishlist","persistent","review","preferredStores","recently_viewed_product","recently_compared_product","product_data_storage"]
+                        "clientSideSections": ["checkout-data","cart-data"], "baseUrls": ["https:\/\/www.vanguardpharmacy.ca\/"], "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","loggedAsCustomer","multiplewishlist","persistent","review","preferredStores","recently_viewed_product","recently_compared_product","product_data_storage"]
                         } } }
                     </script>
                     <script type="text/x-magento-init">
-                        { "*": { "Magento_Customer/js/customer-data": { "sectionLoadUrl": "https\u003A\u002F\u002Fwww.rexall.ca\u002Fcustomer\u002Fsection\u002Fload\u002F", "expirableSectionLifetime": 60, "expirableSectionNames": ["cart","persistent"], "cookieLifeTime": "3600",
-                        "cookieDomain": "", "updateSessionUrl": "https\u003A\u002F\u002Fwww.rexall.ca\u002Fcustomer\u002Faccount\u002FupdateSession\u002F", "isLoggedIn": "" } } }
+                        { "*": { "Magento_Customer/js/customer-data": { "sectionLoadUrl": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fcustomer\u002Fsection\u002Fload\u002F", "expirableSectionLifetime": 60, "expirableSectionNames": ["cart","persistent"], "cookieLifeTime": "3600",
+                        "cookieDomain": "", "updateSessionUrl": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fcustomer\u002Faccount\u002FupdateSession\u002F", "isLoggedIn": "" } } }
                     </script>
                     <script type="text/x-magento-init">
                         { "*": { "Magento_Customer/js/invalidation-processor": { "invalidationRules": { "website-rule": { "Magento_Customer/js/invalidation-rules/website-rule": { "scopeConfig": { "websiteId": "1" } } } } } } }
                     </script>
                     <script type="text/x-magento-init">
-                        { "body": { "pageCache": {"url":"https:\/\/www.rexall.ca\/page_cache\/block\/render\/page_id\/282\/","handles":["default","cms_page_view","cms_page_view_id_legal"],"originalRequest":{"route":"cms","controller":"page","action":"view","uri":"\/legal\/"},"versionCookieName":"private_content_version"}
+                        { "body": { "pageCache": {"url":"https:\/\/www.vanguardpharmacy.ca\/page_cache\/block\/render\/page_id\/282\/","handles":["default","cms_page_view","cms_page_view_id_legal"],"originalRequest":{"route":"cms","controller":"page","action":"view","uri":"\/legal\/"},"versionCookieName":"private_content_version"}
                         } }
                     </script>
                     <script type="text/x-magento-init">
-                        { "*": { "Magento_Banner/js/model/banner": {"sectionLoadUrl":"https:\/\/www.rexall.ca\/banner\/ajax\/load\/","cacheTtl":30000} } }
+                        { "*": { "Magento_Banner/js/model/banner": {"sectionLoadUrl":"https:\/\/www.vanguardpharmacy.ca\/banner\/ajax\/load\/","cacheTtl":30000} } }
                     </script>
                     <div class="legacy-section">
                         <div id="content-header-title" class="section content-header-title">
                             <h1 class="light-teal-title">Terms of Use</h1>
-                            <p class="sub-title-dark">Rexall Pharmacy Group Ltd</p>
+                            <p class="sub-title-dark">Vanguard Pharmacy Group Ltd</p>
                         </div>
 
                         <div id="special-content">
-                            <p class="uppercase">Please read these terms of use carefully before using the rexall.ca
+                            <p class="uppercase">Please read these terms of use carefully before using the vanguardpharmacy.ca
                                 website. By using the website, you signify your acceptance of these terms of use and
-                                agree to the terms of the Rexall Pharmacy Group Ltd. Online <a class="uppercase"
+                                agree to the terms of the Vanguard Pharmacy Group Ltd. Online <a class="uppercase"
                                     href="/privacy-policy/">privacy notice</a>. Please read these
                                 terms of use carefully.</p>
                             <p><span class="uppercase">Last Update</span>: May 1, 2020</p>
                             <p>The Terms of Use set out below govern your use of the website maintained by Rexall
                                 Pharmacy Group Ltd, affiliates of which are operators of retail pharmacies in Canada.
-                                These Terms of Use cover the Rexall.ca website (the “Site”)
+                                These Terms of Use cover the vanguardpharmacy.ca website (the “Site”)
                                 and any other websites and applications that may be developed in the future.</p>
                             <p>For the purposes of these Terms of Use, unless stated otherwise, all references to
-                                “Rexall” include Rexall Pharmacy Group Ltd, as well as its affiliates Rexall Pharmacies
-                                ULC, Rexall Pharmacies (SASK) Ltd and Rexall Pharmacies
+                                “Rexall” include Vanguard Pharmacy Group Ltd, as well as its affiliates Vanguard Pharmacies
+                                ULC, Vanguard Pharmacies (SASK) Ltd and Vanguard Pharmacies
                                 (BC) Ltd, and each of their respective agents, representatives and third-party service
                                 providers, and each of their respective affiliates.</p>
                             <p>You are entitled to have access to the Site because you are a customer of one of the
-                                retail pharmacies operated by Rexall Pharmacies ULC, Rexall Pharmacies (SASK) Ltd and
-                                Rexall Pharmacies (BC) Ltd. Through the Site, you may
+                                retail pharmacies operated by Vanguard Pharmacies ULC, Vanguard Pharmacies (SASK) Ltd and
+                                Vanguard Pharmacies (BC) Ltd. Through the Site, you may
                                 be able to access your personal health information that has been collected and generated
                                 by your pharmacist. Policies concerning the use of your personal information are set
-                                forth in the Rexall Pharmacy Group Ltd. Online
+                                forth in the Vanguard Pharmacy Group Ltd. Online
                                 Privacy Notice.</p>
 
                             <h2 class="uppercase">Account</h2>
-                            <p>If you enroll in the Rexall Blood Pressure Tracker Program powered by PharmaSmart (“BP
+                            <p>If you enroll in the Vanguard Blood Pressure Tracker Program powered by PharmaSmart (“BP
                                 Tracker Program”), you were provided with a Blood Pressure Check Card (“Card”), which
                                 has a Unique Access Code (UAC). You agree to be responsible
                                 for maintaining the confidentiality of UAC and any other account identifiers which you
@@ -1349,11 +1349,11 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 actions taken by such person with respect to
                                 the use of your account. The person with whom you share your UAC/account identifiers
                                 will have full access to your personal account and will be able to modify your account
-                                and make requests to Rexall through your account.
-                                Rexall will assume that any modifications to your account and any requests made to
-                                Rexall (for example, to transfer or refill your prescription) are being made by you or
+                                and make requests to Vanguard through your account.
+                                Vanguard will assume that any modifications to your account and any requests made to
+                                Vanguard (for example, to transfer or refill your prescription) are being made by you or
                                 on your behalf by an authorized individual.
-                                <span class="uppercase">Rexall will not be liable, directly or indirectly, in any way
+                                <span class="uppercase">Vanguard will not be liable, directly or indirectly, in any way
                                     for any loss or damage of any kind incurred as a result of, or in connection with,
                                     your disclosure of your uac or account identifiers or the use of the site
                                     or application by a person whom you authorize to access your personal
@@ -1362,18 +1362,18 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             <p>All references to your use of the Site and Application in this Terms of Use or in the
                                 Privacy Notice apply to the use of the Site and Application by a person whom you
                                 authorize to access your personal account.</p>
-                            <p>In registering for a personal account, you will be providing Rexall with personal
-                                information about yourself. You authorize Rexall to collect and use all information
+                            <p>In registering for a personal account, you will be providing Vanguard with personal
+                                information about yourself. You authorize Vanguard to collect and use all information
                                 provided by you in connection with your registration for
                                 and your use of the Site and Application in order to administer, maintain and improve
-                                their functioning. Your personal information will be disclosed to Rexall and to agents
+                                their functioning. Your personal information will be disclosed to Vanguard and to agents
                                 and/or third-party service providers of Rexall
-                                Pharmacy Group Ltd, Rexall Pharmacies ULC, Rexall Pharmacies (SASK) Ltd and Rexall
+                                Pharmacy Group Ltd, Vanguard Pharmacies ULC, Vanguard Pharmacies (SASK) Ltd and Rexall
                                 Pharmacies (BC) Ltd, that are responsible for the administration and maintenance of the
                                 Site and Application. If you register for the BP
                                 Tracker Program, your personal information will also be collected and used by
                                 Pharma-Smart International, Inc. (“PharmaSmart”) as further described in our Privacy
-                                Statement. <span class="uppercase">Rexall will not be responsible for the accuracy,
+                                Statement. <span class="uppercase">Vanguard will not be responsible for the accuracy,
                                     maintenance or use of any information you provide, nor be responsible or liable,
                                     directly or indirectly, in any way for any loss or damage of any kind incurred as a
                                     result of, or in connection with, your provision of any information to rexall
@@ -1391,11 +1391,11 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             <p>Any personal information that you may be able to access does not constitute, nor is it
                                 intended to be construed as, medical, legal, or other professional advice, opinion or
                                 represent your comprehensive or complete medical history.</p>
-                            <p>Rexall does not recommend or endorse any specific tests, products, procedures, opinions
+                            <p>Vanguard does not recommend or endorse any specific tests, products, procedures, opinions
                                 or other information that may be mentioned on the Site.</p>
                             <p class="uppercase">You acknowledge and agree that pharmasmart’s products and services, to
                                 the extent incorporated in the bp tracker program or otherwise, are made available by
-                                and through rexall “as is” and without any representations or warranties
+                                and through Vanguard “as is” and without any representations or warranties
                                 whatsoever, including without limitation any warranty of merchantability, fitness for a
                                 particular purpose or non-infringement.</p>
                             <p class="uppercase">The contents of the site are not intended to replace or substitute the
@@ -1404,7 +1404,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 who are the best source of information regarding your health-related questions.
                                 Absolutely no information contained or accessible through the site should be construed
                                 as taking the place of your physician''s or other qualified
-                                healthcare professionals’ advice. Rexall is not responsible for any reliance or
+                                healthcare professionals’ advice. Vanguard is not responsible for any reliance or
                                 decisions made by you based on the information available on or through the site.</p>
                             <p class="uppercase">Do not use this information to diagnose or treat a medical condition or
                                 health problem. You should never disregard or delay seeking medical advice because of
@@ -1418,35 +1418,35 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 illustrations, designs, icons, text, audio clips, video clips, names, trade-marks, trade
                                 names, product and clinical information, software and
                                 logos (collectively, the "Content") and all intellectual property rights therein, are
-                                owned, controlled, or licensed by Rexall or other individuals or organizations and are
+                                owned, controlled, or licensed by Vanguard or other individuals or organizations and are
                                 protected by worldwide intellectual property laws.
                                 You may use Content for your personal use for non-commercial purposes but no
                                 modification or further reproduction of Content is permitted. The Content may not
                                 otherwise be copied, downloaded, reproduced, deleted, modified,
                                 republished, retransmitted, displayed, or used to create derivative works or
-                                performances without the express written permission of Rexall Pharmacy Group Ltd or the
+                                performances without the express written permission of Vanguard Pharmacy Group Ltd or the
                                 respective owner of such Content, as applicable. All other
                                 rights reserved. Except as expressly provided above, nothing contained herein shall be
                                 construed as conferring upon you any license or right in the Content.</p>
-                            <p>Names, trademarks, trade names, trade dress, logos and products of Rexall are protected
+                            <p>Names, trademarks, trade names, trade dress, logos and products of Vanguard are protected
                                 by trademark laws and may not be used for advertising or publicity purposes, or to
                                 indicate any affiliation with or endorsement by Rexall,
-                                except with the express written permission of Rexall Pharmacy Group Ltd. Other product,
+                                except with the express written permission of Vanguard Pharmacy Group Ltd. Other product,
                                 service and company names mentioned on the Site or the Application are for
                                 identification purposes only and may be trademarks of their
                                 respective owners.</p>
 
                             <h2 class="uppercase">Copyright</h2>
-                            <p>All software and technology used on the Site is the property of or licensed by Rexall and
+                            <p>All software and technology used on the Site is the property of or licensed by Vanguard and
                                 protected by Canadian and worldwide copyright laws. The Content may only be used for
                                 promotion or selling purpose with the written consent
-                                of Rexall Pharmacy Group Ltd or the respective owner. Any use, including the
+                                of Vanguard Pharmacy Group Ltd or the respective owner. Any use, including the
                                 reproduction, modification, distribution, transmission, republication, display, or
                                 performance, of the Content is strictly prohibited. Reverse
                                 engineering and data mining of the services offered through the Site and Application are
                                 serious offenses and legal action will be taken against any violation.</p>
                             <p>All copyright and other intellectual property rights associated with the BP Tracker
-                                Program are owned by PharmaSmart and licensed to Rexall and are protected from
+                                Program are owned by PharmaSmart and licensed to Vanguard and are protected from
                                 unauthorized copying and dissemination by copyright law, trademark
                                 law, international conventions and other intellectual property laws.</p>
 
@@ -1460,7 +1460,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 third party; or (vi) post or transmit any unlawful, threatening, libelous, defamatory,
                                 obscene, pornographic or profane material or any material that constitutes or encourages
                                 criminal conduct or that violates any law.</p>
-                            <p>Rexall reserves the right to take any steps it deems necessary to prevent or restrain any
+                            <p>Vanguard reserves the right to take any steps it deems necessary to prevent or restrain any
                                 unauthorized or prohibited access or use of the Site, including without limitation,
                                 taking legal action, or suspending or terminating
                                 your access without notice.</p>
@@ -1469,14 +1469,14 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             <p class="uppercase">The site, including any personal information accessed through the site,
                                 or any other content made available on or through this site, is provided on an "As is"
                                 and "As available" basis. To the maximum extent permitted by law,
-                                Rexall expressly disclaims all warranties and conditions of any kind, express, implied
+                                Vanguard expressly disclaims all warranties and conditions of any kind, express, implied
                                 or collateral, including without limitation any warranty of merchantability, fitness for
                                 a particular purpose or non-infringement.</p>
-                            <p class="uppercase">Rexall does not warrant the accuracy or completeness of any personal
+                            <p class="uppercase">Vanguard does not warrant the accuracy or completeness of any personal
                                 information or any other content accessed through the site. Information that is
                                 periodically updated may not be current at the moment you visit the site and
                                 may contain errors.</p>
-                            <p class="uppercase">Rexall makes no warranty that the site will meet your requirements;
+                            <p class="uppercase">Vanguard makes no warranty that the site will meet your requirements;
                                 that these services will be uninterrupted, timely, secure, or error free; that messages
                                 or requests will be delivered; that defects will be corrected; or that
                                 the site is free of viruses or other harmful components.</p>
@@ -1484,27 +1484,27 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 responsible for verifying any personal information or other content before relying on
                                 it. For greater certainty, you agree that all risk associated with the
                                 use of, or reliance on, any personal information or content of the site, rests with you.
-                                You further agree that Rexall will not be responsible or liable, directly or indirectly,
+                                You further agree that Vanguard will not be responsible or liable, directly or indirectly,
                                 in any way for any loss or damage of any
                                 kind incurred as a result of, or in connection with your use of, or reliance on, any
                                 personal information or content of the site.</p>
 
                             <h2 class="uppercase">No liability</h2>
-                            <p class="uppercase">In no event will Rexall be liable for any damages whatsoever, including
+                            <p class="uppercase">In no event will Vanguard be liable for any damages whatsoever, including
                                 but not limited to direct, indirect, incidental, punitive, and consequential damages
                                 arising out of the use, inability to use, or the results of use of
                                 the site, any websites linked to the site, the content of the site or the personal
                                 information accessible on the site or site linked to the site, whether based on
                                 warranty, contract, tort or any other legal theory and whether
                                 or not advised of the possibility of such damages. To the extent permitted by law, in no
-                                event will Rexall or any other party involved in creating, producing, or delivering the
+                                event will Vanguard or any other party involved in creating, producing, or delivering the
                                 site be liable to you in any manner whatsoever
                                 for any design made or action or non-action taken by you in reliance upon the personal
                                 information accessible or content provided through the site.</p>
 
                             <h2 class="uppercase">Indemnification</h2>
-                            <p>You agree to defend, indemnify and hold harmless each of Rexall Pharmacy Group Ltd,
-                                Rexall Pharmacies ULC, Rexall Pharmacies (SASK) Ltd and Rexall Pharmacies (BC) Ltd,
+                            <p>You agree to defend, indemnify and hold harmless each of Vanguard Pharmacy Group Ltd,
+                                Vanguard Pharmacies ULC, Vanguard Pharmacies (SASK) Ltd and Vanguard Pharmacies (BC) Ltd,
                                 their respective affiliates, officers, directors, employees,
                                 agents, representatives and service providers, including all third parties mentioned on
                                 the Site, from and against any and all claims, actions or demands, including without
@@ -1515,9 +1515,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 your infringement of any intellectual property or privacy rights of any person.</p>
 
                             <h2 class="uppercase">General</h2>
-                            <p>The Site is owned and operated by Rexall Pharmacy Group Ltd and administered by its
+                            <p>The Site is owned and operated by Vanguard Pharmacy Group Ltd and administered by its
                                 third-party service providers. These terms and conditions contained herein represent the
-                                entire agreement between Rexall and you. By using
+                                entire agreement between Vanguard and you. By using
                                 the Site, you agree that any disputes arising from your use of the Site shall be
                                 governed exclusively by the laws of the Province of Ontario and the laws of Canada
                                 applicable in the Province of Ontario. You agree not to
@@ -1525,14 +1525,14 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 and you expressly consent to the exclusive forum, jurisdiction and venue of the courts
                                 of Ontario and/or the Federal Court of Canada.</p>
                             <p>The section titles are for convenience only and have no legal or contractual effect.</p>
-                            <p>If you have any questions about these Terms of Use, please contact Rexall Pharmacy Group
+                            <p>If you have any questions about these Terms of Use, please contact Vanguard Pharmacy Group
                                 Ltd at Toll-free: 1-877-378-4100 or
                                 <a href="/contact-us/">contact us</a>. You can also contact Rexall
                                 Pharmacy Group Ltd by mail at:
                             </p>
                             <p>
-                            <h3>Rexall Support Centre</h3>
-                            Rexall Pharmacy Group Ltd<br> 2300 Meadowvale Blvd.<br> Mississauga, Ontario<br> L5N 5P9
+                            <h3>Vanguard Support Centre</h3>
+                            Vanguard Pharmacy Group Ltd<br> 2300 Meadowvale Blvd.<br> Mississauga, Ontario<br> L5N 5P9
                             </p>
                         </div>
                     </div>
@@ -1593,7 +1593,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     </a>
                     <div class="button-container">
                         <a class="btn large"
-                            href="https://shop.rexall.ca/store/rexall/storefront?utm_source=rexall&utm_medium=web_landing_page&utm_campaign=footer&utm_content=shop_now"
+                            href="https://shop.vanguardpharmacy.ca/store/rexall/storefront?utm_source=rexall&utm_medium=web_landing_page&utm_campaign=footer&utm_content=shop_now"
                             target="_blank">Shop Now
                             <span class="screenreader-only"> (opens in a new window)</span>
                             <a class="btn large store-locator" href="/contact-us/">Find a
@@ -1640,13 +1640,13 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 <div class="footer-nav-title-container">
                                     <h2 class="footer-nav-title nav-mobile-link first-nav-link"><a
                                             href="/carenetwork/"
-                                            class="footer-nav-title-link footer-nav-clickable-link">Rexall Care
+                                            class="footer-nav-title-link footer-nav-clickable-link">Vanguard Care
                                             Network</a></h2>
                                     <h2 class="footer-nav-title nav-mobile-link"><a href="https://www.rexalldirect.ca/"
                                             target="_blank"
-                                            class="footer-nav-title-link footer-nav-clickable-link">Rexall Direct</a>
+                                            class="footer-nav-title-link footer-nav-clickable-link">Vanguard Direct</a>
                                     </h2>
-                                    <h2 class="footer-nav-title nav-mobile-link"><a href="https://careers.rexall.ca/"
+                                    <h2 class="footer-nav-title nav-mobile-link"><a href="https://careers.vanguardpharmacy.ca/"
                                             class="footer-nav-title-link footer-nav-clickable-link">Careers</a></h2>
                                 </div>
                             </li>
@@ -1709,10 +1709,10 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 class="footer-btn">Physician Clinics</a></li>
                                         <li><a href="/newsroom/" class="footer-btn">Newsroom</a>
                                         </li>
-                                        <li><a href="/ppn/" class="footer-btn">Rexall Pharmacy
+                                        <li><a href="/ppn/" class="footer-btn">Vanguard Pharmacy
                                                 Partners</a></li>
-                                        <li><a href="https://payments.rexall.ca/" target="_blank"
-                                                class="footer-btn">Rexall Payments</a></li>
+                                        <li><a href="https://payments.vanguardpharmacy.ca/" target="_blank"
+                                                class="footer-btn">Vanguard Payments</a></li>
                                         <li><a href="/online-shopping/" class="footer-btn">Online
                                                 Shopping</a></li>
                                     </ul>
@@ -1725,8 +1725,8 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> Rexall Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
-                                the Rexall Pharmacy Group Ltd.
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of
+                                the Vanguard Pharmacy Group Ltd.
                             </p>
                         </div>
                     </div>
@@ -1739,7 +1739,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Rexall Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Rexall&reg; is a member of Rexall
                             Pharmacy Group Ltd.
                         </p>
                     </div>
@@ -1770,7 +1770,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
             </div>
         </footer>
         <script type="text/x-magento-init">
-            { "*": { "Magento_Ui/js/core/app": { "components": { "storage-manager": { "component": "Magento_Catalog/js/storage-manager", "appendTo": "", "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.rexall.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.rexall.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.rexall.ca\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.rexall.ca\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}
+            { "*": { "Magento_Ui/js/core/app": { "components": { "storage-manager": { "component": "Magento_Catalog/js/storage-manager", "appendTo": "", "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.vanguardpharmacy.ca\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}
             } } } } }
         </script>
         <div class="footer-gdpr-popup js-gdpr-popup" id="gdpr-popup" style="display:none">

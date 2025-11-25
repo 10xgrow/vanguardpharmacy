@@ -1312,91 +1312,63 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                         { "*": { "Magento_Banner/js/model/banner": {"sectionLoadUrl":"https:\/\/www.rexall.ca\/banner\/ajax\/load\/","cacheTtl":30000} } }
                     </script>
                     <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true">
-                        <div class="section contact-form-wrap">
-                            <div class="right-float text-content-column">
-                                <div class="section content-header-title">
-                                    <h1 class="light-teal-title">Contact Us</h1>
-                                    <p class="sub-title-dark">We’re dedicated to making your experience at Rexall the
-                                        best it can be and we’re here to help.</p>
-                                </div>
-                                <div class="content">
-                                    <h2>Customer Feedback</h2>
-                                    <p>All customer feedback received will be responded to via email and or phone by our
-                                        Customer Service Department, with a goal of resolving any issues within a
-                                        maximum of two weeks. Our aim is to always find a resolution
-                                        that satisfies our customer.</p>
-                                    <p><b>Customer Service Hours of Operation</b><br> Monday to Friday from 9:00 AM to
-                                        5:00 PM EST <br> <b>By Phone:</b> <a href="tel:18773784100">1-877-378-4100</a>
-                                        <br> <b>Click here to <a href="/contact/">contact us</a>
-                                            now.</b>
-                                    </p>
-                                    <p class="small">We truly appreciate you taking the time to share your thoughts with
-                                        us. While we aim to respond in a timely manner, please note that during periods
-                                        of high volume, response times may be longer than usual. Thank you
-                                        for your patience and understanding.</p>
-                                    <p class="small">Please do not include any confidential or sensitive information
-                                        such as medical details, prescription refill requests, Social Insurance Numbers,
-                                        or credit card information when submitting through the Contact Us form.</p>
-                                    <p class="small">If you have questions related to medical conditions, we encourage
-                                        you to speak directly with your physician or a pharmacist at your nearest
-                                        Rexall.</p>
-                                    <h2>Rexall Support Centre</h2>
-                                    <p>Rexall Pharmacy Group Ltd<br>2300 Meadowvale Blvd<br>Mississauga, ON L5N
-                                        5P9<br><br><b>General Inquiries:</b> <a
-                                            href="tel:18663239695">1-866-323-9695</a>
+                        <div class="section contact-form-wrap" style="max-width: 800px; margin: 0 auto; padding: 20px;">
+                            <div class="section content-header-title">
+                                <h1 class="light-teal-title">Contact Us</h1>
+                                <p class="sub-title-dark">Place your orders, refill prescriptions, or send us a message.
+                                </p>
+                            </div>
+                            <div class="content">
+                                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form"
+                                    style="display: flex; flex-direction: column; gap: 15px;">
+                                    <input type="hidden" name="access_key" value="5decf3b8-7e29-423d-a185-7e1dc63920f3">
 
-                                    <div class="contact-proprietor-section">
-                                        <h2>Proprietor Information</h2>
-                                        <ul class="accessible-accordion" data-mage-init='{"accessible-accordion": {}}'>
-                                            <li class="accessible-accordion-item js-accessible-accordion-item">
-                                                <button class="accessible-accordion-title js-accessible-accordion-title"
-                                                    type="button">BC Pharmacy Locations</button>
-                                                <div
-                                                    class="accessible-accordion-content js-accessible-accordion-content">
-                                                    <p>
-                                                        Rexall Pharmacies (BC) Ltd.<br> 2300 Meadowvale Blvd<br>
-                                                        Mississauga, ON L5N 5P9
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <li class="accessible-accordion-item js-accessible-accordion-item">
-                                                <button class="accessible-accordion-title js-accessible-accordion-title"
-                                                    type="button">SK Pharmacy Locations</button>
-                                                <div
-                                                    class="accessible-accordion-content js-accessible-accordion-content">
-                                                    <p>
-                                                        Rexall Pharmacies (SASK) Ltd.<br> 2300 Meadowvale Blvd<br>
-                                                        Mississauga, ON L5N 5P9
-                                                    </p>
-                                                </div>
-                                            </li>
-                                            <li class="accessible-accordion-item js-accessible-accordion-item">
-                                                <button class="accessible-accordion-title js-accessible-accordion-title"
-                                                    type="button">AB, ON, MB, and NB Pharmacy Locations</button>
-                                                <div
-                                                    class="accessible-accordion-content js-accessible-accordion-content">
-                                                    <p>
-                                                        Rexall Pharmacies ULC<br> 2300 Meadowvale Blvd<br> Mississauga,
-                                                        ON L5N 5P9
-                                                    </p>
-                                                    <p>Proprietor’s Agent (AB Pharmacy Locations): Sylvie Druteika</p>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                    <div class="form-group">
+                                        <label for="name"
+                                            style="display: block; margin-bottom: 5px; font-weight: bold;">Name</label>
+                                        <input type="text" name="name" id="name" required
+                                            style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
                                     </div>
 
+                                    <div class="form-group">
+                                        <label for="email"
+                                            style="display: block; margin-bottom: 5px; font-weight: bold;">Email</label>
+                                        <input type="email" name="email" id="email" required
+                                            style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                                    </div>
 
-                                </div>
-                            </div>
-                            <div class="left-float">
-                                <div class="widget refill-options">
-                                    <p class="heading">Manage Your Prescriptions</p>
-                                    <a class="btn dark" href="/refill/">Refill <span
-                                            class="text">Prescriptions</span></a>
-                                    <a class="btn dark" href="/transfer/">Transfer <span
-                                            class="text">Prescriptions</span></a>
-                                    <a class="more" href="/pages/pharmacy/">More Services</a>
-                                </div>
+                                    <div class="form-group">
+                                        <label for="phone"
+                                            style="display: block; margin-bottom: 5px; font-weight: bold;">Phone
+                                            Number</label>
+                                        <input type="tel" name="phone" id="phone" required
+                                            style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="service"
+                                            style="display: block; margin-bottom: 5px; font-weight: bold;">Service
+                                            Type</label>
+                                        <select name="service" id="service" required
+                                            style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                                            <option value="Order">Order</option>
+                                            <option value="Refill Prescription">Refill Prescription</option>
+                                            <option value="General Inquiry">General Inquiry</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="message"
+                                            style="display: block; margin-bottom: 5px; font-weight: bold;">Message /
+                                            Order Details</label>
+                                        <textarea name="message" id="message" rows="5" required
+                                            style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn large"
+                                        style="background-color: #007e8a; color: white; padding: 12px 24px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; align-self: flex-start;">Submit</button>
+                                </form>
                             </div>
                         </div>
                     </div>

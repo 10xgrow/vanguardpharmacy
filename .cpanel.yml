@@ -1,0 +1,24 @@
+# cPanel Git deployment file tuned to your cPanel repository vanguardpharmacy.ca
+# Deploys repository files into the cPanel path you provided (/home/vangu639/vanguardpharmacy.ca).
+# Uses DOCUMENT_ROOT when provided by cPanel; otherwise falls back to the path above.
+version: 2
+deployment:
+  tasks:
+    - echo "Starting cPanel Git deployment..."
+    - export CPANEL_DOCROOT="${DOCUMENT_ROOT:-/home/vangu639/vanguardpharmacy.ca}"
+    - echo "Target CPANEL_DOCROOT: $CPANEL_DOCROOT"
+    - mkdir -p "$CPANEL_DOCROOT"
+    - echo "Syncing repository files to target (excluding .git, .cpanel.yml, .DS_Store, .bak files)..."
+    - rsync -a --delete \
+        --exclude='.git' \
+        --exclude='.cpanel.yml' \
+        --exclude='.DS_Store' \
+        --exclude='*.bak' \
+        --exclude='propagate_search.py' \
+        --exclude='.env' \
+        ./ "$CPANEL_DOCROOT/"
+    - echo "Attempting to set ownership and sensible permissions (may be restricted on some cPanel setups)..."
+    - chown -R "$USER:$USER" "$CPANEL_DOCROOT" || true
+    - find "$CPANEL_DOCROOT" -type d -exec chmod 755 {} \; || true
+    - find "$CPANEL_DOCROOT" -type f -exec chmod 644 {} \; || true
+    - echo "Deployment complete."

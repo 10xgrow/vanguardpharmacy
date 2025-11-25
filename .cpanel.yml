@@ -8,15 +8,48 @@ deployment:
     - export CPANEL_DOCROOT="${DOCUMENT_ROOT:-/home/vangu639/vanguardpharmacy.ca}"
     - echo "Target CPANEL_DOCROOT: $CPANEL_DOCROOT"
     - mkdir -p "$CPANEL_DOCROOT"
-    - echo "Syncing repository files to target (excluding .git, .cpanel.yml, .DS_Store, .bak files)..."
+    - echo "Syncing repository files to target (excluding .git, .cpanel.yml, node_modules, vendor, .env)..."
     - rsync -a --delete \
         --exclude='.git' \
         --exclude='.cpanel.yml' \
-        --exclude='.DS_Store' \
-        --exclude='*.bak' \
-        --exclude='propagate_search.py' \
+        --exclude='node_modules' \
+        --exclude='vendor' \
         --exclude='.env' \
         ./ "$CPANEL_DOCROOT/"
+    - |
+      if [ -f "$CPANEL_DOCROOT/composer.json" ]; then
+        echo "composer.json detected — attempting composer install..."
+        cd "$CPANEL_DOCROOT" || exit 1
+        if command -v composer >/dev/null 2>&1; then
+          composer install --no-interaction --no-dev --prefer-dist --optimize-autoloader || echo "composer install failed"
+        else
+          echo "composer not found in PATH; skipping composer install"
+        fi
+      fi
+    - |
+      if [ -f "$CPANEL_DOCROOT/package.json" ]; then
+        echo "package.json detected — attempting npm install/build..."
+        cd "$CPANEL_DOCROOT" || exit 1
+        if command -v npm >/dev/null 2>&1; then
+          if [ -f package-lock.json ]; then
+            npm ci --production || npm install --production || echo "npm install failed"
+          else
+            npm install --production || echo "npm install failed"
+          fi
+          if grep -q '"build"' package.json; then
+            npm run build || echo "npm run build failed"
+          fi
+        else
+          echo "npm not found in PATH; skipping npm install/build"
+        fi
+      fi
+    - |
+      if [ -f "$CPANEL_DOCROOT/artisan" ]; then
+        echo "artisan detected — setting common Laravel permissions..."
+        find "$CPANEL_DOCROOT/storage" -type d -exec chmod 775 {} \; || true
+        find "$CPANEL_DOCROOT/storage" -type f -exec chmod 664 {} \; || true
+        chmod -R 775 "$CPANEL_DOCROOT/bootstrap/cache" || true
+      fi
     - echo "Attempting to set ownership and sensible permissions (may be restricted on some cPanel setups)..."
     - chown -R "$USER:$USER" "$CPANEL_DOCROOT" || true
     - find "$CPANEL_DOCROOT" -type d -exec chmod 755 {} \; || true

@@ -1,0 +1,30 @@
+"
+<div class=\ "fact-slider cold-slider\" id=\ "block-0-unexpected-allergy-slider\">\n
+    <div>\n <img class=\ "desktop-image\" src=\ "https:\/\/www.rexall.ca\/media\/cache\/7eb369f27775f2db92648609527c34e5\/northern_banner\/banner\/image\/r\/x\/rx-slider-allergy.png\" alt=\ "\" aria-hidden=\ "true\">\n
+        <div class=\ "slider-testimonial\">\n
+            <p class=\ "slider-testimonial\">Allergic Attraction: Avoid wearing bright colours and scented products, they often attract more bugs than being neutral and scent-free.
+                <\/p>
+                    <\/div>\n
+                        <\/div>\n
+                            <div>\n <img class=\ "desktop-image\" src=\ "https:\/\/www.rexall.ca\/media\/cache\/7eb369f27775f2db92648609527c34e5\/northern_banner\/banner\/image\/r\/x\/rx-slider-allergy.png\" alt=\ "\" aria-hidden=\ "true\">\n
+                                <div class=\
+                                    "slider-testimonial\">\n
+                                    <p class=\ "slider-testimonial\">New place, new allergy: You might encounter new allergens while traveling, so pack medication so you can enjoy your trip.
+                                        <\/p>
+                                            <\/div>\n
+                                                <\/div>\n
+                                                    <div>\n <img class=\ "desktop-image\" src=\ "https:\/\/www.rexall.ca\/media\/cache\/7eb369f27775f2db92648609527c34e5\/northern_banner\/banner\/image\/r\/x\/rx-slider-allergy.png\" alt=\ "\" aria-hidden=\
+                                                            "true\">\n
+                                                        <div class=\ "slider-testimonial\">\n
+                                                            <p class=\ "slider-testimonial\">Leaf it be: Poison ivy and oak give everyone an itch, but those who get an allergic reaction should cover up and be extra careful to avoid them.
+                                                                <\/p>
+                                                                    <\/div>\n
+                                                                        <\/div>\n
+                                                                            <\/div>\n
+                                                                                <script>
+                                                                                    \
+                                                                                    nrequire([\n 'jquery', \n 'AccessibleSlick'\
+                                                                                                n
+                                                                                            ], function($) {\
+                                                                                                n 'use strict';\
+                                                                                                n\ n $(\"#block-0-unexpected-allergy-slider\").AccessibleSlick({\n        slickOptions: {\n            arrows      : true,\n            dots        : true,\n            customPaging: function (slider, i) {\n                return '<div class=\"fact-slider-dot\"><\/div>';\n            }\n        }\n    });\n});\n<\/script>\n"

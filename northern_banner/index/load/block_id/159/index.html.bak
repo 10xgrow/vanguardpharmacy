@@ -1,0 +1,24 @@
+"
+<div class=\ "fact-slider\" id=\ "block-0\">\n
+    <div>\n <img class=\ "desktop-image\" src=\ "https:\/\/www.rexall.ca\/media\/cache\/7eb369f27775f2db92648609527c34e5\/northern_banner\/banner\/image\/s\/l\/slider-heart.png\" alt=\ "\" aria-hidden=\ "true\">\n
+        <div class=\ "slider-testimonial\">\n
+            <p class=\ "slider-testimonial\">Jamieson 100% Complete Multivitamin for Adults is the easy way to get 100% of your body's daily vitamin needs. It is formulated to Health Canada\u2019s recommendations so you can feel confident you are getting 100% or more of the vitamins
+                your body needs each day!
+                <\/p>
+                    <\/div>\n
+                        <\/div>\n
+                            <div>\n <img class=\ "desktop-image\" src=\ "https:\/\/www.rexall.ca\/media\/cache\/7eb369f27775f2db92648609527c34e5\/northern_banner\/banner\/image\/s\/l\/slider-heart.png\" alt=\ "\" aria-hidden=\ "true\">\n
+                                <div class=\
+                                    "slider-testimonial\">\n
+                                    <p class=\ "slider-testimonial\">Vitamin D plays a key role in supporting the immune system, while promoting the development of bones and teeth and helping the body effectively absorb calcium.
+                                        <\/p>
+                                            <\/div>\n
+                                                <\/div>\n
+                                                    <\/div>\n
+                                                        <script>
+                                                            \
+                                                            nrequire([\n 'jquery', \n 'AccessibleSlick'\
+                                                                        n
+                                                                    ], function($) {\
+                                                                        n 'use strict';\
+                                                                        n\ n $(\"#block-0\").AccessibleSlick({\n        slickOptions: {\n            arrows      : true,\n            dots        : true,\n            customPaging: function (slider, i) {\n                return '<div class=\"fact-slider-dot\"><\/div>';\n            }\n        }\n    });\n});\n<\/script>\n"

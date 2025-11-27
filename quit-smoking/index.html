@@ -1540,6 +1540,27 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                 border-style: none
                             }
                         }
+
+                        /* Fade down placeholder text in smoking calculator */
+                        .smoking-cessation-calculator-input::placeholder {
+                            opacity: 0.4;
+                        }
+
+                        .smoking-cessation-calculator-input::-webkit-input-placeholder {
+                            opacity: 0.4;
+                        }
+
+                        .smoking-cessation-calculator-input::-moz-placeholder {
+                            opacity: 0.4;
+                        }
+
+                        .smoking-cessation-calculator-input:-ms-input-placeholder {
+                            opacity: 0.4;
+                        }
+
+                        .smoking-cessation-calculator-input:-moz-placeholder {
+                            opacity: 0.4;
+                        }
                     </style>
                     <div data-content-type="row" data-appearance="contained" data-element="main">
                         <div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}"
@@ -1710,6 +1731,12 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <h2>How much does smoking cost you?</h2>
                                             <p>Find out how much you spend on cigarettes and how much you can save by
                                                 quitting!</p>
+                                            <div
+                                                style="background-color: #daf7f7; border-left: 4px solid #006060; padding: 12px 15px; margin-top: 15px; border-radius: 4px;">
+                                                <p
+                                                    style="margin: 0; font-size: 15px; color: #006060; font-weight: 600;">
+                                                    📝 Fill in all three fields below to calculate your costs</p>
+                                            </div>
                                         </div>
 
                                         <form class="smoking-cessation-calculator-form">
@@ -1718,14 +1745,14 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                     much do you
                                                     pay for a pack of cigarettes?</label>
                                                 <input id="pack-cost" class="smoking-cessation-calculator-input"
-                                                    type="number" min="1" step="0.01" placeholder="15.00">
+                                                    type="number" min="1" step="0.01" placeholder="e.g. 15">
                                             </div>
                                             <div class="smoking-cessation-calculator-input-container">
                                                 <label class="smoking-cessation-calculator-label" for="pack-size">How
                                                     many
                                                     cigarettes are in a pack?</label>
                                                 <input id="pack-size" class="smoking-cessation-calculator-input"
-                                                    type="number" min="1" placeholder="20">
+                                                    type="number" min="1" placeholder="e.g. 20">
                                             </div>
                                             <div class="smoking-cessation-calculator-input-container">
                                                 <label class="smoking-cessation-calculator-label"
@@ -1733,7 +1760,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                     many cigarettes do you smoke in a day?</label>
                                                 <input id="cigarettes-per-day"
                                                     class="smoking-cessation-calculator-input" type="number" min="1"
-                                                    placeholder="10">
+                                                    placeholder="e.g. 10">
                                             </div>
                                         </form>
                                         <div class="smoking-cessation-calculator-cost-breakdown-container">

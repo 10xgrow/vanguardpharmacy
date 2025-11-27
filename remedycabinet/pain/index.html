@@ -6,7 +6,7 @@
         var LOCALE = 'en\u002DUS';
         var BASE_URL = 'https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002F';
         var require = {
-            'baseUrl': 'https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FVanguard Pharmacy\u002Fdefault\u002Fen_US'
+            'baseUrl': 'https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FRexall\u002Fdefault\u002Fen_US'
         };
     </script>
     <meta charset="utf-8" />
@@ -3484,6 +3484,68 @@ Place this snippet between the <head> and </head> tags on every page of your sit
         </div>
     </div>
     <script src="/static/js/search.js"></script>
+
+    <script>
+        // Custom Accordion JavaScript - No dependencies
+        document.addEventListener('DOMContentLoaded', function() {
+            // Find all accordion containers
+            const accordions = document.querySelectorAll('.accessible-accordion');
+            
+            accordions.forEach(function(accordion) {
+                // Find all accordion items within this container
+                const items = accordion.querySelectorAll('.js-accessible-accordion-item');
+                
+                items.forEach(function(item) {
+                    const button = item.querySelector('.js-accessible-accordion-title');
+                    const content = item.querySelector('.js-accessible-accordion-content');
+                    
+                    if (button && content) {
+                        // Initially hide all content
+                        content.style.display = 'none';
+                        content.setAttribute('aria-hidden', 'true');
+                        button.setAttribute('aria-expanded', 'false');
+                        
+                        // Add click event listener
+                        button.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            
+                            // Check if this item is currently active
+                            const isActive = item.classList.contains('is-active');
+                            
+                            // Close all other accordion items in this container (single-expand behavior)
+                            items.forEach(function(otherItem) {
+                                if (otherItem !== item) {
+                                    otherItem.classList.remove('is-active');
+                                    const otherContent = otherItem.querySelector('.js-accessible-accordion-content');
+                                    const otherButton = otherItem.querySelector('.js-accessible-accordion-title');
+                                    if (otherContent) {
+                                        otherContent.style.display = 'none';
+                                        otherContent.setAttribute('aria-hidden', 'true');
+                                    }
+                                    if (otherButton) {
+                                        otherButton.setAttribute('aria-expanded', 'false');
+                                    }
+                                }
+                            });
+                            
+                            // Toggle current item
+                            if (isActive) {
+                                item.classList.remove('is-active');
+                                content.style.display = 'none';
+                                content.setAttribute('aria-hidden', 'true');
+                                button.setAttribute('aria-expanded', 'false');
+                            } else {
+                                item.classList.add('is-active');
+                                content.style.display = 'block';
+                                content.setAttribute('aria-hidden', 'false');
+                                button.setAttribute('aria-expanded', 'true');
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

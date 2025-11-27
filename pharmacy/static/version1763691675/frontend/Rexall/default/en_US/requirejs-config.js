@@ -1245,11 +1245,11 @@
         var config = {
             map: {
                 '*': {
-                    richmarker: 'Rexall_Storelocator/js/richmarker-compiled',
-                    storelocator: 'Rexall_Storelocator/js/contact-us',
-                    'storelocator-listing': 'Rexall_Storelocator/js/contact-us-listing',
-                    storedetail: 'Rexall_Storelocator/js/store',
-                    servicelocator: 'Rexall_Storelocator/js/servicelocator'
+                    richmarker: 'Vanguard_Storelocator/js/richmarker-compiled',
+                    storelocator: 'Vanguard_Storelocator/js/contact-us',
+                    'storelocator-listing': 'Vanguard_Storelocator/js/contact-us-listing',
+                    storedetail: 'Vanguard_Storelocator/js/store',
+                    servicelocator: 'Vanguard_Storelocator/js/servicelocator'
                 }
             }
         };

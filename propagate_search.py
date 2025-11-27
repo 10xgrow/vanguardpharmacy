@@ -31,7 +31,7 @@ def propagate_search(root_dir):
                         
                         # Let's try to just remove the specific data-mage-init block we know exists
                         mage_init_block = """ data-mage-init='{
-                "Rexall_Search/js/autocomplete": {
+                "vanguard_Search/js/autocomplete": {
                     "url": &quot;https&#x3A;&#x5C;&#x2F;&#x5C;&#x2F;www.vanguardpharmacy.ca&#x5C;&#x2F;search&#x5C;&#x2F;autocomplete&#x5C;&#x2F;&quot;,
                     "destinationSelector": &quot;&#x23;header-search631971031&quot;                }
             }'"""

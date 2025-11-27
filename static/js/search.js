@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
         { title: "Contact Us", url: "/contact-us/" },
         { title: "Skin Care", url: "/skin-care/" },
         { title: "Respiratory Care", url: "/respiratory/" },
-        { title: "Option+", url: "/option-plus/" },
         { title: "Ask a Pharmacist", url: "/ask-a-pharmacist/" },
         { title: "Vaccinations", url: "/vaccines/" },
         { title: "Remedy Cabinet", url: "/remedycabinet/" },

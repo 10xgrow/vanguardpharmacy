@@ -466,10 +466,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <div class="header-nav-level-2"><a href="/diabetes-resources/"><span
                                                     class="nav-menu-section-title">Diabetes</span></a></div>
                                     </li>
-                                    <li class="header-nav-level-1">
-                                        <div class="header-nav-level-2"><a href="/digestive-gut-health/"><span
-                                                    class="nav-menu-section-title">Digestive Health</span></a></div>
-                                    </li>
+
                                     <li class="header-nav-level-1">
                                         <div class="header-nav-level-2"><a href="/eye-care/"><span
                                                     class="nav-menu-section-title">Eye Care</span></a></div>
@@ -509,10 +506,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <div class="header-nav-level-2"><a href="/everyday-health/"><span
                                                     class="nav-menu-section-title">Home Health Care</span></a></div>
                                     </li>
-                                    <li class="header-nav-level-1">
-                                        <div class="header-nav-level-2"><a href="/option-plus/"><span
-                                                    class="nav-menu-section-title">Option+</span></a></div>
-                                    </li>
+
                                     <li class="header-nav-level-1">
                                         <div class="header-nav-level-2"><a href="/remedycabinet/pain/"><span
                                                     class="nav-menu-section-title">Pain Relief</span></a></div>
@@ -870,12 +864,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                                         class="nav-menu-section-title">Diabetes</span></a>
                                                             </div>
                                                         </li>
-                                                        <li class="header-nav-level-1">
-                                                            <div class="header-nav-level-2"><a
-                                                                    href="/digestive-gut-health/"><span
-                                                                        class="nav-menu-section-title">Digestive
-                                                                        Health</span></a></div>
-                                                        </li>
+
                                                         <li class="header-nav-level-1">
                                                             <div class="header-nav-level-2"><a href="/eye-care/"><span
                                                                         class="nav-menu-section-title">Eye
@@ -923,12 +912,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                                         class="nav-menu-section-title">Home Health
                                                                         Care</span></a></div>
                                                         </li>
-                                                        <li class="header-nav-level-1">
-                                                            <div class="header-nav-level-2"><a
-                                                                    href="/option-plus/"><span
-                                                                        class="nav-menu-section-title">Option+</span></a>
-                                                            </div>
-                                                        </li>
+
                                                         <li class="header-nav-level-1">
                                                             <div class="header-nav-level-2"><a
                                                                     href="/remedycabinet/pain/"><span
@@ -2305,7 +2289,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             data-same-width="false" data-element="main" data-pb-style="TIFVYVW">
                                             <div data-content-type="button-item" data-appearance="default"
                                                 data-element="main" data-pb-style="PNTB7LF"><a
-                                                    class="action pagebuilder-button-primary small" href="contact-us"
+                                                    class="action pagebuilder-button-primary small" href="/contact-us"
                                                     target="" data-link-type="default"
                                                     data-button-type="pagebuilder-button-primary"
                                                     data-button-size="small" data-element="link"
@@ -2421,6 +2405,81 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         </div>
                                     </div>
                                 </div>
+
+                                <script>
+                                        (function () {
+                                            // Get form and input elements
+                                            const form = document.getElementById('bmi-calculator-form');
+                                            const heightFeetInput = document.getElementById('heightFeet');
+                                            const heightInchesInput = document.getElementById('heightInches');
+                                            const weightInput = document.getElementById('weight');
+                                            const calculateButton = form.querySelector('.bmi-calculator-cta-button-calculate');
+                                            const resetButton = form.querySelector('.bmi-calculator-cta-button-reset');
+                                            const resultsContainer = document.querySelector('.bmi-calculator-results-container');
+                                            const resultsDefinition = document.querySelector('.bmi-calculator-results-definition');
+
+                                            // Function to calculate BMI
+                                            function calculateBMI() {
+                                                // Get values
+                                                const feet = parseFloat(heightFeetInput.value) || 0;
+                                                const inches = parseFloat(heightInchesInput.value) || 0;
+                                                const weight = parseFloat(weightInput.value) || 0;
+
+                                                // Validate inputs
+                                                if (feet <= 0 || inches < 0 || inches > 11 || weight <= 0) {
+                                                    alert('Please enter valid values for height and weight.');
+                                                    return;
+                                                }
+
+                                                // Convert height to total inches
+                                                const totalInches = (feet * 12) + inches;
+
+                                                // Calculate BMI: (weight in pounds / (height in inches)^2) * 703
+                                                const bmi = (weight / (totalInches * totalInches)) * 703;
+
+                                                // Display result
+                                                resultsDefinition.textContent = bmi.toFixed(1);
+                                                resultsContainer.removeAttribute('hidden');
+
+                                                // Scroll to results
+                                                resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                                            }
+
+                                            // Function to reset form
+                                            function resetForm() {
+                                                form.reset();
+                                                resultsContainer.setAttribute('hidden', '');
+                                                resultsDefinition.textContent = '';
+                                            }
+
+                                            // Event listeners
+                                            calculateButton.addEventListener('click', function (e) {
+                                                e.preventDefault();
+                                                calculateBMI();
+                                            });
+
+                                            resetButton.addEventListener('click', function (e) {
+                                                e.preventDefault();
+                                                resetForm();
+                                            });
+
+                                            // Allow Enter key to submit
+                                            form.addEventListener('submit', function (e) {
+                                                e.preventDefault();
+                                                calculateBMI();
+                                            });
+
+                                            // Validate inches input (max 11)
+                                            heightInchesInput.addEventListener('input', function () {
+                                                if (this.value > 11) {
+                                                    this.value = 11;
+                                                }
+                                                if (this.value < 0) {
+                                                    this.value = 0;
+                                                }
+                                            });
+                                        })();
+                                </script>
                             </div>
                         </div>
                     </div>

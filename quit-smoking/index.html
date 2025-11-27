@@ -464,10 +464,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <div class="header-nav-level-2"><a href="/diabetes-resources/"><span
                                                     class="nav-menu-section-title">Diabetes</span></a></div>
                                     </li>
-                                    <li class="header-nav-level-1">
-                                        <div class="header-nav-level-2"><a href="/digestive-gut-health/"><span
-                                                    class="nav-menu-section-title">Digestive Health</span></a></div>
-                                    </li>
+
                                     <li class="header-nav-level-1">
                                         <div class="header-nav-level-2"><a href="/eye-care/"><span
                                                     class="nav-menu-section-title">Eye Care</span></a></div>
@@ -507,10 +504,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                         <div class="header-nav-level-2"><a href="/everyday-health/"><span
                                                     class="nav-menu-section-title">Home Health Care</span></a></div>
                                     </li>
-                                    <li class="header-nav-level-1">
-                                        <div class="header-nav-level-2"><a href="/option-plus/"><span
-                                                    class="nav-menu-section-title">Option+</span></a></div>
-                                    </li>
+
                                     <li class="header-nav-level-1">
                                         <div class="header-nav-level-2"><a href="/remedycabinet/pain/"><span
                                                     class="nav-menu-section-title">Pain Relief</span></a></div>
@@ -868,12 +862,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                                         class="nav-menu-section-title">Diabetes</span></a>
                                                             </div>
                                                         </li>
-                                                        <li class="header-nav-level-1">
-                                                            <div class="header-nav-level-2"><a
-                                                                    href="/digestive-gut-health/"><span
-                                                                        class="nav-menu-section-title">Digestive
-                                                                        Health</span></a></div>
-                                                        </li>
+
                                                         <li class="header-nav-level-1">
                                                             <div class="header-nav-level-2"><a href="/eye-care/"><span
                                                                         class="nav-menu-section-title">Eye
@@ -921,12 +910,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                                         class="nav-menu-section-title">Home Health
                                                                         Care</span></a></div>
                                                         </li>
-                                                        <li class="header-nav-level-1">
-                                                            <div class="header-nav-level-2"><a
-                                                                    href="/option-plus/"><span
-                                                                        class="nav-menu-section-title">Option+</span></a>
-                                                            </div>
-                                                        </li>
+
                                                         <li class="header-nav-level-1">
                                                             <div class="header-nav-level-2"><a
                                                                     href="/remedycabinet/pain/"><span
@@ -1717,7 +1701,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                             data-element="inner" data-pb-style="IFRR7WG">
                             <div data-content-type="html" data-appearance="default" data-element="main"
                                 data-decoded="true">
-                                <div class="smoking-cessation-calculator" data-bind="scope: 'smoking-cost-calculator'">
+                                <div class="smoking-cessation-calculator" id="smoking-calculator">
                                     <img class="smoking-cessation-calculator-icon"
                                         src="/static/version1763691675/frontend/Rexall/default/en_US/images/icons/rx-smoking-cessation-icon-piggybank-yellow.png?t=1763691732"
                                         alt="">
@@ -1730,29 +1714,26 @@ Place this snippet between the <head> and </head> tags on every page of your sit
 
                                         <form class="smoking-cessation-calculator-form">
                                             <div class="smoking-cessation-calculator-input-container">
-                                                <label class="smoking-cessation-calculator-label"
-                                                    for="magento-framework-view-element-template-0-cost">How much do you
+                                                <label class="smoking-cessation-calculator-label" for="pack-cost">How
+                                                    much do you
                                                     pay for a pack of cigarettes?</label>
-                                                <input id="magento-framework-view-element-template-0-cost"
-                                                    class="smoking-cessation-calculator-input" type="number" min="1"
-                                                    data-bind="textInput: packCost">
+                                                <input id="pack-cost" class="smoking-cessation-calculator-input"
+                                                    type="number" min="1" step="0.01" placeholder="15.00">
                                             </div>
                                             <div class="smoking-cessation-calculator-input-container">
-                                                <label class="smoking-cessation-calculator-label"
-                                                    for="magento-framework-view-element-template-0-size">How many
+                                                <label class="smoking-cessation-calculator-label" for="pack-size">How
+                                                    many
                                                     cigarettes are in a pack?</label>
-                                                <input id="magento-framework-view-element-template-0-size"
-                                                    class="smoking-cessation-calculator-input" type="number" min="1"
-                                                    data-bind="textInput: packSize">
+                                                <input id="pack-size" class="smoking-cessation-calculator-input"
+                                                    type="number" min="1" placeholder="20">
                                             </div>
                                             <div class="smoking-cessation-calculator-input-container">
                                                 <label class="smoking-cessation-calculator-label"
-                                                    for="magento-framework-view-element-template-0-cigarrettes-per-day">How
+                                                    for="cigarettes-per-day">How
                                                     many cigarettes do you smoke in a day?</label>
-                                                <input
-                                                    id="magento-framework-view-element-template-0-cigarrettes-per-day"
+                                                <input id="cigarettes-per-day"
                                                     class="smoking-cessation-calculator-input" type="number" min="1"
-                                                    data-bind="textInput: cigarettesPerDay">
+                                                    placeholder="10">
                                             </div>
                                         </form>
                                         <div class="smoking-cessation-calculator-cost-breakdown-container">
@@ -1763,7 +1744,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                             src="/static/version1763691675/frontend/Rexall/default/en_US/images/icons/calendar-week.png?t=1763691732"
                                                             alt="">Weekly Cost</span>
                                                     <span class="smoking-cessation-calculator-cost-breakdown-definition"
-                                                        data-bind="text: formatCost(weeklyCost())"></span>
+                                                        id="weekly-cost">$0.00</span>
                                                 </li>
                                                 <li class="smoking-cessation-calculator-cost-breakdown-item">
                                                     <span class="smoking-cessation-calculator-cost-breakdown-label"><img
@@ -1771,7 +1752,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                             src="/static/version1763691675/frontend/Rexall/default/en_US/images/icons/calendar-month.png?t=1763691732"
                                                             alt="">Monthly Cost</span>
                                                     <span class="smoking-cessation-calculator-cost-breakdown-definition"
-                                                        data-bind="text: formatCost(monthlyCost())"></span>
+                                                        id="monthly-cost">$0.00</span>
                                                 </li>
                                                 <li class="smoking-cessation-calculator-cost-breakdown-item">
                                                     <span class="smoking-cessation-calculator-cost-breakdown-label"><img
@@ -1779,7 +1760,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                             src="/static/version1763691675/frontend/Rexall/default/en_US/images/icons/calendar-year.png?t=1763691732"
                                                             alt="">Yearly Cost</span>
                                                     <span class="smoking-cessation-calculator-cost-breakdown-definition"
-                                                        data-bind="text: formatCost(yearlyCost())"></span>
+                                                        id="yearly-cost">$0.00</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1794,8 +1775,54 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                     </div>
                                 </div>
 
-                                <script type="text/x-magento-init">
-                                    { "*" : { "Magento_Ui\/js\/core\/app": { "components": { "smoking-cost-calculator": { "component": "Rexall_Cms\/js\/smoking-cost-calculator" } } } } }
+                                <script>
+                                        (function () {
+                                            // Get input elements
+                                            const packCostInput = document.getElementById('pack-cost');
+                                            const packSizeInput = document.getElementById('pack-size');
+                                            const cigarettesPerDayInput = document.getElementById('cigarettes-per-day');
+
+                                            // Get output elements
+                                            const weeklyCostElement = document.getElementById('weekly-cost');
+                                            const monthlyCostElement = document.getElementById('monthly-cost');
+                                            const yearlyCostElement = document.getElementById('yearly-cost');
+
+                                            // Function to format currency
+                                            function formatCost(amount) {
+                                                return '$' + amount.toFixed(2);
+                                            }
+
+                                            // Function to calculate costs
+                                            function calculateCosts() {
+                                                const packCost = parseFloat(packCostInput.value) || 0;
+                                                const packSize = parseFloat(packSizeInput.value) || 0;
+                                                const cigarettesPerDay = parseFloat(cigarettesPerDayInput.value) || 0;
+
+                                                if (packCost > 0 && packSize > 0 && cigarettesPerDay > 0) {
+                                                    const costPerCigarette = packCost / packSize;
+                                                    const dailyCost = costPerCigarette * cigarettesPerDay;
+                                                    const weeklyCost = dailyCost * 7;
+                                                    const monthlyCost = dailyCost * 30;
+                                                    const yearlyCost = dailyCost * 365;
+
+                                                    weeklyCostElement.textContent = formatCost(weeklyCost);
+                                                    monthlyCostElement.textContent = formatCost(monthlyCost);
+                                                    yearlyCostElement.textContent = formatCost(yearlyCost);
+                                                } else {
+                                                    weeklyCostElement.textContent = '$0.00';
+                                                    monthlyCostElement.textContent = '$0.00';
+                                                    yearlyCostElement.textContent = '$0.00';
+                                                }
+                                            }
+
+                                            // Add event listeners to inputs
+                                            packCostInput.addEventListener('input', calculateCosts);
+                                            packSizeInput.addEventListener('input', calculateCosts);
+                                            cigarettesPerDayInput.addEventListener('input', calculateCosts);
+
+                                            // Calculate on page load if values exist
+                                            calculateCosts();
+                                        })();
                                 </script>
                             </div>
                         </div>

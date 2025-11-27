@@ -44230,27 +44230,27 @@ hr {
 }
 
 .remedy-cabinet-pages .rc-symptoms-item.headache:before {
-    background: url('../images/remedy-cabinet/Headache-v3.png') center top no-repeat;
+    background: url('/public/images/logoicon.png') center top no-repeat;
     background-size: 30px
 }
 
 .remedy-cabinet-pages .rc-symptoms-item.back-pain:before {
-    background: url('../images/remedy-cabinet/Backpain-v3.png') center top no-repeat;
+    background: url('/public/images/logo-transparent.png') center top no-repeat;
     background-size: 30px
 }
 
 .remedy-cabinet-pages .rc-symptoms-item.arthritis:before {
-    background: url('../images/remedy-cabinet/Arthritis-v3.png') center top no-repeat;
+    background: url('/public/images/logo-transparent.png') center top no-repeat;
     background-size: 30px
 }
 
 .remedy-cabinet-pages .rc-symptoms-item.muscle-pain:before {
-    background: url('../images/remedy-cabinet/Muscle-Pain-v3.png') center top no-repeat;
+    background: url('/public/images/logo-transparent.png') center top no-repeat;
     background-size: 30px
 }
 
 .remedy-cabinet-pages .rc-symptoms-item.other-pain:before {
-    background: url('../images/remedy-cabinet/Other-Pain.svg') center top no-repeat;
+    background: url('/public/images/logo-transparent.png') center top no-repeat;
     background-size: 30px
 }
 
@@ -44594,7 +44594,7 @@ hr {
 }
 
 .remedy-cabinet-pages .rc-title-banner.rc-headache-title-banner::after {
-    background: url('../images/remedy-cabinet/Headache-v3.png') center top no-repeat;
+    background: url('/public/images/logo-transparent.png') center top no-repeat;
     background-size: 60px
 }
 
@@ -44605,7 +44605,7 @@ hr {
 }
 
 .remedy-cabinet-pages .rc-title-banner.rc-back-pain-title-banner::after {
-    background: url('../images/remedy-cabinet/Backpain-v3.png') center top no-repeat;
+    background: url('/public/images/logo-transparent.png') center top no-repeat;
     background-size: 60px
 }
 
@@ -44616,7 +44616,7 @@ hr {
 }
 
 .remedy-cabinet-pages .rc-title-banner.rc-arthritis-title-banner::after {
-    background: url('../images/remedy-cabinet/Arthritis-v3.png') center top no-repeat;
+    background: url('/public/images/logo-transparent.png') center top no-repeat;
     background-size: 60px
 }
 
@@ -44627,7 +44627,7 @@ hr {
 }
 
 .remedy-cabinet-pages .rc-title-banner.rc-muscle-pain-title-banner::after {
-    background: url('../images/remedy-cabinet/Muscle-Pain-v3.png') center top no-repeat;
+    background: url('/public/images/logo-transparent.png') center top no-repeat;
     background-size: 60px
 }
 

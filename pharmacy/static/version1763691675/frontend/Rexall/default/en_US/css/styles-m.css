@@ -8328,7 +8328,7 @@ button.dark:active,
 }
 
 .refill-success-popup .accessible-modal-close {
-    background-image: url('../images/refill/close.png');
+    background-image: url('../images/contact-us/close.png');
     width: 20px;
     height: 15px;
     background-size: 15px;
@@ -8341,7 +8341,7 @@ button.dark:active,
 .refill-success-popup .accessible-modal-close:focus {
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('../images/refill/close.png');
+    background-image: url('../images/contact-us/close.png');
     border: none;
     background-size: 15px
 }
@@ -8481,7 +8481,7 @@ button.dark:active,
 }
 
 .lightbox-refill-popup .bewell-logo {
-    background-image: url('../images/refill/bewell-icon.png');
+    background-image: url('../images/contact-us/bewell-icon.png');
     background-size: 60px;
     width: 73px;
     height: 60px;
@@ -8497,7 +8497,7 @@ button.dark:active,
 }
 
 .lightbox-refill-popup .popup-creative {
-    background-image: url('../images/refill/popup-creative.png');
+    background-image: url('../images/contact-us/popup-creative.png');
     background-size: cover;
     background-position-x: center;
     border-radius: 0 12px 12px 0
@@ -98740,7 +98740,7 @@ table.pharmacy-table tbody tr td:first-child {
     top: -2px;
     right: -2px;
     border-radius: 0 12px 12px 0;
-    background: url('../images/refill/arrow-white.png') center center no-repeat #5199ab;
+    background: url('../images/contact-us/arrow-white.png') center center no-repeat #5199ab;
     background-size: 10px auto;
     width: 32px;
     height: 116px
@@ -98937,7 +98937,7 @@ table.pharmacy-table tbody tr td:first-child {
 .myrexall-container.refill .section.step .or-icon {
     height: 30px;
     width: 31px;
-    background: url(../images/refill/sprite.png) -472px -22px no-repeat;
+    background: url(../images/contact-us/sprite.png) -472px -22px no-repeat;
     float: left;
     margin: 15px 0 !important
 }
@@ -98949,7 +98949,7 @@ table.pharmacy-table tbody tr td:first-child {
     transform: translateY(-50%);
     height: 22px;
     width: 22px;
-    background: url(../images/refill/sprite.png) -509px 0 no-repeat;
+    background: url(../images/contact-us/sprite.png) -509px 0 no-repeat;
     pointer-events: none
 }
 
@@ -106860,7 +106860,7 @@ body.rexallhealthsolutions-directions-index .columns .column.main {
     top: -2px;
     right: -2px;
     border-radius: 0 12px 12px 0;
-    background: url('../images/refill/arrow-white.png') center center no-repeat #5199ab;
+    background: url('../images/contact-us/arrow-white.png') center center no-repeat #5199ab;
     background-size: 10px auto;
     width: 44px;
     height: 144px

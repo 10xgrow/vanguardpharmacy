@@ -259,7 +259,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     (function () {
                         var contentContainer = document.querySelector('.js-page-header-promo-text'),
                             cookieName = 'header_promo_content',
-                            promoContent = "<a href=\"https:\/\/www.vanguardpharmacy.ca\/pharmacy-flu-shots\" target=\"_self\">Open daily for prescriptions, health advice, and wellness products.<\/a>",
+                            promoContent = "<a href=\"/\" target=\"_self\">Open daily for prescriptions, health advice, and wellness products.<\/a>",
                             enableCloseButton = true;
 
                         function getCookie(name) {
@@ -400,9 +400,9 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                 <div
                                                     class="header-nav-accordion-content js-header-mobile-accordion-content js-submenu-item">
                                                     <ul class="header-nav-level-3">
-                                                        <li><a href="/refill/" class="header-btn">Refill
+                                                        <li><a href="/contact-us/" class="header-btn">Refill
                                                                 Prescriptions</a></li>
-                                                        <li><a href="/transfer/" class="header-btn">Transfer
+                                                        <li><a href="/contact-us/" class="header-btn">Transfer
                                                                 Prescriptions</a></li>
 
                                                         <li><a href="/articles/drugs/" class="header-btn">Prescription
@@ -756,10 +756,10 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                                                     <div
                                                                         class="header-nav-accordion-content js-header-mobile-accordion-content js-submenu-item">
                                                                         <ul class="header-nav-level-3">
-                                                                            <li><a href="/refill/"
+                                                                            <li><a href="/contact-us/"
                                                                                     class="header-btn">Refill
                                                                                     Prescriptions</a></li>
-                                                                            <li><a href="/transfer/"
+                                                                            <li><a href="/contact-us/"
                                                                                     class="header-btn">Transfer
                                                                                     Prescriptions</a></li>
                                                                             <li><a href="https://www.vanguarddirect.ca/"
@@ -1316,7 +1316,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <h4>Face Serums</h4>
                                             <p>Find face serums and treatments formulated to target skin concerns like
                                                 aging, acne, and more.</p>
-                                            <a href="/skin-care/face-serums">Learn More</a>
+
                                         </div>
                                         <div class="topic">
                                             <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-topic-2.png?t=1763691730"
@@ -1324,7 +1324,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <h4>Skincare Ingredients</h4>
                                             <p>Explore products with good-for-skin ingredients and discover popular
                                                 skincare ingredients.</p>
-                                            <a href="/skin-care/skincare-product-ingredients">Learn More</a>
+
                                         </div>
                                         <div class="topic">
                                             <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-topic-3.png?t=1763691730"
@@ -1332,547 +1332,334 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             <h4>Skincare Routine</h4>
                                             <p>Fine tune your skincare routine with recommended tips & tricks from the
                                                 experts in skincare.</p>
-                                            <a href="/skin-care/skin-care-routine">Learn More</a>
+
+                                            <div class="topic">
+                                                <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-topic-4.png?t=1763691730"
+                                                    alt="">
+                                                <h4>SPF vs. Sunscreen</h4>
+                                                <p>Discover which face sunscreen you should be using based on your skin
+                                                    type
+                                                    and concern.</p>
+
+                                            </div>
+                                            <div class="topic">
+                                                <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-topic-5.jpg?t=1763691730"
+                                                    alt="">
+                                                <h4>Anti-Aging Products</h4>
+                                                <p>Discover the best skincare ingredients and products for maintaining
+                                                    youthful, radiant skin, including anti-aging creams, serums, and
+                                                    more.
+                                                </p>
+
+                                            </div>
                                         </div>
-                                        <div class="topic">
-                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-topic-4.png?t=1763691730"
-                                                alt="">
-                                            <h4>SPF vs. Sunscreen</h4>
-                                            <p>Discover which face sunscreen you should be using based on your skin type
-                                                and concern.</p>
-                                            <a href="/skin-care/spf-face-cream">Learn More</a>
+                                    </div>
+                                </div>
+
+                                <div class="ingredients" id="skinHealthIngredients">
+                                    <h2>Your Skin Health Ingredients Guide</h2>
+                                    <!-- hover section -->
+
+                                    <div class="octagons">
+                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-1.png?t=1763691730"
+                                            alt="" class="oct-1"
+                                            data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-3.png?t=1763691730"
+                                            data-ingredient="<b>Niacinamide</b>, a form of vitamin B3, is a popular skincare ingredient known for strengthening the skin barrier, reducing inflammation, brightening skin tone, and minimizing fine lines. It also improves overall skin texture and provides protection against environmental stressors.">
+                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-5.png?t=1763691730"
+                                            alt="" class="oct-2"
+                                            data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-4.png?t=1763691730"
+                                            data-ingredient="<b>Retinol</b> is a powerful skincare ingredient used for its ability to boost collagen production, improve skin elasticity, and reduce the appearance of fine lines and wrinkles. It also promotes cell regeneration to help smooth skin texture and fade dark spots over time.">
+                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-4.png?t=1763691730"
+                                            alt="" class="oct-3"
+                                            data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-1.png?t=1763691730"
+                                            data-ingredient="<b>BHA</b>, or salicylic acid, is an effective exfoliating ingredient that gets into your pores to dissolve excess oil and dead skin cells. It's used in acne products to reduce blackheads and unclog pores while working to smooth skin texture and reduce inflammation.">
+                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-3.png?t=1763691730"
+                                            alt="" class="oct-4"
+                                            data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-2.png?t=1763691730"
+                                            data-ingredient="<b>Hyaluronic acid</b> is a powerful hydrating ingredient that attracts and retains moisture in the skin, making it appear smooth and plump. It helps improve skin elasticity and fine lines and enhances the skin's overall texture by providing deep hydration.">
+                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-2.png?t=1763691730"
+                                            alt="" class="oct-5"
+                                            data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-5.png?t=1763691730"
+                                            data-ingredient="<b>Vitamin C</b> is an antioxidant that brightens the skin and reduces the appearance of dark spots. It stimulates collagen production, helping improve skin firmness and reducing the visibility of fine lines. It also protects the skin from environmental damage like pollution.">
+                                    </div>
+
+                                    <div class="details-box">
+                                        <div class="hidden-content">
+                                            <p class="ingredient-details"></p>
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-diagram.png?t=1763691730"
+                                                alt="" class="diagram">
                                         </div>
-                                        <div class="topic">
-                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-topic-5.jpg?t=1763691730"
-                                                alt="">
-                                            <h4>Anti-Aging Products</h4>
-                                            <p>Discover the best skincare ingredients and products for maintaining
-                                                youthful, radiant skin, including anti-aging creams, serums, and more.
-                                            </p>
-                                            <a href="/skin-care/anti-aging-products">Learn More</a>
+                                        <div class="default-content">
+                                            <p>Different skincare ingredients are effective for addressing various skin
+                                                concerns.<br> Learn more about each ingredient to find the best solution
+                                                for
+                                                your needs.</p>
                                         </div>
-                                        <!--                <div class="topic" style="visibility: hidden;">-->
-                                        <!--                    <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-topic-5.png" alt="">-->
-                                        <!--                    <h4>Subtopic 6 Title</h4>-->
-                                        <!--                    <p>Find face serums and treatments formulated to target skin concerns like aging, acne, and more.</p>-->
-                                        <!--                    <button>Learn More</button>-->
-                                        <!--                </div>-->
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="ingredients" id="skinHealthIngredients">
-                                <h2>Your Skin Health Ingredients Guide</h2>
-                                <!-- hover section -->
-
-                                <div class="octagons">
-                                    <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-1.png?t=1763691730"
-                                        alt="" class="oct-1"
-                                        data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-3.png?t=1763691730"
-                                        data-ingredient="<b>Niacinamide</b>, a form of vitamin B3, is a popular skincare ingredient known for strengthening the skin barrier, reducing inflammation, brightening skin tone, and minimizing fine lines. It also improves overall skin texture and provides protection against environmental stressors.">
-                                    <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-5.png?t=1763691730"
-                                        alt="" class="oct-2"
-                                        data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-4.png?t=1763691730"
-                                        data-ingredient="<b>Retinol</b> is a powerful skincare ingredient used for its ability to boost collagen production, improve skin elasticity, and reduce the appearance of fine lines and wrinkles. It also promotes cell regeneration to help smooth skin texture and fade dark spots over time.">
-                                    <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-4.png?t=1763691730"
-                                        alt="" class="oct-3"
-                                        data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-1.png?t=1763691730"
-                                        data-ingredient="<b>BHA</b>, or salicylic acid, is an effective exfoliating ingredient that gets into your pores to dissolve excess oil and dead skin cells. It's used in acne products to reduce blackheads and unclog pores while working to smooth skin texture and reduce inflammation.">
-                                    <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-3.png?t=1763691730"
-                                        alt="" class="oct-4"
-                                        data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-2.png?t=1763691730"
-                                        data-ingredient="<b>Hyaluronic acid</b> is a powerful hydrating ingredient that attracts and retains moisture in the skin, making it appear smooth and plump. It helps improve skin elasticity and fine lines and enhances the skin's overall texture by providing deep hydration.">
-                                    <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-2.png?t=1763691730"
-                                        alt="" class="oct-5"
-                                        data-symbol-path="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-symbol-5.png?t=1763691730"
-                                        data-ingredient="<b>Vitamin C</b> is an antioxidant that brightens the skin and reduces the appearance of dark spots. It stimulates collagen production, helping improve skin firmness and reducing the visibility of fine lines. It also protects the skin from environmental damage like pollution.">
-                                </div>
-
-                                <div class="details-box">
-                                    <div class="hidden-content">
-                                        <p class="ingredient-details"></p>
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-ing-diagram.png?t=1763691730"
-                                            alt="" class="diagram">
-                                    </div>
-                                    <div class="default-content">
-                                        <p>Different skincare ingredients are effective for addressing various skin
-                                            concerns.<br> Learn more about each ingredient to find the best solution for
-                                            your needs.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vendor-highlight">
-                                <div class="sh-flex">
-                                    <div class="vendor-logo-container">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-loreal.png?t=1763691730"
-                                            alt="" class="sh-vendor-logo">
-                                    </div>
-                                    <div class="sh-vendor-copy">
-                                        <h3>Achieve smooth & radiant skin with L'Oréal Paris.</h3>
-                                        <p>From Science to Beauty, L'Oréal Paris skincare products are developed and
-                                            rigorously tested by leading skin experts and scientists worldwide.</p>
-                                    </div>
-                                </div>
-                                <div class="sh-products">
-                                    <div class="sh-product">
-                                        <a href="/skin-care/loreal/" style="color:inherit;"> </a>
-
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-product-1.jpg?t=1763691730"
-                                            alt="">
-                                        <b>L'Oréal</b>
-                                        <p>Revitalift Triple Power LZR Anti-Aging Day Moisturizer Cream Fragrance-Free
-                                        </p>
-
-                                    </div>
-                                    <div class="sh-product">
-                                        <a href="/skin-care/loreal/" style="color:inherit;"> </a>
-
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-product-3.jpg?t=1763691730"
-                                            alt="">
-                                        <b>L'Oréal</b>
-                                        <p>Age Perfect Cleansing Milk Anti-Fatigue</p>
-
-                                    </div>
-                                    <div class="sh-product">
-                                        <a href="/skin-care/loreal/" style="color:inherit;"> </a>
-
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-product-2.jpg?t=1763691730"
-                                            alt="">
-                                        <b>L'Oréal</b>
-                                        <p>Youth Code De-Puffing Eye Serum</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="promo-banner" style="margin: 50px auto;">
-                                <div id="northern-banner-blockYXyLQQfG8h228Rd3deXwwUIoDODdVq6U" class="banner-placeholder _block-content-loading
-     ">
-                                    <div data-role="loader" class="loading-mask">
-
-                                    </div>
-                                </div>
-                                <script type="text/x-magento-init">
-                                    { "#northern-banner-blockYXyLQQfG8h228Rd3deXwwUIoDODdVq6U": { "loadBanner": { "url": "https:\/\/www.vanguardpharmacy.ca\/northern_banner\/index\/load\/block_id\/421\/" } } }
-                                </script>
-
-                            </div>
-                            <div class="featured-brands" id="featuredBrands">
-                                <h2>Featured Skincare Brands</h2>
-                                <div class="brands-box">
-                                    <div><img
-                                            src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-loreal.png?t=1763691730"
-                                            alt="" class="brand-logo"></div>
-                                    <p>Radiant skin doesn't happen on its own. Your complexion requires daily care to
-                                        feel and look its best, which means using products from <a
-                                            href="/skin-care/loreal/"
-                                            style="color:inherit;text-decoration:underline;">leading skincare brands</a>
-                                        formulated with your specific concerns in mind.</p>
-                                </div>
-                                <ul class="rc-top-brands-list">
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-1.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-2.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-3.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-4.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-5.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-6.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-7.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-8.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-9.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-10.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-11.jpg?t=1763691730"
-                                            alt="" class="cerave-logo">
-                                    </li>
-                                    <li class="rc-top-brands-item">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-12.png?t=1763691730"
-                                            alt="">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="product-slider" id="featuredProducts">
-                                <h3 class="sh-product-slider-heading">Shop skincare products based on concern.</h3>
-                                <div class="sh-slider-wrapper">
-                                    <div id="northern-banner-blockTO54nu74l5fXbUXpU7cAMiCAKVvtIUhb" class="banner-placeholder _block-content-loading
+                                <div class="promo-banner" style="margin: 50px auto;">
+                                    <div id="northern-banner-blockYXyLQQfG8h228Rd3deXwwUIoDODdVq6U" class="banner-placeholder _block-content-loading
      ">
                                         <div data-role="loader" class="loading-mask">
 
                                         </div>
                                     </div>
                                     <script type="text/x-magento-init">
-                                        { "#northern-banner-blockTO54nu74l5fXbUXpU7cAMiCAKVvtIUhb": { "loadBanner": { "url": "https:\/\/www.vanguardpharmacy.ca\/northern_banner\/index\/load\/block_id\/409\/" } } }
-                                    </script>
+                                    { "#northern-banner-blockYXyLQQfG8h228Rd3deXwwUIoDODdVq6U": { "loadBanner": { "url": "https:\/\/www.vanguardpharmacy.ca\/northern_banner\/index\/load\/block_id\/421\/" } } }
+                                </script>
 
                                 </div>
-
-                            </div>
-                            <div class="skin-resources">
-                                <div class="resources-hero">
-                                    <div class="resources-img-container">
-                                        <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/resources-hero.png?t=1763691730"
-                                            alt="" class="resources-hero-img">
+                                <div class="featured-brands" id="featuredBrands">
+                                    <h2>Featured Skincare Brands</h2>
+                                    <div class="brands-box">
+                                        <div><img
+                                                src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-loreal.png?t=1763691730"
+                                                alt="" class="brand-logo"></div>
+                                        <p>Radiant skin doesn't happen on its own. Your complexion requires daily care
+                                            to
+                                            feel and look its best, which means using products from <a
+                                                href="/skin-care/loreal/"
+                                                style="color:inherit;text-decoration:underline;">leading skincare
+                                                brands</a>
+                                            formulated with your specific concerns in mind.</p>
                                     </div>
-                                    <div class="resources-hero-content">
-                                        <h3>Promoting Better Skin Health for Your Unique Needs</h3>
-                                        <p>Skincare is a personal topic, depending on age, gender, skin type, and more.
-                                            Everyone's path to healthy skin is unique and requires a tailored approach.
-                                        </p>
-                                    </div>
+                                    <ul class="rc-top-brands-list">
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-1.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-2.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-3.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-4.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-5.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-6.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-7.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-8.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-9.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-10.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-11.jpg?t=1763691730"
+                                                alt="" class="cerave-logo">
+                                        </li>
+                                        <li class="rc-top-brands-item">
+                                            <img src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-top-brand-12.png?t=1763691730"
+                                                alt="">
+                                        </li>
+                                    </ul>
                                 </div>
 
-                                <div class="resources-section" id="skinHealthArticles">
-                                    <h2>Skincare Resources</h2>
-                                    <p>Get expert advice for acne, fine lines and other common conditions and keep your
-                                        skin healthy and glowing.</p>
-
-                                    <div class="resource-grid">
-                                        <div class="cms-article-item cms-article-item-icon"
-                                            data-content-type="northern-article" data-appearance="icon"
-                                            data-element="main">
-                                            <a class="cms-article-item-link" href="/sun-care" target=""
-                                                data-link-type="default" data-element="link">
-                                                <div class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                    <img class="cms-article-item-image" loading="lazy"
-                                                        src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-icon-1.png?t=1763691730"
-                                                        alt="" data-element="image">
-                                                </div>
-                                                <div class="cms-article-item-content-container">
-                                                    <h2 class="cms-article-item-content-container-title"
-                                                        data-element="title">Sunscreen 101</h2>
-                                                    <div class="cms-article-item-content" data-element="body">Everything
-                                                        You need to know about SPF
-                                                    </div>
-                                                    <span class="cms-article-item-pseudo-link"
-                                                        data-button-screenreader-text="" data-element="read">Learn
-                                                        More</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="cms-article-item cms-article-item-icon"
-                                            data-content-type="northern-article" data-appearance="icon"
-                                            data-element="main">
-                                            <a class="cms-article-item-link" href="vitamin-c" target=""
-                                                data-link-type="default" data-element="link">
-                                                <div class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                    <img class="cms-article-item-image" loading="lazy"
-                                                        src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-icon-2.png?t=1763691730"
-                                                        alt="" data-element="image">
-                                                </div>
-                                                <div class="cms-article-item-content-container">
-                                                    <h2 class="cms-article-item-content-container-title"
-                                                        data-element="title">Unlock Your Skin's Radiance</h2>
-                                                    <div class="cms-article-item-content" data-element="body">The power
-                                                        of Vitamin C.
-                                                    </div>
-                                                    <span class="cms-article-item-pseudo-link"
-                                                        data-button-screenreader-text="" data-element="read">Learn
-                                                        More</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="cms-article-item cms-article-item-icon"
-                                            data-content-type="northern-article" data-appearance="icon"
-                                            data-element="main">
-                                            <a class="cms-article-item-link" href="/acne-article" target=""
-                                                data-link-type="default" data-element="link">
-                                                <div class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                    <img class="cms-article-item-image" loading="lazy"
-                                                        src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-icon-3.png?t=1763691730"
-                                                        alt="" data-element="image">
-                                                </div>
-                                                <div class="cms-article-item-content-container">
-                                                    <h2 class="cms-article-item-content-container-title"
-                                                        data-element="title">Outsmart Acne</h2>
-                                                    <div class="cms-article-item-content" data-element="body">Your guide
-                                                        to clean, confident skin.
-                                                    </div>
-                                                    <span class="cms-article-item-pseudo-link"
-                                                        data-button-screenreader-text="" data-element="read">Learn
-                                                        More</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="cms-article-item cms-article-item-icon"
-                                            data-content-type="northern-article" data-appearance="icon"
-                                            data-element="main">
-                                            <a class="cms-article-item-link" href="/hyaluronic-acid" target=""
-                                                data-link-type="default" data-element="link">
-                                                <div class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                    <img class="cms-article-item-image" loading="lazy"
-                                                        src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-icon-4.png?t=1763691730"
-                                                        alt="" data-element="image">
-                                                </div>
-                                                <div class="cms-article-item-content-container">
-                                                    <h2 class="cms-article-item-content-container-title"
-                                                        data-element="title">The power of hyaluronic acid</h2>
-                                                    <div class="cms-article-item-content" data-element="body">Your key
-                                                        to youthful, hydrated skin.
-                                                    </div>
-                                                    <span class="cms-article-item-pseudo-link"
-                                                        data-button-screenreader-text="" data-element="read">Learn
-                                                        More</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="cms-article-item cms-article-item-icon"
-                                            data-content-type="northern-article" data-appearance="icon"
-                                            data-element="main">
-                                            <a class="cms-article-item-link" href="/retinol" target=""
-                                                data-link-type="default" data-element="link">
-                                                <div class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                    <img class="cms-article-item-image" loading="lazy"
-                                                        src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-icon-5.png?t=1763691730"
-                                                        alt="" data-element="image">
-                                                </div>
-                                                <div class="cms-article-item-content-container">
-                                                    <h2 class="cms-article-item-content-container-title"
-                                                        data-element="title">Retinol</h2>
-                                                    <div class="cms-article-item-content" data-element="body">The gold
-                                                        standard for unveiling youthful, radiant skin.
-                                                    </div>
-                                                    <span class="cms-article-item-pseudo-link"
-                                                        data-button-screenreader-text="" data-element="read">Learn
-                                                        More</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="cms-article-item cms-article-item-icon"
-                                            data-content-type="northern-article" data-appearance="icon"
-                                            data-element="main">
-                                            <a class="cms-article-item-link" href="/niacinamide" target=""
-                                                data-link-type="default" data-element="link">
-                                                <div class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                    <img class="cms-article-item-image" loading="lazy"
-                                                        src="/static/version1763691675/frontend/Rexall/default/en_US/images/skin-health/sh-icon-4.png?t=1763691730"
-                                                        alt="" data-element="image">
-                                                </div>
-                                                <div class="cms-article-item-content-container">
-                                                    <h2 class="cms-article-item-content-container-title"
-                                                        data-element="title">Niacinamide</h2>
-                                                    <div class="cms-article-item-content" data-element="body">Your key
-                                                        to radiant, even-toned skin with L'Oréal Paris
-                                                    </div>
-                                                    <span class="cms-article-item-pseudo-link"
-                                                        data-button-screenreader-text="" data-element="read">Learn
-                                                        More</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!-- <div class="resource-quote resource-quote cms-article-item cms-article-item-icon"> -->
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true">
-                    <script>
-                        document.addEventListener("DOMContentLoaded", function () {
-                            const promoMessage = document.getElementById("page-header-promo-message");
-                            const heroBlue = document.querySelector(".hero-blue");
+                    <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true">
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                const promoMessage = document.getElementById("page-header-promo-message");
+                                const heroBlue = document.querySelector(".hero-blue");
 
-                            function adjustMargin() {
-                                if (!promoMessage || !heroBlue) return;
+                                function adjustMargin() {
+                                    if (!promoMessage || !heroBlue) return;
 
-                                const promoMessageVisible = promoMessage.offsetParent !== null;
-                                const mobileMargin = promoMessageVisible ? "205px" : "155px";
-                                const viewportWidth = window.innerWidth;
+                                    const promoMessageVisible = promoMessage.offsetParent !== null;
+                                    const mobileMargin = promoMessageVisible ? "205px" : "155px";
+                                    const viewportWidth = window.innerWidth;
 
-                                heroBlue.style.marginTop = viewportWidth < 960 ? mobileMargin : "";
-                            }
+                                    heroBlue.style.marginTop = viewportWidth < 960 ? mobileMargin : "";
+                                }
 
-                            adjustMargin();
+                                adjustMargin();
 
-                            if (promoMessage) {
-                                const observer = new MutationObserver(adjustMargin);
-                                observer.observe(promoMessage, {
-                                    attributes: true
+                                if (promoMessage) {
+                                    const observer = new MutationObserver(adjustMargin);
+                                    observer.observe(promoMessage, {
+                                        attributes: true
+                                    });
+                                }
+
+                                let resizeTimeout;
+                                window.addEventListener("resize", function () {
+                                    clearTimeout(resizeTimeout);
+                                    resizeTimeout = setTimeout(adjustMargin, 100);
                                 });
-                            }
-
-                            let resizeTimeout;
-                            window.addEventListener("resize", function () {
-                                clearTimeout(resizeTimeout);
-                                resizeTimeout = setTimeout(adjustMargin, 100);
                             });
-                        });
-                    </script>
+                        </script>
+                    </div>
                 </div>
             </div>
-    </div>
-    </main>
-    <footer class="page-footer">
-        <div class="footer top">
-            <div class="footer-top-wrapper width-container">
-                <a class="logo" href="/"><img src="/public/images/vanguard-logo.png" alt="Vanguard Pharmacy"
-                        style="height: 80px;"></a>
-                <div class="button-container">
-                    <a class="btn large store-locator" href="/contact-us/">Find a Store</a>
+        </main>
+        <footer class="page-footer">
+            <div class="footer top">
+                <div class="footer-top-wrapper width-container">
+                    <a class="logo" href="/"><img src="/public/images/vanguard-logo.png" alt="Vanguard Pharmacy"
+                            style="height: 80px;"></a>
+                    <div class="button-container">
+                        <a class="btn large store-locator" href="/contact-us/">Find a Store</a>
 
+                    </div>
+                    <div class="social-link-container">
+                        <ul class="social">
+                            <li><a href="https://www.youtube.com/user/RexallCanada" class="youtube" target="_blank"></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/rexalldrugstoreofficial/" class="instagram"
+                                    target="_blank"></a></li>
+                            <li><a href="https://www.facebook.com/rexalldrugstore" class="facebook" target="_blank"></a>
+                            </li>
+                            <li><a href="https://twitter.com/RexallDrugstore" class="twitter" target="_blank"></a></li>
+                            <li><a href="https://www.tiktok.com/@rexalldrugstore" class="tik-tok" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-divider small-screen-only"></div>
                 </div>
-                <div class="social-link-container">
-                    <ul class="social">
-                        <li><a href="https://www.youtube.com/user/RexallCanada" class="youtube" target="_blank"></a>
-                        </li>
-                        <li><a href="https://www.instagram.com/rexalldrugstoreofficial/" class="instagram"
-                                target="_blank"></a></li>
-                        <li><a href="https://www.facebook.com/rexalldrugstore" class="facebook" target="_blank"></a>
-                        </li>
-                        <li><a href="https://twitter.com/RexallDrugstore" class="twitter" target="_blank"></a></li>
-                        <li><a href="https://www.tiktok.com/@rexalldrugstore" class="tik-tok" target="_blank"></a></li>
-                    </ul>
-                </div>
-                <div class="footer-divider small-screen-only"></div>
             </div>
-        </div>
-        <div class="footer middle">
-            <div class="clearfix link-wrap width-container">
-                <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true">
-                    <ul class="footer-accessible-accordion"
-                        data-mage-init='{"accessible-responsive-accordion": {"accordionOptions": {"multiExpand": true}}}'>
-                        <li class="footer-accessible-accordion-item js-accessible-accordion-item">
-                            <h2 class="footer-nav-title"><span class="footer-nav-title-link">Resources</span></h2>
-                            <button class="footer-accessible-accordion-title js-accessible-accordion-title"
-                                type="button">Resources</button>
-                            <div
-                                class="footer-accessible-accordion-content footer-accessible-accordion-content-double-list js-accessible-accordion-content">
-                                <ul class="footer-accessible-accordion-content-list-one">
-                                    <li><a href="/contact-us/" class="footer-btn">Contact Us</a></li>
-                                    <li><a href="/help/" class="footer-btn">Help</a></li>
-                                    <li><a href="/return-policy/" class="footer-btn">Return Policy</a></li>
-                                    <li><a href="/consent/" class="footer-btn">Consent</a></li>
-                                    <li><a href="/privacy-policy/" class="footer-btn">Website Privacy</a></li>
-                                    <li><a href="/external-privacy-policy/" class="footer-btn">External Privacy
-                                            Policy</a></li>
-                                    <li><a href="/legal/" class="footer-btn">Terms of Use</a></li>
-                                    <li><a href="/accessibility/" class="footer-btn">Accessibility</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="footer-divider large-screen-only"></div>
-                    <div class="footer-disclaimer desktop-footer-disclaimer">
+            <div class="footer middle">
+                <div class="clearfix link-wrap width-container">
+                    <div data-content-type="html" data-appearance="default" data-element="main" data-decoded="true">
+                        <ul class="footer-accessible-accordion"
+                            data-mage-init='{"accessible-responsive-accordion": {"accordionOptions": {"multiExpand": true}}}'>
+                            <li class="footer-accessible-accordion-item js-accessible-accordion-item">
+                                <h2 class="footer-nav-title"><span class="footer-nav-title-link">Resources</span></h2>
+                                <button class="footer-accessible-accordion-title js-accessible-accordion-title"
+                                    type="button">Resources</button>
+                                <div
+                                    class="footer-accessible-accordion-content footer-accessible-accordion-content-double-list js-accessible-accordion-content">
+                                    <ul class="footer-accessible-accordion-content-list-one">
+                                        <li><a href="/contact-us/" class="footer-btn">Contact Us</a></li>
+                                        <li><a href="/help/" class="footer-btn">Help</a></li>
+                                        <li><a href="/return-policy/" class="footer-btn">Return Policy</a></li>
+                                        <li><a href="/consent/" class="footer-btn">Consent</a></li>
+
+                                        <li><a href="/external-privacy-policy/" class="footer-btn">External Privacy
+                                                Policy</a></li>
+                                        <li><a href="/legal/" class="footer-btn">Terms of Use</a></li>
+                                        <li><a href="/accessibility/" class="footer-btn">Accessibility</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer-divider large-screen-only"></div>
+                        <div class="footer-disclaimer desktop-footer-disclaimer">
+                            <p>
+                                &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> Vanguard Pharmacy Group Ltd. All rights reserved. Vanguard Pharmacy&reg;
+                                is a member of the
+                                Vanguard Pharmacy Group Ltd.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer bottom">
+                <div class="footer-disclaimer-container width-container">
+                    <div class="footer-disclaimer">
                         <p>
                             &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Vanguard Pharmacy&reg;
-                            is a member of the
-                            Vanguard Pharmacy Group Ltd.
+                            </script> Vanguard Pharmacy Group Ltd. All rights reserved. Vanguard Pharmacy&reg; is
+                            a member of Vanguard Pharmacy
+                            Pharmacy Group Ltd.
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="footer bottom">
-            <div class="footer-disclaimer-container width-container">
-                <div class="footer-disclaimer">
-                    <p>
-                        &copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script> Vanguard Pharmacy Group Ltd. All rights reserved. Vanguard Pharmacy&reg; is
-                        a member of Vanguard Pharmacy
-                        Pharmacy Group Ltd.
-                    </p>
-                </div>
-            </div>
-            <script>
-                require([
-                    'jquery',
-                    'breakpoints'
-                ], function ($) {
-                    var win = $(window),
-                        breakpoints = new Breakpoints();
+                <script>
+                    require([
+                        'jquery',
+                        'breakpoints'
+                    ], function ($) {
+                        var win = $(window),
+                            breakpoints = new Breakpoints();
 
-                    win.on('resize load', function () {
-                        var banners = $('.banner-image');
+                        win.on('resize load', function () {
+                            var banners = $('.banner-image');
 
-                        banners.each(function () {
-                            var that = $(this);
+                            banners.each(function () {
+                                var that = $(this);
 
-                            if (window.innerWidth < breakpoints.md && that.data('mobile-image')) {
-                                that.attr('src', that.data('mobile-image'));
-                            } else {
-                                that.attr('src', that.data('image'));
-                            }
+                                if (window.innerWidth < breakpoints.md && that.data('mobile-image')) {
+                                    that.attr('src', that.data('mobile-image'));
+                                } else {
+                                    that.attr('src', that.data('image'));
+                                }
+                            });
                         });
                     });
-                });
-            </script>
-        </div>
-    </footer>
-    <script type="text/x-magento-init">
+                </script>
+            </div>
+        </footer>
+        <script type="text/x-magento-init">
         { "*": { "Magento_Ui/js/core/app": { "components": { "storage-manager": { "component": "Magento_Catalog/js/storage-manager", "appendTo": "", "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.vanguardpharmacy.ca\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}
         } } } } }
     </script>
-    <div class="footer-gdpr-popup js-gdpr-popup" id="gdpr-popup" style="display:none">
-        <div class="footer-gdpr-popup-content">
-            <div class="footer-gdpr-popup-text-wrapper">
-                <p>We use cookies to ensure you get the best experience on our website. Learn more in our <a
-                        href="/privacy-policy/" class="gdpr-popup-privacy-link">Privacy Policy</a>.</p>
-            </div>
-            <div class="footer-gdpr-popup-button-wrapper">
-                <a href="#" class="gdpr-popup-accept js-gdpr-popup-accept">Okay</a>
+        <div class="footer-gdpr-popup js-gdpr-popup" id="gdpr-popup" style="display:none">
+            <div class="footer-gdpr-popup-content">
+                <div class="footer-gdpr-popup-text-wrapper">
+                    <p>We use cookies to ensure you get the best experience on our website. Learn more in our <a
+                            href="/privacy-policy/" class="gdpr-popup-privacy-link">Privacy Policy</a>.</p>
+                </div>
+                <div class="footer-gdpr-popup-button-wrapper">
+                    <a href="#" class="gdpr-popup-accept js-gdpr-popup-accept">Okay</a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script>
-        'use strict';
-        require(['jquery', 'mage/cookies'], function ($) {
-            var popupBar = $("#gdpr-popup"),
-                popupContent = "1313f981c405b38977d2fda04e6f67eb222d5d63",
-                cookieLifeDays = 30,
-                cookieName = 'gdpr-cookie-popup';
+        <script>
+            'use strict';
+            require(['jquery', 'mage/cookies'], function ($) {
+                var popupBar = $("#gdpr-popup"),
+                    popupContent = "1313f981c405b38977d2fda04e6f67eb222d5d63",
+                    cookieLifeDays = 30,
+                    cookieName = 'gdpr-cookie-popup';
 
-            popupBar.on('click', '.js-gdpr-popup-accept, .js-gdpr-popup-close', function (e) {
-                e.preventDefault();
+                popupBar.on('click', '.js-gdpr-popup-accept, .js-gdpr-popup-close', function (e) {
+                    e.preventDefault();
 
-                $.mage.cookies.set(cookieName, popupContent, {
-                    lifetime: cookieLifeDays * 24 * 60 * 60 // seconds
+                    $.mage.cookies.set(cookieName, popupContent, {
+                        lifetime: cookieLifeDays * 24 * 60 * 60 // seconds
+                    });
+
+                    popupBar.hide();
+                    popupBar.trigger('gdprPopupCloseAfter');
                 });
 
-                popupBar.hide();
-                popupBar.trigger('gdprPopupCloseAfter');
+                if (popupContent !== $.mage.cookies.get(cookieName)) {
+                    popupBar.show();
+                }
             });
+        </script>
 
-            if (popupContent !== $.mage.cookies.get(cookieName)) {
-                popupBar.show();
-            }
-        });
-    </script>
-
-    <div id="newcomers-config-container" data-max-views="5" data-delay-hours="8">
-    </div>
+        <div id="newcomers-config-container" data-max-views="5" data-delay-hours="8">
+        </div>
     </div>
     <script src="/static/js/search.js"></script>
 </body>

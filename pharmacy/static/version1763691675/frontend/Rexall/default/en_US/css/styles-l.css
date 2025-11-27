@@ -12291,7 +12291,7 @@ only screen and (min-resolution:144dpi) {
     .myrexall-container.refill .or-icon {
         height: 30px;
         width: 31px;
-        background: url(../images/refill/sprite.png) -472px -22px no-repeat;
+        background: url(../images/contact-us/sprite.png) -472px -22px no-repeat;
         float: left;
         margin: 28px 8px 0 !important
     }

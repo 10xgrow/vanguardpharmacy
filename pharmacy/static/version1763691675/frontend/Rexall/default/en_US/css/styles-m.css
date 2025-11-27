@@ -20428,7 +20428,7 @@ table.camel-color tr td:first-child {
     }
 
     .page-header .logo img {
-        max-width: 93px
+        /* max-width: 93px */
     }
 
     .page-header .header-desktop-container {

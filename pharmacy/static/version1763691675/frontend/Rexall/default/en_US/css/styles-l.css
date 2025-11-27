@@ -1014,7 +1014,7 @@ only screen and (min-resolution:144dpi) {
     }
 
     .page-header .logo img {
-        max-width: 93px
+        /* max-width: 93px */
     }
 
     .page-header .header-desktop-container {

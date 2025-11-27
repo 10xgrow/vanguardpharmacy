@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
         { title: "Pharmacy", url: "/pharmacy/" },
         { title: "Auto Refill", url: "/pharmacy/medicationmanagement/autorefill/" },
         { title: "Medication Review", url: "/pharmacy/med-management/medreview/" },
-        { title: "Prescription Delivery", url: "/prescriptions-delivered-to-your-door/" },
         { title: "Everyday Health", url: "/everyday-health/" },
         { title: "Oral Health", url: "/oral-health-hygiene/" },
         { title: "Refill Prescriptions", url: "/contact-us/" },

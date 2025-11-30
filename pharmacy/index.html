@@ -118,7 +118,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
 </head>
 
 <body data-container="body" data-mage-init='{"loaderAjax": {}}' id="html-body"
-    class="cms-pharmacy cms-page-view page-layout-pharmacy-sidebar-view">
+    class="cms-pharmacy cms-page-view page-layout-1column">
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T98RK3L" height="0" width="0"
             style="display:none;visibility:hidden"></iframe>
@@ -207,7 +207,7 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/pharmacy/">Pharmacy</a></li>
-                        <li><a href="/prescribing/">Services</a></li>
+                        <li><a href="/services/">Services</a></li>
                         <li><a href="/contact-us/">Contact Us</a></li>
                         <li><a href="/about-us/">About Us</a></li>
                     </ul>
@@ -322,615 +322,115 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                     { "*": { "Magento_Ui/js/core/app": { "components": { "messages": { "component": "Magento_Theme/js/view/messages" } } } } }
                 </script>
             </div>
-            <div class="columns pharmacy-columns">
-                <div class="main pharmacy-page-content"><input name="form_key" type="hidden" value="Gm6aHh4Hqo7lXHUO" />
-                    <div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
-                        <script>
-                            window.authenticationPopup = {
-                                "autocomplete": "off",
-                                "customerRegisterUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/account\/create\/",
-                                "customerForgotPasswordUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/account\/forgotpassword\/",
-                                "baseUrl": "https:\/\/www.vanguardpharmacy.ca\/",
-                                "customerLoginUrl": "https:\/\/www.vanguardpharmacy.ca\/customer\/ajax\/login\/"
-                            }
-                        </script>
-                        <!-- ko template: getTemplate() -->
-                        <!-- /ko -->
-                        <script type="text/x-magento-init">
-                            { "#authenticationPopup": { "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}
-                            }, "*": { "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fstatic\u002Fversion1763691675\u002Ffrontend\u002FVanguard Pharmacy\u002Fdefault\u002Fen_US\u002Fimages\u002Floader\u002D1.gif\u003Ft\u003D1763691705" }
-                            }
-                        </script>
-                    </div>
-                    <script type="text/x-magento-init">
-                        { "*": { "Magento_Customer/js/section-config": { "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"giftregistry\/index\/cart":["cart"],"giftregistry\/view\/addtocart":["cart"],"customer_order\/cart\/updatefaileditemoptions":["cart"],"checkout\/cart\/updatefaileditemoptions":["cart"],"customer_order\/cart\/advancedadd":["cart"],"checkout\/cart\/advancedadd":["cart"],"checkout\/cart\/removeallfailed":["cart"],"checkout\/cart\/removefailed":["cart"],"customer_order\/cart\/addfaileditems":["cart"],"checkout\/cart\/addfaileditems":["cart"],"customer_order\/sku\/uploadfile":["cart"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"wishlist\/index\/copyitem":["wishlist"],"wishlist\/index\/copyitems":["wishlist"],"wishlist\/index\/deletewishlist":["wishlist","multiplewishlist"],"wishlist\/index\/createwishlist":["multiplewishlist"],"wishlist\/index\/editwishlist":["multiplewishlist"],"wishlist\/index\/moveitem":["wishlist"],"wishlist\/index\/moveitems":["wishlist"],"wishlist\/search\/addtocart":["cart","wishlist"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"]},
-                        "clientSideSections": ["checkout-data","cart-data"], "baseUrls": ["https:\/\/www.vanguardpharmacy.ca\/"], "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","wishlist","instant-purchase","loggedAsCustomer","multiplewishlist","persistent","review","preferredStores","recently_viewed_product","recently_compared_product","product_data_storage"]
-                        } } }
-                    </script>
-                    <script type="text/x-magento-init">
-                        { "*": { "Magento_Customer/js/customer-data": { "sectionLoadUrl": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fcustomer\u002Fsection\u002Fload\u002F", "expirableSectionLifetime": 60, "expirableSectionNames": ["cart","persistent"], "cookieLifeTime": "3600",
-                        "cookieDomain": "", "updateSessionUrl": "https\u003A\u002F\u002Fwww.vanguardpharmacy.ca\u002Fcustomer\u002Faccount\u002FupdateSession\u002F", "isLoggedIn": "" } } }
-                    </script>
-                    <script type="text/x-magento-init">
-                        { "*": { "Magento_Customer/js/invalidation-processor": { "invalidationRules": { "website-rule": { "Magento_Customer/js/invalidation-rules/website-rule": { "scopeConfig": { "websiteId": "1" } } } } } } }
-                    </script>
-                    <script type="text/x-magento-init">
-                        { "body": { "pageCache": {"url":"https:\/\/www.vanguardpharmacy.ca\/page_cache\/block\/render\/page_id\/5\/","handles":["default","cms_page_view","cms_page_view_id_pharmacy"],"originalRequest":{"route":"cms","controller":"page","action":"view","uri":"\/pharmacy"},"versionCookieName":"private_content_version"}
-                        } }
-                    </script>
-                    <script type="text/x-magento-init">
-                        { "*": { "Magento_Banner/js/model/banner": {"sectionLoadUrl":"https:\/\/www.vanguardpharmacy.ca\/banner\/ajax\/load\/","cacheTtl":30000} } }
-                    </script>
-                    <style>
-                        #html-body [data-pb-style=KJUWX6W] {
-                            justify-content: flex-start;
-                            display: flex;
-                            flex-direction: column;
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll;
-                            margin-top: 0
-                        }
+            <div class="columns">
+                <div class="column main">
+                    <input name="form_key" type="hidden" value="Gm6aHh4Hqo7lXHUO" />
 
-                        #html-body [data-pb-style=P57BL1X] {
-                            margin-top: 0
-                        }
-
-                        #html-body [data-pb-style=GGTDTYU],
-                        #html-body [data-pb-style=J3ATWLO],
-                        #html-body [data-pb-style=ND2BDER] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=GGTDTYU] {
-                            justify-content: flex-start;
-                            display: flex;
-                            flex-direction: column
-                        }
-
-                        #html-body [data-pb-style=J3ATWLO],
-                        #html-body [data-pb-style=ND2BDER] {
-                            text-align: center
-                        }
-
-                        #html-body [data-pb-style=B7UWOQJ] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=A6R0CE5] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=W29V7ME] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=GY7OD4P] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=WA3EJ75] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=AFPFFGK] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=NWJRR52] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=MOFHNTR] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=U6TN890] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=RDM7SSD] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=O12E9DU] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=UWQQ6X1] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=KAFK6MS] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=JDJ51OW] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=NI52BSN] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=EU0D9SD],
-                        #html-body [data-pb-style=NM29NDM],
-                        #html-body [data-pb-style=TDJ7L4R] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=NM29NDM] {
-                            justify-content: flex-start;
-                            display: flex;
-                            flex-direction: column
-                        }
-
-                        #html-body [data-pb-style=EU0D9SD],
-                        #html-body [data-pb-style=TDJ7L4R] {
-                            text-align: center
-                        }
-
-                        #html-body [data-pb-style=I7ASMI3] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=UT9WSXM] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=CCNXP8C] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=GCUIDJY] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=DK838I2] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=I6H7W4A] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=EPMIPVD] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=FU25ETY] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=IHQ4X4W] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=KLX7WVL] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=L2HLX7A] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=AWJWLPV],
-                        #html-body [data-pb-style=E33RE4J],
-                        #html-body [data-pb-style=NNOMIC7] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=AWJWLPV] {
-                            justify-content: flex-start;
-                            display: flex;
-                            flex-direction: column
-                        }
-
-                        #html-body [data-pb-style=E33RE4J],
-                        #html-body [data-pb-style=NNOMIC7] {
-                            text-align: center
-                        }
-
-                        #html-body [data-pb-style=F50ORFD] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=FRYVF3K] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=WCUFO6V] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=HJBCBVB] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=K2A7D7F] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=V49IFQT] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=TS1DEB5] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=HOXIQ5X] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=Q3IME0J] {
-                            border-style: none
-                        }
-
-                        #html-body [data-pb-style=LDF3P9V],
-                        #html-body [data-pb-style=QDWU67H] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-
-                        #html-body [data-pb-style=LDF3P9V] {
-                            justify-content: flex-start;
-                            display: flex;
-                            flex-direction: column
-                        }
-
-                        #html-body [data-pb-style=QDWU67H] {
-                            align-self: stretch
-                        }
-
-                        #html-body [data-pb-style=LNWYTD9] {
-                            display: flex;
-                            width: 100%
-                        }
-
-                        #html-body [data-pb-style=TJ4I04P] {
-                            justify-content: flex-start;
-                            display: flex;
-                            flex-direction: column;
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll;
-                            width: 100%;
-                            align-self: stretch
-                        }
-
-                        #html-body [data-pb-style=DDE88C4] {
-                            margin-top: 10px;
-                            margin-bottom: 10px
-                        }
-
-                        #html-body [data-pb-style=DNP9PXM] {
-                            width: 100%;
-                            border-width: 1px;
-                            border-color: #cecece;
-                            display: inline-block
-                        }
-
-                        #html-body [data-pb-style=IGK7IKX],
-                        #html-body [data-pb-style=LCJA77T],
-                        #html-body [data-pb-style=TO081GH] {
-                            background-position: left top;
-                            background-size: cover;
-                            background-repeat: no-repeat;
-                            background-attachment: scroll
-                        }
-                    </style>
-                    <div data-content-type="row" data-appearance="contained" data-element="main">
-                        <div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}"
-                            data-background-type="image" data-video-loop="true" data-video-play-only-visible="true"
-                            data-video-lazy-load="true" data-video-fallback-src="" data-geotarget="" data-geomethod="0"
-                            data-element="inner" data-pb-style="KJUWX6W">
-                            <div data-content-type="northern_banner" data-appearance="default" data-element="main"
-                                data-pb-style="P57BL1X">
-                                <div id="northern-banner-blockt05dOGN71oRHPZdxlZP5z4au4ejXacy2" class="banner-placeholder _block-content-loading
-     ">
-                                    <div data-role="loader" class="loading-mask">
-
-                                    </div>
-                                </div>
-                                <script type="text/x-magento-init">
-                                    { "#northern-banner-blockt05dOGN71oRHPZdxlZP5z4au4ejXacy2": { "loadBanner": { "url": "https:\/\/www.vanguardpharmacy.ca\/northern_banner\/index\/load\/block_id\/60\/" } } }
-                                </script>
+                    <div class="modern-section hero-section">
+                        <div class="container flex items-center justify-center text-center">
+                            <div class="hero-content">
+                                <h1 class="hero-title">Clinical Pharmacy Services</h1>
+                                <p class="hero-subtitle">Comprehensive care tailored to your needs. From vaccinations to
+                                    medication management, we are here for you.</p>
                             </div>
-                            <div class="pagebuilder-disclaimer" data-content-type="disclaimer" data-appearance="default"
-                                data-element="main">
-                                <div class="external-icon-container">
-                                    <p><span class="external-window-icon"></span><span aria-hidden="true"
-                                            data-element="body">indicates an action will redirect you to a third party
-                                            site.</span></p>
+                        </div>
+                    </div>
+
+                    <div class="modern-section">
+                        <div class="container">
+                            <div class="text-center mb-5">
+                                <h2>Our Services</h2>
+                                <p style="color: var(--text-light);">Expert care, delivered locally.</p>
+                            </div>
+                            <div class="grid grid-2">
+                                <div class="service-card flex flex-col items-center text-center">
+                                    <div class="service-icon">🚭</div>
+                                    <h3>Quit Smoking</h3>
+                                    <p>Personalized support and strategies to help you quit for good.</p>
+                                    <a href="/quit-smoking" class="btn-secondary" style="margin-top: 1rem;">Learn
+                                        More</a>
+                                </div>
+                                <div class="service-card flex flex-col items-center text-center">
+                                    <div class="service-icon">💉</div>
+                                    <h3>Vaccinations</h3>
+                                    <p>Flu shots, travel vaccines, and routine immunizations administered by
+                                        professionals.</p>
+                                    <a href="/vaccines" class="btn-secondary" style="margin-top: 1rem;">Learn More</a>
+                                </div>
+                                <div class="service-card flex flex-col items-center text-center">
+                                    <div class="service-icon">📝</div>
+                                    <h3>Prescribing</h3>
+                                    <p>Skip the clinic. Our pharmacists can assess and prescribe for minor ailments.</p>
+                                    <a href="/prescribing" class="btn-secondary" style="margin-top: 1rem;">Learn
+                                        More</a>
+                                </div>
+                                <div class="service-card flex flex-col items-center text-center">
+                                    <div class="service-icon">💊</div>
+                                    <h3>Medication Management</h3>
+                                    <p>Organize your meds, get refills, and understand your treatment plan.</p>
+                                    <a href="/pharmacy/medicationmanagement/autorefill" class="btn-secondary"
+                                        style="margin-top: 1rem;">Learn More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div data-content-type="row" data-appearance="contained" data-element="main">
-                        <div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}"
-                            data-background-type="image" data-video-loop="true" data-video-play-only-visible="true"
-                            data-video-lazy-load="true" data-video-fallback-src="" data-geotarget="74"
-                            data-geomethod="1" data-element="inner" data-pb-style="GGTDTYU">
-                            <h1 class="utility-heading-h2" data-content-type="heading" data-appearance="default" id=""
-                                data-element="main">Pharmacy Services</h1>
-                            <div class="cms-grid-container pharmacy-services-landing-page-grid"
-                                data-content-type="northern-grid" data-appearance="default" data-background-images="{}"
-                                data-grid-items="cms-grid-container-3-item" data-element="main" data-pb-style="ND2BDER">
-                                <div class="cms-grid">
-                                    <div class="cms-grid-item" data-content-type="northern-grid-item"
-                                        data-appearance="default" data-background-images="{}" data-element="main"
-                                        data-pb-style="J3ATWLO">
-                                        <div class="cms-grid-item-inner">
-                                            <div class="cms-article-item cms-article-item-icon"
-                                                data-content-type="northern-article" data-appearance="icon"
-                                                data-element="main" data-pb-style="B7UWOQJ">
-                                                <a class="cms-article-item-link" href="/quit-smoking" target=""
-                                                    data-link-type="default" data-element="link">
-                                                    <div
-                                                        class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                        <img class="cms-article-item-image" loading="lazy"
-                                                            src="/media/wysiwyg/cms/q/u/quit-smoking-icon.svg" alt=""
-                                                            data-element="image">
-                                                    </div>
-                                                    <div class="cms-article-item-content-container">
-                                                        <div class="cms-article-item-content" data-element="body">Quit
-                                                            Smoking</div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cms-grid-item" data-content-type="northern-grid-item"
-                                        data-appearance="default" data-background-images="{}" data-element="main"
-                                        data-pb-style="AFPFFGK">
-                                        <div class="cms-grid-item-inner">
-                                            <div class="cms-article-item cms-article-item-icon"
-                                                data-content-type="northern-article" data-appearance="icon"
-                                                data-element="main" data-pb-style="NWJRR52">
-                                                <a class="cms-article-item-link" href="/vaccines" target=""
-                                                    data-link-type="default" data-element="link">
-                                                    <div
-                                                        class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                        <img class="cms-article-item-image" loading="lazy"
-                                                            src="/media/wysiwyg/cms/i/n/injection.svg" alt=""
-                                                            data-element="image">
-                                                    </div>
-                                                    <div class="cms-article-item-content-container">
-                                                        <div class="cms-article-item-content" data-element="body">
-                                                            Vaccinations</div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cms-grid-item" data-content-type="northern-grid-item"
-                                        data-appearance="default" data-background-images="{}" data-element="main"
-                                        data-pb-style="JDJ51OW">
-                                        <div class="cms-grid-item-inner">
-                                            <div class="cms-article-item cms-article-item-icon"
-                                                data-content-type="northern-article" data-appearance="icon"
-                                                data-element="main" data-pb-style="NI52BSN">
-                                                <a class="cms-article-item-link" href="/prescribing" target=""
-                                                    data-link-type="default" data-element="link">
-                                                    <div
-                                                        class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                        <img class="cms-article-item-image" loading="lazy"
-                                                            src="/media/wysiwyg/prescribe-clipboard_2.png" alt=""
-                                                            data-element="image">
-                                                    </div>
-                                                    <div class="cms-article-item-content-container">
-                                                        <div class="cms-article-item-content" data-element="body">
-                                                            Prescribing</div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                    <div class="modern-section" style="background-color: #f8f9fa;">
+                        <div class="container">
+                            <div class="text-center mb-5">
+                                <h2>Patient Resources</h2>
+                                <p style="color: var(--text-light);">Manage your health with ease.</p>
+                            </div>
+                            <div class="grid grid-3">
+                                <div class="service-card text-center">
+                                    <h3>Request Refills</h3>
+                                    <p>Quickly refill your prescriptions online.</p>
+                                    <a href="/contact-us/" class="btn-primary" style="margin-top: 1rem;">Refill Now</a>
+                                </div>
+                                <div class="service-card text-center">
+                                    <h3>Switch Pharmacy</h3>
+                                    <p>Transferring your prescriptions to us is simple.</p>
+                                    <a href="/contact-us/" class="btn-secondary" style="margin-top: 1rem;">Transfer</a>
+                                </div>
+                                <div class="service-card text-center">
+                                    <h3>Consultation</h3>
+                                    <p>Book a time to speak with a pharmacist.</p>
+                                    <a href="/contact-us/" class="btn-secondary" style="margin-top: 1rem;">Book Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div data-content-type="row" data-appearance="contained" data-element="main">
-                        <div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}"
-                            data-background-type="image" data-video-loop="true" data-video-play-only-visible="true"
-                            data-video-lazy-load="true" data-video-fallback-src="" data-geotarget="" data-geomethod="0"
-                            data-element="inner" data-pb-style="LDF3P9V">
-                            <div class="pagebuilder-column-group" data-background-images="{}"
-                                data-content-type="column-group" data-appearance="default" data-grid-size="12"
-                                data-element="main" data-pb-style="QDWU67H">
-                                <div class="pagebuilder-column-line" data-content-type="column-line" data-element="main"
-                                    data-pb-style="LNWYTD9">
-                                    <div class="pagebuilder-column" data-content-type="column"
-                                        data-appearance="full-height" data-background-images="{}" data-element="main"
-                                        data-pb-style="TJ4I04P">
-                                        <div data-content-type="divider" data-appearance="default" data-element="main"
-                                            data-pb-style="DDE88C4">
-                                            <hr data-element="line" data-pb-style="DNP9PXM">
-                                        </div>
-                                        <h2 data-content-type="heading" data-appearance="default" id=""
-                                            data-element="main">Pharmacy</h2>
-                                        <div class="cms-grid-container" data-content-type="northern-grid"
-                                            data-appearance="default" data-background-images="{}"
-                                            data-grid-items="cms-grid-container-2-item" data-element="main"
-                                            data-pb-style="LCJA77T">
-                                            <div class="cms-grid">
-                                                <div class="cms-grid-item" data-content-type="northern-grid-item"
-                                                    data-appearance="default" data-background-images="{}"
-                                                    data-element="main" data-pb-style="IGK7IKX">
-                                                    <div class="cms-grid-item-inner">
-                                                        <div class="cms-article-item pharmacy-card pharmacy-left-card"
-                                                            data-content-type="northern-article"
-                                                            data-appearance="default" data-element="main">
-                                                            <a class="cms-article-item-link" href="/" target=""
-                                                                data-link-type="default" data-element="link">
-                                                                <div
-                                                                    class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                                    <img class="cms-article-item-image" loading="lazy"
-                                                                        src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=800&h=600&fit=crop"
-                                                                        alt="" data-element="image">
-                                                                </div>
-                                                                <div class="cms-article-item-content-container">
-                                                                    <h2 class="cms-article-item-content-container-title"
-                                                                        data-element="title">My Vanguard Pharmacy
-                                                                        Pharmacist</h2>
-                                                                    <div class="cms-article-item-content"
-                                                                        data-element="body">
-                                                                        <h5 class="pharmacy-card-subtitle"><span
-                                                                                style="font-size: 16px;"><strong><span
-                                                                                        style="color: #006060;">We&rsquo;re
-                                                                                        more than just
-                                                                                        prescriptions.</span></strong>
-                                                                            </span>
-                                                                        </h5>
-                                                                        <p>Your Vanguard Pharmacy Pharmacist can offer
-                                                                            you advice,
-                                                                            services, and tools to help you achieve your
-                                                                            health goals.</p>
-                                                                    </div><span class="cms-article-item-pseudo-link"
-                                                                        data-button-screenreader-text=""
-                                                                        data-element="read">Learn More</span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="cms-grid-item" data-content-type="northern-grid-item"
-                                                    data-appearance="default" data-background-images="{}"
-                                                    data-element="main" data-pb-style="TO081GH">
-                                                    <div class="cms-grid-item-inner">
-                                                        <div class="cms-article-item pharmacy-card pharmacy-right-card"
-                                                            data-content-type="northern-article"
-                                                            data-appearance="default" data-element="main">
-                                                            <a class="cms-article-item-link"
-                                                                href="/pharmacy/medicationmanagement/autorefill"
-                                                                target="" data-link-type="default" data-element="link">
-                                                                <div
-                                                                    class="cms-article-item-image-container apply-image-fit-polyfill">
-                                                                    <img class="cms-article-item-image" loading="lazy"
-                                                                        src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&h=600&fit=crop"
-                                                                        alt="" data-element="image">
-                                                                </div>
-                                                                <div class="cms-article-item-content-container">
-                                                                    <h2 class="cms-article-item-content-container-title"
-                                                                        data-element="title">Medication Management</h2>
-                                                                    <div class="cms-article-item-content"
-                                                                        data-element="body">
-                                                                        <p>Your Vanguard Pharmacy Pharmacist will help
-                                                                            you stay on
-                                                                            track to achieve your health goals. </p>
-                                                                        <p><span style="color: #006060">Wellness.
-                                                                                Simplified.&trade;</span></p>
-                                                                    </div><span class="cms-article-item-pseudo-link"
-                                                                        data-button-screenreader-text=""
-                                                                        data-element="read">Learn More</span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
+                    <div class="modern-section">
+                        <div class="container">
+                            <div class="text-center mb-5">
+                                <h2>Wellness Library</h2>
+                                <p style="color: var(--text-light);">Information you can trust.</p>
+                            </div>
+                            <div class="grid grid-2">
+                                <a href="/articles/drugs/" class="service-card text-center" style="display: block;">
+                                    <h4>Medication Guide</h4>
+                                </a>
+                                <a href="/articles/conditions/" class="service-card text-center"
+                                    style="display: block;">
+                                    <h4>Health Conditions</h4>
+                                </a>
+                                <a href="/articles/naturalhealth/" class="service-card text-center"
+                                    style="display: block;">
+                                    <h4>Holistic Wellness</h4>
+                                </a>
+                                <a href="/articles/healthandlifestyle/" class="service-card text-center"
+                                    style="display: block;">
+                                    <h4>Lifestyle Tips</h4>
+                                </a>
                             </div>
                         </div>
                     </div>
+
                 </div>
-                <div class="pharmacy-sidebar">
-                    <div class="pharmacy-sidebar-block sidebar-prescriptions">
-                        <div class="pharmacy-sidebar-content">
-                            <h3 class="pharmacy-sidebar-title">My Medication Center</h3>
-                            <img class="pharmacy-sidebar-icon"
-                                src="/static/version1763691675/frontend/Rexall/default/en_US/images/pharmacy/sidebar/ManagePrescriptions.svg?t=1763691733"
-                                alt="Manage Prescriptions">
-                        </div>
-                        <a class="pharmacy-sidebar-button hide-at-small" href="/contact-us/">Request Refills</a>
-                        <a class="pharmacy-sidebar-button hide-at-small" href="/contact-us/">Switch Your Pharmacy</a>
-                        <a class="pharmacy-sidebar-button show-only-small" href="/contact-us/">Learn More</a>
-                    </div>
-                    <div class="pharmacy-sidebar-block sidebar-quickfind">
-                        <div class="pharmacy-sidebar-content">
-                            <h3 class="pharmacy-sidebar-title">Wellness Library <span
-                                    class="pharmacy-title-alt-color">Quick Access</span></h3>
-                            <img class="pharmacy-sidebar-icon"
-                                src="/static/version1763691675/frontend/Rexall/default/en_US/images/pharmacy/sidebar/Quickfind.svg?t=1763691733"
-                                alt="Quickfind">
-                        </div>
-                        <a class="pharmacy-sidebar-button hide-at-small" href="/articles/drugs/">Medication Guide</a>
-                        <a class="pharmacy-sidebar-button hide-at-small" href="/articles/conditions/">Health
-                            Conditions</a>
-                        <a class="pharmacy-sidebar-button hide-at-small" href="/articles/naturalhealth/">Holistic
-                            Wellness</a>
-                        <a class="pharmacy-sidebar-button hide-at-small" href="/articles/healthandlifestyle/">Lifestyle
-                            Tips</a>
-                        <a class="pharmacy-sidebar-button show-only-small" href="/articles/drugs/">Search Now</a>
-                    </div>
-                </div>
-
             </div>
         </main>
+
         <footer class="modern-footer">
             <div class="container">
                 <div class="footer-grid">

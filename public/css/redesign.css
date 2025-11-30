@@ -245,10 +245,7 @@ a {
     color: var(--accent-color);
 }
 
-/* FAQ Section */
-.faq-section {
-    background-color: var(--white);
-}
+
 
 .faq-item {
     border-bottom: 1px solid #eee;

@@ -1,21 +1,8 @@
-<!--
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
--->
+import os
+import re
 
-<aside role="dialog" class="modal-<%- data.type %> <%- data.modalClass %>
-               <% if(data.responsive){ %><%- data.responsiveClass %><% } %>
-               <% if(data.innerScroll){ %><%- data.innerScrollClass %><% } %>" <% if(data.title){ %> aria-labelledby="modal-title-
-    <%- data.id %>"
-        <% } %>
-            aria-describedby="modal-content-
-            <%- data.id %>" data-role="modal" data-type="
-                <%- data.type %>" tabindex="0">
-                    <div data-role="focusable-start" tabindex="0"></div>
-                    <div class="modal-inner-wrap" data-role="focusable-scope">
-                        <header class="modern-header">
+# The new header content from index.html (lines 200-256 approx)
+NEW_HEADER = """<header class="modern-header">
     <div class="container header-container">
         <a href="/" class="logo">
             <img src="/public/images/vanguard-logo.png" alt="Vanguard Pharmacy">
@@ -72,15 +59,53 @@
             <span></span>
         </button>
     </div>
-</header>
-                        <div id="modal-content-<%- data.id %>" class="modal-content" data-role="content"></div>
-                        <% if(data.buttons.length > 0){ %>
-                            <footer class="modal-footer">
-                                <% _.each(data.buttons, function(button) { %>
-                                    <button class="<%- button.class %>" type="button" data-role="action"><span><%= button.text %></span></button>
-                                    <% }); %>
-                            </footer>
-                            <% } %>
-                    </div>
-                    <div data-role="focusable-end" tabindex="0"></div>
-</aside>
+</header>"""
+
+CSS_LINK = '<link rel="stylesheet" href="/public/css/redesign.css">'
+
+# Regex to find existing header (either page-header or modern-header)
+HEADER_REGEX = re.compile(r'<header.*?>.*?</header>', re.DOTALL)
+
+def process_file(filepath):
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # Check if file has a header to replace
+        if '<header' not in content:
+            print(f"Skipping {filepath}: No header found.")
+            return
+
+        # Replace header
+        new_content = HEADER_REGEX.sub(NEW_HEADER, content)
+        
+        # Add CSS link if missing
+        if 'redesign.css' not in new_content:
+            if '</head>' in new_content:
+                new_content = new_content.replace('</head>', f'    {CSS_LINK}\n</head>')
+            else:
+                print(f"Warning: No </head> tag in {filepath}")
+
+        if content != new_content:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(new_content)
+            print(f"Updated {filepath}")
+        else:
+            print(f"No changes needed for {filepath}")
+
+    except Exception as e:
+        print(f"Error processing {filepath}: {e}")
+
+def main():
+    root_dir = '/Users/pranay/Files/10x Grow/vanguard/vanguardpharmacy'
+    for dirpath, _, filenames in os.walk(root_dir):
+        for filename in filenames:
+            if filename.endswith('.html'):
+                filepath = os.path.join(dirpath, filename)
+                # Skip index.html as it is the source
+                if filepath == os.path.join(root_dir, 'index.html'):
+                    continue
+                process_file(filepath)
+
+if __name__ == "__main__":
+    main()

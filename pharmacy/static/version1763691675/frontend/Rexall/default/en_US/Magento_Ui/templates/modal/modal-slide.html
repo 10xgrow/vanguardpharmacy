@@ -14,36 +14,64 @@
                 <%- data.type %>" tabindex="0">
                     <div data-role="focusable-start" tabindex="0"></div>
                     <div class="modal-inner-wrap" data-role="focusable-scope">
-                        <header class="modal-header">
-                            <% if(data.title || data.subTitle){ %>
-                                <h1 id="modal-title-<%- data.id %>" class="modal-title" data-role="title">
-                                    <% if(data.title){ %>
-                                        <%= data.title %>
-                                            <% } %>
+                        <header class="modern-header">
+    <div class="container header-container">
+        <a href="/" class="logo">
+            <img src="/public/images/vanguard-logo.png" alt="Vanguard Pharmacy">
+        </a>
 
-                                                <% if(data.subTitle){ %>
-                                                    <span class="modal-subtitle" data-role="subTitle">
-                    <%= data.subTitle %>
-                </span>
-                                                    <% } %>
-                                </h1>
-                                <% } %>
-                                    <button class="action-close" data-role="closeBtn" type="button">
-                <span><%= data.closeText %></span>
-            </button>
-                                    <% if(data.buttons.length > 0){ %>
-                                        <div class="page-main-actions">
-                                            <div class="page-actions">
-                                                <div class="page-actions-buttons">
-                                                    <% _.each(data.buttons, function(button) { %>
-                                                        <button class="<%- button.class %>" type="button" data-role="action"><span><%= button.text %></span>
-                        </button>
-                                                        <% }); %>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <% } %>
-                        </header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/pharmacy/">Pharmacy</a></li>
+                <li><a href="/prescribing/">Services</a></li>
+                <li><a href="/contact-us/">Contact Us</a></li>
+                <li><a href="/about-us/">About Us</a></li>
+            </ul>
+
+            <!-- Mobile Actions (Visible only on mobile inside nav) -->
+            <div class="mobile-actions">
+                <form class="header-search" action="/search/" method="get">
+                    <input type="search" name="q" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+                <a href="/contact-us/" class="btn-secondary btn-sm">Find a Store</a>
+            </div>
+        </nav>
+
+        <div class="header-actions">
+            <form class="header-search" action="search/" method="get" role="search" aria-haspopup="listbox">
+                <input type="search" name="q" placeholder="Search..." id="header-search-input"
+                    autocomplete="off" role="combobox" aria-describedby="autocomplete-assistive-hint"
+                    aria-expanded="false" aria-autocomplete="list" aria-controls="header-search631971031"
+                    data-mage-init='{
+                    "vanguard_Search/js/autocomplete": {
+                        "url": "https://www.vanguardpharmacy.ca/search/autocomplete/",
+                        "destinationSelector": "#header-search631971031"
+                    }
+                }'>
+                <button type="submit" aria-label="Search" id="header-search-submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+                <ul id="header-search631971031" role="listbox" aria-labelledby="header-search-label"
+                    class="autocomplete-dropdown" style="display: none;"></ul>
+            </form>
+            <a href="/contact-us/" class="btn-secondary btn-sm">Find a Store</a>
+        </div>
+
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation"
+            onclick="document.querySelector('.main-nav').classList.toggle('active')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
                         <div id="modal-content-<%- data.id %>" class="modal-content" data-role="content"></div>
                     </div>
                     <div data-role="focusable-end" tabindex="0"></div>

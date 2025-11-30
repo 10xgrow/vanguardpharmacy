@@ -2,9 +2,9 @@
 
 :root {
     /* Colors */
-    --primary-color: #003366;
+    --primary-color: #4d7ac7;
     /* Deep Navy */
-    --secondary-color: #008080;
+    --secondary-color: #4d7ac7;
     /* Bright Teal */
     --accent-color: #FF7F50;
     /* Coral */
@@ -102,7 +102,7 @@ a {
 .btn-primary {
     background-color: var(--secondary-color) !important;
     color: var(--white) !important;
-    padding: 24px 48px;
+    padding: 14px 48px;
     border-radius: 10px;
     font-size: 1.6rem;
     font-weight: 700;
@@ -141,7 +141,7 @@ a {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, var(--background-light) 0%, #E0F7FA 100%);
+    background: #e6f2ff;
     padding: 100px 0;
     position: relative;
     overflow: hidden;
@@ -157,7 +157,7 @@ a {
     font-size: 5.5rem;
     line-height: 1.1;
     margin-bottom: 1.5rem;
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    background: #4d7ac7;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -212,6 +212,9 @@ a {
     padding: 10px;
     border-radius: 50%;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Testimonials */
@@ -309,7 +312,7 @@ a {
     padding-top: 20px;
     text-align: center;
     opacity: 0.6;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 /* Responsive */

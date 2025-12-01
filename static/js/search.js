@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
         { title: "Refill Prescriptions", url: "/contact-us/" },
         { title: "Quit Smoking", url: "/quit-smoking/" },
         { title: "Prescribing", url: "/prescribing/" },
-        { title: "Virtual Doctor", url: "/virtual-doctor-appointment/" },
         { title: "Translation Services (Voyce)", url: "/voyce/" },
         { title: "Diabetes Resources", url: "/diabetes-resources/" },
         { title: "Vitamins", url: "/vitamins/" },

@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const pages = [
         { title: "Home", url: "/" },
         { title: "Pharmacy", url: "/pharmacy/" },
-        { title: "Auto Refill", url: "/pharmacy/medicationmanagement/autorefill/" },
         { title: "Medication Review", url: "/pharmacy/med-management/medreview/" },
         { title: "Everyday Health", url: "/everyday-health/" },
         { title: "Oral Health", url: "/oral-health-hygiene/" },
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
         { title: "Digestive Health", url: "/digestive-gut-health/" },
         { title: "Eye Care", url: "/eye-care/" },
         { title: "Walk-In Clinic", url: "/pharmacist-care-walk-in-clinic/" },
-        { title: "RightDose Blister Packaging", url: "/right-dose-blister-packaging/" },
         { title: "Contact Us", url: "/contact-us/" },
         { title: "Skin Care", url: "/skin-care/" },
         { title: "Respiratory Care", url: "/respiratory/" },

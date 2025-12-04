@@ -86,30 +86,19 @@ Place this snippet between the <head> and </head> tags on every page of your sit
     <meta property="og:url" content="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;refill&#x2F;">
     <meta property="twitter:image:src"
         content="https&#x3A;&#x2F;&#x2F;www.vanguardpharmacy.ca&#x2F;static&#x2F;version1763691675&#x2F;frontend&#x2F;rexall&#x2F;default&#x2F;en_US&#x2F;images&#x2F;opengraph&#x2F;RX-Logo-Twitter.jpg&#x3F;t&#x3D;1763691733">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.defer = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-T98RK3L');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
     </script>
 </head>
 
 <body data-container="body" data-mage-init='{"loaderAjax": {}}' id="html-body"
     class="refill-index-index page-layout-1column">
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T98RK3L" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe>
-    </noscript>
+
     <!--[if lte IE 9]>
 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->

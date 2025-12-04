@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { title: "Diabetes Resources", url: "/diabetes-resources/" },
         { title: "Vitamins", url: "/vitamins/" },
         { title: "Privacy Policy", url: "/privacy-policy/" },
+        { title: "Cookie Policy", url: "/cookie-policy/" },
         { title: "Vitamin Finder", url: "/vitamin-finder/" },
         { title: "Health Articles", url: "/articles/healthandlifestyle/" },
         { title: "Drug Information", url: "/articles/drugs/" },

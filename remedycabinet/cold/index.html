@@ -42,6 +42,8 @@
     <link rel="canonical" href="/remedycabinet/cold" />
     <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico" />
     <link rel="shortcut icon" type="image/x-icon" href="/public/images/favicon.ico" />
+    <!-- Cookie Consent Styles -->
+    <link rel="stylesheet" type="text/css" href="/static/css/cookie-consent.css" />
     <!-- 
 Start of global snippet: Please do not remove
 Place this snippet between the <head> and </head> tags on every page of your site.
@@ -2794,42 +2796,20 @@ Place this snippet between the <head> and </head> tags on every page of your sit
             { "*": { "Magento_Ui/js/core/app": { "components": { "storage-manager": { "component": "Magento_Catalog/js/storage-manager", "appendTo": "", "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/www.vanguardpharmacy.ca\/rest\/default\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/www.vanguardpharmacy.ca\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}
             } } } } }
         </script>
-        <div class="footer-gdpr-popup js-gdpr-popup" id="gdpr-popup" style="display:none">
-            <div class="footer-gdpr-popup-content">
-                <div class="footer-gdpr-popup-text-wrapper">
-                    <p>We use cookies to ensure you get the best experience on our website. Learn more in our <a
-                            href="/privacy-policy/" class="gdpr-popup-privacy-link">Privacy Policy</a>.</p>
-                </div>
-                <div class="footer-gdpr-popup-button-wrapper">
-                    <a href="#" class="gdpr-popup-accept js-gdpr-popup-accept">Okay</a>
-                </div>
-            </div>
+                <div class="footer-gdpr-popup js-gdpr-popup" id="gdpr-popup" style="display:none">
+            <!-- Old GDPR popup replaced by new cookie consent system -->
         </div>
 
-        <script>
-            'use strict';
-            require(['jquery', 'mage/cookies'], function ($) {
-                var popupBar = $("#gdpr-popup"),
-                    popupContent = "1313f981c405b38977d2fda04e6f67eb222d5d63",
-                    cookieLifeDays = 30,
-                    cookieName = 'gdpr-cookie-popup';
+        <!-- Cookie Preferences Button -->
+        <button type="button" class="cookie-preferences-btn" aria-label="Cookie Preferences">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+            </svg>
+            Cookie Settings
+        </button>
 
-                popupBar.on('click', '.js-gdpr-popup-accept, .js-gdpr-popup-close', function (e) {
-                    e.preventDefault();
-
-                    $.mage.cookies.set(cookieName, popupContent, {
-                        lifetime: cookieLifeDays * 24 * 60 * 60 // seconds
-                    });
-
-                    popupBar.hide();
-                    popupBar.trigger('gdprPopupCloseAfter');
-                });
-
-                if (popupContent !== $.mage.cookies.get(cookieName)) {
-                    popupBar.show();
-                }
-            });
-        </script>
+        <!-- Cookie Consent Script -->
+        <script src="/static/js/cookie-consent.js"></script>
 
         <div id="newcomers-config-container" data-max-views="5" data-delay-hours="8">
         </div>

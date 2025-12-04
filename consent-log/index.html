@@ -359,13 +359,39 @@
                     }
                 }
 
-                // Wait for CookieConsent to be available
+                /**
+                 * Wait for CookieConsent to be available with retry logic
+                 * This handles cases where the script may load asynchronously
+                 */
+                function waitForCookieConsent(callback, maxAttempts) {
+                    maxAttempts = maxAttempts || 10;
+                    var attempts = 0;
+                    var checkInterval = 100; // milliseconds between checks
+                    
+                    function check() {
+                        attempts++;
+                        if (window.CookieConsent) {
+                            callback();
+                        } else if (attempts < maxAttempts) {
+                            setTimeout(check, checkInterval);
+                        } else {
+                            // CookieConsent not available after max attempts
+                            var container = document.getElementById('consent-log-content');
+                            if (container) {
+                                container.innerHTML = '<p class="consent-log-empty">Cookie consent system not available. Please ensure cookies are enabled.</p>';
+                            }
+                        }
+                    }
+                    check();
+                }
+
+                // Initialize when DOM is ready
                 if (document.readyState === 'loading') {
                     document.addEventListener('DOMContentLoaded', function() {
-                        setTimeout(init, 100);
+                        waitForCookieConsent(init);
                     });
                 } else {
-                    setTimeout(init, 100);
+                    waitForCookieConsent(init);
                 }
             })();
         </script>

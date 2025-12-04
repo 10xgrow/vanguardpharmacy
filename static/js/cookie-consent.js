@@ -5,8 +5,13 @@
 (function() {
     'use strict';
 
+    // Configuration constants
     var CONSENT_STORAGE_KEY = 'vp_cookie_consent';
     var CONSENT_LOG_KEY = 'vp_consent_log';
+    var MAX_LOG_ENTRIES = 100;  // Maximum consent log entries to store
+    var USER_AGENT_MAX_LENGTH = 100;  // Truncate user agent for privacy/storage
+    var COOKIE_POLICY_URL = '/cookie-policy/';
+    var PRIVACY_POLICY_URL = '/privacy-policy/';
 
     var CookieConsent = {
         preferences: null,
@@ -77,14 +82,14 @@
                         analytics: prefs.analytics,
                         marketing: prefs.marketing
                     },
-                    userAgent: navigator.userAgent.substring(0, 100)
+                    userAgent: navigator.userAgent.substring(0, USER_AGENT_MAX_LENGTH)
                 };
 
                 logs.push(logEntry);
 
-                // Keep only last 100 entries
-                if (logs.length > 100) {
-                    logs = logs.slice(-100);
+                // Keep only the most recent entries
+                if (logs.length > MAX_LOG_ENTRIES) {
+                    logs = logs.slice(-MAX_LOG_ENTRIES);
                 }
 
                 localStorage.setItem(CONSENT_LOG_KEY, JSON.stringify(logs));
@@ -221,8 +226,8 @@
                         '</div>' +
                         
                         '<p class="cookie-consent-links">' +
-                            '<a href="/cookie-policy/" class="cookie-policy-link">Cookie Policy</a> | ' +
-                            '<a href="/privacy-policy/" class="privacy-policy-link">Privacy Policy</a>' +
+                            '<a href="' + COOKIE_POLICY_URL + '" class="cookie-policy-link">Cookie Policy</a> | ' +
+                            '<a href="' + PRIVACY_POLICY_URL + '" class="privacy-policy-link">Privacy Policy</a>' +
                         '</p>' +
                     '</div>' +
                     

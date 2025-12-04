@@ -1619,14 +1619,78 @@ Place this snippet between the <head> and </head> tags on every page of your sit
                                             align-self: flex-start
                                         }
 
+                                        /* Hero Header Image Styles */
+                                        .hero-header-image {
+                                            width: 100%;
+                                            max-width: 1440px;
+                                            margin: 0 auto 20px;
+                                            padding: 0 15px;
+                                            box-sizing: border-box;
+                                        }
+
+                                        .hero-header-figure {
+                                            margin: 0;
+                                            padding: 0;
+                                            width: 100%;
+                                            overflow: hidden;
+                                            border-radius: 8px;
+                                            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                                        }
+
+                                        .hero-header-img {
+                                            width: 100%;
+                                            height: auto;
+                                            display: block;
+                                            object-fit: cover;
+                                            max-height: 400px;
+                                        }
+
                                         @media only screen and (max-width: 767px) {
 
                                             #html-body [data-pb-style=CSE9EDR],
                                             #html-body [data-pb-style=M8CX70M] {
                                                 border-style: none
                                             }
+
+                                            .hero-header-image {
+                                                margin: 0 auto 15px;
+                                                padding: 0 10px;
+                                            }
+
+                                            .hero-header-img {
+                                                max-height: 200px;
+                                            }
+
+                                            .hero-header-figure {
+                                                border-radius: 6px;
+                                            }
+                                        }
+
+                                        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                                            .hero-header-img {
+                                                max-height: 300px;
+                                            }
                                         }
                                     </style>
+                                    <!-- Header Image Section -->
+                                    <div data-content-type="row" data-appearance="contained" data-element="main">
+                                        <div class="hero-header-image" data-enable-parallax="0"
+                                            data-parallax-speed="0.5" data-background-images="{}"
+                                            data-background-type="image" data-video-loop="true"
+                                            data-video-play-only-visible="true" data-video-lazy-load="true"
+                                            data-video-fallback-src="" data-geotarget="" data-geomethod="0"
+                                            data-element="inner">
+                                            <figure class="hero-header-figure" data-content-type="image"
+                                                data-appearance="full-width" data-element="main">
+                                                <img class="hero-header-img"
+                                                    src="/media/images/header-vanguard.png"
+                                                    alt="Vanguard Pharmacy - Your trusted healthcare partner"
+                                                    title="Vanguard Pharmacy Header"
+                                                    data-element="desktop_image">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <!-- End Header Image Section -->
                                     <div data-content-type="row" data-appearance="contained" data-element="main">
                                         <div class="callout-cards callout-cards-top" data-enable-parallax="0"
                                             data-parallax-speed="0.5" data-background-images="{}"
